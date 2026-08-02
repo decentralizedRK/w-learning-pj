@@ -1,0 +1,109 @@
+name: "Momentum Futures + Covered Call"
+version: "1.0.0"
+description: "Buy near-month futures on momentum confirmation, sell OTM covered call for premium"
+universe:
+  - "NIFTY"
+  - "BANKNIFTY"
+timeframe: "daily"
+
+entry:
+  conditions:
+    - indicator: "close"
+      comparison: ">"
+      reference: "ema_20"
+    - indicator: "ema_20"
+      comparison: ">"
+      reference: "ema_50"
+    - indicator: "adx"
+      comparison: ">"
+      value: 25
+    - indicator: "rsi"
+      comparison: "between"
+      value_min: 50
+      value_max: 70
+    - indicator: "volume"
+      comparison: ">"
+      reference: "volume_sma_20"
+    - indicator: "positive_oi_buildup"
+      comparison: "=="
+      value: true
+    - indicator: "pcr"
+      comparison: ">="
+      value: 0.9
+
+exit:
+  conditions:
+    - indicator: "ema_20"
+      comparison: "<"
+      reference: "ema_50"
+    - indicator: "rsi"
+      comparison: "<"
+      value: 40
+
+stop_loss:
+  initial_type: "atr_multiple"
+  initial_atr_multiple: 1.5
+  initial_percent: 2.0
+  trailing_enabled: true
+  trailing_step_pct: 1.0
+
+position_sizing:
+  risk_per_trade_pct: 0.5
+  max_concurrent_positions: 3
+
+hedge:
+  enabled: true
+  otm_pct_min: 3.0
+  otm_pct_max: 5.0
+  same_expiry: true
+
+roll:
+  days_before_expiry: 5
+  roll_if_position_valid: true
+
+target:
+  risk_reward_ratio: 2.0
+
+accounts:
+  - "default"
+
+screening:
+  conditions:
+    - indicator: "close"
+      comparison: ">"
+      reference: "ema_20"
+    - indicator: "ema_20"
+      comparison: ">"
+      reference: "ema_50"
+    - indicator: "adx"
+      comparison: ">"
+      value: 20
+    - indicator: "rsi"
+      comparison: "between"
+      value_min: 40
+      value_max: 75
+    - indicator: "volume_sma_20"
+      comparison: ">="
+      value: 500000
+    - indicator: "lot_value"
+      comparison: ">="
+      value: 500000
+  min_data_days: 60
+
+ranking:
+  factors:
+    - name: "roc_20"
+      weight: 0.30
+    - name: "adx"
+      weight: 0.25
+    - name: "relative_strength"
+      weight: 0.20
+    - name: "oi_buildup_score"
+      weight: 0.15
+    - name: "volume_ratio"
+      weight: 0.10
+  top_n: 5
+
+capacity:
+  margin_pct: 20.0
+  max_position_value_pct: 30.0

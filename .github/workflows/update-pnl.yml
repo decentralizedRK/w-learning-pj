@@ -1,0 +1,35 @@
+name: Update P&L
+
+on:
+  schedule:
+    # Every 2 hours during IST market hours (9:00, 11:00, 13:00, 15:00 IST)
+    - cron: "30 3,5,7,9 * * 1-5"
+  workflow_dispatch:
+
+jobs:
+  pnl:
+    runs-on: ubuntu-latest
+    env:
+      QOS_KITE_API_KEY: ${{ secrets.QOS_KITE_API_KEY }}
+      QOS_KITE_API_SECRET: ${{ secrets.QOS_KITE_API_SECRET }}
+      QOS_KITE_ACCESS_TOKEN: ${{ secrets.QOS_KITE_ACCESS_TOKEN }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - uses: astral-sh/setup-uv@v4
+
+      - run: uv sync
+
+      - name: Update P&L
+        run: uv run python -m scripts.update_pnl --output reports/pnl/latest.json
+
+      - name: Upload P&L report
+        uses: actions/upload-artifact@v4
+        with:
+          name: pnl-report-${{ github.run_number }}
+          path: reports/pnl/latest.json
+          if-no-files-found: ignore

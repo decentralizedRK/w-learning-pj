@@ -1,0 +1,118 @@
+name: Run Backtest
+
+permissions:
+  contents: write
+
+on:
+  workflow_dispatch:
+    inputs:
+      symbol:
+        description: "Symbol to backtest (ignored if multi=true)"
+        default: "NIFTY"
+      start:
+        description: "Start date (YYYY-MM-DD)"
+        default: "2020-01-01"
+      end:
+        description: "End date (YYYY-MM-DD)"
+        default: "2025-12-31"
+      capital:
+        description: "Initial capital"
+        default: "1000000"
+      multi:
+        description: "Multi-symbol universe backtest"
+        type: boolean
+        default: false
+      universe:
+        description: "Comma-separated symbols (multi mode only)"
+        default: ""
+      strategy:
+        description: "Strategy YAML path"
+        default: "config/strategies/momentum_futures_covered_call.yaml"
+
+jobs:
+  backtest:
+    runs-on: ubuntu-latest
+    env:
+      INPUT_SYMBOL: ${{ inputs.symbol }}
+      INPUT_START: ${{ inputs.start }}
+      INPUT_END: ${{ inputs.end }}
+      INPUT_CAPITAL: ${{ inputs.capital }}
+      INPUT_MULTI: ${{ inputs.multi }}
+      INPUT_UNIVERSE: ${{ inputs.universe }}
+      INPUT_STRATEGY: ${{ inputs.strategy }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - uses: astral-sh/setup-uv@v4
+
+      - run: uv sync
+
+      - name: Build data
+        run: |
+          if [ "$INPUT_MULTI" = "true" ] && [ -n "$INPUT_UNIVERSE" ]; then
+            uv run python -m scripts.build_backtest_db \
+              --symbols "$INPUT_UNIVERSE" \
+              --start "$INPUT_START" \
+              --end "$INPUT_END" \
+              --equity-only
+          else
+            uv run python -m scripts.build_backtest_db \
+              --symbols "$INPUT_SYMBOL" \
+              --start "$INPUT_START" \
+              --end "$INPUT_END" \
+              --equity-only
+          fi
+
+      - name: Run backtest
+        run: |
+          ARGS="--start $INPUT_START --end $INPUT_END --capital $INPUT_CAPITAL --strategy $INPUT_STRATEGY"
+          if [ "$INPUT_MULTI" = "true" ]; then
+            ARGS="$ARGS --multi"
+            if [ -n "$INPUT_UNIVERSE" ]; then
+              ARGS="$ARGS --universe $INPUT_UNIVERSE"
+            fi
+          else
+            ARGS="$ARGS --symbol $INPUT_SYMBOL"
+          fi
+          uv run python -m scripts.run_backtest $ARGS --json-output dashboard/data/backtest_results.json
+
+      - name: Upload tearsheet
+        uses: actions/upload-artifact@v4
+        with:
+          name: backtest-tearsheet
+          path: reports/output/*.html
+          if-no-files-found: ignore
+
+      - name: Publish backtest results to gh-pages
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          git fetch origin gh-pages:gh-pages 2>/dev/null || true
+
+          mkdir -p /tmp/gh-deploy
+          git show gh-pages:index.html > /tmp/gh-deploy/index.html 2>/dev/null || true
+          git show gh-pages:backtest.html > /tmp/gh-deploy/backtest.html 2>/dev/null || true
+
+          mkdir -p /tmp/gh-deploy/data
+          for f in indices.json positions.json trades.json stats.json margins.json; do
+            git show "gh-pages:data/$f" > "/tmp/gh-deploy/data/$f" 2>/dev/null || true
+          done
+
+          cp dashboard/data/backtest_results.json /tmp/gh-deploy/data/
+
+          git checkout --orphan gh-pages-deploy
+          git rm -rf . > /dev/null 2>&1 || true
+
+          cp /tmp/gh-deploy/index.html . 2>/dev/null || cp dashboard/index.html .
+          cp /tmp/gh-deploy/backtest.html . 2>/dev/null || cp dashboard/backtest.html .
+          mkdir -p data
+          cp /tmp/gh-deploy/data/*.json data/ 2>/dev/null || true
+
+          git add -A
+          git commit -m "chore: update backtest results" || echo "No changes"
+          git push origin HEAD:gh-pages --force

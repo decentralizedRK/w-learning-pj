@@ -1,0 +1,75 @@
+name: Execute Trade
+
+on:
+  workflow_dispatch:
+    inputs:
+      symbol:
+        description: "Trading symbol (e.g. RELIANCE25AUGFUT)"
+        required: true
+      exchange:
+        description: "Exchange"
+        default: "NFO"
+        type: choice
+        options: [NFO, NSE, BSE]
+      action:
+        description: "Transaction type"
+        required: true
+        type: choice
+        options: [BUY, SELL]
+      quantity:
+        description: "Order quantity"
+        required: true
+      order_type:
+        description: "Order type"
+        default: "MARKET"
+        type: choice
+        options: [MARKET, LIMIT, SL, SL-M]
+      price:
+        description: "Limit price (for LIMIT/SL orders)"
+        default: "0"
+      trigger_price:
+        description: "Trigger price (for SL/SL-M orders)"
+        default: "0"
+      product:
+        description: "Product type"
+        default: "NRML"
+        type: choice
+        options: [NRML, MIS, CNC]
+
+jobs:
+  trade:
+    runs-on: ubuntu-latest
+    env:
+      QOS_KITE_API_KEY: ${{ secrets.QOS_KITE_API_KEY }}
+      QOS_KITE_API_SECRET: ${{ secrets.QOS_KITE_API_SECRET }}
+      QOS_KITE_ACCESS_TOKEN: ${{ secrets.QOS_KITE_ACCESS_TOKEN }}
+      INPUT_SYMBOL: ${{ inputs.symbol }}
+      INPUT_EXCHANGE: ${{ inputs.exchange }}
+      INPUT_ACTION: ${{ inputs.action }}
+      INPUT_QUANTITY: ${{ inputs.quantity }}
+      INPUT_ORDER_TYPE: ${{ inputs.order_type }}
+      INPUT_PRICE: ${{ inputs.price }}
+      INPUT_TRIGGER_PRICE: ${{ inputs.trigger_price }}
+      INPUT_PRODUCT: ${{ inputs.product }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - uses: astral-sh/setup-uv@v4
+
+      - run: uv sync
+
+      - name: Execute trade
+        run: |
+          uv run python -m scripts.execute_trade \
+            --symbol "$INPUT_SYMBOL" \
+            --exchange "$INPUT_EXCHANGE" \
+            --action "$INPUT_ACTION" \
+            --quantity "$INPUT_QUANTITY" \
+            --order-type "$INPUT_ORDER_TYPE" \
+            --price "$INPUT_PRICE" \
+            --trigger-price "$INPUT_TRIGGER_PRICE" \
+            --product "$INPUT_PRODUCT"

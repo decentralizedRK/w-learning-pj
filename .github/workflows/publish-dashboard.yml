@@ -1,0 +1,60 @@
+name: Publish Dashboard
+
+on:
+  schedule:
+    # Every 2 hours during IST market hours (9:00, 11:00, 13:00, 15:00 IST)
+    - cron: "30 3,5,7,9 * * 1-5"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    env:
+      QOS_KITE_API_KEY: ${{ secrets.QOS_KITE_API_KEY }}
+      QOS_KITE_API_SECRET: ${{ secrets.QOS_KITE_API_SECRET }}
+      QOS_KITE_ACCESS_TOKEN: ${{ secrets.QOS_KITE_ACCESS_TOKEN }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - uses: astral-sh/setup-uv@v4
+
+      - run: uv sync
+
+      - name: Fetch dashboard data
+        run: uv run python -m scripts.publish_dashboard_data --output dashboard/data
+        continue-on-error: true
+
+      - name: Deploy to gh-pages
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          # Preserve existing gh-pages content (backtest results)
+          git fetch origin gh-pages:gh-pages 2>/dev/null || true
+
+          mkdir -p /tmp/gh-pages
+          git show gh-pages:data/backtest_results.json > /tmp/gh-pages/backtest_results.json 2>/dev/null || true
+
+          git checkout --orphan gh-pages-deploy
+          git rm -rf . > /dev/null 2>&1 || true
+
+          cp dashboard/index.html .
+          cp dashboard/backtest.html .
+          mkdir -p data
+          cp dashboard/data/*.json data/ 2>/dev/null || true
+
+          # Restore backtest results if not freshly generated
+          if [ ! -f data/backtest_results.json ] && [ -f /tmp/gh-pages/backtest_results.json ]; then
+            cp /tmp/gh-pages/backtest_results.json data/
+          fi
+
+          git add -A
+          git commit -m "chore: update dashboard data" || echo "No changes to commit"
+          git push origin HEAD:gh-pages --force

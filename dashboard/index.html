@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>QuantOS Dashboard</title>
+<style>
+:root {
+  --bg: #0d1117;
+  --surface: #161b22;
+  --border: #30363d;
+  --text: #e6edf3;
+  --text-dim: #8b949e;
+  --green: #3fb950;
+  --red: #f85149;
+  --blue: #58a6ff;
+  --yellow: #d29922;
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.5;
+}
+.container { max-width: 1280px; margin: 0 auto; padding: 16px; }
+
+/* Nav */
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 16px;
+  background: var(--surface);
+  border-bottom: 1px solid var(--border);
+}
+nav .logo { font-size: 18px; font-weight: 700; }
+nav .logo span { color: var(--blue); }
+nav .tabs a {
+  color: var(--text-dim);
+  text-decoration: none;
+  padding: 6px 14px;
+  border-radius: 6px;
+  font-size: 14px;
+}
+nav .tabs a.active { background: var(--border); color: var(--text); }
+nav .tabs a:hover { color: var(--text); }
+
+/* Index tickers */
+.tickers {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 12px;
+  margin: 16px 0;
+}
+.ticker-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 16px;
+}
+.ticker-card .name { font-size: 12px; color: var(--text-dim); text-transform: uppercase; letter-spacing: 0.5px; }
+.ticker-card .price { font-size: 24px; font-weight: 700; margin: 4px 0; font-variant-numeric: tabular-nums; }
+.ticker-card .change { font-size: 13px; font-weight: 600; }
+
+/* Stats row */
+.stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 12px;
+  margin: 16px 0;
+}
+.stat-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 16px;
+}
+.stat-card .label { font-size: 12px; color: var(--text-dim); text-transform: uppercase; letter-spacing: 0.5px; }
+.stat-card .value { font-size: 28px; font-weight: 700; margin: 4px 0; font-variant-numeric: tabular-nums; }
+.stat-card .sub { font-size: 12px; color: var(--text-dim); }
+
+/* Tables */
+.section { margin: 24px 0; }
+.section-title { font-size: 16px; font-weight: 600; margin-bottom: 12px; }
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  overflow: hidden;
+  font-size: 13px;
+}
+th {
+  background: #1c2128;
+  text-align: left;
+  padding: 10px 14px;
+  font-weight: 600;
+  color: var(--text-dim);
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  cursor: pointer;
+  user-select: none;
+}
+th:hover { color: var(--text); }
+td { padding: 10px 14px; border-top: 1px solid var(--border); font-variant-numeric: tabular-nums; }
+tr:hover td { background: #1c2128; }
+.text-right { text-align: right; }
+.positive { color: var(--green); }
+.negative { color: var(--red); }
+
+/* Status bar */
+.status-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0;
+  font-size: 12px;
+  color: var(--text-dim);
+}
+.status-dot { display: inline-block; width: 8px; height: 8px; border-radius: 50%; margin-right: 6px; }
+.status-dot.live { background: var(--green); }
+.status-dot.stale { background: var(--yellow); }
+.status-dot.error { background: var(--red); }
+
+/* Loading / Error */
+.empty-state {
+  text-align: center;
+  padding: 48px 16px;
+  color: var(--text-dim);
+}
+.empty-state .icon { font-size: 32px; margin-bottom: 8px; }
+
+@media (max-width: 768px) {
+  .tickers { grid-template-columns: repeat(2, 1fr); }
+  .stats { grid-template-columns: repeat(2, 1fr); }
+  table { font-size: 12px; }
+  th, td { padding: 8px 10px; }
+}
+</style>
+</head>
+<body>
+<nav>
+  <div class="logo">Quant<span>OS</span></div>
+  <div class="tabs">
+    <a href="index.html" class="active">Live</a>
+    <a href="backtest.html">Backtest</a>
+  </div>
+</nav>
+
+<div class="container">
+  <div class="status-bar">
+    <div><span class="status-dot" id="statusDot"></span><span id="statusText">Loading...</span></div>
+    <div id="lastUpdated"></div>
+  </div>
+
+  <div class="tickers" id="tickers"></div>
+
+  <div class="stats" id="stats"></div>
+
+  <div class="section">
+    <div class="section-title">Open Positions</div>
+    <table id="positionsTable">
+      <thead>
+        <tr>
+          <th onclick="sortTable('positionsTable',0)">Symbol</th>
+          <th onclick="sortTable('positionsTable',1)">Qty</th>
+          <th onclick="sortTable('positionsTable',2)" class="text-right">Avg Price</th>
+          <th onclick="sortTable('positionsTable',3)" class="text-right">LTP</th>
+          <th onclick="sortTable('positionsTable',4)" class="text-right">P&L</th>
+          <th onclick="sortTable('positionsTable',5)" class="text-right">P&L %</th>
+          <th onclick="sortTable('positionsTable',6)">Product</th>
+        </tr>
+      </thead>
+      <tbody id="positionsBody"></tbody>
+    </table>
+  </div>
+
+  <div class="section">
+    <div class="section-title">Today's Completed Orders</div>
+    <table id="tradesTable">
+      <thead>
+        <tr>
+          <th onclick="sortTable('tradesTable',0)">Time</th>
+          <th onclick="sortTable('tradesTable',1)">Symbol</th>
+          <th onclick="sortTable('tradesTable',2)">Action</th>
+          <th onclick="sortTable('tradesTable',3)" class="text-right">Qty</th>
+          <th onclick="sortTable('tradesTable',4)" class="text-right">Price</th>
+          <th onclick="sortTable('tradesTable',5)">Type</th>
+          <th onclick="sortTable('tradesTable',6)">Product</th>
+        </tr>
+      </thead>
+      <tbody id="tradesBody"></tbody>
+    </table>
+  </div>
+</div>
+
+<script>
+const DATA_BASE = 'data';
+const REFRESH_INTERVAL = 60000;
+
+function fmt(n, decimals = 0) {
+  if (n == null || isNaN(n)) return '--';
+  return n.toLocaleString('en-IN', { minimumFractionDigits: decimals, maximumFractionDigits: decimals });
+}
+
+function pnlClass(val) {
+  return val > 0 ? 'positive' : val < 0 ? 'negative' : '';
+}
+
+function pnlSign(val) {
+  return val > 0 ? '+' : '';
+}
+
+async function fetchJSON(file) {
+  try {
+    const resp = await fetch(`${DATA_BASE}/${file}?t=${Date.now()}`);
+    if (!resp.ok) return null;
+    return await resp.json();
+  } catch { return null; }
+}
+
+function renderTickers(data) {
+  const el = document.getElementById('tickers');
+  if (!data || !data.indices || data.indices.length === 0) {
+    el.innerHTML = '';
+    return;
+  }
+  el.innerHTML = data.indices.map(idx => `
+    <div class="ticker-card">
+      <div class="name">${idx.name}</div>
+      <div class="price">${fmt(idx.price, 2)}</div>
+    </div>
+  `).join('');
+}
+
+function renderStats(statsData, marginsData) {
+  const el = document.getElementById('stats');
+  const s = statsData || {};
+  const m = marginsData || {};
+  const pnl = s.total_pnl || 0;
+  el.innerHTML = `
+    <div class="stat-card">
+      <div class="label">Total P&L</div>
+      <div class="value ${pnlClass(pnl)}">${pnlSign(pnl)}${fmt(pnl, 0)}</div>
+      <div class="sub">${s.total_positions || 0} positions</div>
+    </div>
+    <div class="stat-card">
+      <div class="label">Win Rate</div>
+      <div class="value">${fmt(s.win_rate || 0, 1)}%</div>
+      <div class="sub">${s.winning || 0}W / ${s.losing || 0}L</div>
+    </div>
+    <div class="stat-card">
+      <div class="label">Avg Risk/Reward</div>
+      <div class="value">${fmt(s.avg_risk_reward || 0, 2)}</div>
+      <div class="sub">Profit factor: ${fmt(s.profit_factor || 0, 2)}</div>
+    </div>
+    <div class="stat-card">
+      <div class="label">Margin Utilization</div>
+      <div class="value ${(m.utilization_pct || 0) > 75 ? 'negative' : ''}">${fmt(m.utilization_pct || 0, 1)}%</div>
+      <div class="sub">Used: ${fmt(m.margin_used || 0, 0)} / ${fmt(m.total_capital || 0, 0)}</div>
+    </div>
+  `;
+}
+
+function renderPositions(data) {
+  const tbody = document.getElementById('positionsBody');
+  if (!data || !data.positions || data.positions.length === 0) {
+    tbody.innerHTML = '<tr><td colspan="7" class="empty-state">No open positions</td></tr>';
+    return;
+  }
+  tbody.innerHTML = data.positions.map(p => `
+    <tr>
+      <td><strong>${p.symbol}</strong></td>
+      <td>${p.quantity}</td>
+      <td class="text-right">${fmt(p.average_price, 2)}</td>
+      <td class="text-right">${fmt(p.ltp, 2)}</td>
+      <td class="text-right ${pnlClass(p.pnl)}">${pnlSign(p.pnl)}${fmt(p.pnl, 2)}</td>
+      <td class="text-right ${pnlClass(p.pnl_pct)}">${pnlSign(p.pnl_pct)}${fmt(p.pnl_pct, 2)}%</td>
+      <td>${p.product}</td>
+    </tr>
+  `).join('');
+}
+
+function renderTrades(data) {
+  const tbody = document.getElementById('tradesBody');
+  if (!data || !data.trades || data.trades.length === 0) {
+    tbody.innerHTML = '<tr><td colspan="7" class="empty-state">No completed trades today</td></tr>';
+    return;
+  }
+  tbody.innerHTML = data.trades.map(t => {
+    const time = t.timestamp ? new Date(t.timestamp).toLocaleTimeString('en-IN', { hour: '2-digit', minute: '2-digit' }) : '--';
+    const actionClass = t.action === 'BUY' ? 'positive' : 'negative';
+    return `
+      <tr>
+        <td>${time}</td>
+        <td><strong>${t.symbol}</strong></td>
+        <td class="${actionClass}">${t.action}</td>
+        <td class="text-right">${t.quantity}</td>
+        <td class="text-right">${fmt(t.price, 2)}</td>
+        <td>${t.order_type}</td>
+        <td>${t.product}</td>
+      </tr>
+    `;
+  }).join('');
+}
+
+function updateStatus(timestamp, hasError) {
+  const dot = document.getElementById('statusDot');
+  const text = document.getElementById('statusText');
+  const updated = document.getElementById('lastUpdated');
+
+  if (hasError) {
+    dot.className = 'status-dot error';
+    text.textContent = 'Auth expired or data unavailable';
+  } else if (timestamp) {
+    const age = (Date.now() - new Date(timestamp).getTime()) / 60000;
+    if (age < 30) {
+      dot.className = 'status-dot live';
+      text.textContent = 'Live';
+    } else {
+      dot.className = 'status-dot stale';
+      text.textContent = `Updated ${Math.round(age)} min ago`;
+    }
+    updated.textContent = `Last update: ${new Date(timestamp).toLocaleString('en-IN')}`;
+  }
+}
+
+async function loadAll() {
+  const [indices, positions, trades, stats, margins, status] = await Promise.all([
+    fetchJSON('indices.json'),
+    fetchJSON('positions.json'),
+    fetchJSON('trades.json'),
+    fetchJSON('stats.json'),
+    fetchJSON('margins.json'),
+    fetchJSON('status.json'),
+  ]);
+
+  const hasError = status && status.error;
+  const timestamp = indices?.timestamp || positions?.timestamp || stats?.timestamp;
+
+  updateStatus(timestamp, hasError);
+  renderTickers(indices);
+  renderStats(stats, margins);
+  renderPositions(positions);
+  renderTrades(trades);
+}
+
+function sortTable(tableId, colIdx) {
+  const table = document.getElementById(tableId);
+  const tbody = table.querySelector('tbody');
+  const rows = Array.from(tbody.querySelectorAll('tr'));
+  if (rows.length <= 1) return;
+
+  const dir = table.dataset.sortCol === String(colIdx) && table.dataset.sortDir === 'asc' ? 'desc' : 'asc';
+  table.dataset.sortCol = colIdx;
+  table.dataset.sortDir = dir;
+
+  rows.sort((a, b) => {
+    let aVal = a.cells[colIdx]?.textContent.trim().replace(/[,%+]/g, '') || '';
+    let bVal = b.cells[colIdx]?.textContent.trim().replace(/[,%+]/g, '') || '';
+    const aNum = parseFloat(aVal.replace(/,/g, ''));
+    const bNum = parseFloat(bVal.replace(/,/g, ''));
+    if (!isNaN(aNum) && !isNaN(bNum)) {
+      return dir === 'asc' ? aNum - bNum : bNum - aNum;
+    }
+    return dir === 'asc' ? aVal.localeCompare(bVal) : bVal.localeCompare(aVal);
+  });
+  rows.forEach(row => tbody.appendChild(row));
+}
+
+loadAll();
+setInterval(loadAll, REFRESH_INTERVAL);
+</script>
+</body>
+</html>

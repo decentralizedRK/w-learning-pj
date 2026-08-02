@@ -1,0 +1,45 @@
+name: Daily Screener
+
+on:
+  schedule:
+    - cron: "0 12 * * 1-5"  # Mon-Fri 5:30pm IST (12:00 UTC)
+  workflow_dispatch:
+    inputs:
+      top:
+        description: "Number of top candidates to show"
+        default: "10"
+      universe:
+        description: "Comma-separated symbols (default: full F&O universe)"
+        default: ""
+
+jobs:
+  screen:
+    runs-on: ubuntu-latest
+    env:
+      INPUT_TOP: ${{ inputs.top || '10' }}
+      INPUT_UNIVERSE: ${{ inputs.universe }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - uses: astral-sh/setup-uv@v4
+
+      - run: uv sync
+
+      - name: Run screener
+        run: |
+          ARGS="--output signals.json --top $INPUT_TOP"
+          if [ -n "$INPUT_UNIVERSE" ]; then
+            ARGS="$ARGS --universe $INPUT_UNIVERSE"
+          fi
+          uv run python -m scripts.run_screener $ARGS
+
+      - name: Upload signals
+        uses: actions/upload-artifact@v4
+        with:
+          name: screener-signals-${{ github.run_number }}
+          path: signals.json
+          if-no-files-found: ignore

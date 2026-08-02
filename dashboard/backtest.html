@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>QuantOS — Backtest Results</title>
+<style>
+:root {
+  --bg: #0d1117;
+  --surface: #161b22;
+  --border: #30363d;
+  --text: #e6edf3;
+  --text-dim: #8b949e;
+  --green: #3fb950;
+  --red: #f85149;
+  --blue: #58a6ff;
+  --yellow: #d29922;
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.5;
+}
+.container { max-width: 1280px; margin: 0 auto; padding: 16px; }
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 16px;
+  background: var(--surface);
+  border-bottom: 1px solid var(--border);
+}
+nav .logo { font-size: 18px; font-weight: 700; }
+nav .logo span { color: var(--blue); }
+nav .tabs a {
+  color: var(--text-dim);
+  text-decoration: none;
+  padding: 6px 14px;
+  border-radius: 6px;
+  font-size: 14px;
+}
+nav .tabs a.active { background: var(--border); color: var(--text); }
+nav .tabs a:hover { color: var(--text); }
+
+.stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 12px;
+  margin: 16px 0;
+}
+.stat-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 16px;
+}
+.stat-card .label { font-size: 11px; color: var(--text-dim); text-transform: uppercase; letter-spacing: 0.5px; }
+.stat-card .value { font-size: 22px; font-weight: 700; margin: 4px 0; font-variant-numeric: tabular-nums; }
+.stat-card .sub { font-size: 12px; color: var(--text-dim); }
+
+.section { margin: 24px 0; }
+.section-title { font-size: 16px; font-weight: 600; margin-bottom: 12px; }
+
+/* Chart */
+.chart-container {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 16px;
+  margin: 16px 0;
+}
+canvas { width: 100%; height: 280px; }
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  overflow: hidden;
+  font-size: 13px;
+}
+th {
+  background: #1c2128;
+  text-align: left;
+  padding: 10px 14px;
+  font-weight: 600;
+  color: var(--text-dim);
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+td { padding: 10px 14px; border-top: 1px solid var(--border); font-variant-numeric: tabular-nums; }
+tr:hover td { background: #1c2128; }
+.text-right { text-align: right; }
+.positive { color: var(--green); }
+.negative { color: var(--red); }
+.empty-state { text-align: center; padding: 48px 16px; color: var(--text-dim); }
+
+@media (max-width: 768px) {
+  .stats { grid-template-columns: repeat(2, 1fr); }
+  table { font-size: 12px; }
+  th, td { padding: 8px 10px; }
+}
+</style>
+</head>
+<body>
+<nav>
+  <div class="logo">Quant<span>OS</span></div>
+  <div class="tabs">
+    <a href="index.html">Live</a>
+    <a href="backtest.html" class="active">Backtest</a>
+  </div>
+</nav>
+
+<div class="container">
+  <div id="header" class="section">
+    <div class="section-title">Backtest Results</div>
+    <div style="color: var(--text-dim); font-size: 13px;" id="subtitle"></div>
+  </div>
+
+  <div class="stats" id="stats"></div>
+
+  <div class="section">
+    <div class="section-title">Equity Curve</div>
+    <div class="chart-container">
+      <canvas id="equityChart"></canvas>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-title">Regime Breakdown</div>
+    <table id="regimeTable">
+      <thead>
+        <tr>
+          <th>Regime</th>
+          <th class="text-right">Trades</th>
+          <th class="text-right">Net P&L</th>
+          <th class="text-right">Win Rate</th>
+          <th class="text-right">Avg P&L</th>
+        </tr>
+      </thead>
+      <tbody id="regimeBody"></tbody>
+    </table>
+  </div>
+
+  <div class="section">
+    <div class="section-title">Trade Log</div>
+    <table>
+      <thead>
+        <tr>
+          <th>Symbol</th>
+          <th>Entry</th>
+          <th>Exit</th>
+          <th class="text-right">Entry Price</th>
+          <th class="text-right">Exit Price</th>
+          <th class="text-right">Net P&L</th>
+          <th>Exit Reason</th>
+          <th class="text-right">Days</th>
+        </tr>
+      </thead>
+      <tbody id="tradeLogBody"></tbody>
+    </table>
+  </div>
+</div>
+
+<script>
+const DATA_BASE = 'data';
+
+function fmt(n, d = 0) {
+  if (n == null || isNaN(n)) return '--';
+  return n.toLocaleString('en-IN', { minimumFractionDigits: d, maximumFractionDigits: d });
+}
+function pnlClass(v) { return v > 0 ? 'positive' : v < 0 ? 'negative' : ''; }
+function pnlSign(v) { return v > 0 ? '+' : ''; }
+
+async function fetchJSON(file) {
+  try {
+    const r = await fetch(`${DATA_BASE}/${file}?t=${Date.now()}`);
+    if (!r.ok) return null;
+    return await r.json();
+  } catch { return null; }
+}
+
+function renderStats(d) {
+  const el = document.getElementById('stats');
+  if (!d) { el.innerHTML = '<div class="empty-state">No backtest data available</div>'; return; }
+
+  document.getElementById('subtitle').textContent =
+    `${d.symbol || ''} | ${d.start_date || ''} to ${d.end_date || ''} | Capital: ${fmt(d.initial_capital, 0)}`;
+
+  const cards = [
+    { label: 'Net P&L', value: `${pnlSign(d.net_pnl)}${fmt(d.net_pnl, 0)}`, cls: pnlClass(d.net_pnl), sub: `Costs: ${fmt(d.total_costs, 0)}` },
+    { label: 'CAGR', value: `${fmt(d.cagr, 1)}%`, sub: `Final: ${fmt(d.final_capital, 0)}` },
+    { label: 'Win Rate', value: `${fmt(d.win_rate, 1)}%`, sub: `${d.winning_trades}W / ${d.losing_trades}L of ${d.total_trades}` },
+    { label: 'Profit Factor', value: fmt(d.profit_factor, 2), sub: `Expectancy: ${fmt(d.expectancy, 0)}` },
+    { label: 'Sharpe', value: fmt(d.sharpe_ratio, 2), sub: `Sortino: ${fmt(d.sortino_ratio, 2)}` },
+    { label: 'Max Drawdown', value: `${fmt(d.max_drawdown_pct, 1)}%`, cls: 'negative', sub: `${d.max_drawdown_duration_days || 0} days` },
+    { label: 'Avg Holding', value: `${fmt(d.avg_holding_days, 1)}d`, sub: `Max consec losses: ${d.max_consecutive_losses || 0}` },
+    { label: 'Avg Trade P&L', value: `${pnlSign(d.avg_trade_pnl)}${fmt(d.avg_trade_pnl, 0)}`, cls: pnlClass(d.avg_trade_pnl) },
+  ];
+  el.innerHTML = cards.map(c => `
+    <div class="stat-card">
+      <div class="label">${c.label}</div>
+      <div class="value ${c.cls || ''}">${c.value}</div>
+      <div class="sub">${c.sub || ''}</div>
+    </div>
+  `).join('');
+}
+
+function renderEquityChart(data) {
+  const canvas = document.getElementById('equityChart');
+  if (!data || !data.equity_curve || data.equity_curve.length === 0) return;
+
+  const ctx = canvas.getContext('2d');
+  const curve = data.equity_curve;
+  const rect = canvas.parentElement.getBoundingClientRect();
+  canvas.width = rect.width - 32;
+  canvas.height = 280;
+  const W = canvas.width;
+  const H = canvas.height;
+  const pad = { top: 20, right: 16, bottom: 30, left: 80 };
+  const plotW = W - pad.left - pad.right;
+  const plotH = H - pad.top - pad.bottom;
+
+  const values = curve.map(p => p.portfolio_value);
+  const minV = Math.min(...values) * 0.995;
+  const maxV = Math.max(...values) * 1.005;
+
+  const scaleX = i => pad.left + (i / (curve.length - 1)) * plotW;
+  const scaleY = v => pad.top + plotH - ((v - minV) / (maxV - minV)) * plotH;
+
+  ctx.clearRect(0, 0, W, H);
+
+  // Grid
+  ctx.strokeStyle = '#21262d';
+  ctx.lineWidth = 1;
+  for (let i = 0; i <= 4; i++) {
+    const y = pad.top + (plotH / 4) * i;
+    ctx.beginPath(); ctx.moveTo(pad.left, y); ctx.lineTo(W - pad.right, y); ctx.stroke();
+    const val = maxV - ((maxV - minV) / 4) * i;
+    ctx.fillStyle = '#8b949e';
+    ctx.font = '11px sans-serif';
+    ctx.textAlign = 'right';
+    ctx.fillText(fmt(val, 0), pad.left - 8, y + 4);
+  }
+
+  // Line
+  const initial = data.initial_capital || values[0];
+  ctx.beginPath();
+  ctx.strokeStyle = values[values.length - 1] >= initial ? '#3fb950' : '#f85149';
+  ctx.lineWidth = 2;
+  curve.forEach((p, i) => {
+    const x = scaleX(i);
+    const y = scaleY(p.portfolio_value);
+    i === 0 ? ctx.moveTo(x, y) : ctx.lineTo(x, y);
+  });
+  ctx.stroke();
+
+  // Fill
+  ctx.lineTo(scaleX(curve.length - 1), pad.top + plotH);
+  ctx.lineTo(scaleX(0), pad.top + plotH);
+  ctx.closePath();
+  const grad = ctx.createLinearGradient(0, pad.top, 0, pad.top + plotH);
+  const color = values[values.length - 1] >= initial ? '63, 185, 80' : '248, 81, 73';
+  grad.addColorStop(0, `rgba(${color}, 0.15)`);
+  grad.addColorStop(1, `rgba(${color}, 0.0)`);
+  ctx.fillStyle = grad;
+  ctx.fill();
+
+  // X labels
+  ctx.fillStyle = '#8b949e';
+  ctx.font = '11px sans-serif';
+  ctx.textAlign = 'center';
+  const step = Math.max(1, Math.floor(curve.length / 6));
+  for (let i = 0; i < curve.length; i += step) {
+    const d = curve[i].date || '';
+    const label = typeof d === 'string' ? d.slice(5) : '';
+    ctx.fillText(label, scaleX(i), H - 8);
+  }
+}
+
+function renderRegimes(data) {
+  const tbody = document.getElementById('regimeBody');
+  if (!data || !data.regime_results) {
+    tbody.innerHTML = '<tr><td colspan="5" class="empty-state">No regime data</td></tr>';
+    return;
+  }
+  const regimes = data.regime_results;
+  tbody.innerHTML = Object.entries(regimes).map(([name, r]) => `
+    <tr>
+      <td><strong>${name}</strong></td>
+      <td class="text-right">${r.trades || 0}</td>
+      <td class="text-right ${pnlClass(r.net_pnl)}">${pnlSign(r.net_pnl)}${fmt(r.net_pnl, 0)}</td>
+      <td class="text-right">${fmt(r.win_rate, 1)}%</td>
+      <td class="text-right ${pnlClass(r.avg_pnl)}">${pnlSign(r.avg_pnl)}${fmt(r.avg_pnl, 0)}</td>
+    </tr>
+  `).join('');
+}
+
+function renderTradeLog(data) {
+  const tbody = document.getElementById('tradeLogBody');
+  if (!data || !data.trades || data.trades.length === 0) {
+    tbody.innerHTML = '<tr><td colspan="8" class="empty-state">No trades</td></tr>';
+    return;
+  }
+  tbody.innerHTML = data.trades.map(t => `
+    <tr>
+      <td><strong>${t.symbol}</strong></td>
+      <td>${t.entry_date || ''}</td>
+      <td>${t.exit_date || ''}</td>
+      <td class="text-right">${fmt(t.entry_price, 2)}</td>
+      <td class="text-right">${fmt(t.exit_price, 2)}</td>
+      <td class="text-right ${pnlClass(t.net_pnl)}">${pnlSign(t.net_pnl)}${fmt(t.net_pnl, 0)}</td>
+      <td>${t.exit_reason || ''}</td>
+      <td class="text-right">${t.holding_days || ''}</td>
+    </tr>
+  `).join('');
+}
+
+async function load() {
+  const data = await fetchJSON('backtest_results.json');
+  if (!data) {
+    document.getElementById('stats').innerHTML = '<div class="empty-state">No backtest results found. Run a backtest first.</div>';
+    return;
+  }
+  renderStats(data);
+  renderEquityChart(data);
+  renderRegimes(data);
+  renderTradeLog(data);
+}
+
+load();
+</script>
+</body>
+</html>

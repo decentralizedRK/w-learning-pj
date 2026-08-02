@@ -1,0 +1,53 @@
+# ===================== SECRETS — NEVER COMMIT =====================
+.env
+.env.*
+!.env.example
+!.env.template
+*.pem
+*.key
+*.secret
+credentials.json
+secrets.json
+token.json
+kite_session.json
+kite_credentials*
+zerodha_*.json
+access_token*
+enctoken*
+request_token*
+
+# Claude Code
+.claude/
+
+# ===================== PYTHON =====================
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+.eggs/
+.venv/
+venv/
+.mypy_cache/
+.ruff_cache/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ===================== DATA & STATE =====================
+*.parquet
+data_store/
+*.db
+*.sqlite3
+
+# ===================== REPORTS =====================
+reports/output/
+
+# ===================== PERSONAL NOTES & DOCS =====================
+ans
+ans/
+*.pdf
+
+# ===================== MISC =====================
+.DS_Store
