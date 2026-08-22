@@ -18,6 +18,10 @@ request_token*
 
 # Claude Code
 .claude/
+claude/
+
+# ===================== LOGS =====================
+logs/
 
 # ===================== PYTHON =====================
 __pycache__/
