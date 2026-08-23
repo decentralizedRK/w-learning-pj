@@ -21,6 +21,8 @@ jobs:
       QOS_KITE_API_KEY: ${{ secrets.QOS_KITE_API_KEY }}
       QOS_KITE_API_SECRET: ${{ secrets.QOS_KITE_API_SECRET }}
       QOS_KITE_ACCESS_TOKEN: ${{ secrets.QOS_KITE_ACCESS_TOKEN }}
+      QOS_TELEGRAM_BOT_TOKEN: ${{ secrets.QOS_TELEGRAM_BOT_TOKEN }}
+      QOS_TELEGRAM_CHAT_ID: ${{ secrets.QOS_TELEGRAM_CHAT_ID }}
     steps:
       - uses: actions/checkout@v4
 
@@ -32,12 +34,8 @@ jobs:
 
       - run: uv sync
 
-      - name: Update P&L
-        run: uv run python -m scripts.update_pnl --output dashboard/data/pnl.json
-        continue-on-error: true
-
-      - name: Check margins
-        run: uv run python -m scripts.check_margins --output dashboard/data/margins.json
+      - name: Portfolio snapshot
+        run: uv run python -m scripts.portfolio_snapshot --output dashboard/data/portfolio.json
         continue-on-error: true
 
       - name: Fetch dashboard data
@@ -51,14 +49,12 @@ jobs:
 
           # Always use latest HTML from main
           mkdir -p /tmp/gh-deploy/data
-          cp dashboard/index.html /tmp/gh-deploy/
-          cp dashboard/backtest.html /tmp/gh-deploy/
-          cp dashboard/screener.html /tmp/gh-deploy/
+          cp dashboard/*.html /tmp/gh-deploy/
           cp dashboard/data/*.json /tmp/gh-deploy/data/ 2>/dev/null || true
 
           # Preserve data from gh-pages that wasn't freshly generated
           git fetch origin gh-pages:gh-pages 2>/dev/null || true
-          for f in backtest_results.json signals.json pnl.json; do
+          for f in backtest_results.json signals.json recommendations.json portfolio.json mf_snapshot.json news.json corporate_actions.json; do
             if [ ! -f "/tmp/gh-deploy/data/$f" ] || [ ! -s "/tmp/gh-deploy/data/$f" ]; then
               git show "gh-pages:data/$f" > "/tmp/gh-deploy/data/$f" 2>/dev/null || true
             fi
