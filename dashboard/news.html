@@ -4,262 +4,133 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>QuantOS — News</title>
-<style>
-:root {
-  --bg: #0d1117; --surface: #161b22; --surface-hover: #1c2128;
-  --border: #30363d; --text: #e6edf3; --text-dim: #8b949e;
-  --green: #3fb950; --red: #f85149; --blue: #58a6ff;
-  --yellow: #d29922; --purple: #bc8cff;
-  --glass: rgba(22,27,34,0.75); --glass-border: rgba(48,54,61,0.6);
-}
-* { margin: 0; padding: 0; box-sizing: border-box; }
-body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; background: var(--bg); color: var(--text); line-height: 1.5; }
-.container { max-width: 1400px; margin: 0 auto; padding: 16px 20px; }
-nav { display: flex; align-items: center; justify-content: space-between; padding: 12px 20px; background: var(--surface); border-bottom: 1px solid var(--border); position: sticky; top: 0; z-index: 100; backdrop-filter: blur(12px); }
-nav .logo { font-size: 18px; font-weight: 700; }
-nav .logo span { color: var(--blue); }
-nav .tabs { display: flex; gap: 2px; }
-nav .tabs a { color: var(--text-dim); text-decoration: none; padding: 6px 14px; border-radius: 6px; font-size: 13px; font-weight: 500; transition: all 0.15s; }
-nav .tabs a.active { background: var(--border); color: var(--text); }
-nav .tabs a:hover { color: var(--text); background: rgba(48,54,61,0.4); }
-
-.sub-tabs { display: flex; gap: 0; margin: 20px 0 0; border-bottom: 2px solid var(--border); }
-.sub-tab { padding: 10px 20px; font-size: 13px; font-weight: 600; color: var(--text-dim); cursor: pointer; border-bottom: 2px solid transparent; margin-bottom: -2px; user-select: none; transition: color 0.15s, border-color 0.15s; }
-.sub-tab:hover { color: var(--text); }
-.sub-tab.active { color: var(--blue); border-bottom-color: var(--blue); }
-.sub-tab .badge { font-size: 10px; background: var(--border); padding: 1px 6px; border-radius: 8px; margin-left: 6px; font-weight: 400; color: var(--text-dim); }
-.sub-panel { display: none; padding-top: 16px; animation: fadeIn 0.2s ease; }
-.sub-panel.active { display: block; }
-@keyframes fadeIn { from { opacity: 0; transform: translateY(4px); } to { opacity: 1; transform: translateY(0); } }
-
-.status-bar { display: flex; align-items: center; justify-content: space-between; padding: 8px 0; font-size: 12px; color: var(--text-dim); }
-.empty-state { text-align: center; padding: 48px 16px; color: var(--text-dim); }
-
-/* News cards */
-.news-section { margin: 20px 0; }
-.news-section-title {
-  font-size: 14px; font-weight: 600; color: var(--blue);
-  margin-bottom: 10px; display: flex; align-items: center; gap: 8px;
-}
-.news-card {
-  background: var(--surface); border: 1px solid var(--border);
-  border-radius: 8px; padding: 12px 16px; margin-bottom: 8px;
-  transition: border-color 0.15s, transform 0.15s;
-}
-.news-card:hover { border-color: var(--blue); transform: translateX(2px); }
-.news-card a {
-  color: var(--text); text-decoration: none; font-size: 14px;
-  font-weight: 500; line-height: 1.4;
-}
-.news-card a:hover { color: var(--blue); }
-.news-meta {
-  display: flex; gap: 12px; margin-top: 4px;
-  font-size: 11px; color: var(--text-dim);
-}
-.news-source {
-  background: var(--border); padding: 1px 6px; border-radius: 4px;
-  font-size: 10px; font-weight: 500;
-}
-
-/* Corporate action timeline */
-.event-card {
-  background: var(--surface); border: 1px solid var(--border);
-  border-radius: 8px; padding: 14px 16px; margin-bottom: 8px;
-  display: flex; align-items: center; justify-content: space-between;
-  transition: border-color 0.15s;
-}
-.event-card:hover { border-color: var(--yellow); }
-.event-left { display: flex; align-items: center; gap: 12px; }
-.event-type {
-  font-size: 10px; font-weight: 600; text-transform: uppercase;
-  padding: 3px 8px; border-radius: 4px; letter-spacing: 0.5px;
-}
-.event-type.dividend { color: var(--green); background: rgba(63,185,80,0.1); }
-.event-type.split { color: var(--purple); background: rgba(188,140,255,0.1); }
-.event-type.earnings_date, .event-type.ex-dividend_date { color: var(--yellow); background: rgba(210,153,34,0.1); }
-.event-symbol { font-weight: 600; font-size: 14px; }
-.event-detail { font-size: 12px; color: var(--text-dim); }
-.event-countdown {
-  font-size: 13px; font-weight: 600;
-  padding: 4px 10px; border-radius: 6px;
-  background: var(--surface-hover); white-space: nowrap;
-}
-.event-countdown.soon { color: var(--yellow); }
-.event-countdown.today { color: var(--green); background: rgba(63,185,80,0.1); }
-.event-countdown.past { color: var(--text-dim); }
-
-@media (max-width: 768px) {
-  nav .tabs { gap: 0; overflow-x: auto; }
-  nav .tabs a { padding: 6px 10px; font-size: 12px; white-space: nowrap; }
-  .event-card { flex-direction: column; align-items: flex-start; gap: 8px; }
-}
-</style>
+<link rel="stylesheet" href="styles.css">
 </head>
 <body>
 <nav>
-  <div class="logo">Quant<span>OS</span></div>
-  <div class="tabs">
-    <a href="index.html">Portfolio</a>
-    <a href="screener.html">Screener</a>
-    <a href="signals.html">Signals</a>
-    <a href="news.html" class="active">News</a>
-    <a href="backtest.html">Backtest</a>
+  <div class="logo"><span class="logo-text">Quant<span>OS</span></span></div>
+  <div class="nav-tabs">
+    <a href="index.html" class="nav-tab">Portfolio</a>
+    <a href="screener.html" class="nav-tab">Screener</a>
+    <a href="signals.html" class="nav-tab">Signals</a>
+    <a href="news.html" class="nav-tab active">News</a>
+    <a href="backtest.html" class="nav-tab">Backtest</a>
   </div>
+  <div class="nav-right"><span id="statusText"></span></div>
 </nav>
 
 <div class="container">
-  <div class="status-bar">
-    <div id="statusText">Loading news...</div>
-    <div id="lastUpdated"></div>
-  </div>
-
   <div class="sub-tabs">
-    <div class="sub-tab active" data-tab="ticker" onclick="switchSub('ticker')">Stock News <span class="badge" id="tickerCount">-</span></div>
-    <div class="sub-tab" data-tab="headlines" onclick="switchSub('headlines')">Market Headlines <span class="badge" id="headlineCount">-</span></div>
-    <div class="sub-tab" data-tab="actions" onclick="switchSub('actions')">Corporate Actions <span class="badge" id="actionCount">-</span></div>
+    <div class="sub-tab active" data-tab="ticker" onclick="switchSub('ticker')">Stock News <span class="badge" id="tickerCount">—</span></div>
+    <div class="sub-tab" data-tab="headlines" onclick="switchSub('headlines')">Market Headlines <span class="badge" id="headlineCount">—</span></div>
+    <div class="sub-tab" data-tab="actions" onclick="switchSub('actions')">Corporate Actions <span class="badge" id="actionCount">—</span></div>
   </div>
 
   <div class="sub-panel active" id="panel_ticker">
     <div id="tickerNews" class="empty-state">Loading...</div>
   </div>
-
   <div class="sub-panel" id="panel_headlines">
     <div id="marketHeadlines" class="empty-state">Loading...</div>
   </div>
-
   <div class="sub-panel" id="panel_actions">
     <div id="corpActions" class="empty-state">Loading...</div>
   </div>
 </div>
 
+<footer><div>QuantOS — Unified Trading & Investment Platform</div></footer>
+
 <script>
-const DATA_BASE = 'data';
-async function fetchJSON(f) { try { const r = await fetch(`${DATA_BASE}/${f}?t=${Date.now()}`); return r.ok ? await r.json() : null; } catch { return null; } }
-
-function switchSub(tab) {
-  document.querySelectorAll('.sub-tab').forEach(t => t.classList.toggle('active', t.dataset.tab === tab));
-  document.querySelectorAll('.sub-panel').forEach(p => p.classList.toggle('active', p.id === 'panel_' + tab));
+const D='data';
+async function fetchJ(f){try{const r=await fetch(`${D}/${f}?t=${Date.now()}`);return r.ok?await r.json():null;}catch{return null;}}
+function switchSub(t){
+  document.querySelectorAll('.sub-tab').forEach(s=>s.classList.toggle('active',s.dataset.tab===t));
+  document.querySelectorAll('.sub-panel').forEach(p=>p.classList.toggle('active',p.id==='panel_'+t));
 }
+function ageLabel(h){if(h==null)return'';if(h<1)return`${Math.round(h*60)}m ago`;if(h<24)return`${Math.round(h)}h ago`;return`${Math.round(h/24)}d ago`;}
 
-function ageLabel(h) {
-  if (h == null) return '';
-  if (h < 1) return `${Math.round(h * 60)}m ago`;
-  if (h < 24) return `${Math.round(h)}h ago`;
-  return `${Math.round(h / 24)}d ago`;
-}
-
-function renderTickerNews(data) {
-  const el = document.getElementById('tickerNews');
-  const count = document.getElementById('tickerCount');
-  const news = data?.ticker_news || {};
-  const symbols = Object.keys(news);
-  let total = 0;
-
-  if (symbols.length === 0) {
-    el.innerHTML = '<div class="empty-state">No stock news available. Run news digest.</div>';
-    count.textContent = '0';
-    return;
-  }
-
-  let html = '';
-  for (const sym of symbols) {
-    const items = news[sym];
-    total += items.length;
-    html += `<div class="news-section">
-      <div class="news-section-title">
-        <a href="https://www.tradingview.com/chart/?symbol=NSE%3A${sym}" target="_blank" style="color:var(--blue);text-decoration:none">${sym}</a>
+function renderTickerNews(data){
+  const el=document.getElementById('tickerNews'), ct=document.getElementById('tickerCount');
+  const news=data?.ticker_news||{};
+  const syms=Object.keys(news);
+  let total=0;
+  if(!syms.length){el.innerHTML='<div class="empty-state">No stock news available. Run news digest.</div>';ct.textContent='0';return;}
+  let html='';
+  for(const s of syms){
+    const items=news[s]; total+=items.length;
+    html+=`<div class="card" style="padding:16px;margin-bottom:12px">
+      <div class="section-label" style="color:var(--brand-light);margin-bottom:8px">
+        <a href="https://www.tradingview.com/chart/?symbol=NSE%3A${s}" target="_blank" class="ticker-chip">${s} ↗</a>
       </div>`;
-    for (const item of items) {
-      html += `<div class="news-card">
-        <a href="${item.link}" target="_blank" rel="noopener">${item.title}</a>
+    for(const item of items){
+      html+=`<div class="news-item">
+        <a href="${item.link}" target="_blank" rel="noopener" class="news-link">${item.title}</a>
         <div class="news-meta">
-          ${item.publisher ? `<span class="news-source">${item.publisher}</span>` : ''}
+          ${item.publisher?`<span class="news-source">${item.publisher}</span>`:''}
           <span>${ageLabel(item.age_h)}</span>
         </div>
       </div>`;
     }
-    html += '</div>';
+    html+='</div>';
   }
-  el.innerHTML = html;
-  count.textContent = total;
+  el.innerHTML=html; ct.textContent=total;
 }
 
-function renderHeadlines(data) {
-  const el = document.getElementById('marketHeadlines');
-  const count = document.getElementById('headlineCount');
-  const headlines = data?.market_headlines || [];
-  count.textContent = headlines.length;
-
-  if (headlines.length === 0) {
-    el.innerHTML = '<div class="empty-state">No market headlines available.</div>';
-    return;
-  }
-
-  el.innerHTML = headlines.map(h => `
-    <div class="news-card">
-      <a href="${h.link}" target="_blank" rel="noopener">${h.title}</a>
-      <div class="news-meta">
-        <span class="news-source">${h.source}</span>
-        <span>${ageLabel(h.age_h)}</span>
-      </div>
-      ${h.summary ? `<div style="font-size:12px;color:var(--text-dim);margin-top:4px">${h.summary}</div>` : ''}
+function renderHeadlines(data){
+  const el=document.getElementById('marketHeadlines'), ct=document.getElementById('headlineCount');
+  const h=data?.market_headlines||[];
+  ct.textContent=h.length;
+  if(!h.length){el.innerHTML='<div class="empty-state">No market headlines available.</div>';return;}
+  el.innerHTML='<div class="card" style="padding:16px">'+h.map(item=>`<div class="news-item">
+    <a href="${item.link}" target="_blank" rel="noopener" class="news-link">${item.title}</a>
+    <div class="news-meta">
+      <span class="news-source">${item.source}</span>
+      <span>${ageLabel(item.age_h)}</span>
     </div>
-  `).join('');
+    ${item.summary?`<div style="font-size:0.75rem;color:var(--text-dark);margin-top:3px">${item.summary}</div>`:''}
+  </div>`).join('')+'</div>';
 }
 
-function renderCorpActions(data) {
-  const el = document.getElementById('corpActions');
-  const count = document.getElementById('actionCount');
-  const events = data?.events || [];
-  const upcoming = events.filter(e => e.days_away >= -7);
-  count.textContent = upcoming.length;
+function renderCorpActions(data){
+  const el=document.getElementById('corpActions'), ct=document.getElementById('actionCount');
+  const events=data?.events||[];
+  const upcoming=events.filter(e=>e.days_away>=-7);
+  ct.textContent=upcoming.length;
+  if(!upcoming.length){el.innerHTML='<div class="empty-state">No upcoming corporate actions.</div>';return;}
 
-  if (upcoming.length === 0) {
-    el.innerHTML = '<div class="empty-state">No upcoming corporate actions.</div>';
-    return;
-  }
+  const icons={dividend:'💰',split:'✂️',earnings_date:'📅','ex-dividend_date':'📅'};
+  const colors={dividend:'var(--up-light)',split:'var(--brand-light)',earnings_date:'var(--yellow)','ex-dividend_date':'var(--yellow)'};
 
-  el.innerHTML = upcoming.map(e => {
-    let cdClass = 'event-countdown';
-    let cdText = '';
-    if (e.days_away === 0) { cdClass += ' today'; cdText = 'Today'; }
-    else if (e.days_away < 0) { cdClass += ' past'; cdText = `${Math.abs(e.days_away)}d ago`; }
-    else if (e.days_away <= 7) { cdClass += ' soon'; cdText = `in ${e.days_away}d`; }
-    else { cdText = `in ${e.days_away}d`; }
-
-    const typeClass = e.type.replace(/\s+/g, '_');
-    return `<div class="event-card">
-      <div class="event-left">
-        <span class="event-type ${typeClass}">${e.type.replace(/_/g, ' ')}</span>
-        <span class="event-symbol">${e.symbol}</span>
-        <span class="event-detail">${e.detail} &middot; ${e.date}</span>
+  el.innerHTML=upcoming.map(e=>{
+    let cdCls='badge tag-neutral', cdTxt='';
+    if(e.days_away===0){cdCls='badge tag-up';cdTxt='Today';}
+    else if(e.days_away<0){cdCls='badge tag-neutral';cdTxt=`${Math.abs(e.days_away)}d ago`;}
+    else if(e.days_away<=7){cdCls='badge tag-soon';cdTxt=`In ${e.days_away}d`;}
+    else{cdTxt=`In ${e.days_away}d`;}
+    const icon=icons[e.type]||'📅';
+    const col=colors[e.type]||'var(--text-muted)';
+    return `<div class="ca-card">
+      <div style="display:flex;align-items:center;gap:12px">
+        <div class="ca-icon" style="color:${col}">${icon}</div>
+        <div>
+          <div class="ca-type" style="color:${col}">${e.type.replace(/_/g,' ')}</div>
+          <div class="ca-symbol">${e.symbol}</div>
+          <div class="ca-detail">${e.detail} · ${e.date}</div>
+        </div>
       </div>
-      <span class="${cdClass}">${cdText}</span>
+      <span class="${cdCls}">${cdTxt}</span>
     </div>`;
   }).join('');
 }
 
-async function load() {
-  const [news, actions] = await Promise.all([
-    fetchJSON('news.json'),
-    fetchJSON('corporate_actions.json'),
-  ]);
-
-  const st = document.getElementById('statusText');
-  const lu = document.getElementById('lastUpdated');
-
-  if (news?.timestamp) {
-    lu.textContent = `Last digest: ${new Date(news.timestamp).toLocaleString('en-IN')}`;
-    st.textContent = 'Market News & Events';
-  } else {
-    st.textContent = 'No news data. Run morning digest.';
-  }
-
+async function load(){
+  const [news,actions]=await Promise.all([fetchJ('news.json'),fetchJ('corporate_actions.json')]);
+  const st=document.getElementById('statusText');
+  if(news?.timestamp) st.textContent=`Last digest: ${new Date(news.timestamp).toLocaleString('en-IN')}`;
+  else st.textContent='No news data. Run morning digest.';
   renderTickerNews(news);
   renderHeadlines(news);
   renderCorpActions(actions);
 }
-
 load();
 </script>
 </body>

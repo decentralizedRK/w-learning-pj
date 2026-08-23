@@ -3,450 +3,152 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>QuantOS Screener</title>
-<style>
-:root {
-  --bg: #0d1117;
-  --surface: #161b22;
-  --border: #30363d;
-  --text: #e6edf3;
-  --text-dim: #8b949e;
-  --green: #3fb950;
-  --red: #f85149;
-  --blue: #58a6ff;
-  --yellow: #d29922;
-}
-* { margin: 0; padding: 0; box-sizing: border-box; }
-body {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
-  background: var(--bg);
-  color: var(--text);
-  line-height: 1.5;
-}
-.container { max-width: 1280px; margin: 0 auto; padding: 16px; }
-
-/* Nav */
-nav {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 12px 16px;
-  background: var(--surface);
-  border-bottom: 1px solid var(--border);
-}
-nav .logo { font-size: 18px; font-weight: 700; }
-nav .logo span { color: var(--blue); }
-nav .tabs a {
-  color: var(--text-dim);
-  text-decoration: none;
-  padding: 6px 14px;
-  border-radius: 6px;
-  font-size: 14px;
-}
-nav .tabs a.active { background: var(--border); color: var(--text); }
-nav .tabs a:hover { color: var(--text); }
-
-/* Stats row */
-.stats {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-  gap: 12px;
-  margin: 16px 0;
-}
-.stat-card {
-  background: var(--surface);
-  border: 1px solid var(--border);
-  border-radius: 8px;
-  padding: 16px;
-}
-.stat-card .label {
-  font-size: 12px; color: var(--text-dim);
-  text-transform: uppercase; letter-spacing: 0.5px;
-}
-.stat-card .value {
-  font-size: 28px; font-weight: 700; margin: 4px 0;
-  font-variant-numeric: tabular-nums;
-}
-.stat-card .sub { font-size: 12px; color: var(--text-dim); }
-
-/* Segment tabs */
-.seg-tabs {
-  display: flex;
-  gap: 0;
-  margin: 24px 0 0;
-  border-bottom: 2px solid var(--border);
-}
-.seg-tab {
-  padding: 10px 20px;
-  font-size: 14px;
-  font-weight: 600;
-  color: var(--text-dim);
-  cursor: pointer;
-  border-bottom: 2px solid transparent;
-  margin-bottom: -2px;
-  user-select: none;
-  transition: color 0.15s, border-color 0.15s;
-}
-.seg-tab:hover { color: var(--text); }
-.seg-tab.active {
-  color: var(--blue);
-  border-bottom-color: var(--blue);
-}
-.seg-tab .badge {
-  font-size: 11px;
-  color: var(--text-dim);
-  background: var(--border);
-  padding: 1px 6px;
-  border-radius: 8px;
-  margin-left: 6px;
-  font-weight: 400;
-}
-
-.seg-panel { display: none; margin-top: 16px; }
-.seg-panel.active { display: block; }
-
-/* Tables */
-.section { margin: 24px 0; }
-.section-title { font-size: 16px; font-weight: 600; margin-bottom: 12px; }
-
-table {
-  width: 100%;
-  border-collapse: collapse;
-  background: var(--surface);
-  border: 1px solid var(--border);
-  border-radius: 8px;
-  overflow: hidden;
-  font-size: 13px;
-}
-th {
-  background: #1c2128;
-  text-align: left;
-  padding: 10px 14px;
-  font-weight: 600;
-  color: var(--text-dim);
-  font-size: 11px;
-  text-transform: uppercase;
-  letter-spacing: 0.5px;
-  cursor: pointer;
-  user-select: none;
-  white-space: nowrap;
-}
-th:hover { color: var(--text); }
-th .sort-arrow { margin-left: 4px; font-size: 10px; }
-td {
-  padding: 10px 14px;
-  border-top: 1px solid var(--border);
-  font-variant-numeric: tabular-nums;
-}
-tr:hover td { background: #1c2128; }
-.text-right { text-align: right; }
-.positive { color: var(--green); }
-.negative { color: var(--red); }
-
-.symbol-link {
-  color: var(--text);
-  text-decoration: none;
-  border-bottom: 1px dotted var(--text-dim);
-}
-.symbol-link:hover { color: var(--blue); border-color: var(--blue); }
-.tv-link {
-  color: var(--text-dim);
-  text-decoration: none;
-  font-size: 10px;
-  margin-left: 6px;
-  padding: 1px 4px;
-  border: 1px solid var(--border);
-  border-radius: 3px;
-  vertical-align: middle;
-}
-.tv-link:hover { color: var(--blue); border-color: var(--blue); }
-
-.signal-yes {
-  color: var(--green); font-weight: 600;
-  background: rgba(63, 185, 80, 0.1);
-  padding: 2px 8px; border-radius: 4px;
-}
-.signal-no { color: var(--text-dim); }
-
-.score-bar {
-  display: inline-block;
-  height: 6px;
-  border-radius: 3px;
-  margin-right: 6px;
-  vertical-align: middle;
-}
-
-/* Status bar */
-.status-bar {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 10px 0;
-  font-size: 12px;
-  color: var(--text-dim);
-}
-
-.empty-state {
-  text-align: center;
-  padding: 48px 16px;
-  color: var(--text-dim);
-}
-
-@media (max-width: 768px) {
-  .stats { grid-template-columns: repeat(2, 1fr); }
-  .seg-tabs { overflow-x: auto; }
-  .seg-tab { padding: 8px 14px; font-size: 13px; white-space: nowrap; }
-  table { font-size: 12px; }
-  th, td { padding: 8px 10px; }
-}
-</style>
+<title>QuantOS — Screener</title>
+<link rel="stylesheet" href="styles.css">
 </head>
 <body>
 <nav>
-  <div class="logo">Quant<span>OS</span></div>
-  <div class="tabs">
-    <a href="index.html">Portfolio</a>
-    <a href="screener.html" class="active">Screener</a>
-    <a href="signals.html">Signals</a>
-    <a href="news.html">News</a>
-    <a href="backtest.html">Backtest</a>
+  <div class="logo"><span class="logo-text">Quant<span>OS</span></span></div>
+  <div class="nav-tabs">
+    <a href="index.html" class="nav-tab">Portfolio</a>
+    <a href="screener.html" class="nav-tab active">Screener</a>
+    <a href="signals.html" class="nav-tab">Signals</a>
+    <a href="news.html" class="nav-tab">News</a>
+    <a href="backtest.html" class="nav-tab">Backtest</a>
   </div>
+  <div class="nav-right"><span id="statusText"></span></div>
 </nav>
 
 <div class="container">
-  <div class="status-bar">
-    <div id="statusText">Loading screener data...</div>
-    <div id="lastUpdated"></div>
-  </div>
+  <div class="stats-grid" id="stats"></div>
 
-  <div class="stats" id="stats"></div>
-
-  <div class="seg-tabs" id="segTabs"></div>
+  <div class="sub-tabs" id="segTabs"></div>
   <div id="segPanels"></div>
 </div>
 
+<footer><div>QuantOS — Unified Trading & Investment Platform</div></footer>
+
 <script>
-const DATA_BASE = 'data';
+const D='data';
+function fmt(n,d=0){if(n==null||isNaN(n))return'—';return n.toLocaleString('en-IN',{minimumFractionDigits:d,maximumFractionDigits:d});}
+function pnlCls(v){return v>0?'positive':v<0?'negative':'';}
+async function fetchJ(f){try{const r=await fetch(`${D}/${f}?t=${Date.now()}`);return r.ok?await r.json():null;}catch{return null;}}
 
-function fmt(n, decimals = 0) {
-  if (n == null || isNaN(n)) return '--';
-  return n.toLocaleString('en-IN', {
-    minimumFractionDigits: decimals,
-    maximumFractionDigits: decimals,
-  });
+function sym(s) {
+  return `<a href="https://www.tradingview.com/chart/?symbol=NSE%3A${s}" target="_blank" class="ticker-chip">${s} ↗</a>`
+    + ` <a href="https://www.google.com/finance/quote/${s}:NSE" target="_blank" style="font-size:0.65rem;color:var(--text-dark);text-decoration:none;border:1px solid var(--border);padding:1px 4px;border-radius:3px">GF</a>`;
 }
 
-function pnlClass(val) {
-  return val > 0 ? 'positive' : val < 0 ? 'negative' : '';
+function scoreBar(sc) {
+  const p=Math.min(Math.max(sc,0),1), w=Math.round(p*50);
+  const r=Math.round(239*(1-p)+16*p), g=Math.round(68*(1-p)+185*p), b=Math.round(68*(1-p)+129*p);
+  return `<span class="score-bar" style="width:${w}px;background:rgb(${r},${g},${b})"></span>${fmt(sc,3)}`;
 }
 
-async function fetchJSON(file) {
-  try {
-    const resp = await fetch(`${DATA_BASE}/${file}?t=${Date.now()}`);
-    if (!resp.ok) return null;
-    return await resp.json();
-  } catch { return null; }
+function retBadge(v) {
+  const c=v>0?'tag-up':v<0?'tag-down':'tag-neutral';
+  return `<span class="badge ${c}">${v>0?'+':''}${fmt(v,1)}%</span>`;
 }
 
-function scoreColor(score) {
-  const pct = Math.min(Math.max(score, 0), 1);
-  const r = Math.round(248 * (1 - pct) + 63 * pct);
-  const g = Math.round(81 * (1 - pct) + 185 * pct);
-  const b = Math.round(73 * (1 - pct) + 80 * pct);
-  return `rgb(${r},${g},${b})`;
+function tierBadge(seg) {
+  if(!seg) return '';
+  const s=seg.charAt(0).toUpperCase();
+  const c=s==='L'?'tier-l':s==='M'?'tier-m':'tier-s';
+  return `<span class="${c}">${s}</span>`;
 }
 
-function stockRow(stock, rank) {
-  const signal = stock.entry_signal
-    ? '<span class="signal-yes">YES</span>'
-    : '<span class="signal-no">no</span>';
-  const seg = stock.segment
-    ? stock.segment.charAt(0).toUpperCase() + stock.segment.slice(1)
-    : '--';
-  const sc = stock.composite_score || 0;
-  const barWidth = Math.round(Math.min(sc, 1) * 60);
-  const scoreBar = `<span class="score-bar" style="width:${barWidth}px;background:${scoreColor(sc)}"></span>`;
-  return `
-    <tr>
-      ${rank !== null ? `<td>${rank}</td>` : ''}
-      <td>
-        <strong><a href="https://www.tradingview.com/chart/?symbol=NSE%3A${stock.symbol}" target="_blank" rel="noopener" class="symbol-link">${stock.symbol}</a></strong>
-        <a href="https://www.google.com/finance/quote/${stock.symbol}:NSE" target="_blank" rel="noopener" class="tv-link" title="Google Finance">GF</a>
-      </td>
-      <td>${seg}</td>
-      <td class="text-right">${fmt(stock.close, 2)}</td>
-      <td class="text-right ${pnlClass(stock.roc_20)}">${fmt(stock.roc_20, 1)}</td>
-      <td class="text-right">${fmt(stock.adx, 1)}</td>
-      <td class="text-right">${fmt(stock.rsi, 1)}</td>
-      <td class="text-right">${scoreBar}${fmt(sc, 3)}</td>
-      <td>${signal}</td>
-    </tr>
-  `;
+function stockRow(s,rank) {
+  const sig=s.entry_signal?'<span class="badge tag-up">YES</span>':'<span style="color:var(--text-dark)">no</span>';
+  return `<tr>
+    ${rank!==null?`<td>${rank}</td>`:''}
+    <td>${sym(s.symbol)}</td>
+    <td>${tierBadge(s.segment)}</td>
+    <td class="text-right font-medium">${fmt(s.close,2)}</td>
+    <td class="text-right ${pnlCls(s.roc_20)}">${fmt(s.roc_20,1)}</td>
+    <td class="text-right">${fmt(s.adx,1)}</td>
+    <td class="text-right">${fmt(s.rsi,1)}</td>
+    <td class="text-right">${scoreBar(s.composite_score||0)}</td>
+    <td>${sig}</td>
+  </tr>`;
 }
 
 function renderStats(data) {
-  const el = document.getElementById('stats');
-  const lc = data.segments?.largecap?.length || 0;
-  const mc = data.segments?.midcap?.length || 0;
-  const sc = data.segments?.smallcap?.length || 0;
-  const topN = data.top_picks?.length || 0;
-  const signalCount = (data.top_picks || []).filter(s => s.entry_signal).length;
-
-  el.innerHTML = `
-    <div class="stat-card">
-      <div class="label">Top Picks</div>
-      <div class="value">${topN}</div>
-      <div class="sub">${signalCount} with entry signal</div>
-    </div>
-    <div class="stat-card">
-      <div class="label">Largecap</div>
-      <div class="value">${lc}</div>
-      <div class="sub">stocks screened</div>
-    </div>
-    <div class="stat-card">
-      <div class="label">Midcap</div>
-      <div class="value">${mc}</div>
-      <div class="sub">stocks screened</div>
-    </div>
-    <div class="stat-card">
-      <div class="label">Smallcap</div>
-      <div class="value">${sc}</div>
-      <div class="sub">stocks screened</div>
-    </div>
+  const el=document.getElementById('stats');
+  const lc=data.segments?.largecap?.length||0, mc=data.segments?.midcap?.length||0, sc=data.segments?.smallcap?.length||0;
+  const topN=data.top_picks?.length||0;
+  const sigs=(data.top_picks||[]).filter(s=>s.entry_signal).length;
+  el.innerHTML=`
+    <div class="card stat-card"><div class="stat-label">Top Picks</div><div class="stat-value text-white">${topN}</div><div class="stat-sub">${sigs} with entry signal</div></div>
+    <div class="card stat-card"><div class="stat-label">Largecap</div><div class="stat-value text-white">${lc}</div><div class="stat-sub">stocks screened</div></div>
+    <div class="card stat-card"><div class="stat-label">Midcap</div><div class="stat-value text-white">${mc}</div><div class="stat-sub">stocks screened</div></div>
+    <div class="card stat-card"><div class="stat-label">Smallcap</div><div class="stat-value text-white">${sc}</div><div class="stat-sub">stocks screened</div></div>
   `;
 }
 
-function makeTable(tableId, stocks, hasRank) {
-  const rankTh = hasRank
-    ? `<th onclick="sortTable('${tableId}',0)">Rank</th>` : '';
-  const offset = hasRank ? 1 : 0;
-  const rows = stocks.length === 0
-    ? `<tr><td colspan="${hasRank ? 9 : 8}" class="empty-state">No data</td></tr>`
-    : stocks.map((s, i) => stockRow(s, hasRank ? i + 1 : null)).join('');
-
-  return `
-    <div style="overflow-x:auto">
-      <table id="${tableId}">
-        <thead>
-          <tr>
-            ${rankTh}
-            <th onclick="sortTable('${tableId}',${0 + offset})">Symbol</th>
-            <th onclick="sortTable('${tableId}',${1 + offset})">Segment</th>
-            <th onclick="sortTable('${tableId}',${2 + offset})" class="text-right">Close</th>
-            <th onclick="sortTable('${tableId}',${3 + offset})" class="text-right">ROC(20)</th>
-            <th onclick="sortTable('${tableId}',${4 + offset})" class="text-right">ADX</th>
-            <th onclick="sortTable('${tableId}',${5 + offset})" class="text-right">RSI</th>
-            <th onclick="sortTable('${tableId}',${6 + offset})" class="text-right">Score</th>
-            <th onclick="sortTable('${tableId}',${7 + offset})">Signal</th>
-          </tr>
-        </thead>
-        <tbody>${rows}</tbody>
-      </table>
-    </div>
-  `;
-}
-
-const TABS = [
-  { key: 'top',      label: 'Top Picks',    hasRank: true },
-  { key: 'largecap', label: 'Largecap F&O', hasRank: false },
-  { key: 'midcap',   label: 'Midcap F&O',   hasRank: false },
-  { key: 'smallcap', label: 'Smallcap F&O', hasRank: false },
+const TABS=[
+  {key:'top',label:'Top Picks',hasRank:true},
+  {key:'largecap',label:'Largecap F&O',hasRank:false},
+  {key:'midcap',label:'Midcap F&O',hasRank:false},
+  {key:'smallcap',label:'Smallcap F&O',hasRank:false},
 ];
 
-function switchTab(key) {
-  document.querySelectorAll('.seg-tab').forEach(t => {
-    t.classList.toggle('active', t.dataset.key === key);
-  });
-  document.querySelectorAll('.seg-panel').forEach(p => {
-    p.classList.toggle('active', p.id === 'panel_' + key);
-  });
+function switchTab(k) {
+  document.querySelectorAll('.sub-tab').forEach(t=>t.classList.toggle('active',t.dataset.key===k));
+  document.querySelectorAll('.sub-panel').forEach(p=>p.classList.toggle('active',p.id==='panel_'+k));
+}
+
+function makeTable(id,stocks,hasRank) {
+  const rTh=hasRank?`<th onclick="sortTbl('${id}',0)">Rank</th>`:'';
+  const o=hasRank?1:0;
+  const rows=stocks.length===0?`<tr><td colspan="${hasRank?9:8}" class="empty-state">No data</td></tr>`
+    :stocks.map((s,i)=>stockRow(s,hasRank?i+1:null)).join('');
+  return `<div class="card" style="overflow:hidden"><div class="table-wrap"><table id="${id}"><thead><tr>
+    ${rTh}
+    <th onclick="sortTbl('${id}',${0+o})">Symbol</th>
+    <th onclick="sortTbl('${id}',${1+o})">Tier</th>
+    <th onclick="sortTbl('${id}',${2+o})" class="text-right">Close</th>
+    <th onclick="sortTbl('${id}',${3+o})" class="text-right">ROC(20)</th>
+    <th onclick="sortTbl('${id}',${4+o})" class="text-right">ADX</th>
+    <th onclick="sortTbl('${id}',${5+o})" class="text-right">RSI</th>
+    <th onclick="sortTbl('${id}',${6+o})" class="text-right">Score</th>
+    <th onclick="sortTbl('${id}',${7+o})">Signal</th>
+  </tr></thead><tbody>${rows}</tbody></table></div></div>`;
 }
 
 function renderTabs(data) {
-  const tabsEl = document.getElementById('segTabs');
-  const panelsEl = document.getElementById('segPanels');
-
-  const counts = {
-    top: data.top_picks?.length || 0,
-    largecap: data.segments?.largecap?.length || 0,
-    midcap: data.segments?.midcap?.length || 0,
-    smallcap: data.segments?.smallcap?.length || 0,
-  };
-
-  tabsEl.innerHTML = TABS.map(t =>
-    `<div class="seg-tab${t.key === 'top' ? ' active' : ''}" data-key="${t.key}" onclick="switchTab('${t.key}')">
-      ${t.label}<span class="badge">${counts[t.key]}</span>
-    </div>`
-  ).join('');
-
-  const stocksByTab = {
-    top: data.top_picks || [],
-    largecap: data.segments?.largecap || [],
-    midcap: data.segments?.midcap || [],
-    smallcap: data.segments?.smallcap || [],
-  };
-
-  panelsEl.innerHTML = TABS.map(t =>
-    `<div class="seg-panel${t.key === 'top' ? ' active' : ''}" id="panel_${t.key}">
-      ${makeTable('table_' + t.key, stocksByTab[t.key], t.hasRank)}
-    </div>`
-  ).join('');
+  const tabsEl=document.getElementById('segTabs'), panelsEl=document.getElementById('segPanels');
+  const counts={top:data.top_picks?.length||0,largecap:data.segments?.largecap?.length||0,midcap:data.segments?.midcap?.length||0,smallcap:data.segments?.smallcap?.length||0};
+  tabsEl.innerHTML=TABS.map(t=>`<div class="sub-tab${t.key==='top'?' active':''}" data-key="${t.key}" onclick="switchTab('${t.key}')">${t.label} <span class="badge">${counts[t.key]}</span></div>`).join('');
+  const byTab={top:data.top_picks||[],largecap:data.segments?.largecap||[],midcap:data.segments?.midcap||[],smallcap:data.segments?.smallcap||[]};
+  panelsEl.innerHTML=TABS.map(t=>`<div class="sub-panel${t.key==='top'?' active':''}" id="panel_${t.key}">${makeTable('tbl_'+t.key,byTab[t.key],t.hasRank)}</div>`).join('');
 }
 
-function sortTable(tableId, colIdx) {
-  const table = document.getElementById(tableId);
-  const tbody = table.querySelector('tbody');
-  const rows = Array.from(tbody.querySelectorAll('tr'));
-  if (rows.length <= 1) return;
-
-  const dir = table.dataset.sortCol === String(colIdx)
-    && table.dataset.sortDir === 'asc' ? 'desc' : 'asc';
-  table.dataset.sortCol = colIdx;
-  table.dataset.sortDir = dir;
-
-  rows.sort((a, b) => {
-    let aVal = a.cells[colIdx]?.textContent.trim().replace(/[,%+]/g, '') || '';
-    let bVal = b.cells[colIdx]?.textContent.trim().replace(/[,%+]/g, '') || '';
-    const aNum = parseFloat(aVal.replace(/,/g, ''));
-    const bNum = parseFloat(bVal.replace(/,/g, ''));
-    if (!isNaN(aNum) && !isNaN(bNum)) {
-      return dir === 'asc' ? aNum - bNum : bNum - aNum;
-    }
-    return dir === 'asc' ? aVal.localeCompare(bVal) : bVal.localeCompare(aVal);
+function sortTbl(id,col) {
+  const tbl=document.getElementById(id), tb=tbl.querySelector('tbody');
+  const rows=Array.from(tb.querySelectorAll('tr'));
+  if(rows.length<=1) return;
+  const dir=tbl.dataset.sc===String(col)&&tbl.dataset.sd==='asc'?'desc':'asc';
+  tbl.dataset.sc=col; tbl.dataset.sd=dir;
+  rows.sort((a,b)=>{
+    let av=a.cells[col]?.textContent.trim().replace(/[,%+₹↗—]/g,'')||'';
+    let bv=b.cells[col]?.textContent.trim().replace(/[,%+₹↗—]/g,'')||'';
+    const an=parseFloat(av.replace(/,/g,'')),bn=parseFloat(bv.replace(/,/g,''));
+    if(!isNaN(an)&&!isNaN(bn)) return dir==='asc'?an-bn:bn-an;
+    return dir==='asc'?av.localeCompare(bv):bv.localeCompare(av);
   });
-  rows.forEach(row => tbody.appendChild(row));
-
-  table.querySelectorAll('th .sort-arrow').forEach(el => el.remove());
-  const th = table.querySelectorAll('th')[colIdx];
-  if (th) {
-    const arrow = document.createElement('span');
-    arrow.className = 'sort-arrow';
-    arrow.textContent = dir === 'asc' ? ' ▲' : ' ▼';
-    th.appendChild(arrow);
-  }
+  rows.forEach(r=>tb.appendChild(r));
+  tbl.querySelectorAll('th').forEach((h,i)=>{h.classList.remove('sort-asc','sort-desc');if(i===col)h.classList.add(dir==='asc'?'sort-asc':'sort-desc');});
 }
 
-async function loadData() {
-  const data = await fetchJSON('signals.json');
-  const statusText = document.getElementById('statusText');
-  const lastUpdated = document.getElementById('lastUpdated');
-
-  if (!data) {
-    statusText.textContent = 'No screener data available. Run the screener workflow first.';
-    return;
-  }
-
-  if (data.timestamp) {
-    const ts = new Date(data.timestamp);
-    lastUpdated.textContent = `Last run: ${ts.toLocaleString('en-IN')}`;
-    statusText.textContent = `Screener results for ${data.top_picks?.[0]?.date || '--'}`;
-  }
-
+async function load() {
+  const data=await fetchJ('signals.json');
+  const st=document.getElementById('statusText');
+  if(!data){st.textContent='No screener data. Run screener workflow.';return;}
+  if(data.timestamp){st.textContent=`Last run: ${new Date(data.timestamp).toLocaleString('en-IN')}`;}
   renderStats(data);
   renderTabs(data);
 }
-
-loadData();
+load();
 </script>
 </body>
 </html>

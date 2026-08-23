@@ -4,580 +4,311 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>QuantOS — Portfolio</title>
-<style>
-:root {
-  --bg: #0d1117;
-  --surface: #161b22;
-  --surface-hover: #1c2128;
-  --border: #30363d;
-  --text: #e6edf3;
-  --text-dim: #8b949e;
-  --green: #3fb950;
-  --green-bg: rgba(63, 185, 80, 0.1);
-  --red: #f85149;
-  --red-bg: rgba(248, 81, 73, 0.1);
-  --blue: #58a6ff;
-  --yellow: #d29922;
-  --purple: #bc8cff;
-  --glass: rgba(22, 27, 34, 0.75);
-  --glass-border: rgba(48, 54, 61, 0.6);
-}
-* { margin: 0; padding: 0; box-sizing: border-box; }
-body {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
-  background: var(--bg);
-  color: var(--text);
-  line-height: 1.5;
-  min-height: 100vh;
-}
-.container { max-width: 1400px; margin: 0 auto; padding: 16px 20px; }
-
-/* Nav */
-nav {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 12px 20px;
-  background: var(--surface);
-  border-bottom: 1px solid var(--border);
-  position: sticky;
-  top: 0;
-  z-index: 100;
-  backdrop-filter: blur(12px);
-}
-nav .logo { font-size: 18px; font-weight: 700; letter-spacing: -0.5px; }
-nav .logo span { color: var(--blue); }
-nav .tabs { display: flex; gap: 2px; }
-nav .tabs a {
-  color: var(--text-dim);
-  text-decoration: none;
-  padding: 6px 14px;
-  border-radius: 6px;
-  font-size: 13px;
-  font-weight: 500;
-  transition: all 0.15s;
-}
-nav .tabs a.active { background: var(--border); color: var(--text); }
-nav .tabs a:hover { color: var(--text); background: rgba(48,54,61,0.4); }
-nav .market-status { display: flex; align-items: center; gap: 6px; font-size: 12px; color: var(--text-dim); }
-nav .status-dot { width: 8px; height: 8px; border-radius: 50%; }
-nav .status-dot.open { background: var(--green); box-shadow: 0 0 6px var(--green); }
-nav .status-dot.closed { background: var(--red); }
-
-/* Stat cards */
-.stats {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 14px;
-  margin: 20px 0;
-}
-.stat-card {
-  background: var(--glass);
-  border: 1px solid var(--glass-border);
-  border-radius: 12px;
-  padding: 20px;
-  backdrop-filter: blur(8px);
-  transition: transform 0.2s, box-shadow 0.2s;
-}
-.stat-card:hover { transform: translateY(-2px); box-shadow: 0 4px 20px rgba(0,0,0,0.3); }
-.stat-card .label {
-  font-size: 11px; color: var(--text-dim);
-  text-transform: uppercase; letter-spacing: 0.8px; font-weight: 600;
-}
-.stat-card .value {
-  font-size: 28px; font-weight: 700; margin: 6px 0 2px;
-  font-variant-numeric: tabular-nums;
-}
-.stat-card .sub { font-size: 12px; color: var(--text-dim); }
-
-/* Sub-tabs */
-.sub-tabs {
-  display: flex; gap: 0; margin: 24px 0 0;
-  border-bottom: 2px solid var(--border);
-}
-.sub-tab {
-  padding: 10px 20px;
-  font-size: 13px; font-weight: 600;
-  color: var(--text-dim);
-  cursor: pointer;
-  border-bottom: 2px solid transparent;
-  margin-bottom: -2px;
-  user-select: none;
-  transition: color 0.15s, border-color 0.15s;
-}
-.sub-tab:hover { color: var(--text); }
-.sub-tab.active { color: var(--blue); border-bottom-color: var(--blue); }
-.sub-tab .badge {
-  font-size: 10px; background: var(--border); padding: 1px 6px;
-  border-radius: 8px; margin-left: 6px; font-weight: 400; color: var(--text-dim);
-}
-.sub-panel { display: none; padding-top: 16px; animation: fadeIn 0.2s ease; }
-.sub-panel.active { display: block; }
-
-@keyframes fadeIn {
-  from { opacity: 0; transform: translateY(4px); }
-  to { opacity: 1; transform: translateY(0); }
-}
-
-/* Tables */
-.section { margin: 20px 0; }
-.section-title { font-size: 15px; font-weight: 600; margin-bottom: 12px; color: var(--text-dim); }
-
-table {
-  width: 100%; border-collapse: collapse;
-  background: var(--surface); border: 1px solid var(--border);
-  border-radius: 10px; overflow: hidden; font-size: 13px;
-}
-th {
-  background: var(--surface-hover); text-align: left;
-  padding: 10px 14px; font-weight: 600; color: var(--text-dim);
-  font-size: 11px; text-transform: uppercase; letter-spacing: 0.5px;
-  cursor: pointer; user-select: none; white-space: nowrap;
-  transition: color 0.15s;
-}
-th:hover { color: var(--text); }
-th .sort-arrow { margin-left: 4px; font-size: 10px; }
-td {
-  padding: 10px 14px; border-top: 1px solid var(--border);
-  font-variant-numeric: tabular-nums; transition: background 0.1s;
-}
-tr:hover td { background: var(--surface-hover); }
-.text-right { text-align: right; }
-.positive { color: var(--green); }
-.negative { color: var(--red); }
-
-/* Symbol links */
-.sym-link {
-  color: var(--text); text-decoration: none;
-  border-bottom: 1px dotted var(--text-dim);
-  transition: color 0.15s, border-color 0.15s;
-}
-.sym-link:hover { color: var(--blue); border-color: var(--blue); }
-.ext-link {
-  color: var(--text-dim); text-decoration: none; font-size: 10px;
-  margin-left: 6px; padding: 1px 4px; border: 1px solid var(--border);
-  border-radius: 3px; vertical-align: middle; transition: all 0.15s;
-}
-.ext-link:hover { color: var(--blue); border-color: var(--blue); }
-
-/* Action badges */
-.badge-action {
-  font-size: 11px; font-weight: 600; padding: 2px 8px;
-  border-radius: 4px; white-space: nowrap;
-}
-.badge-action.strong-buy { color: var(--green); background: var(--green-bg); }
-.badge-action.accumulate { color: #7ee787; background: rgba(126,231,135,0.1); }
-.badge-action.hold { color: var(--yellow); background: rgba(210,153,34,0.1); }
-.badge-action.monitor { color: #ffa657; background: rgba(255,166,87,0.1); }
-.badge-action.exit { color: var(--red); background: var(--red-bg); }
-
-/* Trend badges */
-.trend-up { color: var(--green); }
-.trend-down { color: var(--red); }
-.trend-na { color: var(--text-dim); }
-
-/* Runners/Draggers */
-.movers {
-  display: grid; grid-template-columns: 1fr 1fr;
-  gap: 14px; margin: 20px 0;
-}
-.mover-card {
-  background: var(--surface); border: 1px solid var(--border);
-  border-radius: 10px; padding: 16px;
-}
-.mover-card .mover-title {
-  font-size: 12px; font-weight: 600; text-transform: uppercase;
-  letter-spacing: 0.5px; margin-bottom: 10px;
-}
-.mover-item {
-  display: flex; justify-content: space-between; align-items: center;
-  padding: 6px 0; border-top: 1px solid var(--border);
-  font-size: 13px;
-}
-.mover-item:first-of-type { border-top: none; }
-
-/* Loading skeleton */
-.skeleton {
-  background: linear-gradient(90deg, var(--surface) 25%, var(--surface-hover) 50%, var(--surface) 75%);
-  background-size: 200% 100%;
-  animation: shimmer 1.5s infinite;
-  border-radius: 6px; height: 20px; margin: 4px 0;
-}
-@keyframes shimmer {
-  0% { background-position: -200% 0; }
-  100% { background-position: 200% 0; }
-}
-
-/* Status bar */
-.status-bar {
-  display: flex; align-items: center; justify-content: space-between;
-  padding: 8px 0; font-size: 12px; color: var(--text-dim);
-}
-
-.empty-state {
-  text-align: center; padding: 48px 16px; color: var(--text-dim);
-}
-
-/* Count-up animation */
-.count-up { transition: opacity 0.3s; }
-
-@media (max-width: 768px) {
-  nav .tabs { gap: 0; overflow-x: auto; }
-  nav .tabs a { padding: 6px 10px; font-size: 12px; white-space: nowrap; }
-  .stats { grid-template-columns: repeat(2, 1fr); }
-  .movers { grid-template-columns: 1fr; }
-  table { font-size: 12px; }
-  th, td { padding: 8px 10px; }
-  .stat-card .value { font-size: 22px; }
-}
-</style>
+<link rel="stylesheet" href="styles.css">
 </head>
 <body>
 <nav>
-  <div class="logo">Quant<span>OS</span></div>
-  <div class="tabs">
-    <a href="index.html" class="active">Portfolio</a>
-    <a href="screener.html">Screener</a>
-    <a href="signals.html">Signals</a>
-    <a href="news.html">News</a>
-    <a href="backtest.html">Backtest</a>
+  <div class="logo">
+    <span class="logo-text">Quant<span>OS</span></span>
   </div>
-  <div class="market-status">
+  <div class="nav-tabs">
+    <a href="index.html" class="nav-tab active">Portfolio</a>
+    <a href="screener.html" class="nav-tab">Screener</a>
+    <a href="signals.html" class="nav-tab">Signals</a>
+    <a href="news.html" class="nav-tab">News</a>
+    <a href="backtest.html" class="nav-tab">Backtest</a>
+  </div>
+  <div class="nav-right">
     <span class="status-dot" id="mktDot"></span>
     <span id="mktLabel"></span>
+    <span id="lastUpdated" style="margin-left:8px"></span>
   </div>
 </nav>
 
 <div class="container">
-  <div class="status-bar">
-    <div id="statusText">Loading portfolio...</div>
-    <div id="lastUpdated"></div>
-  </div>
-
-  <div class="stats" id="stats">
-    <div class="stat-card"><div class="label">Total Invested</div><div class="value skeleton">&nbsp;</div></div>
-    <div class="stat-card"><div class="label">Current Value</div><div class="value skeleton">&nbsp;</div></div>
-    <div class="stat-card"><div class="label">Total P&L</div><div class="value skeleton">&nbsp;</div></div>
-    <div class="stat-card"><div class="label">Overall Return</div><div class="value skeleton">&nbsp;</div></div>
+  <div class="stats-grid" id="stats">
+    <div class="card stat-card"><div class="stat-label">Total Invested</div><div class="stat-value text-white">—</div><div class="stat-sub">loading</div></div>
+    <div class="card stat-card"><div class="stat-label">Current Value</div><div class="stat-value text-white">—</div><div class="stat-sub">loading</div></div>
+    <div class="card stat-card"><div class="stat-label">Total P&L</div><div class="stat-value">—</div><div class="stat-sub">loading</div></div>
+    <div class="card stat-card"><div class="stat-label">Overall Return</div><div class="stat-value">—</div><div class="stat-sub">loading</div></div>
   </div>
 
   <div class="sub-tabs" id="subTabs">
-    <div class="sub-tab active" data-tab="holdings" onclick="switchSub('holdings')">Holdings <span class="badge" id="holdingsCount">-</span></div>
-    <div class="sub-tab" data-tab="positions" onclick="switchSub('positions')">F&O Positions <span class="badge" id="positionsCount">-</span></div>
-    <div class="sub-tab" data-tab="mf" onclick="switchSub('mf')">Mutual Funds <span class="badge" id="mfCount">-</span></div>
+    <div class="sub-tab active" data-tab="holdings" onclick="switchSub('holdings')">Stocks <span class="badge" id="holdingsCount">—</span></div>
+    <div class="sub-tab" data-tab="positions" onclick="switchSub('positions')">F&O Positions <span class="badge" id="positionsCount">—</span></div>
+    <div class="sub-tab" data-tab="mf" onclick="switchSub('mf')">Mutual Funds <span class="badge" id="mfCount">—</span></div>
   </div>
 
   <div class="sub-panel active" id="panel_holdings">
-    <div style="overflow-x:auto">
-      <table id="holdingsTable">
-        <thead><tr>
-          <th onclick="sortTable('holdingsTable',0)">Symbol</th>
-          <th onclick="sortTable('holdingsTable',1)" class="text-right">Qty</th>
-          <th onclick="sortTable('holdingsTable',2)" class="text-right">Avg Price</th>
-          <th onclick="sortTable('holdingsTable',3)" class="text-right">CMP</th>
-          <th onclick="sortTable('holdingsTable',4)" class="text-right">Day %</th>
-          <th onclick="sortTable('holdingsTable',5)" class="text-right">P&L</th>
-          <th onclick="sortTable('holdingsTable',6)" class="text-right">Return %</th>
-          <th onclick="sortTable('holdingsTable',7)" class="text-right">Weight %</th>
-          <th onclick="sortTable('holdingsTable',8)" class="text-right">RSI</th>
-          <th onclick="sortTable('holdingsTable',9)">Trend</th>
-        </tr></thead>
-        <tbody id="holdingsBody"><tr><td colspan="10" class="empty-state">Loading...</td></tr></tbody>
-      </table>
+    <div class="card" style="overflow:hidden">
+      <div class="table-wrap">
+        <table id="holdingsTable">
+          <thead><tr>
+            <th onclick="sortTbl('holdingsTable',0)">Symbol</th>
+            <th onclick="sortTbl('holdingsTable',1)" class="text-right">Qty</th>
+            <th onclick="sortTbl('holdingsTable',2)" class="text-right">Avg Price</th>
+            <th onclick="sortTbl('holdingsTable',3)" class="text-right">CMP</th>
+            <th onclick="sortTbl('holdingsTable',4)" class="text-right">Day %</th>
+            <th onclick="sortTbl('holdingsTable',5)" class="text-right">Invested</th>
+            <th onclick="sortTbl('holdingsTable',6)" class="text-right">Value</th>
+            <th onclick="sortTbl('holdingsTable',7)" class="text-right">P&L</th>
+            <th onclick="sortTbl('holdingsTable',8)" class="text-right">Return</th>
+            <th onclick="sortTbl('holdingsTable',9)" class="text-right">Weight</th>
+          </tr></thead>
+          <tbody id="holdingsBody"><tr><td colspan="10" class="empty-state">Loading...</td></tr></tbody>
+        </table>
+      </div>
     </div>
 
-    <div class="movers" id="movers"></div>
+    <div class="movers-grid" id="movers"></div>
   </div>
 
   <div class="sub-panel" id="panel_positions">
-    <div style="overflow-x:auto">
-      <table id="positionsTable">
-        <thead><tr>
-          <th onclick="sortTable('positionsTable',0)">Symbol</th>
-          <th onclick="sortTable('positionsTable',1)" class="text-right">Qty</th>
-          <th onclick="sortTable('positionsTable',2)" class="text-right">Entry</th>
-          <th onclick="sortTable('positionsTable',3)" class="text-right">LTP</th>
-          <th onclick="sortTable('positionsTable',4)" class="text-right">P&L</th>
-          <th onclick="sortTable('positionsTable',5)">Product</th>
-          <th onclick="sortTable('positionsTable',6)">Exchange</th>
-        </tr></thead>
-        <tbody id="positionsBody"><tr><td colspan="7" class="empty-state">No F&O positions</td></tr></tbody>
-      </table>
+    <div class="card" style="overflow:hidden">
+      <div class="table-wrap">
+        <table id="positionsTable">
+          <thead><tr>
+            <th onclick="sortTbl('positionsTable',0)">Symbol</th>
+            <th onclick="sortTbl('positionsTable',1)" class="text-right">Qty</th>
+            <th onclick="sortTbl('positionsTable',2)" class="text-right">Entry</th>
+            <th onclick="sortTbl('positionsTable',3)" class="text-right">LTP</th>
+            <th onclick="sortTbl('positionsTable',4)" class="text-right">P&L</th>
+            <th onclick="sortTbl('positionsTable',5)">Product</th>
+            <th onclick="sortTbl('positionsTable',6)">Exchange</th>
+          </tr></thead>
+          <tbody id="positionsBody"><tr><td colspan="7" class="empty-state">No F&O positions</td></tr></tbody>
+        </table>
+      </div>
     </div>
   </div>
 
   <div class="sub-panel" id="panel_mf">
-    <div style="overflow-x:auto">
-      <table id="mfTable">
-        <thead><tr>
-          <th onclick="sortTable('mfTable',0)">Fund</th>
-          <th onclick="sortTable('mfTable',1)" class="text-right">Units</th>
-          <th onclick="sortTable('mfTable',2)" class="text-right">Avg NAV</th>
-          <th onclick="sortTable('mfTable',3)" class="text-right">Current NAV</th>
-          <th onclick="sortTable('mfTable',4)" class="text-right">Invested</th>
-          <th onclick="sortTable('mfTable',5)" class="text-right">Current</th>
-          <th onclick="sortTable('mfTable',6)" class="text-right">P&L</th>
-          <th onclick="sortTable('mfTable',7)" class="text-right">Return %</th>
-          <th onclick="sortTable('mfTable',8)" class="text-right">SIP</th>
-        </tr></thead>
-        <tbody id="mfBody"><tr><td colspan="9" class="empty-state">Loading...</td></tr></tbody>
-      </table>
+    <div class="card" style="overflow:hidden">
+      <div class="table-wrap" style="max-height:400px">
+        <table id="mfTable">
+          <thead><tr>
+            <th onclick="sortTbl('mfTable',0)">Fund</th>
+            <th onclick="sortTbl('mfTable',1)" class="text-right">Units</th>
+            <th onclick="sortTbl('mfTable',2)" class="text-right">Avg NAV</th>
+            <th onclick="sortTbl('mfTable',3)" class="text-right">Current NAV</th>
+            <th onclick="sortTbl('mfTable',4)" class="text-right">Invested</th>
+            <th onclick="sortTbl('mfTable',5)" class="text-right">Value</th>
+            <th onclick="sortTbl('mfTable',6)" class="text-right">P&L</th>
+            <th onclick="sortTbl('mfTable',7)" class="text-right">Return</th>
+            <th onclick="sortTbl('mfTable',8)" class="text-right">SIP</th>
+          </tr></thead>
+          <tbody id="mfBody"><tr><td colspan="9" class="empty-state">Loading...</td></tr></tbody>
+        </table>
+      </div>
     </div>
   </div>
 </div>
 
+<footer>
+  <div>QuantOS — Unified Trading & Investment Platform</div>
+</footer>
+
 <script>
-const DATA_BASE = 'data';
-const REFRESH_MS = 60000;
-
-function fmt(n, d = 0) {
-  if (n == null || isNaN(n)) return '--';
-  return n.toLocaleString('en-IN', { minimumFractionDigits: d, maximumFractionDigits: d });
+const D = 'data';
+function fmt(n, d=0) {
+  if (n==null||isNaN(n)) return '—';
+  return n.toLocaleString('en-IN',{minimumFractionDigits:d,maximumFractionDigits:d});
 }
-function pnlClass(v) { return v > 0 ? 'positive' : v < 0 ? 'negative' : ''; }
-function pnlSign(v) { return v > 0 ? '+' : ''; }
-function trendClass(t) {
-  if (!t) return 'trend-na';
-  return t === 'UPTREND' ? 'trend-up' : t === 'DOWNTREND' ? 'trend-down' : 'trend-na';
+function pnlCls(v) { return v>0?'positive':v<0?'negative':''; }
+function pnlSign(v) { return v>0?'+':''; }
+async function fetchJ(f) {
+  try { const r=await fetch(`${D}/${f}?t=${Date.now()}`); return r.ok?await r.json():null; }
+  catch { return null; }
 }
 
-async function fetchJSON(file) {
-  try {
-    const r = await fetch(`${DATA_BASE}/${file}?t=${Date.now()}`);
-    return r.ok ? await r.json() : null;
-  } catch { return null; }
-}
-
-function countUp(el, target, decimals = 0, duration = 800) {
-  const start = 0;
-  const startTime = performance.now();
-  function update(now) {
-    const elapsed = Math.min((now - startTime) / duration, 1);
-    const eased = 1 - Math.pow(1 - elapsed, 3);
-    const current = start + (target - start) * eased;
-    el.textContent = (target >= 0 ? '+' : '') + fmt(current, decimals);
-    if (elapsed < 1) requestAnimationFrame(update);
+function countUp(el,target,dec=0,dur=700) {
+  const t0=performance.now();
+  function tick(now) {
+    const p=Math.min((now-t0)/dur,1);
+    const e=1-Math.pow(1-p,3);
+    el.textContent=fmt(target*e,dec);
+    if(p<1) requestAnimationFrame(tick);
+    else el.textContent=fmt(target,dec);
   }
-  requestAnimationFrame(update);
+  requestAnimationFrame(tick);
 }
 
-function renderStats(p, mf) {
-  const el = document.getElementById('stats');
-  const inv = (p?.total_invested || 0) + (mf?.total_invested || 0);
-  const cur = (p?.total_current || 0) + (mf?.total_current || 0);
-  const pnl = cur - inv;
-  const pnlPct = inv > 0 ? (pnl / inv * 100) : 0;
-  const nHold = (p?.holdings || []).length;
+function sym(s) {
+  return `<a href="https://www.tradingview.com/chart/?symbol=NSE%3A${s}" target="_blank" rel="noopener" class="ticker-chip">${s} ↗</a>`;
+}
 
-  el.innerHTML = `
-    <div class="stat-card">
-      <div class="label">Total Invested</div>
-      <div class="value">${fmt(inv)}</div>
-      <div class="sub">${nHold} stocks + ${(mf?.funds || []).length} funds</div>
-    </div>
-    <div class="stat-card">
-      <div class="label">Current Value</div>
-      <div class="value">${fmt(cur)}</div>
-      <div class="sub">as of ${p?.timestamp || mf?.timestamp || '--'}</div>
-    </div>
-    <div class="stat-card">
-      <div class="label">Total P&L</div>
-      <div class="value ${pnlClass(pnl)}" id="pnlValue">${pnlSign(pnl)}${fmt(pnl)}</div>
-      <div class="sub">absolute</div>
-    </div>
-    <div class="stat-card">
-      <div class="label">Overall Return</div>
-      <div class="value ${pnlClass(pnlPct)}">${pnlSign(pnlPct)}${fmt(pnlPct, 1)}%</div>
-      <div class="sub">since inception</div>
-    </div>
+function retBadge(v) {
+  const cls=v>0?'tag-up':v<0?'tag-down':'tag-neutral';
+  return `<span class="badge ${cls}">${pnlSign(v)}${fmt(v,1)}%</span>`;
+}
+
+function renderStats(p,mf) {
+  const el=document.getElementById('stats');
+  const inv=(p?.total_invested||0)+(mf?.total_invested||0);
+  const cur=(p?.total_current||0)+(mf?.total_current||0);
+  const pnl=cur-inv;
+  const pct=inv>0?(pnl/inv*100):0;
+  const n=(p?.holdings||[]).length;
+  const nf=(mf?.funds||[]).length;
+  const c=pnlCls(pnl);
+
+  el.innerHTML=`
+    <div class="card stat-card"><div class="stat-label">Total Invested</div><div class="stat-value text-white" id="sv0">—</div><div class="stat-sub">${n} stocks, ${nf} funds</div></div>
+    <div class="card stat-card"><div class="stat-label">Current Value</div><div class="stat-value text-white" id="sv1">—</div><div class="stat-sub">${p?.timestamp||mf?.timestamp||'—'}</div></div>
+    <div class="card stat-card"><div class="stat-label">Total P&L</div><div class="stat-value ${c}" id="sv2">—</div><div class="stat-sub ${c}">${pnlSign(pnl)}₹${fmt(Math.abs(pnl))}</div></div>
+    <div class="card stat-card"><div class="stat-label">Overall Return</div><div class="stat-value ${c}" id="sv3">—</div><div class="stat-sub ${c}">since inception</div></div>
   `;
-}
-
-function symCell(symbol) {
-  return `<td>
-    <strong><a href="https://www.tradingview.com/chart/?symbol=NSE%3A${symbol}" target="_blank" rel="noopener" class="sym-link">${symbol}</a></strong>
-    <a href="https://www.google.com/finance/quote/${symbol}:NSE" target="_blank" rel="noopener" class="ext-link" title="Google Finance">GF</a>
-  </td>`;
+  countUp(document.getElementById('sv0'),inv);
+  countUp(document.getElementById('sv1'),cur);
+  countUp(document.getElementById('sv2'),pnl);
+  countUp(document.getElementById('sv3'),pct,1);
 }
 
 function renderHoldings(data) {
-  const tbody = document.getElementById('holdingsBody');
-  const count = document.getElementById('holdingsCount');
-  const holdings = data?.holdings || [];
-  count.textContent = holdings.length;
-
-  if (holdings.length === 0) {
-    tbody.innerHTML = '<tr><td colspan="10" class="empty-state">No holdings data. Run portfolio snapshot.</td></tr>';
-    return;
-  }
-
-  tbody.innerHTML = holdings.map(h => `
-    <tr>
-      ${symCell(h.symbol)}
-      <td class="text-right">${h.qty}</td>
-      <td class="text-right">${fmt(h.avg_price, 2)}</td>
-      <td class="text-right">${fmt(h.ltp, 2)}</td>
-      <td class="text-right ${pnlClass(h.day_change_pct)}">${pnlSign(h.day_change_pct)}${fmt(h.day_change_pct, 1)}%</td>
-      <td class="text-right ${pnlClass(h.pnl)}">${pnlSign(h.pnl)}${fmt(h.pnl)}</td>
-      <td class="text-right ${pnlClass(h.pnl_pct)}">${pnlSign(h.pnl_pct)}${fmt(h.pnl_pct, 1)}%</td>
-      <td class="text-right">${fmt(h.weight_pct, 1)}%</td>
-      <td class="text-right">${fmt(h.rsi, 0) || '--'}</td>
-      <td class="${trendClass(h.trend)}">${h.trend || '--'}</td>
-    </tr>
-  `).join('');
+  const tb=document.getElementById('holdingsBody');
+  const ct=document.getElementById('holdingsCount');
+  const h=data?.holdings||[];
+  ct.textContent=h.length;
+  if(!h.length) { tb.innerHTML='<tr><td colspan="10" class="empty-state">No holdings. Run portfolio snapshot.</td></tr>'; return; }
+  tb.innerHTML=h.map(r=>{
+    const cmpCls=pnlCls(r.pnl_pct);
+    return `<tr>
+      <td>${sym(r.symbol)}</td>
+      <td class="text-right" style="color:var(--text-muted)">${r.qty}</td>
+      <td class="text-right text-dim">${fmt(r.avg_price,2)}</td>
+      <td class="text-right font-medium ${cmpCls}">${fmt(r.ltp,2)}</td>
+      <td class="text-right ${pnlCls(r.day_change_pct)}">${pnlSign(r.day_change_pct)}${fmt(r.day_change_pct,1)}%</td>
+      <td class="text-right text-dim">${fmt(r.invested)}</td>
+      <td class="text-right font-medium text-white">${fmt(r.current)}</td>
+      <td class="text-right ${pnlCls(r.pnl)}">${pnlSign(r.pnl)}${fmt(r.pnl)}</td>
+      <td class="text-right">${retBadge(r.pnl_pct)}</td>
+      <td class="text-right text-dim" style="font-size:0.75rem">${fmt(r.weight_pct,1)}%</td>
+    </tr>`;
+  }).join('');
 }
 
 function renderMovers(data) {
-  const el = document.getElementById('movers');
-  const runners = (data?.runners || []).slice(0, 5);
-  const draggers = (data?.draggers || []).slice(0, 5);
+  const el=document.getElementById('movers');
+  const run=(data?.runners||[]).slice(0,5);
+  const drag=(data?.draggers||[]).slice(0,5);
+  if(!run.length&&!drag.length) { el.innerHTML=''; return; }
 
-  if (runners.length === 0 && draggers.length === 0) { el.innerHTML = ''; return; }
+  function items(list,isUp) {
+    return list.map(m=>{
+      const w=Math.min(Math.abs(m.pnl_pct)*3,100);
+      const col=isUp?'var(--up-light)':'var(--down-light)';
+      const cls=isUp?'tag-up':'tag-down';
+      return `<div class="mover-item">
+        <span>${sym(m.symbol)}</span>
+        <div style="flex:1;margin:0 12px">
+          <div class="pct-bar-bg"><div class="pct-bar" style="width:${w}%;background:${col}"></div></div>
+        </div>
+        <span class="badge ${cls}" style="min-width:60px;text-align:center">${pnlSign(m.pnl_pct)}${fmt(m.pnl_pct,1)}%</span>
+      </div>`;
+    }).join('');
+  }
 
-  const moverItems = (items, isRunner) => items.map(m => `
-    <div class="mover-item">
-      <span><strong>${m.symbol}</strong></span>
-      <span class="${isRunner ? 'positive' : 'negative'}">${pnlSign(m.pnl_pct)}${fmt(m.pnl_pct, 1)}%</span>
+  el.innerHTML=`
+    <div class="card" style="padding:16px">
+      <div class="mover-header positive">🚀 Top Runners</div>
+      ${items(run,true)}
     </div>
-  `).join('');
-
-  el.innerHTML = `
-    <div class="mover-card">
-      <div class="mover-title positive">Top Runners</div>
-      ${moverItems(runners, true)}
-    </div>
-    <div class="mover-card">
-      <div class="mover-title negative">Top Draggers</div>
-      ${moverItems(draggers, false)}
+    <div class="card" style="padding:16px">
+      <div class="mover-header negative">🔻 Top Draggers</div>
+      ${items(drag,false)}
     </div>
   `;
 }
 
 function renderPositions(data) {
-  const tbody = document.getElementById('positionsBody');
-  const count = document.getElementById('positionsCount');
-  const positions = data?.positions || [];
-  count.textContent = positions.length;
-
-  if (positions.length === 0) {
-    tbody.innerHTML = '<tr><td colspan="7" class="empty-state">No open F&O positions</td></tr>';
-    return;
-  }
-
-  tbody.innerHTML = positions.map(p => `
-    <tr>
-      ${symCell(p.symbol)}
-      <td class="text-right">${p.qty}</td>
-      <td class="text-right">${fmt(p.entry_price, 2)}</td>
-      <td class="text-right">${fmt(p.ltp, 2)}</td>
-      <td class="text-right ${pnlClass(p.pnl)}">${pnlSign(p.pnl)}${fmt(p.pnl)}</td>
-      <td>${p.product}</td>
-      <td>${p.exchange}</td>
-    </tr>
-  `).join('');
+  const tb=document.getElementById('positionsBody');
+  const ct=document.getElementById('positionsCount');
+  const pos=data?.positions||[];
+  ct.textContent=pos.length;
+  if(!pos.length) { tb.innerHTML='<tr><td colspan="7" class="empty-state">No open F&O positions</td></tr>'; return; }
+  tb.innerHTML=pos.map(p=>`<tr>
+    <td>${sym(p.symbol)}</td>
+    <td class="text-right">${p.qty}</td>
+    <td class="text-right text-dim">${fmt(p.entry_price,2)}</td>
+    <td class="text-right font-medium">${fmt(p.ltp,2)}</td>
+    <td class="text-right ${pnlCls(p.pnl)}">${pnlSign(p.pnl)}${fmt(p.pnl)}</td>
+    <td>${p.product}</td>
+    <td>${p.exchange}</td>
+  </tr>`).join('');
 }
 
 function renderMF(data) {
-  const tbody = document.getElementById('mfBody');
-  const count = document.getElementById('mfCount');
-  const funds = data?.funds || [];
-  count.textContent = funds.length;
-
-  if (funds.length === 0) {
-    tbody.innerHTML = '<tr><td colspan="9" class="empty-state">No mutual fund data. Run MF update.</td></tr>';
-    return;
-  }
-
-  tbody.innerHTML = funds.map(f => `
-    <tr>
-      <td><strong>${f.name.length > 40 ? f.name.slice(0, 38) + '...' : f.name}</strong></td>
-      <td class="text-right">${fmt(f.units, 1)}</td>
-      <td class="text-right">${fmt(f.avg_nav, 2)}</td>
-      <td class="text-right">${fmt(f.current_nav, 2)}</td>
-      <td class="text-right">${fmt(f.invested)}</td>
-      <td class="text-right">${fmt(f.current)}</td>
-      <td class="text-right ${pnlClass(f.pnl)}">${pnlSign(f.pnl)}${fmt(f.pnl)}</td>
-      <td class="text-right ${pnlClass(f.pnl_pct)}">${pnlSign(f.pnl_pct)}${fmt(f.pnl_pct, 1)}%</td>
-      <td class="text-right">${f.sip_amount > 0 ? '₹' + fmt(f.sip_amount) : '--'}</td>
-    </tr>
-  `).join('');
+  const tb=document.getElementById('mfBody');
+  const ct=document.getElementById('mfCount');
+  const funds=data?.funds||[];
+  ct.textContent=funds.length;
+  if(!funds.length) { tb.innerHTML='<tr><td colspan="9" class="empty-state">No mutual fund data. Run MF update.</td></tr>'; return; }
+  tb.innerHTML=funds.map(f=>`<tr>
+    <td style="max-width:200px"><strong>${f.name.length>45?f.name.slice(0,43)+'…':f.name}</strong></td>
+    <td class="text-right text-muted">${fmt(f.units,1)}</td>
+    <td class="text-right text-dim">${fmt(f.avg_nav,2)}</td>
+    <td class="text-right font-medium ${pnlCls(f.pnl_pct)}">${fmt(f.current_nav,2)}</td>
+    <td class="text-right text-dim">${fmt(f.invested)}</td>
+    <td class="text-right font-medium text-white">${fmt(f.current)}</td>
+    <td class="text-right ${pnlCls(f.pnl)}">${pnlSign(f.pnl)}${fmt(f.pnl)}</td>
+    <td class="text-right">${retBadge(f.pnl_pct)}</td>
+    <td class="text-right">${f.sip_amount>0?'₹'+fmt(f.sip_amount):'—'}</td>
+  </tr>`).join('');
 }
 
-function updateMarketStatus() {
-  const dot = document.getElementById('mktDot');
-  const label = document.getElementById('mktLabel');
-  const now = new Date();
-  const ist = new Date(now.toLocaleString('en-US', { timeZone: 'Asia/Kolkata' }));
-  const h = ist.getHours(), m = ist.getMinutes();
-  const mins = h * 60 + m;
-  const day = ist.getDay();
-  const isOpen = day >= 1 && day <= 5 && mins >= 555 && mins <= 930;
-  dot.className = 'status-dot ' + (isOpen ? 'open' : 'closed');
-  label.textContent = isOpen ? 'NSE Open' : 'NSE Closed';
+function updateMkt() {
+  const dot=document.getElementById('mktDot');
+  const lbl=document.getElementById('mktLabel');
+  const now=new Date();
+  const ist=new Date(now.toLocaleString('en-US',{timeZone:'Asia/Kolkata'}));
+  const mins=ist.getHours()*60+ist.getMinutes();
+  const day=ist.getDay();
+  const open=day>=1&&day<=5&&mins>=555&&mins<=930;
+  dot.className='status-dot '+(open?'open':'closed');
+  lbl.textContent=open?'NSE Open':'NSE Closed';
 }
 
-function switchSub(tab) {
-  document.querySelectorAll('.sub-tab').forEach(t => t.classList.toggle('active', t.dataset.tab === tab));
-  document.querySelectorAll('.sub-panel').forEach(p => p.classList.toggle('active', p.id === 'panel_' + tab));
+function switchSub(t) {
+  document.querySelectorAll('.sub-tab').forEach(s=>s.classList.toggle('active',s.dataset.tab===t));
+  document.querySelectorAll('.sub-panel').forEach(p=>p.classList.toggle('active',p.id==='panel_'+t));
 }
 
-function sortTable(tableId, colIdx) {
-  const table = document.getElementById(tableId);
-  const tbody = table.querySelector('tbody');
-  const rows = Array.from(tbody.querySelectorAll('tr'));
-  if (rows.length <= 1) return;
-
-  const dir = table.dataset.sortCol === String(colIdx) && table.dataset.sortDir === 'asc' ? 'desc' : 'asc';
-  table.dataset.sortCol = colIdx;
-  table.dataset.sortDir = dir;
-
-  rows.sort((a, b) => {
-    let aV = a.cells[colIdx]?.textContent.trim().replace(/[,%+₹]/g, '') || '';
-    let bV = b.cells[colIdx]?.textContent.trim().replace(/[,%+₹]/g, '') || '';
-    const aN = parseFloat(aV.replace(/,/g, ''));
-    const bN = parseFloat(bV.replace(/,/g, ''));
-    if (!isNaN(aN) && !isNaN(bN)) return dir === 'asc' ? aN - bN : bN - aN;
-    return dir === 'asc' ? aV.localeCompare(bV) : bV.localeCompare(aV);
+function sortTbl(id,col) {
+  const tbl=document.getElementById(id);
+  const tb=tbl.querySelector('tbody');
+  const rows=Array.from(tb.querySelectorAll('tr'));
+  if(rows.length<=1) return;
+  const dir=tbl.dataset.sc===String(col)&&tbl.dataset.sd==='asc'?'desc':'asc';
+  tbl.dataset.sc=col; tbl.dataset.sd=dir;
+  rows.sort((a,b)=>{
+    let av=a.cells[col]?.textContent.trim().replace(/[,%+₹↗—]/g,'')||'';
+    let bv=b.cells[col]?.textContent.trim().replace(/[,%+₹↗—]/g,'')||'';
+    const an=parseFloat(av.replace(/,/g,'')),bn=parseFloat(bv.replace(/,/g,''));
+    if(!isNaN(an)&&!isNaN(bn)) return dir==='asc'?an-bn:bn-an;
+    return dir==='asc'?av.localeCompare(bv):bv.localeCompare(av);
   });
-  rows.forEach(r => tbody.appendChild(r));
-
-  table.querySelectorAll('th .sort-arrow').forEach(e => e.remove());
-  const th = table.querySelectorAll('th')[colIdx];
-  if (th) {
-    const arrow = document.createElement('span');
-    arrow.className = 'sort-arrow';
-    arrow.textContent = dir === 'asc' ? ' ▲' : ' ▼';
-    th.appendChild(arrow);
-  }
+  rows.forEach(r=>tb.appendChild(r));
+  tbl.querySelectorAll('th').forEach((h,i)=>{
+    h.classList.remove('sort-asc','sort-desc');
+    if(i===col) h.classList.add(dir==='asc'?'sort-asc':'sort-desc');
+  });
 }
 
 async function loadAll() {
-  const [portfolio, mfSnapshot] = await Promise.all([
-    fetchJSON('portfolio.json'),
-    fetchJSON('mf_snapshot.json'),
-  ]);
-
-  const statusText = document.getElementById('statusText');
-  const lastUpdated = document.getElementById('lastUpdated');
-
-  if (portfolio?.timestamp) {
-    statusText.textContent = `Portfolio as of ${portfolio.timestamp}`;
-    lastUpdated.textContent = `${(portfolio.holdings || []).length} holdings`;
-  } else {
-    statusText.textContent = 'No portfolio data — run portfolio snapshot';
-  }
-
-  renderStats(portfolio, mfSnapshot);
-  renderHoldings(portfolio);
-  renderMovers(portfolio);
-  renderPositions(portfolio);
-  renderMF(mfSnapshot);
-  updateMarketStatus();
+  const [p,mf]=await Promise.all([fetchJ('portfolio.json'),fetchJ('mf_snapshot.json')]);
+  const lu=document.getElementById('lastUpdated');
+  if(p?.timestamp) lu.textContent=p.timestamp;
+  renderStats(p,mf);
+  renderHoldings(p);
+  renderMovers(p);
+  renderPositions(p);
+  renderMF(mf);
+  updateMkt();
 }
 
 loadAll();
-setInterval(loadAll, REFRESH_MS);
-setInterval(updateMarketStatus, 30000);
+setInterval(loadAll,60000);
+setInterval(updateMkt,30000);
 </script>
 </body>
 </html>
