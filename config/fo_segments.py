@@ -1,4 +1,4 @@
-LAST_UPDATED = "2026-08-16"
+LAST_UPDATED = "2026-08-23"
 
 LARGECAP_FO: list[str] = [
     "ADANIENT",
