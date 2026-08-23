@@ -126,6 +126,24 @@ tr:hover td { background: #1c2128; }
 .positive { color: var(--green); }
 .negative { color: var(--red); }
 
+.symbol-link {
+  color: var(--text);
+  text-decoration: none;
+  border-bottom: 1px dotted var(--text-dim);
+}
+.symbol-link:hover { color: var(--blue); border-color: var(--blue); }
+.tv-link {
+  color: var(--text-dim);
+  text-decoration: none;
+  font-size: 10px;
+  margin-left: 6px;
+  padding: 1px 4px;
+  border: 1px solid var(--border);
+  border-radius: 3px;
+  vertical-align: middle;
+}
+.tv-link:hover { color: var(--blue); border-color: var(--blue); }
+
 .signal-yes {
   color: var(--green); font-weight: 600;
   background: rgba(63, 185, 80, 0.1);
@@ -251,7 +269,10 @@ function stockRow(stock, rank) {
   return `
     <tr>
       ${rank !== null ? `<td>${rank}</td>` : ''}
-      <td><strong>${stock.symbol}</strong></td>
+      <td>
+        <strong><a href="https://kite.zerodha.com/chart/ext/tvc/NSE/${stock.symbol}/" target="_blank" rel="noopener" class="symbol-link">${stock.symbol}</a></strong>
+        <a href="https://www.tradingview.com/chart/?symbol=NSE%3A${stock.symbol}" target="_blank" rel="noopener" class="tv-link" title="TradingView">TV</a>
+      </td>
       <td>${seg}</td>
       <td class="text-right">${fmt(stock.close, 2)}</td>
       <td class="text-right ${pnlClass(stock.roc_20)}">${fmt(stock.roc_20, 1)}</td>
