@@ -12,15 +12,15 @@ from loguru import logger
 
 from config.logging_config import setup_logging
 from config.settings import settings
+from data.fetchers import get_fetcher
 from data.fetchers.jugaad_fetcher import JugaadFetcher
-from data.fetchers.yfinance_fetcher import YFinanceFetcher
 from data.storage.parquet_store import ParquetStore
 
 
 def build_equity_data(
     symbols: list[str], start: date, end: date, store: ParquetStore
 ) -> None:
-    fetcher = YFinanceFetcher(cache_dir=settings.parquet_dir / "cache")
+    fetcher = get_fetcher()
 
     for symbol in symbols:
         logger.info(f"Fetching equity data for {symbol}")

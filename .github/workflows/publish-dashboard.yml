@@ -36,24 +36,28 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
-          # Preserve existing gh-pages content (backtest results)
+          # Preserve existing gh-pages content
           git fetch origin gh-pages:gh-pages 2>/dev/null || true
 
           mkdir -p /tmp/gh-pages
           git show gh-pages:data/backtest_results.json > /tmp/gh-pages/backtest_results.json 2>/dev/null || true
+          git show gh-pages:data/signals.json > /tmp/gh-pages/signals.json 2>/dev/null || true
 
           git checkout --orphan gh-pages-deploy
           git rm -rf . > /dev/null 2>&1 || true
 
           cp dashboard/index.html .
           cp dashboard/backtest.html .
+          cp dashboard/screener.html .
           mkdir -p data
           cp dashboard/data/*.json data/ 2>/dev/null || true
 
-          # Restore backtest results if not freshly generated
-          if [ ! -f data/backtest_results.json ] && [ -f /tmp/gh-pages/backtest_results.json ]; then
-            cp /tmp/gh-pages/backtest_results.json data/
-          fi
+          # Restore preserved data if not freshly generated
+          for f in backtest_results.json signals.json; do
+            if [ ! -f "data/$f" ] && [ -f "/tmp/gh-pages/$f" ]; then
+              cp "/tmp/gh-pages/$f" data/
+            fi
+          done
 
           git add -A
           git commit -m "chore: update dashboard data" || echo "No changes to commit"

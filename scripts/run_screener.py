@@ -8,16 +8,16 @@ Usage:
 
 import argparse
 import json
-from datetime import date, timedelta
+from datetime import date, datetime, timedelta
 from pathlib import Path
 
 import pandas as pd
 from loguru import logger
 
+from config.fo_segments import SEGMENT_MAP
 from config.logging_config import setup_logging
-from config.settings import settings
+from data.fetchers import get_fetcher
 from data.fetchers.nse_symbols import fetch_fo_universe, get_lot_size
-from data.fetchers.yfinance_fetcher import YFinanceFetcher
 from indicators.technical import TechnicalIndicators
 from strategies.momentum_futures import MomentumFuturesCoveredCall
 from strategies.ranker import MomentumRanker
@@ -61,7 +61,7 @@ def main() -> None:
     )
     ranker = MomentumRanker(rank_config_with_top)
 
-    fetcher = YFinanceFetcher(cache_dir=settings.parquet_dir / "cache")
+    fetcher = get_fetcher()
     end = date.today()
     start = end - timedelta(days=args.lookback_days)
 
@@ -124,9 +124,14 @@ def main() -> None:
         )
 
     if args.output:
-        signals = []
-        for _, row in ranked.iterrows():
-            signals.append({
+        sym_to_segment = {}
+        for seg_key, symbols_list in SEGMENT_MAP.items():
+            label = seg_key.replace("_FO", "").lower()
+            for s in symbols_list:
+                sym_to_segment[s] = label
+
+        def _stock_record(row: pd.Series) -> dict:
+            return {
                 "symbol": row["symbol"],
                 "close": float(row["close"]),
                 "roc_20": float(row.get("roc_20", 0)),
@@ -134,12 +139,35 @@ def main() -> None:
                 "rsi": float(row.get("rsi", 0)),
                 "composite_score": float(row.get("composite_score", 0)),
                 "entry_signal": bool(row.get("entry_signal", False)),
+                "segment": sym_to_segment.get(row["symbol"], "other"),
                 "date": str(end),
-            })
+            }
+
+        top_picks = [_stock_record(row) for _, row in ranked.iterrows()]
+
+        segments: dict[str, list[dict]] = {
+            "largecap": [], "midcap": [], "smallcap": [],
+        }
+        for sym, df in enriched_data.items():
+            if df.empty:
+                continue
+            last = df.iloc[-1]
+            rec = _stock_record(last)
+            seg = rec["segment"]
+            if seg in segments:
+                segments[seg].append(rec)
+        for seg_list in segments.values():
+            seg_list.sort(key=lambda r: r["composite_score"], reverse=True)
+
+        output_data = {
+            "timestamp": datetime.now().isoformat(timespec="seconds"),
+            "top_picks": top_picks,
+            "segments": segments,
+        }
         output_path = Path(args.output)
         output_path.parent.mkdir(parents=True, exist_ok=True)
         with open(output_path, "w") as f:
-            json.dump(signals, f, indent=2)
+            json.dump(output_data, f, indent=2)
         print(f"\nSignals written to {output_path}")
 
 

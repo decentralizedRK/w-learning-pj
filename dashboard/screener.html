@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>QuantOS Screener</title>
+<style>
+:root {
+  --bg: #0d1117;
+  --surface: #161b22;
+  --border: #30363d;
+  --text: #e6edf3;
+  --text-dim: #8b949e;
+  --green: #3fb950;
+  --red: #f85149;
+  --blue: #58a6ff;
+  --yellow: #d29922;
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.5;
+}
+.container { max-width: 1280px; margin: 0 auto; padding: 16px; }
+
+/* Nav */
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 16px;
+  background: var(--surface);
+  border-bottom: 1px solid var(--border);
+}
+nav .logo { font-size: 18px; font-weight: 700; }
+nav .logo span { color: var(--blue); }
+nav .tabs a {
+  color: var(--text-dim);
+  text-decoration: none;
+  padding: 6px 14px;
+  border-radius: 6px;
+  font-size: 14px;
+}
+nav .tabs a.active { background: var(--border); color: var(--text); }
+nav .tabs a:hover { color: var(--text); }
+
+/* Stats row */
+.stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 12px;
+  margin: 16px 0;
+}
+.stat-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 16px;
+}
+.stat-card .label {
+  font-size: 12px; color: var(--text-dim);
+  text-transform: uppercase; letter-spacing: 0.5px;
+}
+.stat-card .value {
+  font-size: 28px; font-weight: 700; margin: 4px 0;
+  font-variant-numeric: tabular-nums;
+}
+.stat-card .sub { font-size: 12px; color: var(--text-dim); }
+
+/* Tables */
+.section { margin: 24px 0; }
+.section-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 12px;
+  cursor: pointer;
+  user-select: none;
+}
+.section-title { font-size: 16px; font-weight: 600; }
+.section-count {
+  font-size: 12px; color: var(--text-dim);
+  background: var(--border); padding: 2px 8px; border-radius: 10px;
+}
+.section-toggle {
+  font-size: 12px; color: var(--text-dim);
+  transition: transform 0.2s;
+}
+.section-toggle.collapsed { transform: rotate(-90deg); }
+.section-body { overflow: hidden; transition: max-height 0.3s ease; }
+.section-body.collapsed { max-height: 0 !important; }
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  overflow: hidden;
+  font-size: 13px;
+}
+th {
+  background: #1c2128;
+  text-align: left;
+  padding: 10px 14px;
+  font-weight: 600;
+  color: var(--text-dim);
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  cursor: pointer;
+  user-select: none;
+  white-space: nowrap;
+}
+th:hover { color: var(--text); }
+th .sort-arrow { margin-left: 4px; font-size: 10px; }
+td {
+  padding: 10px 14px;
+  border-top: 1px solid var(--border);
+  font-variant-numeric: tabular-nums;
+}
+tr:hover td { background: #1c2128; }
+.text-right { text-align: right; }
+.positive { color: var(--green); }
+.negative { color: var(--red); }
+
+.signal-yes {
+  color: var(--green); font-weight: 600;
+  background: rgba(63, 185, 80, 0.1);
+  padding: 2px 8px; border-radius: 4px;
+}
+.signal-no { color: var(--text-dim); }
+
+.score-bar {
+  display: inline-block;
+  height: 6px;
+  border-radius: 3px;
+  margin-right: 6px;
+  vertical-align: middle;
+}
+
+/* Status bar */
+.status-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0;
+  font-size: 12px;
+  color: var(--text-dim);
+}
+
+.empty-state {
+  text-align: center;
+  padding: 48px 16px;
+  color: var(--text-dim);
+}
+
+@media (max-width: 768px) {
+  .stats { grid-template-columns: repeat(2, 1fr); }
+  table { font-size: 12px; }
+  th, td { padding: 8px 10px; }
+}
+</style>
+</head>
+<body>
+<nav>
+  <div class="logo">Quant<span>OS</span></div>
+  <div class="tabs">
+    <a href="index.html">Live</a>
+    <a href="backtest.html">Backtest</a>
+    <a href="screener.html" class="active">Screener</a>
+  </div>
+</nav>
+
+<div class="container">
+  <div class="status-bar">
+    <div id="statusText">Loading screener data...</div>
+    <div id="lastUpdated"></div>
+  </div>
+
+  <div class="stats" id="stats"></div>
+
+  <div class="section" id="topPicksSection">
+    <div class="section-title">Top Picks</div>
+    <div style="overflow-x:auto">
+      <table id="topPicksTable">
+        <thead>
+          <tr>
+            <th onclick="sortTable('topPicksTable',0)">Rank</th>
+            <th onclick="sortTable('topPicksTable',1)">Symbol</th>
+            <th onclick="sortTable('topPicksTable',2)">Segment</th>
+            <th onclick="sortTable('topPicksTable',3)" class="text-right">Close</th>
+            <th onclick="sortTable('topPicksTable',4)" class="text-right">ROC(20)</th>
+            <th onclick="sortTable('topPicksTable',5)" class="text-right">ADX</th>
+            <th onclick="sortTable('topPicksTable',6)" class="text-right">RSI</th>
+            <th onclick="sortTable('topPicksTable',7)" class="text-right">Score</th>
+            <th onclick="sortTable('topPicksTable',8)">Signal</th>
+          </tr>
+        </thead>
+        <tbody id="topPicksBody"></tbody>
+      </table>
+    </div>
+  </div>
+
+  <div id="segmentSections"></div>
+</div>
+
+<script>
+const DATA_BASE = 'data';
+
+function fmt(n, decimals = 0) {
+  if (n == null || isNaN(n)) return '--';
+  return n.toLocaleString('en-IN', {
+    minimumFractionDigits: decimals,
+    maximumFractionDigits: decimals,
+  });
+}
+
+function pnlClass(val) {
+  return val > 0 ? 'positive' : val < 0 ? 'negative' : '';
+}
+
+async function fetchJSON(file) {
+  try {
+    const resp = await fetch(`${DATA_BASE}/${file}?t=${Date.now()}`);
+    if (!resp.ok) return null;
+    return await resp.json();
+  } catch { return null; }
+}
+
+function scoreColor(score) {
+  const pct = Math.min(Math.max(score, 0), 1);
+  const r = Math.round(248 * (1 - pct) + 63 * pct);
+  const g = Math.round(81 * (1 - pct) + 185 * pct);
+  const b = Math.round(73 * (1 - pct) + 80 * pct);
+  return `rgb(${r},${g},${b})`;
+}
+
+function stockRow(stock, rank) {
+  const signal = stock.entry_signal
+    ? '<span class="signal-yes">YES</span>'
+    : '<span class="signal-no">no</span>';
+  const seg = stock.segment
+    ? stock.segment.charAt(0).toUpperCase() + stock.segment.slice(1)
+    : '--';
+  const sc = stock.composite_score || 0;
+  const barWidth = Math.round(Math.min(sc, 1) * 60);
+  const scoreBar = `<span class="score-bar" style="width:${barWidth}px;background:${scoreColor(sc)}"></span>`;
+  return `
+    <tr>
+      ${rank !== null ? `<td>${rank}</td>` : ''}
+      <td><strong>${stock.symbol}</strong></td>
+      <td>${seg}</td>
+      <td class="text-right">${fmt(stock.close, 2)}</td>
+      <td class="text-right ${pnlClass(stock.roc_20)}">${fmt(stock.roc_20, 1)}</td>
+      <td class="text-right">${fmt(stock.adx, 1)}</td>
+      <td class="text-right">${fmt(stock.rsi, 1)}</td>
+      <td class="text-right">${scoreBar}${fmt(sc, 3)}</td>
+      <td>${signal}</td>
+    </tr>
+  `;
+}
+
+function renderStats(data) {
+  const el = document.getElementById('stats');
+  const lc = data.segments?.largecap?.length || 0;
+  const mc = data.segments?.midcap?.length || 0;
+  const sc = data.segments?.smallcap?.length || 0;
+  const total = lc + mc + sc;
+  const topN = data.top_picks?.length || 0;
+  const signalCount = (data.top_picks || []).filter(s => s.entry_signal).length;
+
+  el.innerHTML = `
+    <div class="stat-card">
+      <div class="label">Top Picks</div>
+      <div class="value">${topN}</div>
+      <div class="sub">${signalCount} with entry signal</div>
+    </div>
+    <div class="stat-card">
+      <div class="label">Largecap</div>
+      <div class="value">${lc}</div>
+      <div class="sub">stocks screened</div>
+    </div>
+    <div class="stat-card">
+      <div class="label">Midcap</div>
+      <div class="value">${mc}</div>
+      <div class="sub">stocks screened</div>
+    </div>
+    <div class="stat-card">
+      <div class="label">Smallcap</div>
+      <div class="value">${sc}</div>
+      <div class="sub">stocks screened</div>
+    </div>
+  `;
+}
+
+function renderTopPicks(data) {
+  const tbody = document.getElementById('topPicksBody');
+  if (!data.top_picks || data.top_picks.length === 0) {
+    tbody.innerHTML = '<tr><td colspan="9" class="empty-state">No screener results</td></tr>';
+    return;
+  }
+  tbody.innerHTML = data.top_picks.map((s, i) => stockRow(s, i + 1)).join('');
+}
+
+function segmentTableId(seg) {
+  return `segment_${seg}_table`;
+}
+
+function renderSegments(data) {
+  const container = document.getElementById('segmentSections');
+  if (!data.segments) {
+    container.innerHTML = '';
+    return;
+  }
+  const segmentLabels = { largecap: 'Largecap F&O', midcap: 'Midcap F&O', smallcap: 'Smallcap F&O' };
+  let html = '';
+
+  for (const [seg, label] of Object.entries(segmentLabels)) {
+    const stocks = data.segments[seg] || [];
+    const tableId = segmentTableId(seg);
+    const sectionId = `section_${seg}`;
+    html += `
+      <div class="section">
+        <div class="section-header" onclick="toggleSection('${sectionId}')">
+          <div>
+            <span class="section-title">${label}</span>
+            <span class="section-count">${stocks.length}</span>
+          </div>
+          <span class="section-toggle" id="toggle_${sectionId}">&#9660;</span>
+        </div>
+        <div class="section-body" id="${sectionId}">
+          <div style="overflow-x:auto">
+            <table id="${tableId}">
+              <thead>
+                <tr>
+                  <th onclick="sortTable('${tableId}',0)">Symbol</th>
+                  <th onclick="sortTable('${tableId}',1)">Segment</th>
+                  <th onclick="sortTable('${tableId}',2)" class="text-right">Close</th>
+                  <th onclick="sortTable('${tableId}',3)" class="text-right">ROC(20)</th>
+                  <th onclick="sortTable('${tableId}',4)" class="text-right">ADX</th>
+                  <th onclick="sortTable('${tableId}',5)" class="text-right">RSI</th>
+                  <th onclick="sortTable('${tableId}',6)" class="text-right">Score</th>
+                  <th onclick="sortTable('${tableId}',7)">Signal</th>
+                </tr>
+              </thead>
+              <tbody>
+                ${stocks.length === 0
+                  ? `<tr><td colspan="8" class="empty-state">No data</td></tr>`
+                  : stocks.map(s => stockRow(s, null)).join('')
+                }
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    `;
+  }
+  container.innerHTML = html;
+}
+
+function toggleSection(sectionId) {
+  const body = document.getElementById(sectionId);
+  const toggle = document.getElementById('toggle_' + sectionId);
+  body.classList.toggle('collapsed');
+  toggle.classList.toggle('collapsed');
+}
+
+function sortTable(tableId, colIdx) {
+  const table = document.getElementById(tableId);
+  const tbody = table.querySelector('tbody');
+  const rows = Array.from(tbody.querySelectorAll('tr'));
+  if (rows.length <= 1) return;
+
+  const dir = table.dataset.sortCol === String(colIdx)
+    && table.dataset.sortDir === 'asc' ? 'desc' : 'asc';
+  table.dataset.sortCol = colIdx;
+  table.dataset.sortDir = dir;
+
+  rows.sort((a, b) => {
+    let aVal = a.cells[colIdx]?.textContent.trim().replace(/[,%+]/g, '') || '';
+    let bVal = b.cells[colIdx]?.textContent.trim().replace(/[,%+]/g, '') || '';
+    const aNum = parseFloat(aVal.replace(/,/g, ''));
+    const bNum = parseFloat(bVal.replace(/,/g, ''));
+    if (!isNaN(aNum) && !isNaN(bNum)) {
+      return dir === 'asc' ? aNum - bNum : bNum - aNum;
+    }
+    return dir === 'asc' ? aVal.localeCompare(bVal) : bVal.localeCompare(aVal);
+  });
+  rows.forEach(row => tbody.appendChild(row));
+
+  table.querySelectorAll('th .sort-arrow').forEach(el => el.remove());
+  const th = table.querySelectorAll('th')[colIdx];
+  if (th) {
+    const arrow = document.createElement('span');
+    arrow.className = 'sort-arrow';
+    arrow.textContent = dir === 'asc' ? ' ▲' : ' ▼';
+    th.appendChild(arrow);
+  }
+}
+
+async function loadData() {
+  const data = await fetchJSON('signals.json');
+  const statusText = document.getElementById('statusText');
+  const lastUpdated = document.getElementById('lastUpdated');
+
+  if (!data) {
+    statusText.textContent = 'No screener data available. Run the screener workflow first.';
+    return;
+  }
+
+  if (data.timestamp) {
+    const ts = new Date(data.timestamp);
+    lastUpdated.textContent = `Last run: ${ts.toLocaleString('en-IN')}`;
+    statusText.textContent = `Screener results for ${data.top_picks?.[0]?.date || '--'}`;
+  }
+
+  renderStats(data);
+  renderTopPicks(data);
+  renderSegments(data);
+}
+
+loadData();
+</script>
+</body>
+</html>

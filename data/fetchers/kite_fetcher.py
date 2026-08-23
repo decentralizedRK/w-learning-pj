@@ -33,12 +33,20 @@ class KiteFetcher(BaseFetcher):
             logger.error(f"Could not find instrument token for {symbol}")
             return pd.DataFrame()
 
-        return self.fetch_historical(
+        df = self.fetch_historical(
             instrument_token=token,
             from_date=datetime.combine(start, datetime.min.time()),
             to_date=datetime.combine(end, datetime.min.time()),
             interval="day",
         )
+        if df.empty:
+            return df
+
+        df = df.reset_index()
+        df["date"] = pd.to_datetime(df["date"]).dt.date
+        df["symbol"] = symbol
+        df = df[["symbol", "date", "open", "high", "low", "close", "volume"]]
+        return df
 
     def fetch_historical(
         self,

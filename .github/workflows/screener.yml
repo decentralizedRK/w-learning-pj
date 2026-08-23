@@ -1,5 +1,8 @@
 name: Daily Screener
 
+permissions:
+  contents: write
+
 on:
   schedule:
     - cron: "0 12 * * 1-5"  # Mon-Fri 5:30pm IST (12:00 UTC)
@@ -18,6 +21,9 @@ jobs:
     env:
       INPUT_TOP: ${{ inputs.top || '10' }}
       INPUT_UNIVERSE: ${{ inputs.universe }}
+      QOS_KITE_API_KEY: ${{ secrets.QOS_KITE_API_KEY }}
+      QOS_KITE_API_SECRET: ${{ secrets.QOS_KITE_API_SECRET }}
+      QOS_KITE_ACCESS_TOKEN: ${{ secrets.QOS_KITE_ACCESS_TOKEN }}
     steps:
       - uses: actions/checkout@v4
 
@@ -43,3 +49,32 @@ jobs:
           name: screener-signals-${{ github.run_number }}
           path: signals.json
           if-no-files-found: ignore
+
+      - name: Publish screener to gh-pages
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          git fetch origin gh-pages:gh-pages 2>/dev/null || true
+
+          mkdir -p /tmp/gh-deploy/data
+
+          git show gh-pages:index.html > /tmp/gh-deploy/index.html 2>/dev/null || cp dashboard/index.html /tmp/gh-deploy/
+          git show gh-pages:backtest.html > /tmp/gh-deploy/backtest.html 2>/dev/null || cp dashboard/backtest.html /tmp/gh-deploy/
+          for f in backtest_results.json indices.json positions.json trades.json stats.json margins.json; do
+            git show "gh-pages:data/$f" > "/tmp/gh-deploy/data/$f" 2>/dev/null || true
+          done
+
+          cp dashboard/screener.html /tmp/gh-deploy/screener.html
+          cp signals.json /tmp/gh-deploy/data/signals.json
+
+          git checkout --orphan gh-pages-deploy
+          git rm -rf . > /dev/null 2>&1 || true
+
+          cp /tmp/gh-deploy/*.html .
+          mkdir -p data
+          cp /tmp/gh-deploy/data/*.json data/ 2>/dev/null || true
+
+          git add -A
+          git commit -m "chore: update screener results" || echo "No changes"
+          git push origin HEAD:gh-pages --force
