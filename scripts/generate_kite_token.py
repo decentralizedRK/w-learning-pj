@@ -3,8 +3,6 @@
 import re
 from pathlib import Path
 
-from loguru import logger
-
 from broker.zerodha import ZerodhaBroker
 from config.logging_config import setup_logging
 from config.settings import settings
@@ -41,7 +39,7 @@ def main() -> None:
 
     try:
         broker.generate_session(request_token)
-        print(f"\n✅ Session created successfully!")
+        print("\n✅ Session created successfully!")
         print(f"Access token: {broker._get_kite().access_token}\n")
 
         print("Add this to your .env file:")

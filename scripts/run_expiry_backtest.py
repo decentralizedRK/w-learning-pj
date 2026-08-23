@@ -25,14 +25,11 @@ from loguru import logger
 
 from broker.zerodha import ZerodhaBroker
 from config.logging_config import setup_logging
-from config.settings import settings
 from data.fetchers.instrument_lookup import InstrumentLookup
 from data.fetchers.kite_fetcher import KiteFetcher
 from strategies.expiry_straddle import (
     extract_expiry_days,
     optimize_strategies,
-    run_strategy,
-    sim_straddle,
 )
 
 
@@ -51,7 +48,8 @@ def print_result(r: dict) -> None:
     flag = "***" if r["win_rate"] >= 50 and r["rr_ratio"] >= 2.0 else "   "
     print(
         f"  {flag} {r['label']:<70} | N:{r['trades']:>3} | WR:{r['win_rate']:>5.1f}% | "
-        f"RR:{r['rr_ratio']:>5.2f}:1 | AvgW:{r['avg_win_pts']:>6.1f} AvgL:{r['avg_loss_pts']:>6.1f} | "
+        f"RR:{r['rr_ratio']:>5.2f}:1 | "
+        f"AvgW:{r['avg_win_pts']:>6.1f} AvgL:{r['avg_loss_pts']:>6.1f} | "
         f"P&L: ₹{r['total_pnl']:>+10,}"
     )
 
@@ -72,7 +70,10 @@ def run_for_symbol(
         return []
 
     print(f"\n{'='*100}")
-    print(f"  {symbol} (token: {token}) | {duration_days} days | {num_lots} lots | TV: {time_value} pts/side")
+    print(
+        f"  {symbol} (token: {token}) | {duration_days} days"
+        f" | {num_lots} lots | TV: {time_value} pts/side"
+    )
     print(f"{'='*100}")
 
     df = fetch_minute_data(fetcher, token, duration_days)
@@ -100,22 +101,22 @@ def run_for_symbol(
     profitable = [r for r in results if r["total_pnl"] > 0]
 
     if meets_criteria:
-        print(f"\n  STRATEGIES MEETING WR>=50% AND RR>=2:1:")
+        print("\n  STRATEGIES MEETING WR>=50% AND RR>=2:1:")
         for r in sorted(meets_criteria, key=lambda x: x["total_pnl"], reverse=True):
             print_result(r)
     elif meets_50:
-        print(f"\n  PROFITABLE STRATEGIES WITH WR>=50%:")
+        print("\n  PROFITABLE STRATEGIES WITH WR>=50%:")
         for r in sorted(meets_50, key=lambda x: x["total_pnl"], reverse=True):
             print_result(r)
     elif profitable:
-        print(f"\n  PROFITABLE STRATEGIES (top 10):")
+        print("\n  PROFITABLE STRATEGIES (top 10):")
         for r in sorted(profitable, key=lambda x: x["total_pnl"], reverse=True)[:10]:
             print_result(r)
     else:
         print(f"\n  No profitable strategies found for {symbol}")
         best = sorted(results, key=lambda x: x["win_rate"] * x["rr_ratio"], reverse=True)[:5]
         if best:
-            print(f"  Top 5 by WR×RR score:")
+            print("  Top 5 by WR×RR score:")
             for r in best:
                 print_result(r)
 
@@ -143,11 +144,21 @@ def main() -> None:
     parser.add_argument("--duration", default="1y", help="Duration: 30d, 6m, 1y (default: 1y)")
     parser.add_argument("--lots", type=int, default=10, help="Number of lots (default: 10)")
     parser.add_argument("--strike-gap", type=int, default=50, help="Strike gap (default: 50)")
-    parser.add_argument("--time-value", type=float, default=15, help="Estimated time value per side (default: 15)")
+    parser.add_argument(
+        "--time-value", type=float, default=15,
+        help="Estimated time value per side (default: 15)",
+    )
     parser.add_argument("--output", default=None, help="Output CSV path")
-    parser.add_argument("--screened", default=None, help="Comma-separated screened symbols")
-    parser.add_argument("--scan-universe", action="store_true", help="Scan top F&O stocks")
-    parser.add_argument("--top", type=int, default=5, help="Top N stocks for universe scan (default: 5)")
+    parser.add_argument(
+        "--screened", default=None, help="Comma-separated screened symbols",
+    )
+    parser.add_argument(
+        "--scan-universe", action="store_true", help="Scan top F&O stocks",
+    )
+    parser.add_argument(
+        "--top", type=int, default=5,
+        help="Top N stocks for universe scan (default: 5)",
+    )
     args = parser.parse_args()
 
     setup_logging()
@@ -194,7 +205,7 @@ def main() -> None:
 
     if len(symbols) > 1 and all_results:
         print(f"\n{'='*100}")
-        print(f"  CROSS-SYMBOL SUMMARY — best profitable strategy per symbol")
+        print("  CROSS-SYMBOL SUMMARY — best profitable strategy per symbol")
         print(f"{'='*100}")
 
         by_symbol = {}
@@ -205,13 +216,22 @@ def main() -> None:
                     by_symbol[sym] = r
 
         if by_symbol:
-            for sym, r in sorted(by_symbol.items(), key=lambda x: x[1]["total_pnl"], reverse=True):
-                print(f"  {sym:<15} {r['label']:<55} WR:{r['win_rate']:>5.1f}% RR:{r['rr_ratio']:>4.2f}:1 P&L:₹{r['total_pnl']:>+10,}")
+            ranked = sorted(
+                by_symbol.items(), key=lambda x: x[1]["total_pnl"], reverse=True,
+            )
+            for sym, r in ranked:
+                wr = r["win_rate"]
+                rr = r["rr_ratio"]
+                pnl = r["total_pnl"]
+                print(
+                    f"  {sym:<15} {r['label']:<55}"
+                    f" WR:{wr:>5.1f}% RR:{rr:>4.2f}:1 P&L:₹{pnl:>+10,}"
+                )
         else:
             print("  No profitable strategies found across scanned symbols.")
 
     print(f"\n  NOTE: Premiums estimated at {args.time_value} pts time value per side.")
-    print(f"  Real premiums depend on IV/VIX. Results are directional guidance, not exact P&L.")
+    print("  Real premiums depend on IV/VIX. Results are directional guidance, not exact P&L.")
 
 
 if __name__ == "__main__":

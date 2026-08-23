@@ -16,8 +16,14 @@ COMMON_INDICES = {
     "NIFTY50": {"exchange": "NSE", "tradingsymbol": "NIFTY 50", "instrument_token": 256265},
     "BANKNIFTY": {"exchange": "NSE", "tradingsymbol": "NIFTY BANK", "instrument_token": 260105},
     "SENSEX": {"exchange": "BSE", "tradingsymbol": "SENSEX", "instrument_token": 265},
-    "FINNIFTY": {"exchange": "NSE", "tradingsymbol": "NIFTY FIN SERVICE", "instrument_token": 257801},
-    "MIDCPNIFTY": {"exchange": "NSE", "tradingsymbol": "NIFTY MID SELECT", "instrument_token": 288009},
+    "FINNIFTY": {
+        "exchange": "NSE", "tradingsymbol": "NIFTY FIN SERVICE",
+        "instrument_token": 257801,
+    },
+    "MIDCPNIFTY": {
+        "exchange": "NSE", "tradingsymbol": "NIFTY MID SELECT",
+        "instrument_token": 288009,
+    },
 }
 
 
@@ -65,7 +71,8 @@ class InstrumentLookup:
         if len(matches) == 1:
             return matches[0]
         if matches:
-            logger.warning(f"Multiple matches for '{symbol}': {[m['tradingsymbol'] for m in matches[:5]]}")
+            names = [m["tradingsymbol"] for m in matches[:5]]
+            logger.warning(f"Multiple matches for '{symbol}': {names}")
             return None
 
         return None

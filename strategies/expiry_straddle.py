@@ -14,9 +14,7 @@ import numpy as np
 import pandas as pd
 from loguru import logger
 
-from config.constants import LOT_SIZE_HISTORY
 from data.fetchers.nse_symbols import get_lot_size
-
 
 EXPIRY_WEEKDAYS = {3, 4}  # Thursday, Friday
 
@@ -75,7 +73,10 @@ def extract_expiry_days(
         trend_from_open = pre_close - day_open
 
         last_30 = day[(day["_time"] >= t(14, 30)) & (day["_time"] < window_start)]
-        momentum_30m = (last_30.iloc[-1]["close"] - last_30.iloc[0]["open"]) if not last_30.empty else 0
+        momentum_30m = (
+            (last_30.iloc[-1]["close"] - last_30.iloc[0]["open"])
+            if not last_30.empty else 0
+        )
 
         last_5 = day[(day["_time"] >= t(14, 55)) & (day["_time"] < window_start)]
         momentum_5m = (last_5.iloc[-1]["close"] - last_5.iloc[0]["open"]) if not last_5.empty else 0
@@ -300,11 +301,17 @@ def optimize_strategies(
             if target < 2 * sl:
                 continue
             for min_trend in [0, 50, 100]:
-                ffn = (lambda d, mt=min_trend: abs(d["trend_from_open"]) > mt) if min_trend > 0 else None
+                def _trend_filter(d, mt=min_trend):
+                    return abs(d["trend_from_open"]) > mt
+
+                ffn = _trend_filter if min_trend > 0 else None
+
                 def fn(d, tgt=target, s=sl):
                     direction = "CE" if d["trend_from_open"] > 0 else "PE"
                     return sim_directional(d, direction, tgt, s, time_value)
-                r = run_strategy(days, fn, ffn, f"DayTrend T={target} SL={sl} | trend>{min_trend}", qty)
+
+                label = f"DayTrend T={target} SL={sl} | trend>{min_trend}"
+                r = run_strategy(days, fn, ffn, label, qty)
                 if r and r["trades"] >= min_trades:
                     results.append(r)
 
@@ -314,11 +321,17 @@ def optimize_strategies(
             if target < 2 * sl:
                 continue
             for min_trend in [50, 100, 150]:
-                ffn = lambda d, mt=min_trend: abs(d["trend_from_open"]) > mt
+                def _contra_filter(d, mt=min_trend):
+                    return abs(d["trend_from_open"]) > mt
+
+                ffn = _contra_filter
+
                 def fn(d, tgt=target, s=sl):
                     direction = "PE" if d["trend_from_open"] > 0 else "CE"
                     return sim_directional(d, direction, tgt, s, time_value)
-                r = run_strategy(days, fn, ffn, f"ContraDay T={target} SL={sl} | |trend|>{min_trend}", qty)
+
+                label = f"ContraDay T={target} SL={sl} | |trend|>{min_trend}"
+                r = run_strategy(days, fn, ffn, label, qty)
                 if r and r["trades"] >= min_trades:
                     results.append(r)
 
