@@ -55,17 +55,19 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
-          git fetch origin gh-pages:gh-pages 2>/dev/null || true
-
+          # Always use latest HTML from main
           mkdir -p /tmp/gh-deploy/data
+          cp dashboard/index.html /tmp/gh-deploy/
+          cp dashboard/backtest.html /tmp/gh-deploy/
+          cp dashboard/screener.html /tmp/gh-deploy/
 
-          git show gh-pages:index.html > /tmp/gh-deploy/index.html 2>/dev/null || cp dashboard/index.html /tmp/gh-deploy/
-          git show gh-pages:backtest.html > /tmp/gh-deploy/backtest.html 2>/dev/null || cp dashboard/backtest.html /tmp/gh-deploy/
+          # Preserve data JSON from gh-pages
+          git fetch origin gh-pages:gh-pages 2>/dev/null || true
           for f in backtest_results.json indices.json positions.json trades.json stats.json margins.json; do
             git show "gh-pages:data/$f" > "/tmp/gh-deploy/data/$f" 2>/dev/null || true
           done
 
-          cp dashboard/screener.html /tmp/gh-deploy/screener.html
+          # Add fresh screener data
           cp signals.json /tmp/gh-deploy/data/signals.json
 
           git checkout --orphan gh-pages-deploy
