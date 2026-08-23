@@ -1,0 +1,163 @@
+{
+  "timestamp": "2026-08-23T09:55:18+00:00",
+  "ticker_news": {
+    "HDFCBANK": [
+      {
+        "title": "BKEAY or HDB: Which Is the Better Value Stock Right Now?",
+        "publisher": "Zacks",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/bkeay-hdb-better-value-stock-154001336.html",
+        "age_h": null
+      },
+      {
+        "title": "Asian Equities Traded in the US as American Depositary Receipts Rise in Friday Trading",
+        "publisher": "MT Newswires",
+        "link": "https://finance.yahoo.com/markets/world-indices/articles/asian-equities-traded-us-american-144754995.html",
+        "age_h": null
+      },
+      {
+        "title": "Jefferies sees brighter India outlook as credit, capital flows ramp up; removes HDFC Bank in portfolio revamp",
+        "publisher": "Reuters",
+        "link": "https://sg.finance.yahoo.com/news/jefferies-sees-brighter-india-outlook-065314636.html",
+        "age_h": null
+      }
+    ],
+    "ICICIBANK": [
+      {
+        "title": "Asian Equities Traded in the US as American Depositary Receipts Decline in Thursday Trading",
+        "publisher": "MT Newswires",
+        "link": "https://finance.yahoo.com/markets/world-indices/articles/asian-equities-traded-us-american-143754359.html",
+        "age_h": null
+      },
+      {
+        "title": "Asian Equities Traded in the US as American Depositary Receipts Track Lower in Tuesday Trading",
+        "publisher": "MT Newswires",
+        "link": "https://finance.yahoo.com/markets/world-indices/articles/asian-equities-traded-us-american-144111972.html",
+        "age_h": null
+      },
+      {
+        "title": "Four Indian private lenders eye dollar debt before RBI swap window deadline, bankers say",
+        "publisher": "Reuters",
+        "link": "https://sg.finance.yahoo.com/news/four-indian-private-lenders-eye-131134816.html",
+        "age_h": null
+      }
+    ],
+    "INFY": [
+      {
+        "title": "AI reshapes India's IT services sector contracts as clients demand more for less",
+        "publisher": "Reuters",
+        "link": "https://finance.yahoo.com/technology/ai/articles/ai-reshapes-indias-services-sector-230207347.html",
+        "age_h": null
+      },
+      {
+        "title": "Asian Equities Traded in the US as American Depositary Receipts Track Lower in Tuesday Trading",
+        "publisher": "MT Newswires",
+        "link": "https://finance.yahoo.com/markets/world-indices/articles/asian-equities-traded-us-american-144111972.html",
+        "age_h": null
+      },
+      {
+        "title": "Crocs inks AI tech deal",
+        "publisher": "Retail Dive",
+        "link": "https://www.retaildive.com/news/crocs-digital-upgrade-AI/827438/",
+        "age_h": null
+      }
+    ],
+    "RELIANCE": [
+      {
+        "title": "Rolls-Royce Stock Hits First New High In 14 Years. Firm Announces Engine Project.",
+        "publisher": "Investor's Business Daily",
+        "link": "https://www.investors.com/news/rolls-royce-jet-engines-india/?src=A00220&yptr=yahoo",
+        "age_h": null
+      },
+      {
+        "title": "ELAM: Let\u2019s make deal \u2013 not",
+        "publisher": "Odessa American, Texas",
+        "link": "https://www.oaoa.com/?p=368558",
+        "age_h": null
+      },
+      {
+        "title": "Reliance's luxury unit brings Kim Kardashian's SKIMS to India",
+        "publisher": "Reuters",
+        "link": "https://sg.finance.yahoo.com/news/reliances-luxury-unit-brings-kim-121321384.html",
+        "age_h": null
+      }
+    ],
+    "TCS": [
+      {
+        "title": "AI reshapes India's IT services sector contracts as clients demand more for less",
+        "publisher": "Reuters",
+        "link": "https://finance.yahoo.com/technology/ai/articles/ai-reshapes-indias-services-sector-230207347.html",
+        "age_h": null
+      },
+      {
+        "title": "India's IT outsourcing industry feels AI's impact on hiring",
+        "publisher": "Quartz",
+        "link": "https://qz.com/india-outsourcing-industry-ai-impact-hiring-contracts-081226",
+        "age_h": null
+      },
+      {
+        "title": "India's Tata Group stocks extend slide after chairman Chandrasekaran quits",
+        "publisher": "Reuters",
+        "link": "https://sg.finance.yahoo.com/news/indias-tata-group-stocks-tumble-055139723.html",
+        "age_h": null
+      }
+    ]
+  },
+  "market_headlines": [
+    {
+      "source": "Economic Times",
+      "title": "Ahead of Market: 10 things that will decide stock market action on Monday",
+      "link": "https://economictimes.indiatimes.com/markets/stocks/news/ahead-of-market-10-things-that-will-decide-stock-market-action-on-monday/articleshow/133437385.cms",
+      "summary": "Indian equities ended marginally higher on Friday as gains in financials, metals and small-caps offset pressure from IT stocks and persistent global uncertainties. The Sensex and Nifty closed slightly",
+      "age_h": 0.5
+    },
+    {
+      "source": "Economic Times",
+      "title": "20 IPOs on investors' radar next week. GMPs indicate up to 90% returns",
+      "link": "https://economictimes.indiatimes.com/markets/stocks/news/20-ipos-on-investors-radar-next-week-gmps-indicate-up-to-90-returns/slideshow/133436601.cms",
+      "summary": "A total of 20 IPOs are on investors\u2019 radar next week, including fresh issues and upcoming listings across the mainboard and SME segments. Symbiotec Pharmalab, Tempsens Instruments, Lumino Industries a",
+      "age_h": 2.2
+    },
+    {
+      "source": "Economic Times",
+      "title": "FPIs invest Rs 23,544 crore in Indian equities in Aug on earnings revival, rupee stability",
+      "link": "https://economictimes.indiatimes.com/markets/stocks/news/fpis-invest-rs-23544-crore-in-indian-equities-in-aug-on-earnings-revival-rupee-stability/articleshow/133435870.cms",
+      "summary": "FPIs had withdrawn Rs 49,340 crore in June, Rs 32,963 crore in May, Rs 60,847 crore in April and a massive Rs 1.17 lakh crore in March. Prior to this selling streak, they had invested Rs 22,615 crore ",
+      "age_h": 2.9
+    },
+    {
+      "source": "Economic Times",
+      "title": "Pride Hotels steps up expansion, plans Rs 1,000-cr IPO by December",
+      "link": "https://economictimes.indiatimes.com/markets/ipos/fpos/pride-hotels-steps-up-expansion-plans-rs-1000-cr-ipo-by-december/articleshow/133435802.cms",
+      "summary": "The expansion has taken Pride Hotels' portfolio to 40 properties, including eight owned hotels and 32 managed properties. The company has also signed contracts for another 32 hotels, which are expecte",
+      "age_h": 3.0
+    },
+    {
+      "source": "Livemint",
+      "title": "Mcap of four of top-10 most valued firms erodes  \u20b987,960 crore; Airtel takes biggest hit",
+      "link": "https://www.livemint.com/market/stock-market-news/mcap-four-top-10-most-valued-firms-erodes-rs-87960-crore-airtel-biggest-hit-indian-markets-crude-oil-tcs-sbi-hul-lic-ril-11787474680284.html",
+      "summary": "The combined market valuation of four of the top 10 most valued firms in India eroded by  \u20b987,960.29 crore last week, with Bharti Airtel taking the biggest hit, in-tandem with a bearish trend in equit",
+      "age_h": 0.8
+    },
+    {
+      "source": "Livemint",
+      "title": "Penny stock under  \u20b910 to be in focus on Monday | Here's why",
+      "link": "https://www.livemint.com/market/stock-market-news/penny-stock-under-rs-10-axita-cotton-to-be-in-focus-on-monday-heres-why-11787473728032.html",
+      "summary": "The small-cap penny stock closed 5% higher at  \u20b97.68 apiece on Friday. During the session, the stock touched an intraday high of  \u20b97.90 and intraday low of  \u20b97.30.",
+      "age_h": 1.0
+    },
+    {
+      "source": "Livemint",
+      "title": "Upcoming IPO: Gemini Edibles &amp; Fats India files draft papers to raise funds via public issue. Details here",
+      "link": "https://www.livemint.com/market/ipo/upcoming-ipo-gemini-edibles-fats-india-files-draft-papers-to-raise-funds-via-public-issue-details-here-11787469576854.html",
+      "summary": "According to the draft red herring prospectus (DRHP) filed on August 21, the proposed IPO will comprise a complete offer-for-sale (OFS) of up to 4.11 crore equity shares by the company\u2019s promoters and",
+      "age_h": 2.3
+    },
+    {
+      "source": "Livemint",
+      "title": "Stock market holiday: Will the NSE, BSE remain closed on Friday next week for Raksha Bandhan?",
+      "link": "https://www.livemint.com/market/stock-market-news/stock-market-holiday-will-the-nse-bse-remain-closed-on-friday-next-week-for-raksha-bandhan-11787465524134.html",
+      "summary": "According to the holiday calendars of the BSE and NSE, trading will remain open across the Equity, Equity Derivatives, Currency Derivatives and MCX.",
+      "age_h": 2.8
+    }
+  ]
+}

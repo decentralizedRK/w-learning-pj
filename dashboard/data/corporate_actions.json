@@ -1,0 +1,119 @@
+{
+  "timestamp": "2026-08-23T09:55:22+00:00",
+  "events": [
+    {
+      "symbol": "TCS",
+      "type": "earnings_date",
+      "date": "2026-10-08",
+      "detail": "Earnings Date",
+      "days_away": 46
+    },
+    {
+      "symbol": "RELIANCE",
+      "type": "earnings_date",
+      "date": "2026-10-16",
+      "detail": "Earnings Date",
+      "days_away": 54
+    },
+    {
+      "symbol": "HDFCBANK",
+      "type": "earnings_date",
+      "date": "2026-10-17",
+      "detail": "Earnings Date",
+      "days_away": 55
+    },
+    {
+      "symbol": "ICICIBANK",
+      "type": "earnings_date",
+      "date": "2026-10-17",
+      "detail": "Earnings Date",
+      "days_away": 55
+    }
+  ],
+  "by_symbol": {
+    "HDFCBANK": {
+      "dividends": [
+        {
+          "date": "2026-06-19",
+          "amount": 13.0
+        }
+      ],
+      "splits": [
+        {
+          "date": "2025-08-26",
+          "ratio": "2.0"
+        }
+      ],
+      "calendar": {
+        "Earnings Date": [
+          "2026-10-17"
+        ],
+        "Ex-Dividend Date": "2026-06-19"
+      }
+    },
+    "ICICIBANK": {
+      "dividends": [
+        {
+          "date": "2026-08-03",
+          "amount": 12.0
+        }
+      ],
+      "splits": [],
+      "calendar": {
+        "Earnings Date": [
+          "2026-10-17"
+        ],
+        "Ex-Dividend Date": "2026-08-03"
+      }
+    },
+    "INFY": {
+      "dividends": [
+        {
+          "date": "2026-06-10",
+          "amount": 25.0
+        }
+      ],
+      "splits": [],
+      "calendar": {
+        "Earnings Date": [
+          "2026-10-23"
+        ],
+        "Ex-Dividend Date": "2026-06-10"
+      }
+    },
+    "RELIANCE": {
+      "dividends": [
+        {
+          "date": "2026-06-05",
+          "amount": 6.0
+        }
+      ],
+      "splits": [],
+      "calendar": {
+        "Earnings Date": [
+          "2026-10-16"
+        ],
+        "Ex-Dividend Date": "2026-06-05"
+      }
+    },
+    "TCS": {
+      "dividends": [
+        {
+          "date": "2026-05-25",
+          "amount": 31.0
+        },
+        {
+          "date": "2026-07-15",
+          "amount": 12.0
+        }
+      ],
+      "splits": [],
+      "calendar": {
+        "Earnings Date": [
+          "2026-10-08"
+        ],
+        "Ex-Dividend Date": "2026-07-15"
+      }
+    }
+  }
+}
