@@ -1,6 +1,10 @@
 name: Publish Dashboard
 
 on:
+  push:
+    branches: [main]
+    paths:
+      - "dashboard/**"
   schedule:
     # Every 15 min during IST market hours (9:15-15:30 IST = 3:45-10:00 UTC)
     - cron: "*/15 3-10 * * 1-5"
