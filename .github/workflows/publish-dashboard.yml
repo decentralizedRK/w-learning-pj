@@ -36,28 +36,25 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
-          # Preserve existing gh-pages content
-          git fetch origin gh-pages:gh-pages 2>/dev/null || true
+          # Stage dashboard files before orphan checkout wipes the tree
+          mkdir -p /tmp/gh-deploy/data
+          cp dashboard/index.html /tmp/gh-deploy/
+          cp dashboard/backtest.html /tmp/gh-deploy/
+          cp dashboard/screener.html /tmp/gh-deploy/
+          cp dashboard/data/*.json /tmp/gh-deploy/data/ 2>/dev/null || true
 
-          mkdir -p /tmp/gh-pages
-          git show gh-pages:data/backtest_results.json > /tmp/gh-pages/backtest_results.json 2>/dev/null || true
-          git show gh-pages:data/signals.json > /tmp/gh-pages/signals.json 2>/dev/null || true
+          # Preserve existing gh-pages data
+          git fetch origin gh-pages:gh-pages 2>/dev/null || true
+          for f in backtest_results.json signals.json; do
+            git show "gh-pages:data/$f" > "/tmp/gh-deploy/data/$f" 2>/dev/null || true
+          done
 
           git checkout --orphan gh-pages-deploy
           git rm -rf . > /dev/null 2>&1 || true
 
-          cp dashboard/index.html .
-          cp dashboard/backtest.html .
-          cp dashboard/screener.html .
+          cp /tmp/gh-deploy/*.html .
           mkdir -p data
-          cp dashboard/data/*.json data/ 2>/dev/null || true
-
-          # Restore preserved data if not freshly generated
-          for f in backtest_results.json signals.json; do
-            if [ ! -f "data/$f" ] && [ -f "/tmp/gh-pages/$f" ]; then
-              cp "/tmp/gh-pages/$f" data/
-            fi
-          done
+          cp /tmp/gh-deploy/data/*.json data/ 2>/dev/null || true
 
           git add -A
           git commit -m "chore: update dashboard data" || echo "No changes to commit"

@@ -97,24 +97,23 @@ jobs:
 
           git fetch origin gh-pages:gh-pages 2>/dev/null || true
 
-          mkdir -p /tmp/gh-deploy
-          git show gh-pages:index.html > /tmp/gh-deploy/index.html 2>/dev/null || true
-          git show gh-pages:backtest.html > /tmp/gh-deploy/backtest.html 2>/dev/null || true
-          git show gh-pages:screener.html > /tmp/gh-deploy/screener.html 2>/dev/null || true
-
+          # Stage dashboard files before orphan checkout wipes the tree
           mkdir -p /tmp/gh-deploy/data
+          cp dashboard/index.html /tmp/gh-deploy/
+          cp dashboard/backtest.html /tmp/gh-deploy/
+          cp dashboard/screener.html /tmp/gh-deploy/
+          cp dashboard/data/backtest_results.json /tmp/gh-deploy/data/
+
+          # Preserve existing gh-pages data
+          git fetch origin gh-pages:gh-pages 2>/dev/null || true
           for f in indices.json positions.json trades.json stats.json margins.json signals.json; do
             git show "gh-pages:data/$f" > "/tmp/gh-deploy/data/$f" 2>/dev/null || true
           done
 
-          cp dashboard/data/backtest_results.json /tmp/gh-deploy/data/
-
           git checkout --orphan gh-pages-deploy
           git rm -rf . > /dev/null 2>&1 || true
 
-          cp /tmp/gh-deploy/index.html . 2>/dev/null || cp dashboard/index.html .
-          cp /tmp/gh-deploy/backtest.html . 2>/dev/null || cp dashboard/backtest.html .
-          cp /tmp/gh-deploy/screener.html . 2>/dev/null || cp dashboard/screener.html .
+          cp /tmp/gh-deploy/*.html .
           mkdir -p data
           cp /tmp/gh-deploy/data/*.json data/ 2>/dev/null || true
 
