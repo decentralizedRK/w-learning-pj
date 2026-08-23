@@ -44,6 +44,7 @@ htmlcov/
 data_store/
 *.db
 *.sqlite3
+alert_state.json
 
 # ===================== REPORTS =====================
 reports/output/
