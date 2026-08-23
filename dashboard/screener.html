@@ -69,28 +69,45 @@ nav .tabs a:hover { color: var(--text); }
 }
 .stat-card .sub { font-size: 12px; color: var(--text-dim); }
 
+/* Segment tabs */
+.seg-tabs {
+  display: flex;
+  gap: 0;
+  margin: 24px 0 0;
+  border-bottom: 2px solid var(--border);
+}
+.seg-tab {
+  padding: 10px 20px;
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--text-dim);
+  cursor: pointer;
+  border-bottom: 2px solid transparent;
+  margin-bottom: -2px;
+  user-select: none;
+  transition: color 0.15s, border-color 0.15s;
+}
+.seg-tab:hover { color: var(--text); }
+.seg-tab.active {
+  color: var(--blue);
+  border-bottom-color: var(--blue);
+}
+.seg-tab .badge {
+  font-size: 11px;
+  color: var(--text-dim);
+  background: var(--border);
+  padding: 1px 6px;
+  border-radius: 8px;
+  margin-left: 6px;
+  font-weight: 400;
+}
+
+.seg-panel { display: none; margin-top: 16px; }
+.seg-panel.active { display: block; }
+
 /* Tables */
 .section { margin: 24px 0; }
-.section-header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin-bottom: 12px;
-  cursor: pointer;
-  user-select: none;
-}
-.section-title { font-size: 16px; font-weight: 600; }
-.section-count {
-  font-size: 12px; color: var(--text-dim);
-  background: var(--border); padding: 2px 8px; border-radius: 10px;
-}
-.section-toggle {
-  font-size: 12px; color: var(--text-dim);
-  transition: transform 0.2s;
-}
-.section-toggle.collapsed { transform: rotate(-90deg); }
-.section-body { overflow: hidden; transition: max-height 0.3s ease; }
-.section-body.collapsed { max-height: 0 !important; }
+.section-title { font-size: 16px; font-weight: 600; margin-bottom: 12px; }
 
 table {
   width: 100%;
@@ -177,6 +194,8 @@ tr:hover td { background: #1c2128; }
 
 @media (max-width: 768px) {
   .stats { grid-template-columns: repeat(2, 1fr); }
+  .seg-tabs { overflow-x: auto; }
+  .seg-tab { padding: 8px 14px; font-size: 13px; white-space: nowrap; }
   table { font-size: 12px; }
   th, td { padding: 8px 10px; }
 }
@@ -200,29 +219,8 @@ tr:hover td { background: #1c2128; }
 
   <div class="stats" id="stats"></div>
 
-  <div class="section" id="topPicksSection">
-    <div class="section-title">Top Picks</div>
-    <div style="overflow-x:auto">
-      <table id="topPicksTable">
-        <thead>
-          <tr>
-            <th onclick="sortTable('topPicksTable',0)">Rank</th>
-            <th onclick="sortTable('topPicksTable',1)">Symbol</th>
-            <th onclick="sortTable('topPicksTable',2)">Segment</th>
-            <th onclick="sortTable('topPicksTable',3)" class="text-right">Close</th>
-            <th onclick="sortTable('topPicksTable',4)" class="text-right">ROC(20)</th>
-            <th onclick="sortTable('topPicksTable',5)" class="text-right">ADX</th>
-            <th onclick="sortTable('topPicksTable',6)" class="text-right">RSI</th>
-            <th onclick="sortTable('topPicksTable',7)" class="text-right">Score</th>
-            <th onclick="sortTable('topPicksTable',8)">Signal</th>
-          </tr>
-        </thead>
-        <tbody id="topPicksBody"></tbody>
-      </table>
-    </div>
-  </div>
-
-  <div id="segmentSections"></div>
+  <div class="seg-tabs" id="segTabs"></div>
+  <div id="segPanels"></div>
 </div>
 
 <script>
@@ -289,7 +287,6 @@ function renderStats(data) {
   const lc = data.segments?.largecap?.length || 0;
   const mc = data.segments?.midcap?.length || 0;
   const sc = data.segments?.smallcap?.length || 0;
-  const total = lc + mc + sc;
   const topN = data.top_picks?.length || 0;
   const signalCount = (data.top_picks || []).filter(s => s.entry_signal).length;
 
@@ -317,76 +314,81 @@ function renderStats(data) {
   `;
 }
 
-function renderTopPicks(data) {
-  const tbody = document.getElementById('topPicksBody');
-  if (!data.top_picks || data.top_picks.length === 0) {
-    tbody.innerHTML = '<tr><td colspan="9" class="empty-state">No screener results</td></tr>';
-    return;
-  }
-  tbody.innerHTML = data.top_picks.map((s, i) => stockRow(s, i + 1)).join('');
+function makeTable(tableId, stocks, hasRank) {
+  const rankTh = hasRank
+    ? `<th onclick="sortTable('${tableId}',0)">Rank</th>` : '';
+  const offset = hasRank ? 1 : 0;
+  const rows = stocks.length === 0
+    ? `<tr><td colspan="${hasRank ? 9 : 8}" class="empty-state">No data</td></tr>`
+    : stocks.map((s, i) => stockRow(s, hasRank ? i + 1 : null)).join('');
+
+  return `
+    <div style="overflow-x:auto">
+      <table id="${tableId}">
+        <thead>
+          <tr>
+            ${rankTh}
+            <th onclick="sortTable('${tableId}',${0 + offset})">Symbol</th>
+            <th onclick="sortTable('${tableId}',${1 + offset})">Segment</th>
+            <th onclick="sortTable('${tableId}',${2 + offset})" class="text-right">Close</th>
+            <th onclick="sortTable('${tableId}',${3 + offset})" class="text-right">ROC(20)</th>
+            <th onclick="sortTable('${tableId}',${4 + offset})" class="text-right">ADX</th>
+            <th onclick="sortTable('${tableId}',${5 + offset})" class="text-right">RSI</th>
+            <th onclick="sortTable('${tableId}',${6 + offset})" class="text-right">Score</th>
+            <th onclick="sortTable('${tableId}',${7 + offset})">Signal</th>
+          </tr>
+        </thead>
+        <tbody>${rows}</tbody>
+      </table>
+    </div>
+  `;
 }
 
-function segmentTableId(seg) {
-  return `segment_${seg}_table`;
+const TABS = [
+  { key: 'top',      label: 'Top Picks',    hasRank: true },
+  { key: 'largecap', label: 'Largecap F&O', hasRank: false },
+  { key: 'midcap',   label: 'Midcap F&O',   hasRank: false },
+  { key: 'smallcap', label: 'Smallcap F&O', hasRank: false },
+];
+
+function switchTab(key) {
+  document.querySelectorAll('.seg-tab').forEach(t => {
+    t.classList.toggle('active', t.dataset.key === key);
+  });
+  document.querySelectorAll('.seg-panel').forEach(p => {
+    p.classList.toggle('active', p.id === 'panel_' + key);
+  });
 }
 
-function renderSegments(data) {
-  const container = document.getElementById('segmentSections');
-  if (!data.segments) {
-    container.innerHTML = '';
-    return;
-  }
-  const segmentLabels = { largecap: 'Largecap F&O', midcap: 'Midcap F&O', smallcap: 'Smallcap F&O' };
-  let html = '';
+function renderTabs(data) {
+  const tabsEl = document.getElementById('segTabs');
+  const panelsEl = document.getElementById('segPanels');
 
-  for (const [seg, label] of Object.entries(segmentLabels)) {
-    const stocks = data.segments[seg] || [];
-    const tableId = segmentTableId(seg);
-    const sectionId = `section_${seg}`;
-    html += `
-      <div class="section">
-        <div class="section-header" onclick="toggleSection('${sectionId}')">
-          <div>
-            <span class="section-title">${label}</span>
-            <span class="section-count">${stocks.length}</span>
-          </div>
-          <span class="section-toggle" id="toggle_${sectionId}">&#9660;</span>
-        </div>
-        <div class="section-body" id="${sectionId}">
-          <div style="overflow-x:auto">
-            <table id="${tableId}">
-              <thead>
-                <tr>
-                  <th onclick="sortTable('${tableId}',0)">Symbol</th>
-                  <th onclick="sortTable('${tableId}',1)">Segment</th>
-                  <th onclick="sortTable('${tableId}',2)" class="text-right">Close</th>
-                  <th onclick="sortTable('${tableId}',3)" class="text-right">ROC(20)</th>
-                  <th onclick="sortTable('${tableId}',4)" class="text-right">ADX</th>
-                  <th onclick="sortTable('${tableId}',5)" class="text-right">RSI</th>
-                  <th onclick="sortTable('${tableId}',6)" class="text-right">Score</th>
-                  <th onclick="sortTable('${tableId}',7)">Signal</th>
-                </tr>
-              </thead>
-              <tbody>
-                ${stocks.length === 0
-                  ? `<tr><td colspan="8" class="empty-state">No data</td></tr>`
-                  : stocks.map(s => stockRow(s, null)).join('')
-                }
-              </tbody>
-            </table>
-          </div>
-        </div>
-      </div>
-    `;
-  }
-  container.innerHTML = html;
-}
+  const counts = {
+    top: data.top_picks?.length || 0,
+    largecap: data.segments?.largecap?.length || 0,
+    midcap: data.segments?.midcap?.length || 0,
+    smallcap: data.segments?.smallcap?.length || 0,
+  };
 
-function toggleSection(sectionId) {
-  const body = document.getElementById(sectionId);
-  const toggle = document.getElementById('toggle_' + sectionId);
-  body.classList.toggle('collapsed');
-  toggle.classList.toggle('collapsed');
+  tabsEl.innerHTML = TABS.map(t =>
+    `<div class="seg-tab${t.key === 'top' ? ' active' : ''}" data-key="${t.key}" onclick="switchTab('${t.key}')">
+      ${t.label}<span class="badge">${counts[t.key]}</span>
+    </div>`
+  ).join('');
+
+  const stocksByTab = {
+    top: data.top_picks || [],
+    largecap: data.segments?.largecap || [],
+    midcap: data.segments?.midcap || [],
+    smallcap: data.segments?.smallcap || [],
+  };
+
+  panelsEl.innerHTML = TABS.map(t =>
+    `<div class="seg-panel${t.key === 'top' ? ' active' : ''}" id="panel_${t.key}">
+      ${makeTable('table_' + t.key, stocksByTab[t.key], t.hasRank)}
+    </div>`
+  ).join('');
 }
 
 function sortTable(tableId, colIdx) {
@@ -439,8 +441,7 @@ async function loadData() {
   }
 
   renderStats(data);
-  renderTopPicks(data);
-  renderSegments(data);
+  renderTabs(data);
 }
 
 loadData();

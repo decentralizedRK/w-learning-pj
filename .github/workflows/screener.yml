@@ -10,7 +10,7 @@ on:
     inputs:
       top:
         description: "Number of top candidates to show"
-        default: "10"
+        default: "20"
       universe:
         description: "Comma-separated symbols (default: full F&O universe)"
         default: ""
@@ -19,7 +19,7 @@ jobs:
   screen:
     runs-on: ubuntu-latest
     env:
-      INPUT_TOP: ${{ inputs.top || '10' }}
+      INPUT_TOP: ${{ inputs.top || '20' }}
       INPUT_UNIVERSE: ${{ inputs.universe }}
       QOS_KITE_API_KEY: ${{ secrets.QOS_KITE_API_KEY }}
       QOS_KITE_API_SECRET: ${{ secrets.QOS_KITE_API_SECRET }}
