@@ -47,9 +47,11 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
-          # Always use latest HTML from main
+          # Always use latest files from main
           mkdir -p /tmp/gh-deploy/data
           cp dashboard/*.html /tmp/gh-deploy/
+          cp dashboard/styles.css /tmp/gh-deploy/ 2>/dev/null || true
+          cp dashboard/.nojekyll /tmp/gh-deploy/ 2>/dev/null || true
           cp dashboard/data/*.json /tmp/gh-deploy/data/ 2>/dev/null || true
 
           # Preserve data from gh-pages that wasn't freshly generated
@@ -64,7 +66,7 @@ jobs:
           git rm -rf . > /dev/null 2>&1 || true
           find . -not -name '.git' -not -path './.git/*' -delete 2>/dev/null || true
 
-          cp /tmp/gh-deploy/*.html .
+          cp /tmp/gh-deploy/*.html /tmp/gh-deploy/*.css /tmp/gh-deploy/.nojekyll . 2>/dev/null || true
           mkdir -p data
           cp /tmp/gh-deploy/data/*.json data/ 2>/dev/null || true
 

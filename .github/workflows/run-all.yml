@@ -1,0 +1,57 @@
+name: Run All
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  screener:
+    runs-on: ubuntu-latest
+    env:
+      QOS_KITE_API_KEY: ${{ secrets.QOS_KITE_API_KEY }}
+      QOS_KITE_API_SECRET: ${{ secrets.QOS_KITE_API_SECRET }}
+      QOS_KITE_ACCESS_TOKEN: ${{ secrets.QOS_KITE_ACCESS_TOKEN }}
+      QOS_TELEGRAM_BOT_TOKEN: ${{ secrets.QOS_TELEGRAM_BOT_TOKEN }}
+      QOS_TELEGRAM_CHAT_ID: ${{ secrets.QOS_TELEGRAM_CHAT_ID }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - uses: astral-sh/setup-uv@v4
+      - run: uv sync
+
+      - name: Run screener
+        run: uv run python -m scripts.run_screener --top 20 --output dashboard/data/signals.json
+
+      - name: Generate recommendations
+        run: uv run python -m scripts.generate_recommendations --signals dashboard/data/signals.json --output dashboard/data/recommendations.json
+
+      - name: News digest
+        run: uv run python -m scripts.news_digest --output dashboard/data/news.json
+
+      - name: Corporate actions
+        run: uv run python -m scripts.corporate_actions --output dashboard/data/corporate_actions.json
+
+      - name: MF update
+        run: uv run python -m scripts.mf_update --output dashboard/data/mf_snapshot.json
+
+      - name: Portfolio snapshot
+        run: uv run python -m scripts.portfolio_snapshot --output dashboard/data/portfolio.json
+        continue-on-error: true
+
+      - name: Commit all data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add dashboard/data/ config/mf_portfolio.json
+          git diff --staged --quiet || git commit -m "chore: run-all data update"
+          git pull --rebase origin main || true
+          git push
+
+  publish:
+    needs: screener
+    uses: ./.github/workflows/publish-dashboard.yml
+    secrets: inherit
