@@ -28,6 +28,10 @@ jobs:
 
       - run: uv sync
 
+      - name: Update P&L
+        run: uv run python -m scripts.update_pnl --output dashboard/data/pnl.json
+        continue-on-error: true
+
       - name: Fetch dashboard data
         run: uv run python -m scripts.publish_dashboard_data --output dashboard/data
         continue-on-error: true
@@ -46,7 +50,7 @@ jobs:
 
           # Preserve existing gh-pages data
           git fetch origin gh-pages:gh-pages 2>/dev/null || true
-          for f in backtest_results.json signals.json; do
+          for f in backtest_results.json signals.json pnl.json; do
             git show "gh-pages:data/$f" > "/tmp/gh-deploy/data/$f" 2>/dev/null || true
           done
 

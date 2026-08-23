@@ -1,9 +1,7 @@
 name: Update P&L
 
 on:
-  schedule:
-    # Every 2 hours during IST market hours (9:00, 11:00, 13:00, 15:00 IST)
-    - cron: "30 3,5,7,9 * * 1-5"
+  # Schedule removed — publish-dashboard runs P&L every 15 min during market hours
   workflow_dispatch:
 
 jobs:
