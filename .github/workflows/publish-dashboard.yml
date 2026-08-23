@@ -2,8 +2,9 @@ name: Publish Dashboard
 
 on:
   schedule:
-    # Every 2 hours during IST market hours (9:00, 11:00, 13:00, 15:00 IST)
-    - cron: "30 3,5,7,9 * * 1-5"
+    # Every 15 min during IST market hours (9:15-15:30 IST = 3:45-10:00 UTC)
+    - cron: "*/15 3-10 * * 1-5"
+  workflow_call:
   workflow_dispatch:
 
 permissions:

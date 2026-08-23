@@ -17,6 +17,9 @@ on:
 
 jobs:
   screen:
+    outputs:
+      completed: ${{ steps.done.outputs.completed }}
+
     runs-on: ubuntu-latest
     env:
       INPUT_TOP: ${{ inputs.top || '10' }}
@@ -80,3 +83,13 @@ jobs:
           git add -A
           git commit -m "chore: update screener results" || echo "No changes"
           git push origin HEAD:gh-pages --force
+
+      - name: Mark complete
+        id: done
+        run: echo "completed=true" >> "$GITHUB_OUTPUT"
+
+  publish:
+    needs: screen
+    if: needs.screen.outputs.completed == 'true'
+    uses: ./.github/workflows/publish-dashboard.yml
+    secrets: inherit
