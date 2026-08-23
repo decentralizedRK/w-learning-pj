@@ -33,7 +33,7 @@ class KiteFetcher(BaseFetcher):
             logger.error(f"Could not find instrument token for {symbol}")
             return pd.DataFrame()
 
-        df = self.fetch_historical(
+        df = self.fetch_historical_chunked(
             instrument_token=token,
             from_date=datetime.combine(start, datetime.min.time()),
             to_date=datetime.combine(end, datetime.min.time()),
