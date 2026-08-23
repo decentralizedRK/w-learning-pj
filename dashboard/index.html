@@ -3,18 +3,24 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>QuantOS Dashboard</title>
+<title>QuantOS — Portfolio</title>
 <style>
 :root {
   --bg: #0d1117;
   --surface: #161b22;
+  --surface-hover: #1c2128;
   --border: #30363d;
   --text: #e6edf3;
   --text-dim: #8b949e;
   --green: #3fb950;
+  --green-bg: rgba(63, 185, 80, 0.1);
   --red: #f85149;
+  --red-bg: rgba(248, 81, 73, 0.1);
   --blue: #58a6ff;
   --yellow: #d29922;
+  --purple: #bc8cff;
+  --glass: rgba(22, 27, 34, 0.75);
+  --glass-border: rgba(48, 54, 61, 0.6);
 }
 * { margin: 0; padding: 0; box-sizing: border-box; }
 body {
@@ -22,122 +28,207 @@ body {
   background: var(--bg);
   color: var(--text);
   line-height: 1.5;
+  min-height: 100vh;
 }
-.container { max-width: 1280px; margin: 0 auto; padding: 16px; }
+.container { max-width: 1400px; margin: 0 auto; padding: 16px 20px; }
 
 /* Nav */
 nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 12px 16px;
+  padding: 12px 20px;
   background: var(--surface);
   border-bottom: 1px solid var(--border);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  backdrop-filter: blur(12px);
 }
-nav .logo { font-size: 18px; font-weight: 700; }
+nav .logo { font-size: 18px; font-weight: 700; letter-spacing: -0.5px; }
 nav .logo span { color: var(--blue); }
+nav .tabs { display: flex; gap: 2px; }
 nav .tabs a {
   color: var(--text-dim);
   text-decoration: none;
   padding: 6px 14px;
   border-radius: 6px;
-  font-size: 14px;
+  font-size: 13px;
+  font-weight: 500;
+  transition: all 0.15s;
 }
 nav .tabs a.active { background: var(--border); color: var(--text); }
-nav .tabs a:hover { color: var(--text); }
+nav .tabs a:hover { color: var(--text); background: rgba(48,54,61,0.4); }
+nav .market-status { display: flex; align-items: center; gap: 6px; font-size: 12px; color: var(--text-dim); }
+nav .status-dot { width: 8px; height: 8px; border-radius: 50%; }
+nav .status-dot.open { background: var(--green); box-shadow: 0 0 6px var(--green); }
+nav .status-dot.closed { background: var(--red); }
 
-/* Index tickers */
-.tickers {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 12px;
-  margin: 16px 0;
-}
-.ticker-card {
-  background: var(--surface);
-  border: 1px solid var(--border);
-  border-radius: 8px;
-  padding: 16px;
-}
-.ticker-card .name { font-size: 12px; color: var(--text-dim); text-transform: uppercase; letter-spacing: 0.5px; }
-.ticker-card .price { font-size: 24px; font-weight: 700; margin: 4px 0; font-variant-numeric: tabular-nums; }
-.ticker-card .change { font-size: 13px; font-weight: 600; }
-
-/* Stats row */
+/* Stat cards */
 .stats {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-  gap: 12px;
-  margin: 16px 0;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 14px;
+  margin: 20px 0;
 }
 .stat-card {
-  background: var(--surface);
-  border: 1px solid var(--border);
-  border-radius: 8px;
-  padding: 16px;
+  background: var(--glass);
+  border: 1px solid var(--glass-border);
+  border-radius: 12px;
+  padding: 20px;
+  backdrop-filter: blur(8px);
+  transition: transform 0.2s, box-shadow 0.2s;
 }
-.stat-card .label { font-size: 12px; color: var(--text-dim); text-transform: uppercase; letter-spacing: 0.5px; }
-.stat-card .value { font-size: 28px; font-weight: 700; margin: 4px 0; font-variant-numeric: tabular-nums; }
+.stat-card:hover { transform: translateY(-2px); box-shadow: 0 4px 20px rgba(0,0,0,0.3); }
+.stat-card .label {
+  font-size: 11px; color: var(--text-dim);
+  text-transform: uppercase; letter-spacing: 0.8px; font-weight: 600;
+}
+.stat-card .value {
+  font-size: 28px; font-weight: 700; margin: 6px 0 2px;
+  font-variant-numeric: tabular-nums;
+}
 .stat-card .sub { font-size: 12px; color: var(--text-dim); }
 
+/* Sub-tabs */
+.sub-tabs {
+  display: flex; gap: 0; margin: 24px 0 0;
+  border-bottom: 2px solid var(--border);
+}
+.sub-tab {
+  padding: 10px 20px;
+  font-size: 13px; font-weight: 600;
+  color: var(--text-dim);
+  cursor: pointer;
+  border-bottom: 2px solid transparent;
+  margin-bottom: -2px;
+  user-select: none;
+  transition: color 0.15s, border-color 0.15s;
+}
+.sub-tab:hover { color: var(--text); }
+.sub-tab.active { color: var(--blue); border-bottom-color: var(--blue); }
+.sub-tab .badge {
+  font-size: 10px; background: var(--border); padding: 1px 6px;
+  border-radius: 8px; margin-left: 6px; font-weight: 400; color: var(--text-dim);
+}
+.sub-panel { display: none; padding-top: 16px; animation: fadeIn 0.2s ease; }
+.sub-panel.active { display: block; }
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(4px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
 /* Tables */
-.section { margin: 24px 0; }
-.section-title { font-size: 16px; font-weight: 600; margin-bottom: 12px; }
+.section { margin: 20px 0; }
+.section-title { font-size: 15px; font-weight: 600; margin-bottom: 12px; color: var(--text-dim); }
+
 table {
-  width: 100%;
-  border-collapse: collapse;
-  background: var(--surface);
-  border: 1px solid var(--border);
-  border-radius: 8px;
-  overflow: hidden;
-  font-size: 13px;
+  width: 100%; border-collapse: collapse;
+  background: var(--surface); border: 1px solid var(--border);
+  border-radius: 10px; overflow: hidden; font-size: 13px;
 }
 th {
-  background: #1c2128;
-  text-align: left;
-  padding: 10px 14px;
-  font-weight: 600;
-  color: var(--text-dim);
-  font-size: 11px;
-  text-transform: uppercase;
-  letter-spacing: 0.5px;
-  cursor: pointer;
-  user-select: none;
+  background: var(--surface-hover); text-align: left;
+  padding: 10px 14px; font-weight: 600; color: var(--text-dim);
+  font-size: 11px; text-transform: uppercase; letter-spacing: 0.5px;
+  cursor: pointer; user-select: none; white-space: nowrap;
+  transition: color 0.15s;
 }
 th:hover { color: var(--text); }
-td { padding: 10px 14px; border-top: 1px solid var(--border); font-variant-numeric: tabular-nums; }
-tr:hover td { background: #1c2128; }
+th .sort-arrow { margin-left: 4px; font-size: 10px; }
+td {
+  padding: 10px 14px; border-top: 1px solid var(--border);
+  font-variant-numeric: tabular-nums; transition: background 0.1s;
+}
+tr:hover td { background: var(--surface-hover); }
 .text-right { text-align: right; }
 .positive { color: var(--green); }
 .negative { color: var(--red); }
 
+/* Symbol links */
+.sym-link {
+  color: var(--text); text-decoration: none;
+  border-bottom: 1px dotted var(--text-dim);
+  transition: color 0.15s, border-color 0.15s;
+}
+.sym-link:hover { color: var(--blue); border-color: var(--blue); }
+.ext-link {
+  color: var(--text-dim); text-decoration: none; font-size: 10px;
+  margin-left: 6px; padding: 1px 4px; border: 1px solid var(--border);
+  border-radius: 3px; vertical-align: middle; transition: all 0.15s;
+}
+.ext-link:hover { color: var(--blue); border-color: var(--blue); }
+
+/* Action badges */
+.badge-action {
+  font-size: 11px; font-weight: 600; padding: 2px 8px;
+  border-radius: 4px; white-space: nowrap;
+}
+.badge-action.strong-buy { color: var(--green); background: var(--green-bg); }
+.badge-action.accumulate { color: #7ee787; background: rgba(126,231,135,0.1); }
+.badge-action.hold { color: var(--yellow); background: rgba(210,153,34,0.1); }
+.badge-action.monitor { color: #ffa657; background: rgba(255,166,87,0.1); }
+.badge-action.exit { color: var(--red); background: var(--red-bg); }
+
+/* Trend badges */
+.trend-up { color: var(--green); }
+.trend-down { color: var(--red); }
+.trend-na { color: var(--text-dim); }
+
+/* Runners/Draggers */
+.movers {
+  display: grid; grid-template-columns: 1fr 1fr;
+  gap: 14px; margin: 20px 0;
+}
+.mover-card {
+  background: var(--surface); border: 1px solid var(--border);
+  border-radius: 10px; padding: 16px;
+}
+.mover-card .mover-title {
+  font-size: 12px; font-weight: 600; text-transform: uppercase;
+  letter-spacing: 0.5px; margin-bottom: 10px;
+}
+.mover-item {
+  display: flex; justify-content: space-between; align-items: center;
+  padding: 6px 0; border-top: 1px solid var(--border);
+  font-size: 13px;
+}
+.mover-item:first-of-type { border-top: none; }
+
+/* Loading skeleton */
+.skeleton {
+  background: linear-gradient(90deg, var(--surface) 25%, var(--surface-hover) 50%, var(--surface) 75%);
+  background-size: 200% 100%;
+  animation: shimmer 1.5s infinite;
+  border-radius: 6px; height: 20px; margin: 4px 0;
+}
+@keyframes shimmer {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+
 /* Status bar */
 .status-bar {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 10px 0;
-  font-size: 12px;
-  color: var(--text-dim);
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 8px 0; font-size: 12px; color: var(--text-dim);
 }
-.status-dot { display: inline-block; width: 8px; height: 8px; border-radius: 50%; margin-right: 6px; }
-.status-dot.live { background: var(--green); }
-.status-dot.stale { background: var(--yellow); }
-.status-dot.error { background: var(--red); }
 
-/* Loading / Error */
 .empty-state {
-  text-align: center;
-  padding: 48px 16px;
-  color: var(--text-dim);
+  text-align: center; padding: 48px 16px; color: var(--text-dim);
 }
-.empty-state .icon { font-size: 32px; margin-bottom: 8px; }
+
+/* Count-up animation */
+.count-up { transition: opacity 0.3s; }
 
 @media (max-width: 768px) {
-  .tickers { grid-template-columns: repeat(2, 1fr); }
+  nav .tabs { gap: 0; overflow-x: auto; }
+  nav .tabs a { padding: 6px 10px; font-size: 12px; white-space: nowrap; }
   .stats { grid-template-columns: repeat(2, 1fr); }
+  .movers { grid-template-columns: 1fr; }
   table { font-size: 12px; }
   th, td { padding: 8px 10px; }
+  .stat-card .value { font-size: 22px; }
 }
 </style>
 </head>
@@ -145,208 +236,289 @@ tr:hover td { background: #1c2128; }
 <nav>
   <div class="logo">Quant<span>OS</span></div>
   <div class="tabs">
-    <a href="index.html" class="active">Live</a>
-    <a href="backtest.html">Backtest</a>
+    <a href="index.html" class="active">Portfolio</a>
     <a href="screener.html">Screener</a>
+    <a href="signals.html">Signals</a>
+    <a href="news.html">News</a>
+    <a href="backtest.html">Backtest</a>
+  </div>
+  <div class="market-status">
+    <span class="status-dot" id="mktDot"></span>
+    <span id="mktLabel"></span>
   </div>
 </nav>
 
 <div class="container">
   <div class="status-bar">
-    <div><span class="status-dot" id="statusDot"></span><span id="statusText">Loading...</span></div>
+    <div id="statusText">Loading portfolio...</div>
     <div id="lastUpdated"></div>
   </div>
 
-  <div class="tickers" id="tickers"></div>
-
-  <div class="stats" id="stats"></div>
-
-  <div class="section">
-    <div class="section-title">Open Positions</div>
-    <table id="positionsTable">
-      <thead>
-        <tr>
-          <th onclick="sortTable('positionsTable',0)">Symbol</th>
-          <th onclick="sortTable('positionsTable',1)">Qty</th>
-          <th onclick="sortTable('positionsTable',2)" class="text-right">Avg Price</th>
-          <th onclick="sortTable('positionsTable',3)" class="text-right">LTP</th>
-          <th onclick="sortTable('positionsTable',4)" class="text-right">P&L</th>
-          <th onclick="sortTable('positionsTable',5)" class="text-right">P&L %</th>
-          <th onclick="sortTable('positionsTable',6)">Product</th>
-        </tr>
-      </thead>
-      <tbody id="positionsBody"></tbody>
-    </table>
+  <div class="stats" id="stats">
+    <div class="stat-card"><div class="label">Total Invested</div><div class="value skeleton">&nbsp;</div></div>
+    <div class="stat-card"><div class="label">Current Value</div><div class="value skeleton">&nbsp;</div></div>
+    <div class="stat-card"><div class="label">Total P&L</div><div class="value skeleton">&nbsp;</div></div>
+    <div class="stat-card"><div class="label">Overall Return</div><div class="value skeleton">&nbsp;</div></div>
   </div>
 
-  <div class="section">
-    <div class="section-title">Today's Completed Orders</div>
-    <table id="tradesTable">
-      <thead>
-        <tr>
-          <th onclick="sortTable('tradesTable',0)">Time</th>
-          <th onclick="sortTable('tradesTable',1)">Symbol</th>
-          <th onclick="sortTable('tradesTable',2)">Action</th>
-          <th onclick="sortTable('tradesTable',3)" class="text-right">Qty</th>
-          <th onclick="sortTable('tradesTable',4)" class="text-right">Price</th>
-          <th onclick="sortTable('tradesTable',5)">Type</th>
-          <th onclick="sortTable('tradesTable',6)">Product</th>
-        </tr>
-      </thead>
-      <tbody id="tradesBody"></tbody>
-    </table>
+  <div class="sub-tabs" id="subTabs">
+    <div class="sub-tab active" data-tab="holdings" onclick="switchSub('holdings')">Holdings <span class="badge" id="holdingsCount">-</span></div>
+    <div class="sub-tab" data-tab="positions" onclick="switchSub('positions')">F&O Positions <span class="badge" id="positionsCount">-</span></div>
+    <div class="sub-tab" data-tab="mf" onclick="switchSub('mf')">Mutual Funds <span class="badge" id="mfCount">-</span></div>
+  </div>
+
+  <div class="sub-panel active" id="panel_holdings">
+    <div style="overflow-x:auto">
+      <table id="holdingsTable">
+        <thead><tr>
+          <th onclick="sortTable('holdingsTable',0)">Symbol</th>
+          <th onclick="sortTable('holdingsTable',1)" class="text-right">Qty</th>
+          <th onclick="sortTable('holdingsTable',2)" class="text-right">Avg Price</th>
+          <th onclick="sortTable('holdingsTable',3)" class="text-right">CMP</th>
+          <th onclick="sortTable('holdingsTable',4)" class="text-right">Day %</th>
+          <th onclick="sortTable('holdingsTable',5)" class="text-right">P&L</th>
+          <th onclick="sortTable('holdingsTable',6)" class="text-right">Return %</th>
+          <th onclick="sortTable('holdingsTable',7)" class="text-right">Weight %</th>
+          <th onclick="sortTable('holdingsTable',8)" class="text-right">RSI</th>
+          <th onclick="sortTable('holdingsTable',9)">Trend</th>
+        </tr></thead>
+        <tbody id="holdingsBody"><tr><td colspan="10" class="empty-state">Loading...</td></tr></tbody>
+      </table>
+    </div>
+
+    <div class="movers" id="movers"></div>
+  </div>
+
+  <div class="sub-panel" id="panel_positions">
+    <div style="overflow-x:auto">
+      <table id="positionsTable">
+        <thead><tr>
+          <th onclick="sortTable('positionsTable',0)">Symbol</th>
+          <th onclick="sortTable('positionsTable',1)" class="text-right">Qty</th>
+          <th onclick="sortTable('positionsTable',2)" class="text-right">Entry</th>
+          <th onclick="sortTable('positionsTable',3)" class="text-right">LTP</th>
+          <th onclick="sortTable('positionsTable',4)" class="text-right">P&L</th>
+          <th onclick="sortTable('positionsTable',5)">Product</th>
+          <th onclick="sortTable('positionsTable',6)">Exchange</th>
+        </tr></thead>
+        <tbody id="positionsBody"><tr><td colspan="7" class="empty-state">No F&O positions</td></tr></tbody>
+      </table>
+    </div>
+  </div>
+
+  <div class="sub-panel" id="panel_mf">
+    <div style="overflow-x:auto">
+      <table id="mfTable">
+        <thead><tr>
+          <th onclick="sortTable('mfTable',0)">Fund</th>
+          <th onclick="sortTable('mfTable',1)" class="text-right">Units</th>
+          <th onclick="sortTable('mfTable',2)" class="text-right">Avg NAV</th>
+          <th onclick="sortTable('mfTable',3)" class="text-right">Current NAV</th>
+          <th onclick="sortTable('mfTable',4)" class="text-right">Invested</th>
+          <th onclick="sortTable('mfTable',5)" class="text-right">Current</th>
+          <th onclick="sortTable('mfTable',6)" class="text-right">P&L</th>
+          <th onclick="sortTable('mfTable',7)" class="text-right">Return %</th>
+          <th onclick="sortTable('mfTable',8)" class="text-right">SIP</th>
+        </tr></thead>
+        <tbody id="mfBody"><tr><td colspan="9" class="empty-state">Loading...</td></tr></tbody>
+      </table>
+    </div>
   </div>
 </div>
 
 <script>
 const DATA_BASE = 'data';
-const REFRESH_INTERVAL = 60000;
+const REFRESH_MS = 60000;
 
-function fmt(n, decimals = 0) {
+function fmt(n, d = 0) {
   if (n == null || isNaN(n)) return '--';
-  return n.toLocaleString('en-IN', { minimumFractionDigits: decimals, maximumFractionDigits: decimals });
+  return n.toLocaleString('en-IN', { minimumFractionDigits: d, maximumFractionDigits: d });
 }
-
-function pnlClass(val) {
-  return val > 0 ? 'positive' : val < 0 ? 'negative' : '';
-}
-
-function pnlSign(val) {
-  return val > 0 ? '+' : '';
+function pnlClass(v) { return v > 0 ? 'positive' : v < 0 ? 'negative' : ''; }
+function pnlSign(v) { return v > 0 ? '+' : ''; }
+function trendClass(t) {
+  if (!t) return 'trend-na';
+  return t === 'UPTREND' ? 'trend-up' : t === 'DOWNTREND' ? 'trend-down' : 'trend-na';
 }
 
 async function fetchJSON(file) {
   try {
-    const resp = await fetch(`${DATA_BASE}/${file}?t=${Date.now()}`);
-    if (!resp.ok) return null;
-    return await resp.json();
+    const r = await fetch(`${DATA_BASE}/${file}?t=${Date.now()}`);
+    return r.ok ? await r.json() : null;
   } catch { return null; }
 }
 
-function renderTickers(data) {
-  const el = document.getElementById('tickers');
-  if (!data || !data.indices || data.indices.length === 0) {
-    el.innerHTML = '';
+function countUp(el, target, decimals = 0, duration = 800) {
+  const start = 0;
+  const startTime = performance.now();
+  function update(now) {
+    const elapsed = Math.min((now - startTime) / duration, 1);
+    const eased = 1 - Math.pow(1 - elapsed, 3);
+    const current = start + (target - start) * eased;
+    el.textContent = (target >= 0 ? '+' : '') + fmt(current, decimals);
+    if (elapsed < 1) requestAnimationFrame(update);
+  }
+  requestAnimationFrame(update);
+}
+
+function renderStats(p, mf) {
+  const el = document.getElementById('stats');
+  const inv = (p?.total_invested || 0) + (mf?.total_invested || 0);
+  const cur = (p?.total_current || 0) + (mf?.total_current || 0);
+  const pnl = cur - inv;
+  const pnlPct = inv > 0 ? (pnl / inv * 100) : 0;
+  const nHold = (p?.holdings || []).length;
+
+  el.innerHTML = `
+    <div class="stat-card">
+      <div class="label">Total Invested</div>
+      <div class="value">${fmt(inv)}</div>
+      <div class="sub">${nHold} stocks + ${(mf?.funds || []).length} funds</div>
+    </div>
+    <div class="stat-card">
+      <div class="label">Current Value</div>
+      <div class="value">${fmt(cur)}</div>
+      <div class="sub">as of ${p?.timestamp || mf?.timestamp || '--'}</div>
+    </div>
+    <div class="stat-card">
+      <div class="label">Total P&L</div>
+      <div class="value ${pnlClass(pnl)}" id="pnlValue">${pnlSign(pnl)}${fmt(pnl)}</div>
+      <div class="sub">absolute</div>
+    </div>
+    <div class="stat-card">
+      <div class="label">Overall Return</div>
+      <div class="value ${pnlClass(pnlPct)}">${pnlSign(pnlPct)}${fmt(pnlPct, 1)}%</div>
+      <div class="sub">since inception</div>
+    </div>
+  `;
+}
+
+function symCell(symbol) {
+  return `<td>
+    <strong><a href="https://www.tradingview.com/chart/?symbol=NSE%3A${symbol}" target="_blank" rel="noopener" class="sym-link">${symbol}</a></strong>
+    <a href="https://www.google.com/finance/quote/${symbol}:NSE" target="_blank" rel="noopener" class="ext-link" title="Google Finance">GF</a>
+  </td>`;
+}
+
+function renderHoldings(data) {
+  const tbody = document.getElementById('holdingsBody');
+  const count = document.getElementById('holdingsCount');
+  const holdings = data?.holdings || [];
+  count.textContent = holdings.length;
+
+  if (holdings.length === 0) {
+    tbody.innerHTML = '<tr><td colspan="10" class="empty-state">No holdings data. Run portfolio snapshot.</td></tr>';
     return;
   }
-  el.innerHTML = data.indices.map(idx => `
-    <div class="ticker-card">
-      <div class="name">${idx.name}</div>
-      <div class="price">${fmt(idx.price, 2)}</div>
-    </div>
+
+  tbody.innerHTML = holdings.map(h => `
+    <tr>
+      ${symCell(h.symbol)}
+      <td class="text-right">${h.qty}</td>
+      <td class="text-right">${fmt(h.avg_price, 2)}</td>
+      <td class="text-right">${fmt(h.ltp, 2)}</td>
+      <td class="text-right ${pnlClass(h.day_change_pct)}">${pnlSign(h.day_change_pct)}${fmt(h.day_change_pct, 1)}%</td>
+      <td class="text-right ${pnlClass(h.pnl)}">${pnlSign(h.pnl)}${fmt(h.pnl)}</td>
+      <td class="text-right ${pnlClass(h.pnl_pct)}">${pnlSign(h.pnl_pct)}${fmt(h.pnl_pct, 1)}%</td>
+      <td class="text-right">${fmt(h.weight_pct, 1)}%</td>
+      <td class="text-right">${fmt(h.rsi, 0) || '--'}</td>
+      <td class="${trendClass(h.trend)}">${h.trend || '--'}</td>
+    </tr>
   `).join('');
 }
 
-function renderStats(statsData, marginsData) {
-  const el = document.getElementById('stats');
-  const s = statsData || {};
-  const m = marginsData || {};
-  const pnl = s.total_pnl || 0;
+function renderMovers(data) {
+  const el = document.getElementById('movers');
+  const runners = (data?.runners || []).slice(0, 5);
+  const draggers = (data?.draggers || []).slice(0, 5);
+
+  if (runners.length === 0 && draggers.length === 0) { el.innerHTML = ''; return; }
+
+  const moverItems = (items, isRunner) => items.map(m => `
+    <div class="mover-item">
+      <span><strong>${m.symbol}</strong></span>
+      <span class="${isRunner ? 'positive' : 'negative'}">${pnlSign(m.pnl_pct)}${fmt(m.pnl_pct, 1)}%</span>
+    </div>
+  `).join('');
+
   el.innerHTML = `
-    <div class="stat-card">
-      <div class="label">Total P&L</div>
-      <div class="value ${pnlClass(pnl)}">${pnlSign(pnl)}${fmt(pnl, 0)}</div>
-      <div class="sub">${s.total_positions || 0} positions</div>
+    <div class="mover-card">
+      <div class="mover-title positive">Top Runners</div>
+      ${moverItems(runners, true)}
     </div>
-    <div class="stat-card">
-      <div class="label">Win Rate</div>
-      <div class="value">${fmt(s.win_rate || 0, 1)}%</div>
-      <div class="sub">${s.winning || 0}W / ${s.losing || 0}L</div>
-    </div>
-    <div class="stat-card">
-      <div class="label">Avg Risk/Reward</div>
-      <div class="value">${fmt(s.avg_risk_reward || 0, 2)}</div>
-      <div class="sub">Profit factor: ${fmt(s.profit_factor || 0, 2)}</div>
-    </div>
-    <div class="stat-card">
-      <div class="label">Margin Utilization</div>
-      <div class="value ${(m.utilization_pct || 0) > 75 ? 'negative' : ''}">${fmt(m.utilization_pct || 0, 1)}%</div>
-      <div class="sub">Used: ${fmt(m.margin_used || 0, 0)} / ${fmt(m.total_capital || 0, 0)}</div>
+    <div class="mover-card">
+      <div class="mover-title negative">Top Draggers</div>
+      ${moverItems(draggers, false)}
     </div>
   `;
 }
 
 function renderPositions(data) {
   const tbody = document.getElementById('positionsBody');
-  if (!data || !data.positions || data.positions.length === 0) {
-    tbody.innerHTML = '<tr><td colspan="7" class="empty-state">No open positions</td></tr>';
+  const count = document.getElementById('positionsCount');
+  const positions = data?.positions || [];
+  count.textContent = positions.length;
+
+  if (positions.length === 0) {
+    tbody.innerHTML = '<tr><td colspan="7" class="empty-state">No open F&O positions</td></tr>';
     return;
   }
-  tbody.innerHTML = data.positions.map(p => `
+
+  tbody.innerHTML = positions.map(p => `
     <tr>
-      <td><strong>${p.symbol}</strong></td>
-      <td>${p.quantity}</td>
-      <td class="text-right">${fmt(p.average_price, 2)}</td>
+      ${symCell(p.symbol)}
+      <td class="text-right">${p.qty}</td>
+      <td class="text-right">${fmt(p.entry_price, 2)}</td>
       <td class="text-right">${fmt(p.ltp, 2)}</td>
-      <td class="text-right ${pnlClass(p.pnl)}">${pnlSign(p.pnl)}${fmt(p.pnl, 2)}</td>
-      <td class="text-right ${pnlClass(p.pnl_pct)}">${pnlSign(p.pnl_pct)}${fmt(p.pnl_pct, 2)}%</td>
+      <td class="text-right ${pnlClass(p.pnl)}">${pnlSign(p.pnl)}${fmt(p.pnl)}</td>
       <td>${p.product}</td>
+      <td>${p.exchange}</td>
     </tr>
   `).join('');
 }
 
-function renderTrades(data) {
-  const tbody = document.getElementById('tradesBody');
-  if (!data || !data.trades || data.trades.length === 0) {
-    tbody.innerHTML = '<tr><td colspan="7" class="empty-state">No completed trades today</td></tr>';
+function renderMF(data) {
+  const tbody = document.getElementById('mfBody');
+  const count = document.getElementById('mfCount');
+  const funds = data?.funds || [];
+  count.textContent = funds.length;
+
+  if (funds.length === 0) {
+    tbody.innerHTML = '<tr><td colspan="9" class="empty-state">No mutual fund data. Run MF update.</td></tr>';
     return;
   }
-  tbody.innerHTML = data.trades.map(t => {
-    const time = t.timestamp ? new Date(t.timestamp).toLocaleTimeString('en-IN', { hour: '2-digit', minute: '2-digit' }) : '--';
-    const actionClass = t.action === 'BUY' ? 'positive' : 'negative';
-    return `
-      <tr>
-        <td>${time}</td>
-        <td><strong>${t.symbol}</strong></td>
-        <td class="${actionClass}">${t.action}</td>
-        <td class="text-right">${t.quantity}</td>
-        <td class="text-right">${fmt(t.price, 2)}</td>
-        <td>${t.order_type}</td>
-        <td>${t.product}</td>
-      </tr>
-    `;
-  }).join('');
+
+  tbody.innerHTML = funds.map(f => `
+    <tr>
+      <td><strong>${f.name.length > 40 ? f.name.slice(0, 38) + '...' : f.name}</strong></td>
+      <td class="text-right">${fmt(f.units, 1)}</td>
+      <td class="text-right">${fmt(f.avg_nav, 2)}</td>
+      <td class="text-right">${fmt(f.current_nav, 2)}</td>
+      <td class="text-right">${fmt(f.invested)}</td>
+      <td class="text-right">${fmt(f.current)}</td>
+      <td class="text-right ${pnlClass(f.pnl)}">${pnlSign(f.pnl)}${fmt(f.pnl)}</td>
+      <td class="text-right ${pnlClass(f.pnl_pct)}">${pnlSign(f.pnl_pct)}${fmt(f.pnl_pct, 1)}%</td>
+      <td class="text-right">${f.sip_amount > 0 ? '₹' + fmt(f.sip_amount) : '--'}</td>
+    </tr>
+  `).join('');
 }
 
-function updateStatus(timestamp, hasError) {
-  const dot = document.getElementById('statusDot');
-  const text = document.getElementById('statusText');
-  const updated = document.getElementById('lastUpdated');
-
-  if (hasError) {
-    dot.className = 'status-dot error';
-    text.textContent = 'Auth expired or data unavailable';
-  } else if (timestamp) {
-    const age = (Date.now() - new Date(timestamp).getTime()) / 60000;
-    if (age < 30) {
-      dot.className = 'status-dot live';
-      text.textContent = 'Live';
-    } else {
-      dot.className = 'status-dot stale';
-      text.textContent = `Updated ${Math.round(age)} min ago`;
-    }
-    updated.textContent = `Last update: ${new Date(timestamp).toLocaleString('en-IN')}`;
-  }
+function updateMarketStatus() {
+  const dot = document.getElementById('mktDot');
+  const label = document.getElementById('mktLabel');
+  const now = new Date();
+  const ist = new Date(now.toLocaleString('en-US', { timeZone: 'Asia/Kolkata' }));
+  const h = ist.getHours(), m = ist.getMinutes();
+  const mins = h * 60 + m;
+  const day = ist.getDay();
+  const isOpen = day >= 1 && day <= 5 && mins >= 555 && mins <= 930;
+  dot.className = 'status-dot ' + (isOpen ? 'open' : 'closed');
+  label.textContent = isOpen ? 'NSE Open' : 'NSE Closed';
 }
 
-async function loadAll() {
-  const [indices, positions, trades, stats, margins, status] = await Promise.all([
-    fetchJSON('indices.json'),
-    fetchJSON('positions.json'),
-    fetchJSON('trades.json'),
-    fetchJSON('stats.json'),
-    fetchJSON('margins.json'),
-    fetchJSON('status.json'),
-  ]);
-
-  const hasError = status && status.error;
-  const timestamp = indices?.timestamp || positions?.timestamp || stats?.timestamp;
-
-  updateStatus(timestamp, hasError);
-  renderTickers(indices);
-  renderStats(stats, margins);
-  renderPositions(positions);
-  renderTrades(trades);
+function switchSub(tab) {
+  document.querySelectorAll('.sub-tab').forEach(t => t.classList.toggle('active', t.dataset.tab === tab));
+  document.querySelectorAll('.sub-panel').forEach(p => p.classList.toggle('active', p.id === 'panel_' + tab));
 }
 
 function sortTable(tableId, colIdx) {
@@ -360,20 +532,52 @@ function sortTable(tableId, colIdx) {
   table.dataset.sortDir = dir;
 
   rows.sort((a, b) => {
-    let aVal = a.cells[colIdx]?.textContent.trim().replace(/[,%+]/g, '') || '';
-    let bVal = b.cells[colIdx]?.textContent.trim().replace(/[,%+]/g, '') || '';
-    const aNum = parseFloat(aVal.replace(/,/g, ''));
-    const bNum = parseFloat(bVal.replace(/,/g, ''));
-    if (!isNaN(aNum) && !isNaN(bNum)) {
-      return dir === 'asc' ? aNum - bNum : bNum - aNum;
-    }
-    return dir === 'asc' ? aVal.localeCompare(bVal) : bVal.localeCompare(aVal);
+    let aV = a.cells[colIdx]?.textContent.trim().replace(/[,%+₹]/g, '') || '';
+    let bV = b.cells[colIdx]?.textContent.trim().replace(/[,%+₹]/g, '') || '';
+    const aN = parseFloat(aV.replace(/,/g, ''));
+    const bN = parseFloat(bV.replace(/,/g, ''));
+    if (!isNaN(aN) && !isNaN(bN)) return dir === 'asc' ? aN - bN : bN - aN;
+    return dir === 'asc' ? aV.localeCompare(bV) : bV.localeCompare(aV);
   });
-  rows.forEach(row => tbody.appendChild(row));
+  rows.forEach(r => tbody.appendChild(r));
+
+  table.querySelectorAll('th .sort-arrow').forEach(e => e.remove());
+  const th = table.querySelectorAll('th')[colIdx];
+  if (th) {
+    const arrow = document.createElement('span');
+    arrow.className = 'sort-arrow';
+    arrow.textContent = dir === 'asc' ? ' ▲' : ' ▼';
+    th.appendChild(arrow);
+  }
+}
+
+async function loadAll() {
+  const [portfolio, mfSnapshot] = await Promise.all([
+    fetchJSON('portfolio.json'),
+    fetchJSON('mf_snapshot.json'),
+  ]);
+
+  const statusText = document.getElementById('statusText');
+  const lastUpdated = document.getElementById('lastUpdated');
+
+  if (portfolio?.timestamp) {
+    statusText.textContent = `Portfolio as of ${portfolio.timestamp}`;
+    lastUpdated.textContent = `${(portfolio.holdings || []).length} holdings`;
+  } else {
+    statusText.textContent = 'No portfolio data — run portfolio snapshot';
+  }
+
+  renderStats(portfolio, mfSnapshot);
+  renderHoldings(portfolio);
+  renderMovers(portfolio);
+  renderPositions(portfolio);
+  renderMF(mfSnapshot);
+  updateMarketStatus();
 }
 
 loadAll();
-setInterval(loadAll, REFRESH_INTERVAL);
+setInterval(loadAll, REFRESH_MS);
+setInterval(updateMarketStatus, 30000);
 </script>
 </body>
 </html>

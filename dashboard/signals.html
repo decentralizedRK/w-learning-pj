@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>QuantOS — Signals</title>
+<style>
+:root {
+  --bg: #0d1117; --surface: #161b22; --surface-hover: #1c2128;
+  --border: #30363d; --text: #e6edf3; --text-dim: #8b949e;
+  --green: #3fb950; --green-bg: rgba(63,185,80,0.1);
+  --red: #f85149; --red-bg: rgba(248,81,73,0.1);
+  --blue: #58a6ff; --yellow: #d29922; --purple: #bc8cff;
+  --glass: rgba(22,27,34,0.75); --glass-border: rgba(48,54,61,0.6);
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; background: var(--bg); color: var(--text); line-height: 1.5; }
+.container { max-width: 1400px; margin: 0 auto; padding: 16px 20px; }
+nav { display: flex; align-items: center; justify-content: space-between; padding: 12px 20px; background: var(--surface); border-bottom: 1px solid var(--border); position: sticky; top: 0; z-index: 100; backdrop-filter: blur(12px); }
+nav .logo { font-size: 18px; font-weight: 700; }
+nav .logo span { color: var(--blue); }
+nav .tabs { display: flex; gap: 2px; }
+nav .tabs a { color: var(--text-dim); text-decoration: none; padding: 6px 14px; border-radius: 6px; font-size: 13px; font-weight: 500; transition: all 0.15s; }
+nav .tabs a.active { background: var(--border); color: var(--text); }
+nav .tabs a:hover { color: var(--text); background: rgba(48,54,61,0.4); }
+
+.sub-tabs { display: flex; gap: 0; margin: 20px 0 0; border-bottom: 2px solid var(--border); }
+.sub-tab { padding: 10px 20px; font-size: 13px; font-weight: 600; color: var(--text-dim); cursor: pointer; border-bottom: 2px solid transparent; margin-bottom: -2px; user-select: none; transition: color 0.15s, border-color 0.15s; }
+.sub-tab:hover { color: var(--text); }
+.sub-tab.active { color: var(--blue); border-bottom-color: var(--blue); }
+.sub-tab .badge { font-size: 10px; background: var(--border); padding: 1px 6px; border-radius: 8px; margin-left: 6px; font-weight: 400; color: var(--text-dim); }
+.sub-panel { display: none; padding-top: 16px; animation: fadeIn 0.2s ease; }
+.sub-panel.active { display: block; }
+@keyframes fadeIn { from { opacity: 0; transform: translateY(4px); } to { opacity: 1; transform: translateY(0); } }
+
+table { width: 100%; border-collapse: collapse; background: var(--surface); border: 1px solid var(--border); border-radius: 10px; overflow: hidden; font-size: 13px; }
+th { background: var(--surface-hover); text-align: left; padding: 10px 14px; font-weight: 600; color: var(--text-dim); font-size: 11px; text-transform: uppercase; letter-spacing: 0.5px; cursor: pointer; user-select: none; white-space: nowrap; transition: color 0.15s; }
+th:hover { color: var(--text); }
+th .sort-arrow { margin-left: 4px; font-size: 10px; }
+td { padding: 10px 14px; border-top: 1px solid var(--border); font-variant-numeric: tabular-nums; }
+tr:hover td { background: var(--surface-hover); }
+.text-right { text-align: right; }
+.positive { color: var(--green); }
+.negative { color: var(--red); }
+
+.sym-link { color: var(--text); text-decoration: none; border-bottom: 1px dotted var(--text-dim); transition: all 0.15s; }
+.sym-link:hover { color: var(--blue); border-color: var(--blue); }
+.ext-link { color: var(--text-dim); text-decoration: none; font-size: 10px; margin-left: 6px; padding: 1px 4px; border: 1px solid var(--border); border-radius: 3px; vertical-align: middle; transition: all 0.15s; }
+.ext-link:hover { color: var(--blue); border-color: var(--blue); }
+
+.badge-action { font-size: 11px; font-weight: 600; padding: 2px 8px; border-radius: 4px; white-space: nowrap; }
+.badge-action.strong-buy, .badge-action.entry-signal { color: var(--green); background: var(--green-bg); }
+.badge-action.accumulate, .badge-action.watch { color: #7ee787; background: rgba(126,231,135,0.1); }
+.badge-action.hold { color: var(--yellow); background: rgba(210,153,34,0.1); }
+.badge-action.monitor, .badge-action.no-signal { color: #ffa657; background: rgba(255,166,87,0.1); }
+.badge-action.exit { color: var(--red); background: var(--red-bg); }
+
+.score-bar { display: inline-block; height: 6px; border-radius: 3px; margin-right: 6px; vertical-align: middle; }
+.status-bar { display: flex; align-items: center; justify-content: space-between; padding: 8px 0; font-size: 12px; color: var(--text-dim); }
+.empty-state { text-align: center; padding: 48px 16px; color: var(--text-dim); }
+
+@media (max-width: 768px) {
+  nav .tabs { gap: 0; overflow-x: auto; }
+  nav .tabs a { padding: 6px 10px; font-size: 12px; white-space: nowrap; }
+  table { font-size: 12px; }
+  th, td { padding: 8px 10px; }
+}
+</style>
+</head>
+<body>
+<nav>
+  <div class="logo">Quant<span>OS</span></div>
+  <div class="tabs">
+    <a href="index.html">Portfolio</a>
+    <a href="screener.html">Screener</a>
+    <a href="signals.html" class="active">Signals</a>
+    <a href="news.html">News</a>
+    <a href="backtest.html">Backtest</a>
+  </div>
+</nav>
+
+<div class="container">
+  <div class="status-bar">
+    <div id="statusText">Loading signals...</div>
+    <div id="lastUpdated"></div>
+  </div>
+
+  <div class="sub-tabs">
+    <div class="sub-tab active" data-tab="portfolio" onclick="switchSub('portfolio')">Portfolio Actions <span class="badge" id="paCount">-</span></div>
+    <div class="sub-tab" data-tab="entry" onclick="switchSub('entry')">Entry Signals <span class="badge" id="esCount">-</span></div>
+  </div>
+
+  <div class="sub-panel active" id="panel_portfolio">
+    <div style="overflow-x:auto">
+      <table id="paTable">
+        <thead><tr>
+          <th onclick="sortTable('paTable',0)">Symbol</th>
+          <th onclick="sortTable('paTable',1)">Action</th>
+          <th onclick="sortTable('paTable',2)" class="text-right">Score</th>
+          <th onclick="sortTable('paTable',3)" class="text-right">RSI</th>
+          <th onclick="sortTable('paTable',4)" class="text-right">ADX</th>
+          <th onclick="sortTable('paTable',5)">Trend</th>
+          <th onclick="sortTable('paTable',6)" class="text-right">Return %</th>
+          <th onclick="sortTable('paTable',7)">Reason</th>
+        </tr></thead>
+        <tbody id="paBody"><tr><td colspan="8" class="empty-state">Loading...</td></tr></tbody>
+      </table>
+    </div>
+  </div>
+
+  <div class="sub-panel" id="panel_entry">
+    <div style="overflow-x:auto">
+      <table id="esTable">
+        <thead><tr>
+          <th onclick="sortTable('esTable',0)">Symbol</th>
+          <th onclick="sortTable('esTable',1)">Signal</th>
+          <th onclick="sortTable('esTable',2)" class="text-right">Score</th>
+          <th onclick="sortTable('esTable',3)" class="text-right">Close</th>
+          <th onclick="sortTable('esTable',4)" class="text-right">RSI</th>
+          <th onclick="sortTable('esTable',5)" class="text-right">ADX</th>
+          <th onclick="sortTable('esTable',6)">Segment</th>
+          <th onclick="sortTable('esTable',7)">Reason</th>
+        </tr></thead>
+        <tbody id="esBody"><tr><td colspan="8" class="empty-state">Loading...</td></tr></tbody>
+      </table>
+    </div>
+  </div>
+</div>
+
+<script>
+const DATA_BASE = 'data';
+function fmt(n, d = 0) { if (n == null || isNaN(n)) return '--'; return n.toLocaleString('en-IN', { minimumFractionDigits: d, maximumFractionDigits: d }); }
+function pnlClass(v) { return v > 0 ? 'positive' : v < 0 ? 'negative' : ''; }
+function pnlSign(v) { return v > 0 ? '+' : ''; }
+async function fetchJSON(f) { try { const r = await fetch(`${DATA_BASE}/${f}?t=${Date.now()}`); return r.ok ? await r.json() : null; } catch { return null; } }
+
+function actionBadge(action) {
+  const cls = action.toLowerCase().replace(/\s+/g, '-');
+  return `<span class="badge-action ${cls}">${action}</span>`;
+}
+
+function symCell(s) {
+  return `<td><strong><a href="https://www.tradingview.com/chart/?symbol=NSE%3A${s}" target="_blank" rel="noopener" class="sym-link">${s}</a></strong><a href="https://www.google.com/finance/quote/${s}:NSE" target="_blank" rel="noopener" class="ext-link">GF</a></td>`;
+}
+
+function scoreBar(sc) {
+  const pct = Math.min(Math.max(sc, 0), 1);
+  const w = Math.round(pct * 50);
+  const r = Math.round(248*(1-pct)+63*pct), g = Math.round(81*(1-pct)+185*pct), b = Math.round(73*(1-pct)+80*pct);
+  return `<span class="score-bar" style="width:${w}px;background:rgb(${r},${g},${b})"></span>${fmt(sc, 3)}`;
+}
+
+function switchSub(tab) {
+  document.querySelectorAll('.sub-tab').forEach(t => t.classList.toggle('active', t.dataset.tab === tab));
+  document.querySelectorAll('.sub-panel').forEach(p => p.classList.toggle('active', p.id === 'panel_' + tab));
+}
+
+function sortTable(tableId, colIdx) {
+  const table = document.getElementById(tableId);
+  const tbody = table.querySelector('tbody');
+  const rows = Array.from(tbody.querySelectorAll('tr'));
+  if (rows.length <= 1) return;
+  const dir = table.dataset.sortCol === String(colIdx) && table.dataset.sortDir === 'asc' ? 'desc' : 'asc';
+  table.dataset.sortCol = colIdx; table.dataset.sortDir = dir;
+  rows.sort((a, b) => {
+    let aV = a.cells[colIdx]?.textContent.trim().replace(/[,%+₹]/g, '') || '';
+    let bV = b.cells[colIdx]?.textContent.trim().replace(/[,%+₹]/g, '') || '';
+    const aN = parseFloat(aV.replace(/,/g, '')), bN = parseFloat(bV.replace(/,/g, ''));
+    if (!isNaN(aN) && !isNaN(bN)) return dir === 'asc' ? aN - bN : bN - aN;
+    return dir === 'asc' ? aV.localeCompare(bV) : bV.localeCompare(aV);
+  });
+  rows.forEach(r => tbody.appendChild(r));
+  table.querySelectorAll('th .sort-arrow').forEach(e => e.remove());
+  const th = table.querySelectorAll('th')[colIdx];
+  if (th) { const a = document.createElement('span'); a.className = 'sort-arrow'; a.textContent = dir === 'asc' ? ' ▲' : ' ▼'; th.appendChild(a); }
+}
+
+async function load() {
+  const data = await fetchJSON('recommendations.json');
+  const st = document.getElementById('statusText');
+  const lu = document.getElementById('lastUpdated');
+
+  if (!data) { st.textContent = 'No signal data. Run screener + recommendations.'; return; }
+  if (data.timestamp) {
+    lu.textContent = `Last run: ${new Date(data.timestamp).toLocaleString('en-IN')}`;
+    st.textContent = 'Trading Signals';
+  }
+
+  const pa = data.portfolio_actions || [];
+  const es = data.entry_signals || [];
+  document.getElementById('paCount').textContent = pa.length;
+  document.getElementById('esCount').textContent = es.filter(e => e.action === 'ENTRY SIGNAL').length;
+
+  const paBody = document.getElementById('paBody');
+  paBody.innerHTML = pa.length === 0
+    ? '<tr><td colspan="8" class="empty-state">No portfolio recommendations</td></tr>'
+    : pa.map(r => `<tr>
+        ${symCell(r.symbol)}
+        <td>${actionBadge(r.action)}</td>
+        <td class="text-right">${scoreBar(r.score)}</td>
+        <td class="text-right">${fmt(r.rsi, 0)}</td>
+        <td class="text-right">${fmt(r.adx, 0)}</td>
+        <td class="${r.trend === 'UPTREND' ? 'positive' : r.trend === 'DOWNTREND' ? 'negative' : ''}">${r.trend || '--'}</td>
+        <td class="text-right ${pnlClass(r.pnl_pct)}">${pnlSign(r.pnl_pct)}${fmt(r.pnl_pct, 1)}%</td>
+        <td style="font-size:11px;color:var(--text-dim);max-width:200px">${r.reason || ''}</td>
+      </tr>`).join('');
+
+  const esBody = document.getElementById('esBody');
+  esBody.innerHTML = es.length === 0
+    ? '<tr><td colspan="8" class="empty-state">No entry signals</td></tr>'
+    : es.map(e => `<tr>
+        ${symCell(e.symbol)}
+        <td>${actionBadge(e.action)}</td>
+        <td class="text-right">${scoreBar(e.score)}</td>
+        <td class="text-right">${fmt(e.close, 2)}</td>
+        <td class="text-right">${fmt(e.rsi, 0)}</td>
+        <td class="text-right">${fmt(e.adx, 0)}</td>
+        <td>${(e.segment || '').charAt(0).toUpperCase() + (e.segment || '').slice(1)}</td>
+        <td style="font-size:11px;color:var(--text-dim);max-width:200px">${e.reason || ''}</td>
+      </tr>`).join('');
+}
+
+load();
+</script>
+</body>
+</html>
