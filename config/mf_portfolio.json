@@ -1,0 +1,46 @@
+{
+  "funds": [
+    {
+      "name": "Quant Healthcare Fund - Direct Plan - Growth",
+      "scheme_code": "151853",
+      "units": 39264.543,
+      "avg_nav": 15.3364,
+      "sip_amount": 27500,
+      "sip_date": 1,
+      "last_sip_recorded": "2026-07-01"
+    },
+    {
+      "name": "DSP Nifty Smallcap250 Quality 50 Index Fund - Direct - Growth",
+      "scheme_code": "152243",
+      "units": 32118.618,
+      "avg_nav": 11.114,
+      "sip_amount": 27500,
+      "sip_date": 1,
+      "last_sip_recorded": "2026-07-01"
+    },
+    {
+      "name": "Axis Nifty IT Index Fund - Direct Plan - Growth",
+      "scheme_code": "INF846K017R3",
+      "units": 50372.4,
+      "avg_nav": 11.07,
+      "sip_amount": 0,
+      "sip_date": 1
+    },
+    {
+      "name": "Axis ELSS Tax Saver Fund - Direct Plan - Growth",
+      "scheme_code": "120503",
+      "units": 315.16,
+      "avg_nav": 79.42,
+      "sip_amount": 0,
+      "sip_date": 1
+    },
+    {
+      "name": "Parag Parikh Flexi Cap Fund - Direct Plan - Growth",
+      "scheme_code": "122639",
+      "units": 536.342,
+      "avg_nav": 85.7617,
+      "sip_amount": 0,
+      "sip_date": 1
+    }
+  ]
+}
