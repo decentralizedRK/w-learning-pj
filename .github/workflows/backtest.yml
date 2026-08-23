@@ -81,6 +81,7 @@ jobs:
           else
             ARGS="$ARGS --symbol $INPUT_SYMBOL"
           fi
+          mkdir -p dashboard/data
           uv run python -m scripts.run_backtest $ARGS --json-output dashboard/data/backtest_results.json
 
       - name: Upload tearsheet
@@ -90,33 +91,15 @@ jobs:
           path: reports/output/*.html
           if-no-files-found: ignore
 
-      - name: Publish backtest results to gh-pages
+      - name: Commit results to main
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add dashboard/data/backtest_results.json
+          git diff --staged --quiet || git commit -m "chore: update backtest results"
+          git push
 
-          git fetch origin gh-pages:gh-pages 2>/dev/null || true
-
-          # Stage dashboard files before orphan checkout wipes the tree
-          mkdir -p /tmp/gh-deploy/data
-          cp dashboard/index.html /tmp/gh-deploy/
-          cp dashboard/backtest.html /tmp/gh-deploy/
-          cp dashboard/screener.html /tmp/gh-deploy/
-          cp dashboard/data/backtest_results.json /tmp/gh-deploy/data/
-
-          # Preserve existing gh-pages data
-          git fetch origin gh-pages:gh-pages 2>/dev/null || true
-          for f in indices.json positions.json trades.json stats.json margins.json signals.json; do
-            git show "gh-pages:data/$f" > "/tmp/gh-deploy/data/$f" 2>/dev/null || true
-          done
-
-          git checkout --orphan gh-pages-deploy
-          git rm -rf . > /dev/null 2>&1 || true
-
-          cp /tmp/gh-deploy/*.html .
-          mkdir -p data
-          cp /tmp/gh-deploy/data/*.json data/ 2>/dev/null || true
-
-          git add -A
-          git commit -m "chore: update backtest results" || echo "No changes"
-          git push origin HEAD:gh-pages --force
+  publish:
+    needs: backtest
+    uses: ./.github/workflows/publish-dashboard.yml
+    secrets: inherit

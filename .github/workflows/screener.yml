@@ -17,9 +17,6 @@ on:
 
 jobs:
   screen:
-    outputs:
-      completed: ${{ steps.done.outputs.completed }}
-
     runs-on: ubuntu-latest
     env:
       INPUT_TOP: ${{ inputs.top || '10' }}
@@ -40,56 +37,28 @@ jobs:
 
       - name: Run screener
         run: |
-          ARGS="--output signals.json --top $INPUT_TOP"
+          ARGS="--output dashboard/data/signals.json --top $INPUT_TOP"
           if [ -n "$INPUT_UNIVERSE" ]; then
             ARGS="$ARGS --universe $INPUT_UNIVERSE"
           fi
           uv run python -m scripts.run_screener $ARGS
 
+      - name: Commit signals to main
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add dashboard/data/signals.json
+          git diff --staged --quiet || git commit -m "chore: update screener signals"
+          git push
+
       - name: Upload signals
         uses: actions/upload-artifact@v4
         with:
           name: screener-signals-${{ github.run_number }}
-          path: signals.json
+          path: dashboard/data/signals.json
           if-no-files-found: ignore
-
-      - name: Publish screener to gh-pages
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-
-          # Always use latest HTML from main
-          mkdir -p /tmp/gh-deploy/data
-          cp dashboard/index.html /tmp/gh-deploy/
-          cp dashboard/backtest.html /tmp/gh-deploy/
-          cp dashboard/screener.html /tmp/gh-deploy/
-
-          # Preserve data JSON from gh-pages
-          git fetch origin gh-pages:gh-pages 2>/dev/null || true
-          for f in backtest_results.json indices.json positions.json trades.json stats.json margins.json; do
-            git show "gh-pages:data/$f" > "/tmp/gh-deploy/data/$f" 2>/dev/null || true
-          done
-
-          # Add fresh screener data
-          cp signals.json /tmp/gh-deploy/data/signals.json
-
-          git checkout --orphan gh-pages-deploy
-          git rm -rf . > /dev/null 2>&1 || true
-
-          cp /tmp/gh-deploy/*.html .
-          mkdir -p data
-          cp /tmp/gh-deploy/data/*.json data/ 2>/dev/null || true
-
-          git add -A
-          git commit -m "chore: update screener results" || echo "No changes"
-          git push origin HEAD:gh-pages --force
-
-      - name: Mark complete
-        id: done
-        run: echo "completed=true" >> "$GITHUB_OUTPUT"
 
   publish:
     needs: screen
-    if: needs.screen.outputs.completed == 'true'
     uses: ./.github/workflows/publish-dashboard.yml
     secrets: inherit
