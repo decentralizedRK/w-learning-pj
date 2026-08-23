@@ -17,6 +17,9 @@ class Settings(BaseSettings):
     kite_api_secret: str = ""
     kite_access_token: str = ""
 
+    telegram_bot_token: str = ""
+    telegram_chat_id: str = ""
+
     initial_capital: float = 1_000_000
     risk_per_trade_pct: float = 0.5
     max_concurrent_positions: int = 3
