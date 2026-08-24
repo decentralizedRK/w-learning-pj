@@ -1,118 +1,170 @@
 {
-  "timestamp": "2026-08-23T09:55:22+00:00",
+  "timestamp": "2026-08-24T03:32:23+00:00",
   "events": [
     {
-      "symbol": "TCS",
-      "type": "earnings_date",
-      "date": "2026-10-08",
-      "detail": "Earnings Date",
-      "days_away": 46
+      "symbol": "MCX",
+      "type": "ex-dividend_date",
+      "date": "2026-08-28",
+      "detail": "Ex-Dividend Date",
+      "days_away": 4
     },
     {
-      "symbol": "RELIANCE",
+      "symbol": "ETERNAL",
       "type": "earnings_date",
-      "date": "2026-10-16",
+      "date": "2026-10-15",
       "detail": "Earnings Date",
-      "days_away": 54
+      "days_away": 52
     },
     {
-      "symbol": "HDFCBANK",
+      "symbol": "COFORGE",
       "type": "earnings_date",
-      "date": "2026-10-17",
+      "date": "2026-10-22",
       "detail": "Earnings Date",
-      "days_away": 55
+      "days_away": 59
     },
     {
-      "symbol": "ICICIBANK",
+      "symbol": "SONACOMS",
       "type": "earnings_date",
-      "date": "2026-10-17",
+      "date": "2026-10-22",
       "detail": "Earnings Date",
-      "days_away": 55
+      "days_away": 59
     }
   ],
   "by_symbol": {
-    "HDFCBANK": {
+    "COFORGE": {
       "dividends": [
         {
-          "date": "2026-06-19",
-          "amount": 13.0
-        }
-      ],
-      "splits": [
-        {
-          "date": "2025-08-26",
-          "ratio": "2.0"
-        }
-      ],
-      "calendar": {
-        "Earnings Date": [
-          "2026-10-17"
-        ],
-        "Ex-Dividend Date": "2026-06-19"
-      }
-    },
-    "ICICIBANK": {
-      "dividends": [
+          "date": "2026-07-31",
+          "amount": 4.0
+        },
         {
           "date": "2026-08-03",
-          "amount": 12.0
+          "amount": 4.0
         }
       ],
       "splits": [],
       "calendar": {
         "Earnings Date": [
-          "2026-10-17"
+          "2026-10-22"
         ],
         "Ex-Dividend Date": "2026-08-03"
       }
     },
-    "INFY": {
+    "DIVISLAB": {
       "dividends": [
         {
-          "date": "2026-06-10",
-          "amount": 25.0
+          "date": "2026-07-24",
+          "amount": 30.0
         }
       ],
       "splits": [],
       "calendar": {
         "Earnings Date": [
-          "2026-10-23"
+          "2026-10-31"
         ],
-        "Ex-Dividend Date": "2026-06-10"
+        "Ex-Dividend Date": "2026-07-24"
       }
     },
-    "RELIANCE": {
-      "dividends": [
-        {
-          "date": "2026-06-05",
-          "amount": 6.0
-        }
-      ],
+    "ETERNAL": {
+      "dividends": [],
       "splits": [],
       "calendar": {
         "Earnings Date": [
-          "2026-10-16"
-        ],
-        "Ex-Dividend Date": "2026-06-05"
+          "2026-10-15"
+        ]
       }
     },
-    "TCS": {
+    "HEROMOTOCO": {
       "dividends": [
         {
-          "date": "2026-05-25",
-          "amount": 31.0
-        },
-        {
-          "date": "2026-07-15",
-          "amount": 12.0
+          "date": "2026-07-24",
+          "amount": 75.0
         }
       ],
       "splits": [],
       "calendar": {
         "Earnings Date": [
-          "2026-10-08"
+          "2026-08-06"
         ],
-        "Ex-Dividend Date": "2026-07-15"
+        "Ex-Dividend Date": "2026-07-24"
+      }
+    },
+    "JUBLFOOD": {
+      "dividends": [
+        {
+          "date": "2026-07-17",
+          "amount": 1.2
+        }
+      ],
+      "splits": [],
+      "calendar": {
+        "Earnings Date": [
+          "2026-08-13"
+        ],
+        "Ex-Dividend Date": "2026-07-17"
+      }
+    },
+    "MCX": {
+      "dividends": [],
+      "splits": [
+        {
+          "date": "2026-01-02",
+          "ratio": "5.0"
+        }
+      ],
+      "calendar": {
+        "Earnings Date": [
+          "2026-11-05"
+        ],
+        "Ex-Dividend Date": "2026-08-28"
+      }
+    },
+    "NAUKRI": {
+      "dividends": [
+        {
+          "date": "2026-07-24",
+          "amount": 3.6
+        }
+      ],
+      "splits": [],
+      "calendar": {
+        "Earnings Date": [
+          "2026-11-11"
+        ],
+        "Ex-Dividend Date": "2026-07-24"
+      }
+    },
+    "PAYTM": {
+      "dividends": [],
+      "splits": [],
+      "calendar": {
+        "Earnings Date": [
+          "2026-07-20"
+        ]
+      }
+    },
+    "POLICYBZR": {
+      "dividends": [],
+      "splits": [],
+      "calendar": {
+        "Earnings Date": [
+          "2026-10-29"
+        ]
+      }
+    },
+    "SONACOMS": {
+      "dividends": [
+        {
+          "date": "2026-06-25",
+          "amount": 1.8
+        }
+      ],
+      "splits": [],
+      "calendar": {
+        "Earnings Date": [
+          "2026-10-22"
+        ],
+        "Ex-Dividend Date": "2026-06-25"
       }
     }
   }

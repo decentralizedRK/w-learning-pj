@@ -1,17 +1,57 @@
 {
-  "timestamp": "2026-08-23T09:55:18+00:00",
+  "timestamp": "2026-08-24T03:32:16+00:00",
   "ticker_news": {
-    "HDFCBANK": [
+    "COFORGE": [
       {
-        "title": "BKEAY or HDB: Which Is the Better Value Stock Right Now?",
-        "publisher": "Zacks",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/bkeay-hdb-better-value-stock-154001336.html",
+        "title": "Coforge Ltd (BOM:532541) Q1 2027 Earnings Call Highlights: Strong Revenue Growth and Strategic ...",
+        "publisher": "GuruFocus.com",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/coforge-ltd-bom-532541-q1-110042952.html",
         "age_h": null
       },
       {
-        "title": "Asian Equities Traded in the US as American Depositary Receipts Rise in Friday Trading",
-        "publisher": "MT Newswires",
-        "link": "https://finance.yahoo.com/markets/world-indices/articles/asian-equities-traded-us-american-144754995.html",
+        "title": "Zscaler (ZS) Expands AI Guardian As Coforge Launches Zero Trust Offering",
+        "publisher": "Simply Wall St.",
+        "link": "https://finance.yahoo.com/technology/ai/articles/zscaler-zs-expands-ai-guardian-131848197.html",
+        "age_h": null
+      },
+      {
+        "title": "Coforge introduces new AI platform for insurers",
+        "publisher": "Life Insurance International",
+        "link": "https://www.lifeinsuranceinternational.com/news/coforge-insurers-ai-platform/",
+        "age_h": null
+      }
+    ],
+    "DIVISLAB": [
+      {
+        "title": "Divi's Laboratories Ltd (BOM:532488) (Q1 FY27) Earnings Call Highlights: Record Profit Surge ...",
+        "publisher": "GuruFocus.com",
+        "link": "https://finance.yahoo.com/healthcare/articles/divis-laboratories-ltd-bom-532488-010606403.html",
+        "age_h": null
+      },
+      {
+        "title": "Divi's Laboratories Ltd (BOM:532488) Q4 2026 Earnings Call Highlights: Strong Financial ...",
+        "publisher": "GuruFocus.com",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/divis-laboratories-ltd-bom-532488-010323500.html",
+        "age_h": null
+      },
+      {
+        "title": "Divi's Laboratories Ltd (BOM:532488) Q3 2026 Earnings Call Highlights: Strong Export ...",
+        "publisher": "GuruFocus.com",
+        "link": "https://finance.yahoo.com/news/divis-laboratories-ltd-bom-532488-010502982.html",
+        "age_h": null
+      }
+    ],
+    "ETERNAL": [
+      {
+        "title": "KKR to buy 6% stake in India's BookMyShow for up to $50 million, source says",
+        "publisher": "Reuters",
+        "link": "https://sg.finance.yahoo.com/news/kkr-buy-stake-indias-bookmyshow-052111012.html",
+        "age_h": null
+      },
+      {
+        "title": "Indian logistics firm Shiprocket's $170 million IPO fully subscribed",
+        "publisher": "Reuters",
+        "link": "https://sg.finance.yahoo.com/news/indian-logistics-firm-shiprockets-170-055650349.html",
         "age_h": null
       },
       {
@@ -21,83 +61,143 @@
         "age_h": null
       }
     ],
-    "ICICIBANK": [
+    "HEROMOTOCO": [
       {
-        "title": "Asian Equities Traded in the US as American Depositary Receipts Decline in Thursday Trading",
-        "publisher": "MT Newswires",
-        "link": "https://finance.yahoo.com/markets/world-indices/articles/asian-equities-traded-us-american-143754359.html",
+        "title": "Hero MotoCorp Ltd (BOM:500182) (Q1 2027) Earnings Call Highlights: Revenue Surges 36% on Record ...",
+        "publisher": "GuruFocus.com",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/hero-motocorp-ltd-bom-500182-130043205.html",
         "age_h": null
       },
       {
-        "title": "Asian Equities Traded in the US as American Depositary Receipts Track Lower in Tuesday Trading",
-        "publisher": "MT Newswires",
-        "link": "https://finance.yahoo.com/markets/world-indices/articles/asian-equities-traded-us-american-144111972.html",
-        "age_h": null
-      },
-      {
-        "title": "Four Indian private lenders eye dollar debt before RBI swap window deadline, bankers say",
+        "title": "India's Hero MotoCorp gains after quarterly profit rise",
         "publisher": "Reuters",
-        "link": "https://sg.finance.yahoo.com/news/four-indian-private-lenders-eye-131134816.html",
+        "link": "https://sg.finance.yahoo.com/news/indias-hero-motocorp-gains-quarterly-035632811.html",
+        "age_h": null
+      },
+      {
+        "title": "Castrol India's quarterly profit jumps on strong retail, industrial demand",
+        "publisher": "Reuters",
+        "link": "https://sg.finance.yahoo.com/news/castrol-indias-quarterly-profit-jumps-105949110.html",
         "age_h": null
       }
     ],
-    "INFY": [
+    "JUBLFOOD": [
       {
-        "title": "AI reshapes India's IT services sector contracts as clients demand more for less",
+        "title": "Jubilant Foodworks Ltd (BOM:533155) (Q1 2027) Earnings Call Highlights: Popeyes Surges 45% LFL, ...",
+        "publisher": "GuruFocus.com",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/jubilant-foodworks-ltd-bom-533155-231100822.html",
+        "age_h": null
+      },
+      {
+        "title": "India's Jubilant FoodWorks profit rises as Domino's sales growth picks up",
         "publisher": "Reuters",
-        "link": "https://finance.yahoo.com/technology/ai/articles/ai-reshapes-indias-services-sector-230207347.html",
+        "link": "https://sg.finance.yahoo.com/news/indias-jubilant-foodworks-profit-rises-090213366.html",
         "age_h": null
       },
       {
-        "title": "Asian Equities Traded in the US as American Depositary Receipts Track Lower in Tuesday Trading",
-        "publisher": "MT Newswires",
-        "link": "https://finance.yahoo.com/markets/world-indices/articles/asian-equities-traded-us-american-144111972.html",
-        "age_h": null
-      },
-      {
-        "title": "Crocs inks AI tech deal",
-        "publisher": "Retail Dive",
-        "link": "https://www.retaildive.com/news/crocs-digital-upgrade-AI/827438/",
+        "title": "Jubilant Foodworks Ltd (BOM:533155) Q4 2026 Earnings Call Highlights: Strategic Expansion Amid ...",
+        "publisher": "GuruFocus.com",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/jubilant-foodworks-ltd-bom-533155-190119252.html",
         "age_h": null
       }
     ],
-    "RELIANCE": [
+    "MCX": [
       {
-        "title": "Rolls-Royce Stock Hits First New High In 14 Years. Firm Announces Engine Project.",
-        "publisher": "Investor's Business Daily",
-        "link": "https://www.investors.com/news/rolls-royce-jet-engines-india/?src=A00220&yptr=yahoo",
+        "title": "Multi Commodity Exchange of India Ltd (BOM:534091) (Q1 2027) Earnings Call Highlights: Record ...",
+        "publisher": "GuruFocus.com",
+        "link": "https://finance.yahoo.com/markets/commodities/articles/multi-commodity-exchange-india-ltd-010423555.html",
         "age_h": null
       },
       {
-        "title": "ELAM: Let\u2019s make deal \u2013 not",
-        "publisher": "Odessa American, Texas",
-        "link": "https://www.oaoa.com/?p=368558",
-        "age_h": null
-      },
-      {
-        "title": "Reliance's luxury unit brings Kim Kardashian's SKIMS to India",
+        "title": "Four Indian stocks added, four excluded from key global index in MSCI's May rejig",
         "publisher": "Reuters",
-        "link": "https://sg.finance.yahoo.com/news/reliances-luxury-unit-brings-kim-121321384.html",
+        "link": "https://sg.finance.yahoo.com/news/four-indian-stocks-added-four-062259757.html",
+        "age_h": null
+      },
+      {
+        "title": "Multi Commodity Exchange of India Ltd (BOM:534091) Q3 2026 Earnings Call Highlights: Record ...",
+        "publisher": "GuruFocus.com",
+        "link": "https://finance.yahoo.com/news/multi-commodity-exchange-india-ltd-170040475.html",
         "age_h": null
       }
     ],
-    "TCS": [
+    "NAUKRI": [
       {
-        "title": "AI reshapes India's IT services sector contracts as clients demand more for less",
-        "publisher": "Reuters",
-        "link": "https://finance.yahoo.com/technology/ai/articles/ai-reshapes-indias-services-sector-230207347.html",
+        "title": "Info Edge (India) Ltd (BOM:532777) (Q1 2027) Earnings Call Highlights: AI-Driven Growth and ...",
+        "publisher": "GuruFocus.com",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/edge-india-ltd-bom-532777-190120611.html",
         "age_h": null
       },
       {
-        "title": "India's IT outsourcing industry feels AI's impact on hiring",
-        "publisher": "Quartz",
-        "link": "https://qz.com/india-outsourcing-industry-ai-impact-hiring-contracts-081226",
+        "title": "Info Edge (India) Ltd (BOM:532777) Q4 2026 Earnings Call Highlights: Strong Revenue Growth and ...",
+        "publisher": "GuruFocus.com",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/edge-india-ltd-bom-532777-190030499.html",
         "age_h": null
       },
       {
-        "title": "India's Tata Group stocks extend slide after chairman Chandrasekaran quits",
+        "title": "Info Edge (India) Ltd (BOM:532777) Q3 2026 Earnings Call Highlights: Strong Revenue Growth ...",
+        "publisher": "GuruFocus.com",
+        "link": "https://finance.yahoo.com/news/edge-india-ltd-bom-532777-170116076.html",
+        "age_h": null
+      }
+    ],
+    "PAYTM": [
+      {
+        "title": "Resilient Asset Management to offload 4.98% stake in Paytm",
+        "publisher": "Electronic Payments",
+        "link": "https://www.electronicpaymentsinternational.com/news/resilient-asset-management-to-offload-4-98-stake-in-paytm/",
+        "age_h": null
+      },
+      {
+        "title": "Paytm founder's Resilient Asset Management to sell up to 4.98% stake in fintech firm",
         "publisher": "Reuters",
-        "link": "https://sg.finance.yahoo.com/news/indias-tata-group-stocks-tumble-055139723.html",
+        "link": "https://sg.finance.yahoo.com/news/paytm-founders-resilient-asset-management-154457569.html",
+        "age_h": null
+      },
+      {
+        "title": "India's Paytm management gets notice over timing of 2023 disclosure curbing small loans",
+        "publisher": "Reuters",
+        "link": "https://sg.finance.yahoo.com/news/indias-paytm-management-gets-notice-205938142.html",
+        "age_h": null
+      }
+    ],
+    "POLICYBZR": [
+      {
+        "title": "Jefferies sees brighter India outlook as credit, capital flows ramp up; removes HDFC Bank in portfolio revamp",
+        "publisher": "Reuters",
+        "link": "https://sg.finance.yahoo.com/news/jefferies-sees-brighter-india-outlook-065314636.html",
+        "age_h": null
+      },
+      {
+        "title": "PB Fintech Ltd (BOM:543390) (Q1 2027) Earnings Call Highlights: Revenue Surges 40% as AI Drives ...",
+        "publisher": "GuruFocus.com",
+        "link": "https://finance.yahoo.com/healthcare/articles/pb-fintech-ltd-bom-543390-210240204.html",
+        "age_h": null
+      },
+      {
+        "title": "MacRitchie to sell up to $200 million stake in India's PB Fintech, term sheet shows",
+        "publisher": "Reuters",
+        "link": "https://sg.finance.yahoo.com/news/macritchie-sell-200-million-stake-142124489.html",
+        "age_h": null
+      }
+    ],
+    "SONACOMS": [
+      {
+        "title": "Sona BLW Precision Forgings Ltd (BOM:543300) Q1 2027 Earnings Call Highlights: Record Revenue ...",
+        "publisher": "GuruFocus.com",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/sona-blw-precision-forgings-ltd-010233578.html",
+        "age_h": null
+      },
+      {
+        "title": "Sona Comstar and Denso team up on powertrain systems in India",
+        "publisher": "Just Auto",
+        "link": "https://www.just-auto.com/news/sona-comstar-denso-powertrain-systems-india/",
+        "age_h": null
+      },
+      {
+        "title": "Sona BLW Precision Forgings Ltd (BOM:543300) Q3 2026 Earnings Call Highlights: Record Revenue ...",
+        "publisher": "GuruFocus.com",
+        "link": "https://finance.yahoo.com/news/sona-blw-precision-forgings-ltd-170052954.html",
         "age_h": null
       }
     ]
@@ -105,59 +205,59 @@
   "market_headlines": [
     {
       "source": "Economic Times",
-      "title": "Ahead of Market: 10 things that will decide stock market action on Monday",
-      "link": "https://economictimes.indiatimes.com/markets/stocks/news/ahead-of-market-10-things-that-will-decide-stock-market-action-on-monday/articleshow/133437385.cms",
-      "summary": "Indian equities ended marginally higher on Friday as gains in financials, metals and small-caps offset pressure from IT stocks and persistent global uncertainties. The Sensex and Nifty closed slightly",
+      "title": "JBM Auto among 5 stocks showing bullish RSI upswing",
+      "link": "https://economictimes.indiatimes.com/markets/stocks/news/jbm-auto-among-5-stocks-showing-bullish-rsi-upswing/slideshow/133450057.cms",
+      "summary": "On August 21, five Nifty500 stocks that gained over 4% were highlighted in the RSI Trending Up scan, based on data from StockEdge.com. An uptrend signal is generated when the RSI value crosses above 5",
       "age_h": 0.5
     },
     {
       "source": "Economic Times",
-      "title": "20 IPOs on investors' radar next week. GMPs indicate up to 90% returns",
-      "link": "https://economictimes.indiatimes.com/markets/stocks/news/20-ipos-on-investors-radar-next-week-gmps-indicate-up-to-90-returns/slideshow/133436601.cms",
-      "summary": "A total of 20 IPOs are on investors\u2019 radar next week, including fresh issues and upcoming listings across the mainboard and SME segments. Symbiotec Pharmalab, Tempsens Instruments, Lumino Industries a",
-      "age_h": 2.2
+      "title": "Hero MotoCorp Share Price Live Updates: Hero MotoCorp's market performance reflected in its beta",
+      "link": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/hero-motocorp-stock-price-today-live-24-aug-2026/liveblog/133449731.cms",
+      "summary": "",
+      "age_h": 0.9
     },
     {
       "source": "Economic Times",
-      "title": "FPIs invest Rs 23,544 crore in Indian equities in Aug on earnings revival, rupee stability",
-      "link": "https://economictimes.indiatimes.com/markets/stocks/news/fpis-invest-rs-23544-crore-in-indian-equities-in-aug-on-earnings-revival-rupee-stability/articleshow/133435870.cms",
-      "summary": "FPIs had withdrawn Rs 49,340 crore in June, Rs 32,963 crore in May, Rs 60,847 crore in April and a massive Rs 1.17 lakh crore in March. Prior to this selling streak, they had invested Rs 22,615 crore ",
-      "age_h": 2.9
+      "title": "Lalithaa Jewellery Mart shares to debut today; GMP signals 37% premium ahead of listing",
+      "link": "https://economictimes.indiatimes.com/markets/stocks/news/lalithaa-jewellery-mart-shares-to-debut-today-gmp-signals-37-premium-ahead-of-listing/articleshow/133449448.cms",
+      "summary": "The Rs 1,700-crore IPO, which opened for subscription on August 17 and closed on August 19, drew an exceptional response, with the issue subscribed 62.97 times overall. Investors placed bids for a sub",
+      "age_h": 1.1
     },
     {
       "source": "Economic Times",
-      "title": "Pride Hotels steps up expansion, plans Rs 1,000-cr IPO by December",
-      "link": "https://economictimes.indiatimes.com/markets/ipos/fpos/pride-hotels-steps-up-expansion-plans-rs-1000-cr-ipo-by-december/articleshow/133435802.cms",
-      "summary": "The expansion has taken Pride Hotels' portfolio to 40 properties, including eight owned hotels and 32 managed properties. The company has also signed contracts for another 32 hotels, which are expecte",
-      "age_h": 3.0
+      "title": "Stocks to buy in 2026 for long term: Jubilant FoodWorks, Max Financial among 5 stocks that could give 10-30% return",
+      "link": "https://economictimes.indiatimes.com/markets/stocks/news/stocks-to-buy-in-2026-for-long-term-jubilant-foodworks-max-financial-among-5-stocks-that-could-give-10-30-return/slideshow/133449559.cms",
+      "summary": "We have collated a list of recommendations from top brokerage firms from ETNow and other sources",
+      "age_h": 1.2
     },
     {
       "source": "Livemint",
-      "title": "Mcap of four of top-10 most valued firms erodes  \u20b987,960 crore; Airtel takes biggest hit",
-      "link": "https://www.livemint.com/market/stock-market-news/mcap-four-top-10-most-valued-firms-erodes-rs-87960-crore-airtel-biggest-hit-indian-markets-crude-oil-tcs-sbi-hul-lic-ril-11787474680284.html",
-      "summary": "The combined market valuation of four of the top 10 most valued firms in India eroded by  \u20b987,960.29 crore last week, with Bharti Airtel taking the biggest hit, in-tandem with a bearish trend in equit",
-      "age_h": 0.8
+      "title": "Priority Jewels IPO price band set at  \u20b9190- \u20b9200. Here's date, size &amp; other key details",
+      "link": "https://www.livemint.com/market/ipo/priority-jewels-ipo-price-band-set-at-190-200-heres-date-size-other-key-details-11787540369833.html",
+      "summary": "The Priority Jewels IPO is a book-built issue comprising a fresh issue of  \u20b991.50 crore, aggregating to 45,75,000 shares. The IPO will open for subscription on August 28 and remain open until Septembe",
+      "age_h": 0.3
     },
     {
       "source": "Livemint",
-      "title": "Penny stock under  \u20b910 to be in focus on Monday | Here's why",
-      "link": "https://www.livemint.com/market/stock-market-news/penny-stock-under-rs-10-axita-cotton-to-be-in-focus-on-monday-heres-why-11787473728032.html",
-      "summary": "The small-cap penny stock closed 5% higher at  \u20b97.68 apiece on Friday. During the session, the stock touched an intraday high of  \u20b97.90 and intraday low of  \u20b97.30.",
-      "age_h": 1.0
+      "title": "Rays of Belief IPO: Price band set at  \u20b9227-239 per share; check key dates, issue details",
+      "link": "https://www.livemint.com/market/ipo/rays-of-belief-ipo-price-band-set-at-rs-227-239-per-share-check-key-dates-issue-details-11787539870153.html",
+      "summary": "Rays of Belief IPO price band is set at  \u20b9227-239 per share, with subscriptions open from 1 to 3 September. The offer includes up to 52.30 lakh equity shares to expand neurodevelopmental care services",
+      "age_h": 0.3
     },
     {
       "source": "Livemint",
-      "title": "Upcoming IPO: Gemini Edibles &amp; Fats India files draft papers to raise funds via public issue. Details here",
-      "link": "https://www.livemint.com/market/ipo/upcoming-ipo-gemini-edibles-fats-india-files-draft-papers-to-raise-funds-via-public-issue-details-here-11787469576854.html",
-      "summary": "According to the draft red herring prospectus (DRHP) filed on August 21, the proposed IPO will comprise a complete offer-for-sale (OFS) of up to 4.11 crore equity shares by the company\u2019s promoters and",
-      "age_h": 2.3
+      "title": "FTSE\u2019s Reshuffle May Give Vietnam Stocks a $3 Billion Boost",
+      "link": "https://www.livemint.com/market/ftses-reshuffle-may-give-vietnam-stocks-a-3-billion-boost-11787540652711.html",
+      "summary": "Vietnamese stocks may be poised to shake off a lackluster year after securing a bigger-than-expected weighting in FTSE Russell\u2019s semi-annual index review.",
+      "age_h": 0.5
     },
     {
       "source": "Livemint",
-      "title": "Stock market holiday: Will the NSE, BSE remain closed on Friday next week for Raksha Bandhan?",
-      "link": "https://www.livemint.com/market/stock-market-news/stock-market-holiday-will-the-nse-bse-remain-closed-on-friday-next-week-for-raksha-bandhan-11787465524134.html",
-      "summary": "According to the holiday calendars of the BSE and NSE, trading will remain open across the Equity, Equity Derivatives, Currency Derivatives and MCX.",
-      "age_h": 2.8
+      "title": "Tempsens Instruments IPO Day 3: Issue booked 21.66x so far. Here's GMP, review, other key details - Apply or not?",
+      "link": "https://www.livemint.com/market/ipo/tempsens-instruments-ipo-day-3-issue-booked-21-66x-so-far-heres-gmp-review-other-key-details-apply-or-not-11787538665690.html",
+      "summary": "According to market observers, Tempsens Instruments shares are commanding a grey market premium (GMP) of  \u20b9330 today.",
+      "age_h": 0.7
     }
   ]
 }
