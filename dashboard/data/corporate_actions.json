@@ -1,33 +1,33 @@
 {
-  "timestamp": "2026-08-26T03:33:42+00:00",
+  "timestamp": "2026-08-27T13:00:28+00:00",
   "events": [
     {
       "symbol": "MCX",
       "type": "ex-dividend_date",
       "date": "2026-08-28",
       "detail": "Ex-Dividend Date",
-      "days_away": 2
+      "days_away": 1
     },
     {
       "symbol": "ETERNAL",
       "type": "earnings_date",
       "date": "2026-10-15",
       "detail": "Earnings Date",
-      "days_away": 50
+      "days_away": 49
     },
     {
       "symbol": "COFORGE",
       "type": "earnings_date",
       "date": "2026-10-22",
       "detail": "Earnings Date",
-      "days_away": 57
+      "days_away": 56
     },
     {
       "symbol": "SONACOMS",
       "type": "earnings_date",
       "date": "2026-10-22",
       "detail": "Earnings Date",
-      "days_away": 57
+      "days_away": 56
     }
   ],
   "by_symbol": {
@@ -84,7 +84,7 @@
       "splits": [],
       "calendar": {
         "Earnings Date": [
-          "2026-08-06"
+          "2026-11-12"
         ],
         "Ex-Dividend Date": "2026-07-24"
       }
@@ -99,7 +99,7 @@
       "splits": [],
       "calendar": {
         "Earnings Date": [
-          "2026-08-13"
+          "2026-11-19"
         ],
         "Ex-Dividend Date": "2026-07-17"
       }
@@ -139,7 +139,7 @@
       "splits": [],
       "calendar": {
         "Earnings Date": [
-          "2026-07-20"
+          "2026-11-03"
         ]
       }
     },
