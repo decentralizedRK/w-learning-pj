@@ -1,33 +1,40 @@
 {
-  "timestamp": "2026-08-27T13:00:28+00:00",
+  "timestamp": "2026-08-28T14:31:21+00:00",
   "events": [
+    {
+      "symbol": "MCX",
+      "type": "dividend",
+      "date": "2026-08-28",
+      "detail": "\u20b98.00 per share",
+      "days_away": 0
+    },
     {
       "symbol": "MCX",
       "type": "ex-dividend_date",
       "date": "2026-08-28",
       "detail": "Ex-Dividend Date",
-      "days_away": 1
+      "days_away": 0
     },
     {
       "symbol": "ETERNAL",
       "type": "earnings_date",
       "date": "2026-10-15",
       "detail": "Earnings Date",
-      "days_away": 49
+      "days_away": 48
     },
     {
       "symbol": "COFORGE",
       "type": "earnings_date",
       "date": "2026-10-22",
       "detail": "Earnings Date",
-      "days_away": 56
+      "days_away": 55
     },
     {
       "symbol": "SONACOMS",
       "type": "earnings_date",
       "date": "2026-10-22",
       "detail": "Earnings Date",
-      "days_away": 56
+      "days_away": 55
     }
   ],
   "by_symbol": {
@@ -105,7 +112,12 @@
       }
     },
     "MCX": {
-      "dividends": [],
+      "dividends": [
+        {
+          "date": "2026-08-28",
+          "amount": 8.0
+        }
+      ],
       "splits": [
         {
           "date": "2026-01-02",

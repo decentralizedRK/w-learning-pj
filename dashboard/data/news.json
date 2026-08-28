@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-27T13:00:22+00:00",
+  "timestamp": "2026-08-28T14:31:16+00:00",
   "ticker_news": {
     "COFORGE": [
       {
@@ -63,6 +63,12 @@
     ],
     "HEROMOTOCO": [
       {
+        "title": "India's Hero MotoCorp to invest additional $184 million in Ather Energy",
+        "publisher": "Reuters",
+        "link": "https://sg.finance.yahoo.com/news/indias-hero-motocorp-invest-additional-152646751.html",
+        "age_h": null
+      },
+      {
         "title": "Hero MotoCorp Ltd (BOM:500182) (Q1 2027) Earnings Call Highlights: Revenue Surges 36% on Record ...",
         "publisher": "GuruFocus.com",
         "link": "https://finance.yahoo.com/markets/stocks/articles/hero-motocorp-ltd-bom-500182-130043205.html",
@@ -72,12 +78,6 @@
         "title": "India's Hero MotoCorp gains after quarterly profit rise",
         "publisher": "Reuters",
         "link": "https://sg.finance.yahoo.com/news/indias-hero-motocorp-gains-quarterly-035632811.html",
-        "age_h": null
-      },
-      {
-        "title": "Castrol India's quarterly profit jumps on strong retail, industrial demand",
-        "publisher": "Reuters",
-        "link": "https://sg.finance.yahoo.com/news/castrol-indias-quarterly-profit-jumps-105949110.html",
         "age_h": null
       }
     ],
@@ -143,6 +143,12 @@
     ],
     "PAYTM": [
       {
+        "title": "Founder Led Stocks Worth Watching As Capital Spending Picks Up",
+        "publisher": "Simply Wall St.",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/founder-led-stocks-worth-watching-221642598.html",
+        "age_h": null
+      },
+      {
         "title": "3 Founder Led Indian Stocks With Long Term Skin In The Game",
         "publisher": "Simply Wall St.",
         "link": "https://finance.yahoo.com/markets/stocks/articles/3-founder-led-indian-stocks-043614344.html",
@@ -152,12 +158,6 @@
         "title": "Resilient Asset Management to offload 4.98% stake in Paytm",
         "publisher": "Electronic Payments",
         "link": "https://www.electronicpaymentsinternational.com/news/resilient-asset-management-to-offload-4-98-stake-in-paytm/",
-        "age_h": null
-      },
-      {
-        "title": "Paytm founder's Resilient Asset Management to sell up to 4.98% stake in fintech firm",
-        "publisher": "Reuters",
-        "link": "https://sg.finance.yahoo.com/news/paytm-founders-resilient-asset-management-154457569.html",
         "age_h": null
       }
     ],
@@ -205,59 +205,59 @@
   "market_headlines": [
     {
       "source": "Economic Times",
-      "title": "Solar Industries among 5 stocks hitting 52-week highs; surge up to 22% in a month",
-      "link": "https://economictimes.indiatimes.com/markets/stocks/news/solar-industries-among-5-stocks-hitting-52-week-highs-surge-up-to-22-in-a-month/slideshow/133568796.cms",
-      "summary": "Five BSE 200 stocks hit fresh 52-week highs on Thursday despite a weak market. Divi\u2019s Laboratories led the pack with a 22% monthly gain.",
-      "age_h": 0.5
+      "title": "US Fed chairman Kevin Warsh says inflation is elevated and 'concerning' at Jackson Hole",
+      "link": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-fed-chairman-kevin-warsh-says-inflation-is-elevated-and-concerning-at-jackson-hole/articleshow/133593773.cms",
+      "summary": "US Federal Reserve Chairman Kevin Warsh said on Friday that high inflation in the world's largest economy was \"concerning,\" as he opened a key central bankers' meeting in Jackson Hole, Wyoming. Warsh,",
+      "age_h": 0.2
     },
     {
       "source": "Economic Times",
-      "title": "Dow Jones| Nasdaq | S&amp;P 500 | US Stock Market Today |Live Updates: Nasdaq futures outperform after Nvidia puts AI fears to rest",
-      "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/dow-jones-us-stock-market-live-updates-nasdaq-sp-500-iran-israel-war-hormuz-deal-brent-crude-oil-fed-warsh-jackson-hole-inflation-earnings-forecast-nvidia-salesforce-crowdstrike-stock-price-news-27th-august-2026/liveblog/133568209.cms",
-      "summary": "",
-      "age_h": 0.8
+      "title": "Reliance Jio IPO approved: Is it too late to buy RIL shares to be eligible for shareholder quota?",
+      "link": "https://economictimes.indiatimes.com/markets/ipos/fpos/reliance-jio-ipo-approved-is-it-too-late-to-buy-ril-shares-to-be-eligible-for-shareholder-quota/articleshow/133592960.cms",
+      "summary": "Jio Platforms has received SEBI approval for its upcoming initial public offering.   Reliance Industries shareholders may still qualify for a reserved portion of the offering.  The final details regar",
+      "age_h": 0.4
     },
     {
       "source": "Economic Times",
-      "title": "Realty firm iUSTUS to develop 25 lakh sq ft of residential, commercial real estate in Bengaluru",
-      "link": "https://economictimes.indiatimes.com/markets/digital-real-estate/realty-news/realty-firm-iustus-to-develop-25-lakh-sq-ft-of-residential-commercial-real-estate-in-bengaluru/articleshow/133567902.cms",
-      "summary": "Realty firm iUSTUS is set to embark on an ambitious project, developing a staggering twenty-five lakh square feet across South and East Bengaluru. Committed to excellence in quality construction and p",
+      "title": "US stocks today: US stocks open subdued ahead of Warsh's speech",
+      "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/us-stocks-today-us-stocks-open-subdued-ahead-of-warshs-speech/articleshow/133592641.cms",
+      "summary": "Wall Street opened mostly flat on Friday as the AI-driven rally lost momentum ahead of Federal Reserve Chair Kevin Warsh\u2019s Jackson Hole speech. The Dow and S&amp;P 500 edged higher, while the Nasdaq s",
       "age_h": 0.9
     },
     {
       "source": "Economic Times",
-      "title": "India bonds wobble as supply, RBI cash-drain risks loom",
-      "link": "https://economictimes.indiatimes.com/markets/bonds/india-bonds-wobble-as-supply-rbi-cash-drain-risks-loom/articleshow/133567842.cms",
-      "summary": "On Thursday, investor appetite for Indian government bonds dwindled amidst fears of increased supply and concerns over RBI's liquidity stance. The results from the treasury bill auction reflected weak",
-      "age_h": 1.0
+      "title": "Quote of the day by Arnold Van Den Berg: \"Regardless of yield, when investments are absent of value, cash is always a better option than permanently losing money\"",
+      "link": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/quote-of-the-day-by-arnold-van-den-berg-regardless-of-yield-when-investments-are-absent-of-value-cash-is-always-a-better-option-than-permanently-losing-money/articleshow/133591168.cms",
+      "summary": "Arnold Van Den Berg\u2019s investing wisdom stresses that yield alone does not make an investment attractive. When value is absent and permanent capital loss risk is high, holding cash may be wiser, allowi",
+      "age_h": 2.2
     },
     {
       "source": "Livemint",
-      "title": "Sebi proposes easing merchant banker rule for small-value debt issues",
-      "link": "https://www.livemint.com/market/stock-market-news/sebi-proposes-easing-merchant-banker-rule-for-small-value-debt-issues-11787831694723.html",
-      "summary": "Sebi said the limited availability of merchant bankers in the debt segment and the delays involved in appointing them can hinder small-value debt issuance",
-      "age_h": 0.4
+      "title": "US stocks muted ahead of Kevin Warsh\u2019s Jackson Hole speech",
+      "link": "https://www.livemint.com/market/stock-market-news/us-stocks-muted-ahead-of-kevin-warsh-s-jackson-hole-speech-11787924447163.html",
+      "summary": "The Dow Jones Industrial Average rose 0.08%, the S&amp;amp;P 500 rose 0.05%, while the Nasdaq Composite dropped 0.10%",
+      "age_h": 0.5
     },
     {
       "source": "Livemint",
-      "title": "US stock market today: Nasdaq, S&amp;P 500 futures rise up to 1% as Nvidia earnings spark rally in chip stocks",
-      "link": "https://www.livemint.com/market/stock-market-news/us-stock-market-today-nasdaq-s-p-500-futures-rise-up-to-1-as-nvidia-earnings-spark-rally-in-chip-stocks-11787827451816.html",
-      "summary": "US stock futures rose on 27 August, driven by Nvidia's strong second-quarter results, boosting chip stocks and alleviating AI rally concerns. Nasdaq futures increased 1%, while S&amp;amp;P 500 futures",
+      "title": "Pulse of the Street: Foreign buying fails to break August stalemate in Indian equities",
+      "link": "https://www.livemint.com/market/stock-market-news/indian-stock-market-sensex-nifty-today-11787920505576.html",
+      "summary": "Indian equities are likely to end August in a narrow range despite more than  \u20b930,000 crore of foreign inflows, as domestic profit booking and heavy primary-market supply absorbed liquidity. Investors",
       "age_h": 0.8
     },
     {
       "source": "Livemint",
-      "title": "Expert view: Expect Nifty at 29,000 by March 2027, says Seshadri Sen of Emkay Global",
-      "link": "https://www.livemint.com/market/stock-market-news/expert-view-expect-nifty-at-29-000-by-march-2027-says-seshadri-sen-of-emkay-global-11787829217981.html",
-      "summary": "Seshadri Sen of Emkay Global shares his optimistic view on the Indian stock market, anticipating that Nifty will soar to 29,000 by 2027. Key drivers include steady consumption demand, an evolving cape",
-      "age_h": 1.5
+      "title": "Treasury yields hold firm ahead of Kevin Warsh's key Jackson Hole address",
+      "link": "https://www.livemint.com/market/stock-market-news/treasury-yields-hold-firm-ahead-of-kevin-warshs-key-jackson-hole-address-11787922814189.html",
+      "summary": "US Treasury yields were flat before Warsh's Jackson Hole address, with slight increases seen in longer-term yields. Comments from Fed officials and strong inflation data raise expectations for upcomin",
+      "age_h": 0.8
     },
     {
       "source": "Livemint",
-      "title": "Stock market holiday: Is the Indian stock market open or closed tomorrow for Raksha Bandhan?",
-      "link": "https://www.livemint.com/market/stock-market-news/stock-market-holiday-is-the-indian-stock-market-open-or-closed-tomorrow-for-raksha-bandhan-11787825620947.html",
-      "summary": "The Indian stock market will operate normally on August 28, 2026, despite Raksha Bandhan being a public holiday in several states. Both BSE and NSE will allow trading, with no disruption to settlement",
-      "age_h": 2.5
+      "title": "Kevin Warsh Jackson Hole speech: Where to watch, timings and what to expect from Fed chief\u2019s address?",
+      "link": "https://www.livemint.com/market/kevin-warsh-jackson-hole-speech-where-to-watch-timing-and-what-to-expect-from-fed-chief-address-check-timings-11787918774883.html",
+      "summary": "Kevin Warsh will deliver a keynote address at the Jackson Hole Economic Policy Symposium today at 10:00 AM EDT. Investors hope for clarity on his economic stance as the odds of a rate hike on Septembe",
+      "age_h": 1.2
     }
   ]
 }
