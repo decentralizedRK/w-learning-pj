@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-31T08:50:28+00:00",
+  "timestamp": "2026-09-01T07:56:40+00:00",
   "ticker_news": {
     "COFORGE": [
       {
@@ -205,59 +205,59 @@
   "market_headlines": [
     {
       "source": "Economic Times",
-      "title": "US Stock Market: Barclays turns hawkish on Fed, sees two rate hikes in 2026",
-      "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/us-stock-market-barclays-turns-hawkish-on-fed-sees-two-rate-hikes-in-2026/articleshow/133647487.cms",
-      "summary": "Barclays has turned more hawkish on the US Federal Reserve, now expecting two 25-basis-point rate hikes in 2026. The brokerage sees increases in September and December, reversing its earlier call for ",
-      "age_h": 0.2
+      "title": "US Treasury selloff pushes India 10-year bond yield towards 7%",
+      "link": "https://economictimes.indiatimes.com/markets/bonds/us-treasury-selloff-pushes-india-10-year-bond-yield-towards-7/articleshow/133672835.cms",
+      "summary": "Indian government bonds experienced a sharp decline, pushing yields higher. U.S. Treasury yields rose significantly due to escalating geopolitical risks. High oil prices are fueling inflation concerns",
+      "age_h": 0.3
     },
     {
       "source": "Economic Times",
-      "title": "G20, US Jobs Data, Rate Decisions: 5 key global market triggers this week",
-      "link": "https://economictimes.indiatimes.com/markets/stocks/news/g20-us-jobs-data-rate-decisions-5-key-global-market-triggers-this-week/slideshow/133647015.cms",
-      "summary": "",
-      "age_h": 0.8
+      "title": "Ather Energy\u2019s 130% stock surge leaves Tesla and BYD behind in 2026",
+      "link": "https://economictimes.indiatimes.com/markets/stocks/news/ather-energys-130-stock-surge-leaves-tesla-and-byd-behind-in-2026/articleshow/133672575.cms",
+      "summary": "Ather Energy shares have surged nearly 130% in 2026, outperforming global EV stocks, as analysts expect rising market share and new launches to drive growth. Backed by Hero MotoCorp, Ather is expandin",
+      "age_h": 0.4
     },
     {
       "source": "Economic Times",
-      "title": "Priority Jewels IPO Day 2: Issue book over 15 times so far, GMP signals 23% listing gain. Should you subscribe?",
-      "link": "https://economictimes.indiatimes.com/markets/ipos/fpos/priority-jewels-ipo-day-2-issue-book-over-15-times-so-far-gmp-signals-23-listing-gain-should-you-subscribe/articleshow/133646567.cms",
-      "summary": "Priority Jewels IPO has attracted strong demand on Day 2, with the issue subscribed 15.61 times. The IPO is also commanding a 23% grey market premium, signalling potential listing gains. With the issu",
+      "title": "Ace investor Ashish Dhawan picks up 35 lakh shares in Religare Enterprises; stock jumps 5%",
+      "link": "https://economictimes.indiatimes.com/markets/stocks/news/ace-investor-ashish-dhawan-picks-up-35-lakh-shares-in-religare-enterprises-stock-jumps-5/articleshow/133671894.cms",
+      "summary": "Ace investor Ashish Dhawan bought nearly 35 lakh shares of Religare Enterprises across two sessions, according to NSE bulk deal data, sending the stock higher. Dhawan purchased 18 lakh shares on Augus",
       "age_h": 0.9
     },
     {
       "source": "Economic Times",
-      "title": "Jefferies cuts HDFC Bank share price target but retains Buy after CEO opts out of new term. Here\u2019s why",
-      "link": "https://economictimes.indiatimes.com/markets/stocks/news/jefferies-cuts-hdfc-bank-share-price-target-but-retains-buy-after-ceo-opts-out-of-new-term-heres-why/articleshow/133645941.cms",
-      "summary": "Jefferies retained its Buy rating on HDFC Bank but cut the target price to Rs 880 from Rs 1,050 following CEO Sashidhar Jagdishan\u2019s decision not to seek reappointment. The brokerage flagged near-term ",
-      "age_h": 1.4
+      "title": "Fed Chair Warsh sees global investment surge replacing savings glut",
+      "link": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/fed-chair-warsh-sees-global-investment-surge-replacing-savings-glut/articleshow/133671753.cms",
+      "summary": "Fed Chair Kevin Warsh told G20 finance leaders that the global economy may be shifting from a savings glut toward an investment boom, driven partly by AI spending. Stronger investment and productivity",
+      "age_h": 0.9
     },
     {
       "source": "Livemint",
-      "title": "Balrampur Chini, Shree Renuka Sugars to Mawana Sugars: Sugar stocks rise up to 11%. Do you own any of these?",
-      "link": "https://www.livemint.com/market/stock-market-news/balrampur-chini-shree-renuka-sugars-to-mawana-sugars-sugar-stocks-rise-up-to-11-do-you-own-any-of-these-11788161963599.html",
-      "summary": "Balrampur Chini Mills emerged as the top gainer among the stocks, climbing 10%, touching an intraday high of  \u20b9738 per share.",
+      "title": "Maruti Suzuki is top Nifty 50 loser today - what's driving the fall?",
+      "link": "https://www.livemint.com/market/stock-market-news/maruti-suzuki-is-top-nifty-50-loser-today-whats-driving-the-fall-11788248841268.html",
+      "summary": "Shares of Maruti Suzuki India opened at  \u20b913,540 against its previous close of  \u20b913,547 and dropped 5.1% to an intraday low of  \u20b912,851. Around 1:15 PM, the stock was 4.7% down at  \u20b912,915, trading as",
+      "age_h": 0.1
+    },
+    {
+      "source": "Livemint",
+      "title": "Manufacturing PMI slips to five-year low: Is more pain in store?",
+      "link": "https://www.livemint.com/market/mark-to-market/india-manufacturing-pmi-five-year-low-growth-momentum-11788246282543.html",
+      "summary": "Declining PMI momentum, coupled with margin risks and potential capex cuts, suggests the economy faces a trickier second half despite strong Q1 growth.",
       "age_h": 0.3
     },
     {
       "source": "Livemint",
-      "title": "Ather Energy share price hits lifetime high | Delivers 423% returns from IPO price",
-      "link": "https://www.livemint.com/market/stock-market-news/ather-energy-share-price-hits-lifetime-high-delivers-423-returns-from-ipo-price-11788162211726.html",
-      "summary": "Ather Energy shares rose nearly 4% to a record  \u20b91,679 following the launch of its mass-market scooter, Ather Konarc, priced from  \u20b999,999. The Konarc aims to attract a wider audience and expands Athe",
-      "age_h": 0.7
+      "title": "OMCs set for earnings recovery in Q2 despite oil market uncertainty",
+      "link": "https://www.livemint.com/market/mark-to-market/omc-outlook-ioc-bpcl-hpcl-earnings-crude-oil-prices-11788241041505.html",
+      "summary": "Lower crude oil prices and easing freight and insurance costs should support a swift recovery for oil marketing companies and likely compensate for Q1 losses.",
+      "age_h": 0.6
     },
     {
       "source": "Livemint",
-      "title": "Rising US bond yields or oil prices at $90 per barrel- Which is the bigger risk for stock markets?",
-      "link": "https://www.livemint.com/market/stock-market-news/rising-us-bond-yields-or-oil-prices-at-90-per-barrel-which-is-the-bigger-risk-for-stock-markets-11788159795096.html",
-      "summary": "As US bond yields rise and oil prices hover around $90 per barrel, analysts debate which factor poses a greater threat to the Indian stock market. Insights reveal that while yields impact sentiment, o",
+      "title": "Jewellery stocks down: Why Kalyan Jewellers, Titan, Augmont and others are losing sheen today? What's driving the fall?",
+      "link": "https://www.livemint.com/market/stock-market-news/jewellery-stocks-down-why-kalyan-jewellers-titan-augmont-and-others-are-losing-sheen-today-whats-driving-the-fall-11788243980655.html",
+      "summary": "Shares of Kalyan Jewellers plunged as much as 7% in intraday deals, while those of Augmont Enterprises crashed 6% on the BSE. Other jewellery stocks, such as PC Jeweller and Titan Company, declined 2%",
       "age_h": 0.7
-    },
-    {
-      "source": "Livemint",
-      "title": "Sterlite Tech stock has surged 7x. Is the rally running ahead of earnings?",
-      "link": "https://www.livemint.com/market/mark-to-market/sterlite-technologies-stl-optical-fibre-data-centres-hyperscalers-fii-buying-order-book-ebitda-margin-us-market-11788158932334.html",
-      "summary": "Sterlite Technologies has surged 7x in 2026 on strong US demand, FII buying and big orders. But with margins already normalized from the US tariff impact and valuations stretched, has the stock alread",
-      "age_h": 0.9
     }
   ]
 }
