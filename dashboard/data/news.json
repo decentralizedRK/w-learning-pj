@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-01T07:56:40+00:00",
+  "timestamp": "2026-09-02T07:16:30+00:00",
   "ticker_news": {
     "COFORGE": [
       {
@@ -63,6 +63,12 @@
     ],
     "HEROMOTOCO": [
       {
+        "title": "Ather Energy\u2019s 130% Stock Surge Leaves Tesla and BYD Behind in 2026",
+        "publisher": "Bloomberg",
+        "link": "https://finance.yahoo.com/markets/stocks/articles/ather-energy-130-stock-surge-065116645.html",
+        "age_h": null
+      },
+      {
         "title": "India's Hero MotoCorp to invest additional $184 million in Ather Energy",
         "publisher": "Reuters",
         "link": "https://sg.finance.yahoo.com/news/indias-hero-motocorp-invest-additional-152646751.html",
@@ -72,12 +78,6 @@
         "title": "Hero MotoCorp Ltd (BOM:500182) (Q1 2027) Earnings Call Highlights: Revenue Surges 36% on Record ...",
         "publisher": "GuruFocus.com",
         "link": "https://finance.yahoo.com/markets/stocks/articles/hero-motocorp-ltd-bom-500182-130043205.html",
-        "age_h": null
-      },
-      {
-        "title": "India's Hero MotoCorp gains after quarterly profit rise",
-        "publisher": "Reuters",
-        "link": "https://sg.finance.yahoo.com/news/indias-hero-motocorp-gains-quarterly-035632811.html",
         "age_h": null
       }
     ],
@@ -205,59 +205,59 @@
   "market_headlines": [
     {
       "source": "Economic Times",
-      "title": "US Treasury selloff pushes India 10-year bond yield towards 7%",
-      "link": "https://economictimes.indiatimes.com/markets/bonds/us-treasury-selloff-pushes-india-10-year-bond-yield-towards-7/articleshow/133672835.cms",
-      "summary": "Indian government bonds experienced a sharp decline, pushing yields higher. U.S. Treasury yields rose significantly due to escalating geopolitical risks. High oil prices are fueling inflation concerns",
+      "title": "Yotta targets Jan-March 2027 IPO, seeks up to $1.5 billion amid AI boom",
+      "link": "https://economictimes.indiatimes.com/markets/ipos/fpos/yotta-targets-jan-march-2027-ipo-seeks-up-to-1-5-billion-amid-ai-boom/articleshow/133701389.cms",
+      "summary": "Yotta Data Services is gearing up for an initial public offering scheduled for early 2027, aiming to secure as much as $1.5 billion to settle debts and enhance their infrastructure. This strategic mov",
       "age_h": 0.3
     },
     {
       "source": "Economic Times",
-      "title": "Ather Energy\u2019s 130% stock surge leaves Tesla and BYD behind in 2026",
-      "link": "https://economictimes.indiatimes.com/markets/stocks/news/ather-energys-130-stock-surge-leaves-tesla-and-byd-behind-in-2026/articleshow/133672575.cms",
-      "summary": "Ather Energy shares have surged nearly 130% in 2026, outperforming global EV stocks, as analysts expect rising market share and new launches to drive growth. Backed by Hero MotoCorp, Ather is expandin",
+      "title": "Global Market: Japanese bond yields rise as BOJ hawkish signals fuel rate-hike bets",
+      "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-japanese-bond-yields-rise-as-boj-hawkish-signals-fuel-rate-hike-bets/articleshow/133701140.cms",
+      "summary": "Japanese government bonds extended their selloff on Wednesday as hawkish signals from the Bank of Japan strengthened expectations of a near-term rate hike. The five-year JGB yield hit a record 2.295%,",
       "age_h": 0.4
     },
     {
       "source": "Economic Times",
-      "title": "Ace investor Ashish Dhawan picks up 35 lakh shares in Religare Enterprises; stock jumps 5%",
-      "link": "https://economictimes.indiatimes.com/markets/stocks/news/ace-investor-ashish-dhawan-picks-up-35-lakh-shares-in-religare-enterprises-stock-jumps-5/articleshow/133671894.cms",
-      "summary": "Ace investor Ashish Dhawan bought nearly 35 lakh shares of Religare Enterprises across two sessions, according to NSE bulk deal data, sending the stock higher. Dhawan purchased 18 lakh shares on Augus",
-      "age_h": 0.9
-    },
-    {
-      "source": "Economic Times",
-      "title": "Fed Chair Warsh sees global investment surge replacing savings glut",
-      "link": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/fed-chair-warsh-sees-global-investment-surge-replacing-savings-glut/articleshow/133671753.cms",
-      "summary": "Fed Chair Kevin Warsh told G20 finance leaders that the global economy may be shifting from a savings glut toward an investment boom, driven partly by AI spending. Stronger investment and productivity",
-      "age_h": 0.9
-    },
-    {
-      "source": "Livemint",
-      "title": "Maruti Suzuki is top Nifty 50 loser today - what's driving the fall?",
-      "link": "https://www.livemint.com/market/stock-market-news/maruti-suzuki-is-top-nifty-50-loser-today-whats-driving-the-fall-11788248841268.html",
-      "summary": "Shares of Maruti Suzuki India opened at  \u20b913,540 against its previous close of  \u20b913,547 and dropped 5.1% to an intraday low of  \u20b912,851. Around 1:15 PM, the stock was 4.7% down at  \u20b912,915, trading as",
-      "age_h": 0.1
-    },
-    {
-      "source": "Livemint",
-      "title": "Manufacturing PMI slips to five-year low: Is more pain in store?",
-      "link": "https://www.livemint.com/market/mark-to-market/india-manufacturing-pmi-five-year-low-growth-momentum-11788246282543.html",
-      "summary": "Declining PMI momentum, coupled with margin risks and potential capex cuts, suggests the economy faces a trickier second half despite strong Q1 growth.",
-      "age_h": 0.3
-    },
-    {
-      "source": "Livemint",
-      "title": "OMCs set for earnings recovery in Q2 despite oil market uncertainty",
-      "link": "https://www.livemint.com/market/mark-to-market/omc-outlook-ioc-bpcl-hpcl-earnings-crude-oil-prices-11788241041505.html",
-      "summary": "Lower crude oil prices and easing freight and insurance costs should support a swift recovery for oil marketing companies and likely compensate for Q1 losses.",
+      "title": "TBZ shares rally 16%, extending gains for a second session. What's triggering the surge?",
+      "link": "https://economictimes.indiatimes.com/markets/stocks/news/tbz-shares-rally-16-extending-gains-for-a-second-session-whats-triggering-the-surge/articleshow/133700844.cms",
+      "summary": "TBZ shares jumped 16% after GRT Jewellers announced plans to acquire the jewellery retailer\u2019s promoter stake and take control. The deal includes a Rs 249.61-per-share open offer for public shareholder",
       "age_h": 0.6
     },
     {
-      "source": "Livemint",
-      "title": "Jewellery stocks down: Why Kalyan Jewellers, Titan, Augmont and others are losing sheen today? What's driving the fall?",
-      "link": "https://www.livemint.com/market/stock-market-news/jewellery-stocks-down-why-kalyan-jewellers-titan-augmont-and-others-are-losing-sheen-today-whats-driving-the-fall-11788243980655.html",
-      "summary": "Shares of Kalyan Jewellers plunged as much as 7% in intraday deals, while those of Augmont Enterprises crashed 6% on the BSE. Other jewellery stocks, such as PC Jeweller and Titan Company, declined 2%",
+      "source": "Economic Times",
+      "title": "BEML shares rise 2% after securing Rs 180 crore Vande Bharat sleeper order",
+      "link": "https://economictimes.indiatimes.com/markets/stocks/news/beml-shares-rise-2-after-securing-rs-180-crore-vande-bharat-sleeper-order/articleshow/133700760.cms",
+      "summary": "BEML shares gained nearly 2% after the company secured a Rs 180.60 crore order from Integral Coach Factory for manufacturing and supplying Vande Bharat sleeper trainsets. The order adds to BEML\u2019s rece",
       "age_h": 0.7
+    },
+    {
+      "source": "Livemint",
+      "title": "PVR Inox\u2019s  \u20b9300-crore buyback: on track for a comeback?",
+      "link": "https://www.livemint.com/market/mark-to-market/pvr-inox-rs-300-crore-buyback-stock-price-11788326663309.html",
+      "summary": "Improved operating margins and a debt-free balance sheet underpin PVR Inox's share buyback, but volatile footfalls and high alternative content costs pose near-term challenges.",
+      "age_h": 0.2
+    },
+    {
+      "source": "Livemint",
+      "title": "1000% rally in five years | Multibagger small-cap stock hits upper circuit",
+      "link": "https://www.livemint.com/market/stock-market-news/1000-rally-in-five-years-multibagger-small-cap-stock-spice-lounge-food-works-hits-upper-circuit-11788328354497.html",
+      "summary": "The small-cap stock opened at  \u20b923.42 on BSE today, as compared to previous close of  \u20b922.32 on Tuesday. The multibagger stock touched an intraday high of  \u20b923.43 on 2 September.",
+      "age_h": 0.8
+    },
+    {
+      "source": "Livemint",
+      "title": "Every time FIIs panicked, here's what happened next - Nikhil Kamath explains why smart foreign money isn't always right",
+      "link": "https://www.livemint.com/market/stock-market-news/every-time-fiis-panicked-heres-what-happened-zerodha-nikhil-kamath-explains-why-smart-foreign-money-isnt-always-right-11788328352008.html",
+      "summary": "Analysis by Nikhil Kamath reveals that aggressive selling by FIIs during market crises often precedes gains in the Nifty 50. Historical patterns show domestic investors performed better than FIIs duri",
+      "age_h": 1.0
+    },
+    {
+      "source": "Livemint",
+      "title": "Up to 40% returns? Looking for top stock picks for Sept 2026? Axis Securities shares list of 15 | Upside, target price",
+      "link": "https://www.livemint.com/market/stock-market-news/up-to-40-returns-looking-for-top-stock-picks-for-sept-2026-axis-securities-shares-list-of-15-upside-target-price-11788324428926.html",
+      "summary": "Axis Securities presents a curated list of 15 stocks with potential returns of up to 40%. Discover which sectors and stocks are poised for growth amidst geopolitical tensions and economic shifts.",
+      "age_h": 1.3
     }
   ]
 }
