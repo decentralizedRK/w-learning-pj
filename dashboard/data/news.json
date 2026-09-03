@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-02T07:16:30+00:00",
+  "timestamp": "2026-09-03T07:19:55+00:00",
   "ticker_news": {
     "COFORGE": [
       {
@@ -205,59 +205,59 @@
   "market_headlines": [
     {
       "source": "Economic Times",
-      "title": "Yotta targets Jan-March 2027 IPO, seeks up to $1.5 billion amid AI boom",
-      "link": "https://economictimes.indiatimes.com/markets/ipos/fpos/yotta-targets-jan-march-2027-ipo-seeks-up-to-1-5-billion-amid-ai-boom/articleshow/133701389.cms",
-      "summary": "Yotta Data Services is gearing up for an initial public offering scheduled for early 2027, aiming to secure as much as $1.5 billion to settle debts and enhance their infrastructure. This strategic mov",
+      "title": "India bonds gain as RBI FX inflows lift liquidity, spur short-term debt buying",
+      "link": "https://economictimes.indiatimes.com/markets/bonds/india-bonds-gain-as-rbi-fx-inflows-lift-liquidity-spur-short-term-debt-buying/articleshow/133728502.cms",
+      "summary": "Indian government bonds saw gains early Thursday, led by shorter-term debt. Larger dollar inflows boosted rupee liquidity and improved sentiment for Indian assets. Banks raised significant foreign cur",
+      "age_h": 0.2
+    },
+    {
+      "source": "Economic Times",
+      "title": "Motilal Oswal initiates coverage on Adani Power with Buy call, sees 20% upside. Time to hold or sell?",
+      "link": "https://economictimes.indiatimes.com/markets/stocks/news/motilal-oswal-initiates-coverage-on-adani-power-with-buy-call-sees-20-upside-time-to-hold-or-sell/articleshow/133728332.cms",
+      "summary": "Motilal Oswal initiated coverage on Adani Power with a Buy rating and a target price of Rs 250, implying around 20% upside. The brokerage sees capacity expansion, its track record of turning around di",
       "age_h": 0.3
     },
     {
       "source": "Economic Times",
-      "title": "Global Market: Japanese bond yields rise as BOJ hawkish signals fuel rate-hike bets",
-      "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-japanese-bond-yields-rise-as-boj-hawkish-signals-fuel-rate-hike-bets/articleshow/133701140.cms",
-      "summary": "Japanese government bonds extended their selloff on Wednesday as hawkish signals from the Bank of Japan strengthened expectations of a near-term rate hike. The five-year JGB yield hit a record 2.295%,",
+      "title": "Broadcom\u2019s AI chip boom powers record quarter, shares waver",
+      "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/broadcoms-ai-chip-boom-powers-record-quarter-shares-waver/slideshow/133728007.cms",
+      "summary": "Broadcom delivered strong fiscal third-quarter results, driven by a sharp surge in AI semiconductor revenue and rising demand for custom AI accelerators and networking chips. Despite beating estimates",
+      "age_h": 0.9
+    },
+    {
+      "source": "Economic Times",
+      "title": "Lumino Industries shares soar 40% from IPO price after strong market debut. Should you buy or wait?",
+      "link": "https://economictimes.indiatimes.com/markets/stocks/news/lumino-industries-shares-soar-40-from-ipo-price-after-strong-market-debut-should-you-buy-or-wait/articleshow/133726784.cms",
+      "summary": "Lumino Industries shares extended their strong debut gains, rising another 4% after listing at a 34% premium to the IPO price. While analysts see attractive valuations, strong profitability and debt r",
+      "age_h": 1.4
+    },
+    {
+      "source": "Livemint",
+      "title": "Stocks to buy: Nagaraj Shetti recommends eClerx Services, UNO Minda shares to buy in the short-term",
+      "link": "https://www.livemint.com/market/stock-market-news/stocks-to-buy-nagaraj-shetti-recommends-eclerx-services-uno-minda-shares-to-buy-in-the-shortterm-11788417509077.html",
+      "summary": "Domestic indices Nifty 50 and Sensex each gained 0.35% on September 3, supported by banking stocks that raised $136.4 billion. Oil prices eased slightly, while global cues influenced a cautious market",
       "age_h": 0.4
     },
     {
-      "source": "Economic Times",
-      "title": "TBZ shares rally 16%, extending gains for a second session. What's triggering the surge?",
-      "link": "https://economictimes.indiatimes.com/markets/stocks/news/tbz-shares-rally-16-extending-gains-for-a-second-session-whats-triggering-the-surge/articleshow/133700844.cms",
-      "summary": "TBZ shares jumped 16% after GRT Jewellers announced plans to acquire the jewellery retailer\u2019s promoter stake and take control. The deal includes a Rs 249.61-per-share open offer for public shareholder",
-      "age_h": 0.6
-    },
-    {
-      "source": "Economic Times",
-      "title": "BEML shares rise 2% after securing Rs 180 crore Vande Bharat sleeper order",
-      "link": "https://economictimes.indiatimes.com/markets/stocks/news/beml-shares-rise-2-after-securing-rs-180-crore-vande-bharat-sleeper-order/articleshow/133700760.cms",
-      "summary": "BEML shares gained nearly 2% after the company secured a Rs 180.60 crore order from Integral Coach Factory for manufacturing and supplying Vande Bharat sleeper trainsets. The order adds to BEML\u2019s rece",
+      "source": "Livemint",
+      "title": "Gold vs Silver: Which precious metal offers a better bet for investors after the recent correction?",
+      "link": "https://www.livemint.com/market/commodities/gold-price-outlook-gold-vs-silver-which-precious-metal-offers-a-better-bet-for-investors-after-the-recent-correction-11788415418247.html",
+      "summary": "Gold and silver rebounded after a correction, prompting investors to evaluate which metal offers better opportunities. Analysts suggest gold has stronger support, while silver is more volatile despite",
       "age_h": 0.7
     },
     {
       "source": "Livemint",
-      "title": "PVR Inox\u2019s  \u20b9300-crore buyback: on track for a comeback?",
-      "link": "https://www.livemint.com/market/mark-to-market/pvr-inox-rs-300-crore-buyback-stock-price-11788326663309.html",
-      "summary": "Improved operating margins and a debt-free balance sheet underpin PVR Inox's share buyback, but volatile footfalls and high alternative content costs pose near-term challenges.",
-      "age_h": 0.2
+      "title": "Rays of Belief IPO Day 3: Issue subscribed 13.63x so far. Check GMP, reviews, &amp; other details. Apply or not?",
+      "link": "https://www.livemint.com/market/ipo/rays-of-belief-ipo-day-3-issue-subscribed-13-63x-so-far-check-gmp-reviews-other-details-apply-or-not-11788413728014.html",
+      "summary": "The IPO is currently trading at a grey market premium (GMP) of  \u20b959. At the upper price band of  \u20b9239 per share, this translates into an estimated listing price of  \u20b9298, representing a potential gain",
+      "age_h": 0.9
     },
     {
       "source": "Livemint",
-      "title": "1000% rally in five years | Multibagger small-cap stock hits upper circuit",
-      "link": "https://www.livemint.com/market/stock-market-news/1000-rally-in-five-years-multibagger-small-cap-stock-spice-lounge-food-works-hits-upper-circuit-11788328354497.html",
-      "summary": "The small-cap stock opened at  \u20b923.42 on BSE today, as compared to previous close of  \u20b922.32 on Tuesday. The multibagger stock touched an intraday high of  \u20b923.43 on 2 September.",
-      "age_h": 0.8
-    },
-    {
-      "source": "Livemint",
-      "title": "Every time FIIs panicked, here's what happened next - Nikhil Kamath explains why smart foreign money isn't always right",
-      "link": "https://www.livemint.com/market/stock-market-news/every-time-fiis-panicked-heres-what-happened-zerodha-nikhil-kamath-explains-why-smart-foreign-money-isnt-always-right-11788328352008.html",
-      "summary": "Analysis by Nikhil Kamath reveals that aggressive selling by FIIs during market crises often precedes gains in the Nifty 50. Historical patterns show domestic investors performed better than FIIs duri",
-      "age_h": 1.0
-    },
-    {
-      "source": "Livemint",
-      "title": "Up to 40% returns? Looking for top stock picks for Sept 2026? Axis Securities shares list of 15 | Upside, target price",
-      "link": "https://www.livemint.com/market/stock-market-news/up-to-40-returns-looking-for-top-stock-picks-for-sept-2026-axis-securities-shares-list-of-15-upside-target-price-11788324428926.html",
-      "summary": "Axis Securities presents a curated list of 15 stocks with potential returns of up to 40%. Discover which sectors and stocks are poised for growth amidst geopolitical tensions and economic shifts.",
-      "age_h": 1.3
+      "title": "Prasol Chemicals IPO: Price band set at  \u20b9643- \u20b9676 per share; check key dates, issue details",
+      "link": "https://www.livemint.com/market/prasol-chemicals-ipo-price-band-set-at-rs-643-rs-676-per-share-check-key-dates-issue-details-11788414581560.html",
+      "summary": "Prasol Chemicals IPO price band is fixed at  \u20b9643 to  \u20b9676, with subscription open from 8 September. The firm plans to raise  \u20b980 crore and promoters will sell shares worth  \u20b9420 crore. Allocation to ",
+      "age_h": 1.1
     }
   ]
 }
