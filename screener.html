@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>QuantOS — Screener</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<nav>
+  <div class="logo"><span class="logo-text">Quant<span>OS</span></span></div>
+  <div class="nav-tabs">
+    <a href="index.html" class="nav-tab">Portfolio</a>
+    <a href="screener.html" class="nav-tab active">Screener</a>
+    <a href="signals.html" class="nav-tab">Signals</a>
+    <a href="news.html" class="nav-tab">News</a>
+    <a href="backtest.html" class="nav-tab">Backtest</a>
+  </div>
+  <div class="nav-right"><span id="statusText"></span></div>
+</nav>
+
+<div class="container">
+  <div class="stats-grid" id="stats"></div>
+
+  <div class="sub-tabs" id="segTabs"></div>
+  <div id="segPanels"></div>
+</div>
+
+<footer><div>QuantOS — Unified Trading & Investment Platform</div></footer>
+
+<script>
+const D='data';
+function fmt(n,d=0){if(n==null||isNaN(n))return'—';return n.toLocaleString('en-IN',{minimumFractionDigits:d,maximumFractionDigits:d});}
+function pnlCls(v){return v>0?'positive':v<0?'negative':'';}
+async function fetchJ(f){try{const r=await fetch(`${D}/${f}?t=${Date.now()}`);return r.ok?await r.json():null;}catch{return null;}}
+
+function sym(s) {
+  return `<a href="https://www.tradingview.com/chart/?symbol=NSE%3A${s}" target="_blank" class="ticker-chip">${s} ↗</a>`
+    + ` <a href="https://www.google.com/finance/quote/${s}:NSE" target="_blank" style="font-size:0.65rem;color:var(--text-dark);text-decoration:none;border:1px solid var(--border);padding:1px 4px;border-radius:3px">GF</a>`;
+}
+
+function scoreBar(sc) {
+  const p=Math.min(Math.max(sc,0),1), w=Math.round(p*50);
+  const r=Math.round(239*(1-p)+16*p), g=Math.round(68*(1-p)+185*p), b=Math.round(68*(1-p)+129*p);
+  return `<span class="score-bar" style="width:${w}px;background:rgb(${r},${g},${b})"></span>${fmt(sc,3)}`;
+}
+
+function retBadge(v) {
+  const c=v>0?'tag-up':v<0?'tag-down':'tag-neutral';
+  return `<span class="badge ${c}">${v>0?'+':''}${fmt(v,1)}%</span>`;
+}
+
+function tierBadge(seg) {
+  if(!seg) return '';
+  const s=seg.charAt(0).toUpperCase();
+  const c=s==='L'?'tier-l':s==='M'?'tier-m':'tier-s';
+  return `<span class="${c}">${s}</span>`;
+}
+
+function stockRow(s,rank) {
+  const sig=s.entry_signal?'<span class="badge tag-up">YES</span>':'<span style="color:var(--text-dark)">no</span>';
+  return `<tr>
+    ${rank!==null?`<td>${rank}</td>`:''}
+    <td>${sym(s.symbol)}</td>
+    <td>${tierBadge(s.segment)}</td>
+    <td class="text-right font-medium">${fmt(s.close,2)}</td>
+    <td class="text-right ${pnlCls(s.roc_20)}">${fmt(s.roc_20,1)}</td>
+    <td class="text-right">${fmt(s.adx,1)}</td>
+    <td class="text-right">${fmt(s.rsi,1)}</td>
+    <td class="text-right">${scoreBar(s.composite_score||0)}</td>
+    <td>${sig}</td>
+  </tr>`;
+}
+
+function renderStats(data) {
+  const el=document.getElementById('stats');
+  const lc=data.segments?.largecap?.length||0, mc=data.segments?.midcap?.length||0, sc=data.segments?.smallcap?.length||0;
+  const topN=data.top_picks?.length||0;
+  const sigs=(data.top_picks||[]).filter(s=>s.entry_signal).length;
+  el.innerHTML=`
+    <div class="card stat-card"><div class="stat-label">Top Picks</div><div class="stat-value text-white">${topN}</div><div class="stat-sub">${sigs} with entry signal</div></div>
+    <div class="card stat-card"><div class="stat-label">Largecap</div><div class="stat-value text-white">${lc}</div><div class="stat-sub">stocks screened</div></div>
+    <div class="card stat-card"><div class="stat-label">Midcap</div><div class="stat-value text-white">${mc}</div><div class="stat-sub">stocks screened</div></div>
+    <div class="card stat-card"><div class="stat-label">Smallcap</div><div class="stat-value text-white">${sc}</div><div class="stat-sub">stocks screened</div></div>
+  `;
+}
+
+const TABS=[
+  {key:'top',label:'Top Picks',hasRank:true},
+  {key:'largecap',label:'Largecap F&O',hasRank:false},
+  {key:'midcap',label:'Midcap F&O',hasRank:false},
+  {key:'smallcap',label:'Smallcap F&O',hasRank:false},
+];
+
+function switchTab(k) {
+  document.querySelectorAll('.sub-tab').forEach(t=>t.classList.toggle('active',t.dataset.key===k));
+  document.querySelectorAll('.sub-panel').forEach(p=>p.classList.toggle('active',p.id==='panel_'+k));
+}
+
+function makeTable(id,stocks,hasRank) {
+  const rTh=hasRank?`<th onclick="sortTbl('${id}',0)">Rank</th>`:'';
+  const o=hasRank?1:0;
+  const rows=stocks.length===0?`<tr><td colspan="${hasRank?9:8}" class="empty-state">No data</td></tr>`
+    :stocks.map((s,i)=>stockRow(s,hasRank?i+1:null)).join('');
+  return `<div class="card" style="overflow:hidden"><div class="table-wrap"><table id="${id}"><thead><tr>
+    ${rTh}
+    <th onclick="sortTbl('${id}',${0+o})">Symbol</th>
+    <th onclick="sortTbl('${id}',${1+o})">Tier</th>
+    <th onclick="sortTbl('${id}',${2+o})" class="text-right">Close</th>
+    <th onclick="sortTbl('${id}',${3+o})" class="text-right">ROC(20)</th>
+    <th onclick="sortTbl('${id}',${4+o})" class="text-right">ADX</th>
+    <th onclick="sortTbl('${id}',${5+o})" class="text-right">RSI</th>
+    <th onclick="sortTbl('${id}',${6+o})" class="text-right">Score</th>
+    <th onclick="sortTbl('${id}',${7+o})">Signal</th>
+  </tr></thead><tbody>${rows}</tbody></table></div></div>`;
+}
+
+function renderTabs(data) {
+  const tabsEl=document.getElementById('segTabs'), panelsEl=document.getElementById('segPanels');
+  const counts={top:data.top_picks?.length||0,largecap:data.segments?.largecap?.length||0,midcap:data.segments?.midcap?.length||0,smallcap:data.segments?.smallcap?.length||0};
+  tabsEl.innerHTML=TABS.map(t=>`<div class="sub-tab${t.key==='top'?' active':''}" data-key="${t.key}" onclick="switchTab('${t.key}')">${t.label} <span class="badge">${counts[t.key]}</span></div>`).join('');
+  const byTab={top:data.top_picks||[],largecap:data.segments?.largecap||[],midcap:data.segments?.midcap||[],smallcap:data.segments?.smallcap||[]};
+  panelsEl.innerHTML=TABS.map(t=>`<div class="sub-panel${t.key==='top'?' active':''}" id="panel_${t.key}">${makeTable('tbl_'+t.key,byTab[t.key],t.hasRank)}</div>`).join('');
+}
+
+function sortTbl(id,col) {
+  const tbl=document.getElementById(id), tb=tbl.querySelector('tbody');
+  const rows=Array.from(tb.querySelectorAll('tr'));
+  if(rows.length<=1) return;
+  const dir=tbl.dataset.sc===String(col)&&tbl.dataset.sd==='asc'?'desc':'asc';
+  tbl.dataset.sc=col; tbl.dataset.sd=dir;
+  rows.sort((a,b)=>{
+    let av=a.cells[col]?.textContent.trim().replace(/[,%+₹↗—]/g,'')||'';
+    let bv=b.cells[col]?.textContent.trim().replace(/[,%+₹↗—]/g,'')||'';
+    const an=parseFloat(av.replace(/,/g,'')),bn=parseFloat(bv.replace(/,/g,''));
+    if(!isNaN(an)&&!isNaN(bn)) return dir==='asc'?an-bn:bn-an;
+    return dir==='asc'?av.localeCompare(bv):bv.localeCompare(av);
+  });
+  rows.forEach(r=>tb.appendChild(r));
+  tbl.querySelectorAll('th').forEach((h,i)=>{h.classList.remove('sort-asc','sort-desc');if(i===col)h.classList.add(dir==='asc'?'sort-asc':'sort-desc');});
+}
+
+async function load() {
+  const data=await fetchJ('signals.json');
+  const st=document.getElementById('statusText');
+  if(!data){st.textContent='No screener data. Run screener workflow.';return;}
+  if(data.timestamp){st.textContent=`Last run: ${new Date(data.timestamp).toLocaleString('en-IN')}`;}
+  renderStats(data);
+  renderTabs(data);
+}
+load();
+</script>
+</body>
+</html>

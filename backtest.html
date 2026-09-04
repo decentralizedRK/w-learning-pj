@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>QuantOS — Backtest</title>
+<link rel="stylesheet" href="styles.css">
+<style>
+.chart-container { padding: 16px; margin: 16px 0; }
+canvas { width: 100%; height: 280px; }
+</style>
+</head>
+<body>
+<nav>
+  <div class="logo"><span class="logo-text">Quant<span>OS</span></span></div>
+  <div class="nav-tabs">
+    <a href="index.html" class="nav-tab">Portfolio</a>
+    <a href="screener.html" class="nav-tab">Screener</a>
+    <a href="signals.html" class="nav-tab">Signals</a>
+    <a href="news.html" class="nav-tab">News</a>
+    <a href="backtest.html" class="nav-tab active">Backtest</a>
+  </div>
+  <div class="nav-right"><span id="subtitle" style="font-size:0.75rem"></span></div>
+</nav>
+
+<div class="container">
+  <div class="stats-grid" id="stats"></div>
+
+  <div class="section-label" style="margin-top:24px">Equity Curve</div>
+  <div class="card chart-container">
+    <canvas id="equityChart"></canvas>
+  </div>
+
+  <div class="section-label" style="margin-top:24px">Regime Breakdown</div>
+  <div class="card" style="overflow:hidden">
+    <table id="regimeTable">
+      <thead><tr>
+        <th>Regime</th>
+        <th class="text-right">Trades</th>
+        <th class="text-right">Net P&L</th>
+        <th class="text-right">Win Rate</th>
+        <th class="text-right">Avg P&L</th>
+      </tr></thead>
+      <tbody id="regimeBody"></tbody>
+    </table>
+  </div>
+
+  <div class="section-label" style="margin-top:24px">Trade Log</div>
+  <div class="card" style="overflow:hidden">
+    <div class="table-wrap" style="max-height:600px">
+      <table>
+        <thead><tr>
+          <th>Symbol</th><th>Entry</th><th>Exit</th>
+          <th class="text-right">Entry Price</th>
+          <th class="text-right">Exit Price</th>
+          <th class="text-right">Net P&L</th>
+          <th>Exit Reason</th>
+          <th class="text-right">Days</th>
+        </tr></thead>
+        <tbody id="tradeLogBody"></tbody>
+      </table>
+    </div>
+  </div>
+</div>
+
+<footer><div>QuantOS — Unified Trading & Investment Platform</div></footer>
+
+<script>
+const D='data';
+function fmt(n,d=0){if(n==null||isNaN(n))return'—';return n.toLocaleString('en-IN',{minimumFractionDigits:d,maximumFractionDigits:d});}
+function pnlCls(v){return v>0?'positive':v<0?'negative':'';}
+function pnlSign(v){return v>0?'+':'';}
+async function fetchJ(f){try{const r=await fetch(`${D}/${f}?t=${Date.now()}`);return r.ok?await r.json():null;}catch{return null;}}
+
+function renderStats(d) {
+  const el=document.getElementById('stats');
+  if(!d){el.innerHTML='<div class="empty-state">No backtest results. Run a backtest first.</div>';return;}
+  document.getElementById('subtitle').textContent=`${d.symbol||''} | ${d.start_date||''} to ${d.end_date||''} | Capital: ₹${fmt(d.initial_capital)}`;
+  const cards=[
+    {l:'Net P&L',v:`${pnlSign(d.net_pnl)}${fmt(d.net_pnl)}`,c:pnlCls(d.net_pnl),s:`Costs: ${fmt(d.total_costs)}`},
+    {l:'CAGR',v:`${fmt(d.cagr,1)}%`,s:`Final: ${fmt(d.final_capital)}`},
+    {l:'Win Rate',v:`${fmt(d.win_rate,1)}%`,s:`${d.winning_trades}W / ${d.losing_trades}L of ${d.total_trades}`},
+    {l:'Profit Factor',v:fmt(d.profit_factor,2),s:`Expectancy: ${fmt(d.expectancy)}`},
+    {l:'Sharpe',v:fmt(d.sharpe_ratio,2),s:`Sortino: ${fmt(d.sortino_ratio,2)}`},
+    {l:'Max Drawdown',v:`${fmt(d.max_drawdown_pct,1)}%`,c:'negative',s:`${d.max_drawdown_duration_days||0} days`},
+    {l:'Avg Holding',v:`${fmt(d.avg_holding_days,1)}d`,s:`Max consec losses: ${d.max_consecutive_losses||0}`},
+    {l:'Avg Trade P&L',v:`${pnlSign(d.avg_trade_pnl)}${fmt(d.avg_trade_pnl)}`,c:pnlCls(d.avg_trade_pnl)},
+  ];
+  el.innerHTML=cards.map(c=>`<div class="card stat-card"><div class="stat-label">${c.l}</div><div class="stat-value ${c.c||''}">${c.v}</div><div class="stat-sub">${c.s||''}</div></div>`).join('');
+}
+
+function renderEquityChart(data) {
+  const canvas=document.getElementById('equityChart');
+  if(!data?.equity_curve?.length) return;
+  const ctx=canvas.getContext('2d');
+  const curve=data.equity_curve;
+  const rect=canvas.parentElement.getBoundingClientRect();
+  canvas.width=rect.width-32; canvas.height=280;
+  const W=canvas.width, H=canvas.height;
+  const pad={top:20,right:16,bottom:30,left:80};
+  const pW=W-pad.left-pad.right, pH=H-pad.top-pad.bottom;
+  const vals=curve.map(p=>p.portfolio_value);
+  const mn=Math.min(...vals)*0.995, mx=Math.max(...vals)*1.005;
+  const sx=i=>pad.left+(i/(curve.length-1))*pW;
+  const sy=v=>pad.top+pH-((v-mn)/(mx-mn))*pH;
+  ctx.clearRect(0,0,W,H);
+  ctx.strokeStyle='#1e293b'; ctx.lineWidth=1;
+  for(let i=0;i<=4;i++){const y=pad.top+(pH/4)*i;ctx.beginPath();ctx.moveTo(pad.left,y);ctx.lineTo(W-pad.right,y);ctx.stroke();const v=mx-((mx-mn)/4)*i;ctx.fillStyle='#64748b';ctx.font='11px Inter,sans-serif';ctx.textAlign='right';ctx.fillText(fmt(v),pad.left-8,y+4);}
+  const init=data.initial_capital||vals[0];
+  ctx.beginPath(); ctx.strokeStyle=vals[vals.length-1]>=init?'#34d399':'#f87171'; ctx.lineWidth=2;
+  curve.forEach((p,i)=>{const x=sx(i),y=sy(p.portfolio_value);i===0?ctx.moveTo(x,y):ctx.lineTo(x,y);});
+  ctx.stroke();
+  ctx.lineTo(sx(curve.length-1),pad.top+pH); ctx.lineTo(sx(0),pad.top+pH); ctx.closePath();
+  const g=ctx.createLinearGradient(0,pad.top,0,pad.top+pH);
+  const c=vals[vals.length-1]>=init?'16,185,129':'239,68,68';
+  g.addColorStop(0,`rgba(${c},0.15)`); g.addColorStop(1,`rgba(${c},0.0)`);
+  ctx.fillStyle=g; ctx.fill();
+  ctx.fillStyle='#64748b'; ctx.font='11px Inter,sans-serif'; ctx.textAlign='center';
+  const step=Math.max(1,Math.floor(curve.length/6));
+  for(let i=0;i<curve.length;i+=step){const d=curve[i].date||'';ctx.fillText(typeof d==='string'?d.slice(5):'',sx(i),H-8);}
+}
+
+function renderRegimes(data) {
+  const tb=document.getElementById('regimeBody');
+  if(!data?.regime_results){tb.innerHTML='<tr><td colspan="5" class="empty-state">No regime data</td></tr>';return;}
+  tb.innerHTML=Object.entries(data.regime_results).map(([n,r])=>`<tr>
+    <td><strong>${n}</strong></td>
+    <td class="text-right">${r.trades||0}</td>
+    <td class="text-right ${pnlCls(r.net_pnl)}">${pnlSign(r.net_pnl)}${fmt(r.net_pnl)}</td>
+    <td class="text-right">${fmt(r.win_rate,1)}%</td>
+    <td class="text-right ${pnlCls(r.avg_pnl)}">${pnlSign(r.avg_pnl)}${fmt(r.avg_pnl)}</td>
+  </tr>`).join('');
+}
+
+function renderTradeLog(data) {
+  const tb=document.getElementById('tradeLogBody');
+  if(!data?.trades?.length){tb.innerHTML='<tr><td colspan="8" class="empty-state">No trades</td></tr>';return;}
+  tb.innerHTML=data.trades.map(t=>`<tr>
+    <td><strong>${t.symbol}</strong></td>
+    <td>${t.entry_date||''}</td><td>${t.exit_date||''}</td>
+    <td class="text-right">${fmt(t.entry_price,2)}</td>
+    <td class="text-right">${fmt(t.exit_price,2)}</td>
+    <td class="text-right ${pnlCls(t.net_pnl)}">${pnlSign(t.net_pnl)}${fmt(t.net_pnl)}</td>
+    <td>${t.exit_reason||''}</td>
+    <td class="text-right">${t.holding_days||''}</td>
+  </tr>`).join('');
+}
+
+async function load(){
+  const data=await fetchJ('backtest_results.json');
+  renderStats(data); renderEquityChart(data); renderRegimes(data); renderTradeLog(data);
+}
+load();
+</script>
+</body>
+</html>

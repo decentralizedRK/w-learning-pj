@@ -1,0 +1,203 @@
+{
+  "timestamp": "2026-09-04T07:22:21+00:00",
+  "events": [
+    {
+      "symbol": "MCX",
+      "type": "dividend",
+      "date": "2026-08-28",
+      "detail": "\u20b98.00 per share",
+      "days_away": -7
+    },
+    {
+      "symbol": "MCX",
+      "type": "ex-dividend_date",
+      "date": "2026-08-28",
+      "detail": "Ex-Dividend Date",
+      "days_away": -7
+    },
+    {
+      "symbol": "ETERNAL",
+      "type": "earnings_date",
+      "date": "2026-10-15",
+      "detail": "Earnings Date",
+      "days_away": 41
+    },
+    {
+      "symbol": "COFORGE",
+      "type": "earnings_date",
+      "date": "2026-10-22",
+      "detail": "Earnings Date",
+      "days_away": 48
+    },
+    {
+      "symbol": "SONACOMS",
+      "type": "earnings_date",
+      "date": "2026-10-22",
+      "detail": "Earnings Date",
+      "days_away": 48
+    },
+    {
+      "symbol": "POLICYBZR",
+      "type": "earnings_date",
+      "date": "2026-10-29",
+      "detail": "Earnings Date",
+      "days_away": 55
+    },
+    {
+      "symbol": "DIVISLAB",
+      "type": "earnings_date",
+      "date": "2026-10-31",
+      "detail": "Earnings Date",
+      "days_away": 57
+    },
+    {
+      "symbol": "PAYTM",
+      "type": "earnings_date",
+      "date": "2026-11-03",
+      "detail": "Earnings Date",
+      "days_away": 60
+    }
+  ],
+  "by_symbol": {
+    "COFORGE": {
+      "dividends": [
+        {
+          "date": "2026-07-31",
+          "amount": 4.0
+        },
+        {
+          "date": "2026-08-03",
+          "amount": 4.0
+        }
+      ],
+      "splits": [],
+      "calendar": {
+        "Earnings Date": [
+          "2026-10-22"
+        ],
+        "Ex-Dividend Date": "2026-08-03"
+      }
+    },
+    "DIVISLAB": {
+      "dividends": [
+        {
+          "date": "2026-07-24",
+          "amount": 30.0
+        }
+      ],
+      "splits": [],
+      "calendar": {
+        "Earnings Date": [
+          "2026-10-31"
+        ],
+        "Ex-Dividend Date": "2026-07-24"
+      }
+    },
+    "ETERNAL": {
+      "dividends": [],
+      "splits": [],
+      "calendar": {
+        "Earnings Date": [
+          "2026-10-15"
+        ]
+      }
+    },
+    "HEROMOTOCO": {
+      "dividends": [
+        {
+          "date": "2026-07-24",
+          "amount": 75.0
+        }
+      ],
+      "splits": [],
+      "calendar": {
+        "Earnings Date": [
+          "2026-11-12"
+        ]
+      }
+    },
+    "JUBLFOOD": {
+      "dividends": [
+        {
+          "date": "2026-07-17",
+          "amount": 1.2
+        }
+      ],
+      "splits": [],
+      "calendar": {
+        "Earnings Date": [
+          "2026-11-19"
+        ],
+        "Ex-Dividend Date": "2026-07-17"
+      }
+    },
+    "MCX": {
+      "dividends": [
+        {
+          "date": "2026-08-28",
+          "amount": 8.0
+        }
+      ],
+      "splits": [
+        {
+          "date": "2026-01-02",
+          "ratio": "5.0"
+        }
+      ],
+      "calendar": {
+        "Earnings Date": [
+          "2026-11-05"
+        ],
+        "Ex-Dividend Date": "2026-08-28"
+      }
+    },
+    "NAUKRI": {
+      "dividends": [
+        {
+          "date": "2026-07-24",
+          "amount": 3.6
+        }
+      ],
+      "splits": [],
+      "calendar": {
+        "Earnings Date": [
+          "2026-11-11"
+        ],
+        "Ex-Dividend Date": "2026-07-24"
+      }
+    },
+    "PAYTM": {
+      "dividends": [],
+      "splits": [],
+      "calendar": {
+        "Earnings Date": [
+          "2026-11-03"
+        ]
+      }
+    },
+    "POLICYBZR": {
+      "dividends": [],
+      "splits": [],
+      "calendar": {
+        "Earnings Date": [
+          "2026-10-29"
+        ]
+      }
+    },
+    "SONACOMS": {
+      "dividends": [
+        {
+          "date": "2026-06-25",
+          "amount": 1.8
+        }
+      ],
+      "splits": [],
+      "calendar": {
+        "Earnings Date": [
+          "2026-10-22"
+        ],
+        "Ex-Dividend Date": "2026-06-25"
+      }
+    }
+  }
+}
