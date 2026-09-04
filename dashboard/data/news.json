@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-03T07:19:55+00:00",
+  "timestamp": "2026-09-04T07:22:18+00:00",
   "ticker_news": {
     "COFORGE": [
       {
@@ -205,59 +205,59 @@
   "market_headlines": [
     {
       "source": "Economic Times",
-      "title": "India bonds gain as RBI FX inflows lift liquidity, spur short-term debt buying",
-      "link": "https://economictimes.indiatimes.com/markets/bonds/india-bonds-gain-as-rbi-fx-inflows-lift-liquidity-spur-short-term-debt-buying/articleshow/133728502.cms",
-      "summary": "Indian government bonds saw gains early Thursday, led by shorter-term debt. Larger dollar inflows boosted rupee liquidity and improved sentiment for Indian assets. Banks raised significant foreign cur",
-      "age_h": 0.2
+      "title": "US Fed rate cut bets fall below 50% after Governor Chris Waller\u2019s comments. What did he say?",
+      "link": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-fed-rate-cut-bets-fall-below-50-after-governor-chris-wallers-comments-what-did-he-say/articleshow/133754387.cms",
+      "summary": "Expectations of a US Federal Reserve rate cut at its September 16 meeting have weakened sharply, with traders now pricing in less than a 50% chance of a reduction, according to CME FedWatch data. Comm",
+      "age_h": 0.7
     },
     {
       "source": "Economic Times",
-      "title": "Motilal Oswal initiates coverage on Adani Power with Buy call, sees 20% upside. Time to hold or sell?",
-      "link": "https://economictimes.indiatimes.com/markets/stocks/news/motilal-oswal-initiates-coverage-on-adani-power-with-buy-call-sees-20-upside-time-to-hold-or-sell/articleshow/133728332.cms",
-      "summary": "Motilal Oswal initiated coverage on Adani Power with a Buy rating and a target price of Rs 250, implying around 20% upside. The brokerage sees capacity expansion, its track record of turning around di",
-      "age_h": 0.3
+      "title": "Is AI boom hiding growing US risks? Nomura warns dollar asset concentration leaves global markets vulnerable to AI shocks",
+      "link": "https://economictimes.indiatimes.com/markets/stocks/news/is-ai-boom-hiding-growing-us-risks-nomura-warns-dollar-asset-concentration-leaves-global-markets-vulnerable-to-ai-shocks/articleshow/133754300.cms",
+      "summary": "Nomura warned that the AI boom may be masking growing US risks, as heavy global exposure to dollar assets leaves markets vulnerable to an AI-driven shock. The brokerage said a setback in AI could trig",
+      "age_h": 0.8
     },
     {
       "source": "Economic Times",
-      "title": "Broadcom\u2019s AI chip boom powers record quarter, shares waver",
-      "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/broadcoms-ai-chip-boom-powers-record-quarter-shares-waver/slideshow/133728007.cms",
-      "summary": "Broadcom delivered strong fiscal third-quarter results, driven by a sharp surge in AI semiconductor revenue and rising demand for custom AI accelerators and networking chips. Despite beating estimates",
+      "title": "Which stocks should you buy ahead of the festive season? Here are Kotak Securities\u2019 top 10 picks",
+      "link": "https://economictimes.indiatimes.com/markets/stocks/news/which-stocks-should-you-buy-ahead-of-the-festive-season-here-are-kotak-securities-top-10-picks/articleshow/133754154.cms",
+      "summary": "India\u2019s festive season is expected to drive a strong consumption boost, with analysts identifying sectors and stocks that could benefit. The period from Ganesh Chaturthi through Navratri, Dussehra, Dh",
       "age_h": 0.9
     },
     {
       "source": "Economic Times",
-      "title": "Lumino Industries shares soar 40% from IPO price after strong market debut. Should you buy or wait?",
-      "link": "https://economictimes.indiatimes.com/markets/stocks/news/lumino-industries-shares-soar-40-from-ipo-price-after-strong-market-debut-should-you-buy-or-wait/articleshow/133726784.cms",
-      "summary": "Lumino Industries shares extended their strong debut gains, rising another 4% after listing at a 34% premium to the IPO price. While analysts see attractive valuations, strong profitability and debt r",
-      "age_h": 1.4
+      "title": "Global Market: China stocks rebound, but weekly loss looms as AI rally cools",
+      "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-china-stocks-rebound-but-weekly-loss-looms-as-ai-rally-cools/articleshow/133754061.cms",
+      "summary": "China\u2019s mainland stocks gained on Friday, but major benchmarks remained on track for weekly losses as fading momentum in AI shares and elevated US Treasury yields weighed on sentiment. The CSI300 and ",
+      "age_h": 1.0
     },
     {
       "source": "Livemint",
-      "title": "Stocks to buy: Nagaraj Shetti recommends eClerx Services, UNO Minda shares to buy in the short-term",
-      "link": "https://www.livemint.com/market/stock-market-news/stocks-to-buy-nagaraj-shetti-recommends-eclerx-services-uno-minda-shares-to-buy-in-the-shortterm-11788417509077.html",
-      "summary": "Domestic indices Nifty 50 and Sensex each gained 0.35% on September 3, supported by banking stocks that raised $136.4 billion. Oil prices eased slightly, while global cues influenced a cautious market",
+      "title": "46:1 bonus stock: Record date soon - Check face value and share price performance",
+      "link": "https://www.livemint.com/market/stock-market-news/461-bonus-stock-record-date-soon-check-face-value-and-share-price-performance-11788503774857.html",
+      "summary": "TVS Holdings, a core investment company, is set to allot bonus shares to its shareholders. The record date for this purpose is approaching, while the stock is also witnessing decent traction.",
+      "age_h": 0.2
+    },
+    {
+      "source": "Livemint",
+      "title": "Penny stock under 10 rupees: Upper circuit \u2014 Leather share jumps 74% in 4 sessions | Back-to-back surge for third day",
+      "link": "https://www.livemint.com/market/stock-market-news/penny-stock-under-10-rupees-upper-circuit-leather-share-jumps-74-in-4-sessions-back-to-back-surge-for-third-day-11788501766213.html",
+      "summary": "Penny stock under 10 rupees has been hitting 10% upper circuit since September 2, 2026",
       "age_h": 0.4
     },
     {
       "source": "Livemint",
-      "title": "Gold vs Silver: Which precious metal offers a better bet for investors after the recent correction?",
-      "link": "https://www.livemint.com/market/commodities/gold-price-outlook-gold-vs-silver-which-precious-metal-offers-a-better-bet-for-investors-after-the-recent-correction-11788415418247.html",
-      "summary": "Gold and silver rebounded after a correction, prompting investors to evaluate which metal offers better opportunities. Analysts suggest gold has stronger support, while silver is more volatile despite",
-      "age_h": 0.7
+      "title": "ESDS Software IPO: Blockbuster listing! Money doubled today - Buy more, book profit and exit or hold? Guide for investor",
+      "link": "https://www.livemint.com/market/stock-market-news/esds-software-ipo-blockbuster-listing-money-doubled-today-buy-more-book-profit-and-exit-or-hold-guide-for-investor-11788503546971.html",
+      "summary": "ESDS Software Solution shares hit a 20% upper circuit on debut, trading at  \u20b9895.55 on BSE and  \u20b9908.40 on NSE, with a strong performance over the issue price. The IPO was oversubscribed 135.88 times,",
+      "age_h": 0.4
     },
     {
       "source": "Livemint",
-      "title": "Rays of Belief IPO Day 3: Issue subscribed 13.63x so far. Check GMP, reviews, &amp; other details. Apply or not?",
-      "link": "https://www.livemint.com/market/ipo/rays-of-belief-ipo-day-3-issue-subscribed-13-63x-so-far-check-gmp-reviews-other-details-apply-or-not-11788413728014.html",
-      "summary": "The IPO is currently trading at a grey market premium (GMP) of  \u20b959. At the upper price band of  \u20b9239 per share, this translates into an estimated listing price of  \u20b9298, representing a potential gain",
-      "age_h": 0.9
-    },
-    {
-      "source": "Livemint",
-      "title": "Prasol Chemicals IPO: Price band set at  \u20b9643- \u20b9676 per share; check key dates, issue details",
-      "link": "https://www.livemint.com/market/prasol-chemicals-ipo-price-band-set-at-rs-643-rs-676-per-share-check-key-dates-issue-details-11788414581560.html",
-      "summary": "Prasol Chemicals IPO price band is fixed at  \u20b9643 to  \u20b9676, with subscription open from 8 September. The firm plans to raise  \u20b980 crore and promoters will sell shares worth  \u20b9420 crore. Allocation to ",
-      "age_h": 1.1
+      "title": "1500% rally in five years | Multibagger infra stock jumps 5% following stock market rebound; here's why",
+      "link": "https://www.livemint.com/market/stock-market-news/1500-rally-in-five-years-multibagger-infra-stock-jumps-5-following-stock-market-rebound-heres-why-11788500558549.html",
+      "summary": "SPML Infra rose over 5% on 4 September, driven by stock market rebound and advances in its Battery Energy Storage System. The company\u2019s 104.4 kWh battery pack has obtained key international certificat",
+      "age_h": 1.2
     }
   ]
 }
