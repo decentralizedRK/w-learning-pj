@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-04T07:22:18+00:00",
+  "timestamp": "2026-09-07T07:29:13+00:00",
   "ticker_news": {
     "COFORGE": [
       {
@@ -205,59 +205,59 @@
   "market_headlines": [
     {
       "source": "Economic Times",
-      "title": "US Fed rate cut bets fall below 50% after Governor Chris Waller\u2019s comments. What did he say?",
-      "link": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-fed-rate-cut-bets-fall-below-50-after-governor-chris-wallers-comments-what-did-he-say/articleshow/133754387.cms",
-      "summary": "Expectations of a US Federal Reserve rate cut at its September 16 meeting have weakened sharply, with traders now pricing in less than a 50% chance of a reduction, according to CME FedWatch data. Comm",
-      "age_h": 0.7
+      "title": "Global Market | South Korea\u2019s NPS suspends FX hedging as won hits near two-year high: Reports",
+      "link": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/global-market-south-koreas-nps-suspends-fx-hedging-as-won-hits-near-two-year-high-reports/articleshow/133868620.cms",
+      "summary": "South Korea\u2019s National Pension Service has suspended foreign exchange hedging as the won strengthened to a near two-year high against the dollar. The move could affect dollar supply and demand in the ",
+      "age_h": 0.5
     },
     {
       "source": "Economic Times",
-      "title": "Is AI boom hiding growing US risks? Nomura warns dollar asset concentration leaves global markets vulnerable to AI shocks",
-      "link": "https://economictimes.indiatimes.com/markets/stocks/news/is-ai-boom-hiding-growing-us-risks-nomura-warns-dollar-asset-concentration-leaves-global-markets-vulnerable-to-ai-shocks/articleshow/133754300.cms",
-      "summary": "Nomura warned that the AI boom may be masking growing US risks, as heavy global exposure to dollar assets leaves markets vulnerable to an AI-driven shock. The brokerage said a setback in AI could trig",
+      "title": "Waterfield Advisors launches two GIFT City funds for global diversification",
+      "link": "https://economictimes.indiatimes.com/markets/aif-pms/waterfield-advisors-launches-two-gift-city-funds-for-global-diversification/articleshow/133868043.cms",
+      "summary": "Waterfield Advisors has launched two GIFT City-based outbound AIFs to help Indian family portfolios diversify across global equities, commodities and fixed income. The funds aim to address concentrate",
       "age_h": 0.8
     },
     {
       "source": "Economic Times",
-      "title": "Which stocks should you buy ahead of the festive season? Here are Kotak Securities\u2019 top 10 picks",
-      "link": "https://economictimes.indiatimes.com/markets/stocks/news/which-stocks-should-you-buy-ahead-of-the-festive-season-here-are-kotak-securities-top-10-picks/articleshow/133754154.cms",
-      "summary": "India\u2019s festive season is expected to drive a strong consumption boost, with analysts identifying sectors and stocks that could benefit. The period from Ganesh Chaturthi through Navratri, Dussehra, Dh",
-      "age_h": 0.9
+      "title": "Global Market: China stocks range-bound as tech gains offset bank, insurance sector losses",
+      "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-china-stocks-range-bound-as-tech-gains-offset-bank-insurance-sector-losses/articleshow/133867936.cms",
+      "summary": "Chinese stocks were largely range-bound on Monday as gains in technology shares offset losses in banks and insurers following Beijing\u2019s $54 billion capital-injection plan. The Shanghai Composite slipp",
+      "age_h": 0.8
     },
     {
       "source": "Economic Times",
-      "title": "Global Market: China stocks rebound, but weekly loss looms as AI rally cools",
-      "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-china-stocks-rebound-but-weekly-loss-looms-as-ai-rally-cools/articleshow/133754061.cms",
-      "summary": "China\u2019s mainland stocks gained on Friday, but major benchmarks remained on track for weekly losses as fading momentum in AI shares and elevated US Treasury yields weighed on sentiment. The CSI300 and ",
-      "age_h": 1.0
+      "title": "Global Market: Japan\u2019s Nikkei rallies on semiconductor strength as market volatility eases",
+      "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-japans-nikkei-rallies-on-semiconductor-strength-as-market-volatility-eases/articleshow/133867817.cms",
+      "summary": "Japan's Nikkei share average took a leap of over two percent on Monday, propelled by robust performance in chip-related stocks reflecting U.S. semiconductor advances. Investors demonstrated a healthie",
+      "age_h": 0.9
     },
     {
       "source": "Livemint",
-      "title": "46:1 bonus stock: Record date soon - Check face value and share price performance",
-      "link": "https://www.livemint.com/market/stock-market-news/461-bonus-stock-record-date-soon-check-face-value-and-share-price-performance-11788503774857.html",
-      "summary": "TVS Holdings, a core investment company, is set to allot bonus shares to its shareholders. The record date for this purpose is approaching, while the stock is also witnessing decent traction.",
+      "title": "HEG share price falls over 64% to  \u20b9260: Don\u2019t panic! Here\u2019s what actually happened",
+      "link": "https://www.livemint.com/market/stock-market-news/heg-demerger-heg-share-price-falls-over-64-to-260-don-t-panic-here-s-what-actually-happened-11788764460939.html",
+      "summary": "On September 7, HEG Ltd's stock plummeted approximately 64%, attributed to a demerger restructuring rather than a value loss. Investors will receive new shares in HEG Graphite Limited at a 1:1 ratio, ",
+      "age_h": 0.1
+    },
+    {
+      "source": "Livemint",
+      "title": "United Breweries raises the bar with a new growth recipe. Now it has to deliver",
+      "link": "https://www.livemint.com/market/mark-to-market/united-breweries-share-price-alcohol-market-india-ubl-stock-heineken-kingfisher-11788762180918.html",
+      "summary": "United Breweries is betting on improving state mix, portfolio mix and productivity, instead of relying on volume-led operating leverage. Will the new plan work for the Heineken and Kingfisher owner?",
       "age_h": 0.2
     },
     {
       "source": "Livemint",
-      "title": "Penny stock under 10 rupees: Upper circuit \u2014 Leather share jumps 74% in 4 sessions | Back-to-back surge for third day",
-      "link": "https://www.livemint.com/market/stock-market-news/penny-stock-under-10-rupees-upper-circuit-leather-share-jumps-74-in-4-sessions-back-to-back-surge-for-third-day-11788501766213.html",
-      "summary": "Penny stock under 10 rupees has been hitting 10% upper circuit since September 2, 2026",
-      "age_h": 0.4
+      "title": "HDFC Bank\u2019s retail investor base triples as small-ticket bets replace deep conviction",
+      "link": "https://www.livemint.com/market/stock-market-news/hdfc-bank-retail-shareholders-jagdishan-stock-performance-11788757670408.html",
+      "summary": "HDFC Bank\u2019s addition of 3.14 million retail investors over this period was the highest among 34 listed lenders.",
+      "age_h": 0.6
     },
     {
       "source": "Livemint",
-      "title": "ESDS Software IPO: Blockbuster listing! Money doubled today - Buy more, book profit and exit or hold? Guide for investor",
-      "link": "https://www.livemint.com/market/stock-market-news/esds-software-ipo-blockbuster-listing-money-doubled-today-buy-more-book-profit-and-exit-or-hold-guide-for-investor-11788503546971.html",
-      "summary": "ESDS Software Solution shares hit a 20% upper circuit on debut, trading at  \u20b9895.55 on BSE and  \u20b9908.40 on NSE, with a strong performance over the issue price. The IPO was oversubscribed 135.88 times,",
-      "age_h": 0.4
-    },
-    {
-      "source": "Livemint",
-      "title": "1500% rally in five years | Multibagger infra stock jumps 5% following stock market rebound; here's why",
-      "link": "https://www.livemint.com/market/stock-market-news/1500-rally-in-five-years-multibagger-infra-stock-jumps-5-following-stock-market-rebound-heres-why-11788500558549.html",
-      "summary": "SPML Infra rose over 5% on 4 September, driven by stock market rebound and advances in its Battery Energy Storage System. The company\u2019s 104.4 kWh battery pack has obtained key international certificat",
-      "age_h": 1.2
+      "title": "Jaiprakash Power Ventures share price jumps 3% after opening in red | What's behind the rally?",
+      "link": "https://www.livemint.com/market/stock-market-news/jaiprakash-power-ventures-share-price-jumps-3-after-opening-in-red-whats-behind-the-rally-11788759563141.html",
+      "summary": "The stock opened lower at  \u20b916.29 per share but recovered from its early losses to move into positive territory, hitting an intraday high of  \u20b917.14 on September 7.",
+      "age_h": 0.7
     }
   ]
 }
