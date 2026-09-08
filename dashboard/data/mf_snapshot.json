@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-09-08T00:32:24+05:30",
+  "timestamp": "2026-09-08T23:54:18+05:30",
   "total_invested": 1085170.67,
-  "total_current": 1252798.41,
-  "total_pnl": 167627.75,
-  "total_pnl_pct": 15.45,
+  "total_current": 1262617.31,
+  "total_pnl": 177446.65,
+  "total_pnl_pct": 16.35,
   "sip_recorded_today": false,
   "funds": [
     {
@@ -11,11 +11,11 @@
       "scheme_code": "151853",
       "units": 40680.784,
       "avg_nav": 15.4785,
-      "current_nav": 19.1846,
+      "current_nav": 19.4646,
       "invested": 629676.74,
-      "current": 780444.57,
-      "pnl": 150767.83,
-      "pnl_pct": 23.94,
+      "current": 791835.19,
+      "pnl": 162158.45,
+      "pnl_pct": 25.75,
       "sip_amount": 27500
     },
     {
@@ -23,11 +23,11 @@
       "scheme_code": "152243",
       "units": 34544.175,
       "avg_nav": 11.1297,
-      "current_nav": 11.2501,
+      "current_nav": 11.2108,
       "invested": 384466.32,
-      "current": 388625.43,
-      "pnl": 4159.11,
-      "pnl_pct": 1.08,
+      "current": 387267.84,
+      "pnl": 2801.52,
+      "pnl_pct": 0.73,
       "sip_amount": 27500
     },
     {
@@ -35,11 +35,11 @@
       "scheme_code": "120503",
       "units": 315.16,
       "avg_nav": 79.42,
-      "current_nav": 111.6067,
+      "current_nav": 111.2363,
       "invested": 25030.01,
-      "current": 35173.97,
-      "pnl": 10143.96,
-      "pnl_pct": 40.53,
+      "current": 35057.23,
+      "pnl": 10027.23,
+      "pnl_pct": 40.06,
       "sip_amount": 0
     },
     {
@@ -47,11 +47,11 @@
       "scheme_code": "122639",
       "units": 536.342,
       "avg_nav": 85.7617,
-      "current_nav": 90.5289,
+      "current_nav": 90.3473,
       "invested": 45997.6,
-      "current": 48554.45,
-      "pnl": 2556.85,
-      "pnl_pct": 5.56,
+      "current": 48457.05,
+      "pnl": 2459.45,
+      "pnl_pct": 5.35,
       "sip_amount": 0
     }
   ]
