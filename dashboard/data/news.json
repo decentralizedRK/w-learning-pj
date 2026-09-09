@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-08T07:23:24+00:00",
+  "timestamp": "2026-09-09T07:31:37+00:00",
   "ticker_news": {
     "COFORGE": [
       {
@@ -143,6 +143,12 @@
     ],
     "PAYTM": [
       {
+        "title": "Paytm Bets on Workplace AI Agents in Pivot Beyond Payments",
+        "publisher": "Bloomberg",
+        "link": "https://finance.yahoo.com/technology/ai/articles/paytm-bets-workplace-ai-agents-010020299.html",
+        "age_h": null
+      },
+      {
         "title": "Founder Led Stocks Worth Watching As Capital Spending Picks Up",
         "publisher": "Simply Wall St.",
         "link": "https://finance.yahoo.com/markets/stocks/articles/founder-led-stocks-worth-watching-221642598.html",
@@ -152,12 +158,6 @@
         "title": "3 Founder Led Indian Stocks With Long Term Skin In The Game",
         "publisher": "Simply Wall St.",
         "link": "https://finance.yahoo.com/markets/stocks/articles/3-founder-led-indian-stocks-043614344.html",
-        "age_h": null
-      },
-      {
-        "title": "Resilient Asset Management to offload 4.98% stake in Paytm",
-        "publisher": "Electronic Payments",
-        "link": "https://www.electronicpaymentsinternational.com/news/resilient-asset-management-to-offload-4-98-stake-in-paytm/",
         "age_h": null
       }
     ],
@@ -205,59 +205,59 @@
   "market_headlines": [
     {
       "source": "Economic Times",
-      "title": "PVR Inox\u2019s Rs 300-crore buyback opens on Sept 10: Check buyback price, key dates, entitlement ratio",
-      "link": "https://economictimes.indiatimes.com/markets/stocks/news/pvr-inoxs-rs-300-crore-buyback-opens-on-sept-10-check-buyback-price-key-dates-entitlement-ratio/articleshow/133913344.cms",
-      "summary": "PVR Inox\u2019s Rs 300-crore share buyback opens September 10 and closes September 17, offering eligible shareholders Rs 1,450 per share, over 25% above the market price. The company plans to repurchase ne",
-      "age_h": 0.3
-    },
-    {
-      "source": "Economic Times",
-      "title": "Copper hits record high, UltraTech\u2019s Ultravolt on the offensive: A double whammy for cable makers in FY27?",
-      "link": "https://economictimes.indiatimes.com/markets/stocks/news/copper-hits-record-high-ultratechs-ultravolt-on-the-offensive-a-double-whammy-for-cable-makers-in-fy27/articleshow/133913050.cms",
-      "summary": "Copper prices have soared to unprecedented levels, creating ripple effects on manufacturing expenses worldwide. UltraTech's Ultravolt is making bold strides into the Indian wires and cables sector, cr",
+      "title": "Paytm shares jump 5% as workplace AI push gains traction",
+      "link": "https://economictimes.indiatimes.com/markets/stocks/news/paytm-shares-jump-5-as-workplace-ai-push-gains-traction/articleshow/133957200.cms",
+      "summary": "Paytm shares surged on Wednesday, as investors welcomed the company\u2019s push into enterprise AI, marking an expansion beyond its core payments business. The stock has gained over 20% in the past month, ",
       "age_h": 0.6
     },
     {
       "source": "Economic Times",
-      "title": "FCNR(B) windfall for banks explained: Who got highest inflows and what it means for investors",
-      "link": "https://economictimes.indiatimes.com/markets/stocks/news/fcnrb-windfall-for-banks-explained-who-got-highest-inflows-and-what-it-means-for-investors/articleshow/133912727.cms",
-      "summary": "FCNR(B) deposits offer banks a cheaper and balance-sheet-efficient source of funding, but their finite tenor and initial deployment challenges could pressure margins. While ICICI Bank and Kotak Mahind",
-      "age_h": 0.7
+      "title": "US bond yields near 5%: What it could mean for stocks, corporate borrowing and the economy",
+      "link": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-bond-yields-near-5-what-it-could-mean-for-stocks-corporate-borrowing-and-the-economy/articleshow/133957322.cms",
+      "summary": "US 10-year Treasury yields are nearing the 5% mark, raising concerns over the impact of higher borrowing costs on stocks, corporate financing, dealmaking and the broader economy. While elevated yields",
+      "age_h": 0.6
     },
     {
       "source": "Economic Times",
-      "title": "Why investors are turning bullish on Bloom Energy shares",
-      "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/why-investors-are-turning-bullish-on-bloom-energy-shares/slideshow/133912665.cms",
-      "summary": "Bloom Energy shares jumped after the company was selected for inclusion in the S&amp;P 500, with the move set to take effect on September 21. UBS raised its price target to $325, citing potential pass",
+      "title": "Rupee's RBI-backed rally falters, slips past 95 on oil, slowing intervention",
+      "link": "https://economictimes.indiatimes.com/markets/forex/forex-news/rupees-rbi-backed-rally-falters-slips-past-95-on-oil-slowing-intervention/articleshow/133956983.cms",
+      "summary": "The Indian rupee slid past ninety-five against the dollar on Wednesday, influenced by climbing oil prices that have offset recent interventions by the central bank. The situation is exacerbated by esc",
       "age_h": 0.8
     },
     {
+      "source": "Economic Times",
+      "title": "Sterlite Tech shares jump 5% to fresh 52-week high, multibagger skyrockets 745% in 2026. What lies ahead?",
+      "link": "https://economictimes.indiatimes.com/markets/stocks/news/sterlite-tech-shares-jump-5-to-fresh-52-week-high-multibagger-skyrockets-745-in-2026-what-lies-ahead/articleshow/133955950.cms",
+      "summary": "Sterlite Technologies shares hit a fresh 52-week high after rising 5% to the upper circuit, taking their 2026 gains to 745%. The rally follows the company\u2019s growth plans, capacity expansion and strong",
+      "age_h": 1.2
+    },
+    {
       "source": "Livemint",
-      "title": "FPIs see autos, consumer durables race past staples during festive season",
-      "link": "https://www.livemint.com/market/stock-market-news/fpi-buying-autos-consumer-durables-festive-season-demand-11788798904500.html",
-      "summary": "Foreign investors build auto, consumer durable portfolios while offloading food, beverages and tobacco stocks.",
+      "title": "LCC Projects IPO Day 1: Issue subscribed 44% so far. GMP signals 23% listing pop - Apply or not?",
+      "link": "https://www.livemint.com/market/ipo/lcc-projects-ipo-day-1-issue-subscribed-44-so-far-gmp-signals-23-listing-pop-apply-or-not-11788924883901.html",
+      "summary": "The shares of LCC Projects IPO are commanding a premium of  \u20b934 in the unlisted market. The GMP of LCC Projects IPO is +34, according to Investorgain.",
       "age_h": 0.2
     },
     {
       "source": "Livemint",
-      "title": "Tejas Networks stock forms strong bullish candles; Axis Direct shares buy range, stop-loss, upside, holding period",
-      "link": "https://www.livemint.com/market/stock-market-news/tejas-networks-stock-forms-strong-bullish-candles-axis-direct-shares-buy-range-stop-loss-upside-holding-period-11788849830807.html",
-      "summary": "Tejas Networks' stock shows strong momentum, gaining 9% in a week and 27% over six months. Trading at  \u20b9593.55, it's 8% below its 52-week high. A recent  \u20b91,537 crore order from TCS doubles its order ",
-      "age_h": 0.3
-    },
-    {
-      "source": "Livemint",
-      "title": "Dividend stocks alert! Last chance to buy today to qualify for these shares - Check full list, amount, payment timeline",
-      "link": "https://www.livemint.com/market/stock-market-news/dividend-stocks-alert-last-chance-to-buy-today-to-qualify-for-these-shares-check-full-list-amount-payment-11788845748540.html",
-      "summary": "Dividend stocks alert: Shares of Force Motors, JBM Auto, Gujarat Narmada Valley Fertilisers and Chemicals are in focus today, September 8, as it will be the last day for investors to buy these stocks ",
-      "age_h": 0.5
-    },
-    {
-      "source": "Livemint",
-      "title": "Bitcoin\u2019s Latest Hack Puts Key Crypto Vulnerability in Spotlight",
-      "link": "https://www.livemint.com/market/bitcoins-latest-hack-puts-key-crypto-vulnerability-in-spotlight-11788850068455.html",
-      "summary": "The $320 million hack of the Bitcoin-linked Liquid Network is another dent to crypto\u2019s reputation as the industry tries to convince banks and institutional investors that digital assets can become par",
+      "title": "Innovision share price jumps 18% after bagging NHAI toll collection contract in Madhya Pradesh",
+      "link": "https://www.livemint.com/market/stock-market-news/innovision-share-price-jumps-18-after-bagging-nhai-toll-collection-contract-in-madhya-pradesh-11788934592041.html",
+      "summary": "Innovision share price rose 18% after receiving a Letter of Award from NHAI for user fee collection at Pachwara Fee Plaza in Madhya Pradesh, worth  \u20b924.52 crore. The company also secured an additional",
       "age_h": 0.6
+    },
+    {
+      "source": "Livemint",
+      "title": "10 IPOs available for subscription today: Which shows most potential for listing gains | Check latest GMP",
+      "link": "https://www.livemint.com/market/ipo/10-ipos-available-for-subscription-today-which-shows-most-potential-for-listing-gains-check-latest-ipo-gmp-11788932256722.html",
+      "summary": "Of the 10 IPOs, six are opening for subscription today, while three have moved into their second day of bidding. The Pranav Constructions IPO, meanwhile, is entering its final day of subscription.",
+      "age_h": 0.7
+    },
+    {
+      "source": "Livemint",
+      "title": "Astec Lifesciences share price skyrockets 17% despite weak sentiments on D-Street. Do you own?",
+      "link": "https://www.livemint.com/market/stock-market-news/astec-lifesciences-share-price-skyrockets-17-despite-weak-sentiments-on-d-street-do-you-own-11788931970905.html",
+      "summary": "Astec Lifesciences share price opened at  \u20b9691 per share today, as compared to previous close of  \u20b9662.80 on Tuesday.",
+      "age_h": 0.8
     }
   ]
 }
