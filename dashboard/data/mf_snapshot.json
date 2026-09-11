@@ -1,21 +1,33 @@
 {
-  "timestamp": "2026-09-10T23:42:33+05:30",
-  "total_invested": 455493.93,
-  "total_current": 467972.96,
-  "total_pnl": 12479.03,
-  "total_pnl_pct": 2.74,
+  "timestamp": "2026-09-11T23:46:14+05:30",
+  "total_invested": 1085170.67,
+  "total_current": 1251042.84,
+  "total_pnl": 165872.17,
+  "total_pnl_pct": 15.29,
   "sip_recorded_today": false,
   "funds": [
+    {
+      "name": "Quant Healthcare Fund - Direct Plan - Growth",
+      "scheme_code": "151853",
+      "units": 40680.784,
+      "avg_nav": 15.4785,
+      "current_nav": 19.2644,
+      "invested": 629676.74,
+      "current": 783690.89,
+      "pnl": 154014.16,
+      "pnl_pct": 24.46,
+      "sip_amount": 27500
+    },
     {
       "name": "DSP Nifty Smallcap250 Quality 50 Index Fund - Direct - Growth",
       "scheme_code": "152243",
       "units": 34544.175,
       "avg_nav": 11.1297,
-      "current_nav": 11.1514,
+      "current_nav": 11.1312,
       "invested": 384466.32,
-      "current": 385215.92,
-      "pnl": 749.6,
-      "pnl_pct": 0.19,
+      "current": 384518.13,
+      "pnl": 51.81,
+      "pnl_pct": 0.01,
       "sip_amount": 27500
     },
     {
@@ -23,11 +35,11 @@
       "scheme_code": "120503",
       "units": 315.16,
       "avg_nav": 79.42,
-      "current_nav": 110.4549,
+      "current_nav": 110.5455,
       "invested": 25030.01,
-      "current": 34810.97,
-      "pnl": 9780.96,
-      "pnl_pct": 39.08,
+      "current": 34839.52,
+      "pnl": 9809.51,
+      "pnl_pct": 39.19,
       "sip_amount": 0
     },
     {
@@ -35,11 +47,11 @@
       "scheme_code": "122639",
       "units": 536.342,
       "avg_nav": 85.7617,
-      "current_nav": 89.3946,
+      "current_nav": 89.4845,
       "invested": 45997.6,
-      "current": 47946.08,
-      "pnl": 1948.48,
-      "pnl_pct": 4.24,
+      "current": 47994.3,
+      "pnl": 1996.69,
+      "pnl_pct": 4.34,
       "sip_amount": 0
     }
   ]
