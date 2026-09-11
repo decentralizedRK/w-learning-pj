@@ -1,54 +1,54 @@
 {
-  "timestamp": "2026-09-10T07:27:45+00:00",
+  "timestamp": "2026-09-11T07:25:52+00:00",
   "events": [
     {
       "symbol": "ETERNAL",
       "type": "earnings_date",
       "date": "2026-10-15",
       "detail": "Earnings Date",
-      "days_away": 35
+      "days_away": 34
     },
     {
       "symbol": "COFORGE",
       "type": "earnings_date",
       "date": "2026-10-22",
       "detail": "Earnings Date",
-      "days_away": 42
+      "days_away": 41
     },
     {
       "symbol": "SONACOMS",
       "type": "earnings_date",
       "date": "2026-10-22",
       "detail": "Earnings Date",
-      "days_away": 42
+      "days_away": 41
     },
     {
       "symbol": "POLICYBZR",
       "type": "earnings_date",
       "date": "2026-10-29",
       "detail": "Earnings Date",
-      "days_away": 49
+      "days_away": 48
     },
     {
       "symbol": "DIVISLAB",
       "type": "earnings_date",
       "date": "2026-10-31",
       "detail": "Earnings Date",
-      "days_away": 51
+      "days_away": 50
     },
     {
       "symbol": "PAYTM",
       "type": "earnings_date",
       "date": "2026-11-03",
       "detail": "Earnings Date",
-      "days_away": 54
+      "days_away": 53
     },
     {
       "symbol": "MCX",
       "type": "earnings_date",
       "date": "2026-11-05",
       "detail": "Earnings Date",
-      "days_away": 56
+      "days_away": 55
     }
   ],
   "by_symbol": {
