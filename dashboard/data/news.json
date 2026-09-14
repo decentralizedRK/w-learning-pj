@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-11T07:25:46+00:00",
+  "timestamp": "2026-09-14T08:03:28+00:00",
   "ticker_news": {
     "COFORGE": [
       {
@@ -205,59 +205,59 @@
   "market_headlines": [
     {
       "source": "Economic Times",
-      "title": "Bernstein names Paytm stock as its top pick, lists 3 strong growth drivers for fintech giant",
-      "link": "https://economictimes.indiatimes.com/markets/stocks/news/bernstein-names-paytm-stock-as-its-top-pick-lists-3-strong-growth-drivers-for-fintech-giant/articleshow/134051463.cms",
-      "summary": "Bernstein has named Paytm its top pick, citing strong merchant lending growth, operating leverage and potential UPI MDR as key earnings drivers. The brokerage has set a Rs 2,200 target, implying furth",
-      "age_h": 0.4
-    },
-    {
-      "source": "Economic Times",
-      "title": "Oracle earnings show slower cash burn as AI spending starts to pay off; stock jumps 4% after market",
-      "link": "https://economictimes.indiatimes.com/markets/stocks/news/oracle-earnings-show-slower-cash-burn-as-ai-spending-starts-to-pay-off-stock-jumps-4-after-market/articleshow/134051217.cms",
-      "summary": "Oracle\u2019s latest earnings offered investors relief as stronger-than-expected revenue and a smaller cash burn eased concerns over its heavy AI spending. The company\u2019s revenue backlog surged to $664 bill",
+      "title": "Global Market: Yen speculators turn net long for first time since February",
+      "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-yen-speculators-turn-net-long-for-first-time-since-february/articleshow/134235763.cms",
+      "summary": "Speculators turned bullish on the yen for the first time since February as expectations of faster Bank of Japan rate hikes intensified. Futures positioning swung sharply from net short to net long, re",
       "age_h": 0.5
     },
     {
       "source": "Economic Times",
-      "title": "Global Market: China, Hong Kong stocks fall as rate hike fears weigh on sentiment",
-      "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-china-hong-kong-stocks-fall-as-rate-hike-fears-weigh-on-sentiment/articleshow/134050807.cms",
-      "summary": "China and Hong Kong stocks fell on Friday, with the CSI300 and Hang Seng heading for weekly losses amid thin trading volumes, weaker liquidity and rising expectations of further US interest rate hikes",
-      "age_h": 0.6
-    },
-    {
-      "source": "Economic Times",
-      "title": "Retail algo trading gets a makeover: how APIs, AI and regulation are opening the door for Indian traders",
-      "link": "https://economictimes.indiatimes.com/markets/stocks/news/retail-algo-trading-gets-a-makeover-how-apis-ai-and-regulation-are-opening-the-door-for-indian-traders/articleshow/134049975.cms",
-      "summary": "Retail algo trading in India is becoming more accessible as broker APIs, cloud infrastructure, AI-assisted coding and low-cost platforms lower technology barriers. Regulatory clarity is also helping f",
+      "title": "ETMarkets Smart Talk | Retail traders lost \u20b91.8 lakh crore in F&amp;O: Can algo trading change the game? Rakesh Pujara explains",
+      "link": "https://economictimes.indiatimes.com/markets/expert-view/etmarkets-smart-talk-retail-traders-lost-1-8-lakh-crore-in-fo-can-algo-trading-change-the-game-rakesh-pujara-explains/articleshow/134235178.cms",
+      "summary": "More than 90% of individual F&amp;O traders lost money between FY22 and FY24, with retail losses reaching around \u20b91.8 lakh crore. With algorithmic trading now widespread, automation could help level t",
       "age_h": 1.0
     },
     {
-      "source": "Livemint",
-      "title": "Market is down but this 1925 company stock is soaring; surges 20% amid fall of Sensex, Nifty 50",
-      "link": "https://www.livemint.com/market/stock-market-news/market-is-down-but-this-1925-company-stock-is-soaring-surges-15-amid-fall-of-sensex-nifty-50-11789108704583.html",
-      "summary": "Raymond share price rose 20% to a 52-week high after completing the demerger of its businesses, focusing on engineering sectors. The Aerospace &amp;amp; Defence segment reported strong revenue growth,",
-      "age_h": 0.1
+      "source": "Economic Times",
+      "title": "Global Market: Samsung, SK Hynix reject $18.7 billion upfront power payment proposal",
+      "link": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/global-market-samsung-sk-hynix-reject-18-7-billion-upfront-power-payment-proposal/articleshow/134234539.cms",
+      "summary": "Samsung Electronics and SK Hynix have rejected KEPCO\u2019s proposal for a 25 trillion won upfront payment to fund electricity infrastructure for planned semiconductor clusters. The move highlights concern",
+      "age_h": 1.6
+    },
+    {
+      "source": "Economic Times",
+      "title": "Global Market: China stocks mixed, Hong Kong shares edge higher as AI weakness weighs",
+      "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-china-stocks-mixed-hong-kong-shares-edge-higher-as-ai-weakness-weighs/articleshow/134234135.cms",
+      "summary": "China's mainland stocks traded mixed on Monday as AI and semiconductor shares fell, dragging the CSI AI Index down 1.2% and the STAR50 down 0.9%, even as banking stocks rose due to defensive buying. H",
+      "age_h": 1.9
     },
     {
       "source": "Livemint",
-      "title": "Stock Market Bloodbath! Sensex, Nifty fall 1% as crude hits $108: Should investors buy the dip or stay away?",
-      "link": "https://www.livemint.com/market/stock-market-news/stock-market-bloodbath-sensex-nifty-fall-1-as-crude-hits-108-should-investors-buy-the-dip-or-stay-away-11789109234662.html",
-      "summary": "Market declines are fueled by geopolitical tensions and rising crude oil prices, leading to significant losses for Indian indices. Investors are advised to be selective and cautious, focusing on quali",
-      "age_h": 0.1
+      "title": "Hero Motors IPO GMP hints 29% listing gain ahead of opening | 10 key things to know",
+      "link": "https://www.livemint.com/market/ipo/hero-motors-ipo-gmp-hints-29-listing-gain-ahead-of-opening-10-key-things-to-know-11789369486697.html",
+      "summary": "Hero Motors IPO opens for subscription on 16 September with anchor allocation on 15 September. The IPO price band ranges from  \u20b979 to  \u20b984, targeting a market cap of  \u20b93,815 crore, with a lot size of ",
+      "age_h": 0.3
     },
     {
       "source": "Livemint",
-      "title": "This multibagger SME stock rises 4% to hit a 52-week high after this business update | Do you own?",
-      "link": "https://www.livemint.com/market/stock-market-news/this-multibagger-sme-stock-rises-4-to-hit-a-52-week-high-after-this-business-update-do-you-own-11789109722567.html",
-      "summary": "A multibagger SME stock, Monolithisch India, jumped 4% to hit its 52-week high in intraday deals on the NSE on Friday, 11 September, in a weak market.",
-      "age_h": 0.1
+      "title": "Up 5,100% in one year! This ETF delivers highest returns on US-Iran war oil shock",
+      "link": "https://www.livemint.com/market/stock-market-news/up-5-100-in-one-year-this-etf-delivers-highest-returns-on-us-iran-war-oil-shock-11789368593834.html",
+      "summary": "The ETF has delivered 3,600% returns on year-to-date (YTD) basis, as per the Morningstar data.",
+      "age_h": 0.4
     },
     {
       "source": "Livemint",
-      "title": "Orient Tech share surges 17% after this business update | All details here",
-      "link": "https://www.livemint.com/market/stock-market-news/orient-tech-share-surges-17-after-this-business-update-all-details-here-11789107926218.html",
-      "summary": "Orient Technologies shares opened at  \u20b9240 against their previous close of  \u20b9234.75 and jumped as much as 17% to an intraday high of  \u20b9274.70. In the previous session, the stock rose by 2.3%.",
-      "age_h": 0.8
+      "title": "Indiabulls shares to be in focus on Tuesday | Here's why",
+      "link": "https://www.livemint.com/market/stock-market-news/indiabulls-shares-to-be-in-focus-on-tuesday-heres-why-11789364882823.html",
+      "summary": "Indiabulls shares closed 5% higher on Friday, ending the session at  \u20b925.89 apiece on BSE.",
+      "age_h": 1.2
+    },
+    {
+      "source": "Livemint",
+      "title": "Dividend stocks alert, record date: Last chance to buy - Blue Dart, Karnataka Bank, Aarti Pharma, ITDC | Full list",
+      "link": "https://www.livemint.com/market/stock-market-news/dividend-alert-last-chance-to-buy-blue-dart-karnataka-bank-aarti-pharma-itdc-and-others-for-dividends-full-list-11789365707462.html",
+      "summary": "Shares of Blue Dart, Karnataka Bank, and others focus on their dividend record dates on September 15. Investors need to own stocks by this date for eligibility.&amp;nbsp;",
+      "age_h": 1.4
     }
   ]
 }
