@@ -1,0 +1,206 @@
+{
+  "timestamp": "2026-08-23T15:41:58",
+  "portfolio_actions": [],
+  "entry_signals": [
+    {
+      "symbol": "PAYTM",
+      "action": "WATCH",
+      "score": 0.866,
+      "rsi": 72.5,
+      "adx": 46.5,
+      "segment": "midcap",
+      "close": 1632.0,
+      "reason": "RSI overbought, strong trend (ADX 46), n/a"
+    },
+    {
+      "symbol": "DIVISLAB",
+      "action": "WATCH",
+      "score": 0.798,
+      "rsi": 73.5,
+      "adx": 60.7,
+      "segment": "other",
+      "close": 8597.0,
+      "reason": "RSI overbought, strong trend (ADX 61), n/a"
+    },
+    {
+      "symbol": "ETERNAL",
+      "action": "ENTRY SIGNAL",
+      "score": 0.796,
+      "rsi": 69.7,
+      "adx": 39.2,
+      "segment": "largecap",
+      "close": 328.0,
+      "reason": "RSI neutral, strong trend (ADX 39), n/a"
+    },
+    {
+      "symbol": "JUBLFOOD",
+      "action": "ENTRY SIGNAL",
+      "score": 0.77,
+      "rsi": 66.8,
+      "adx": 44.5,
+      "segment": "midcap",
+      "close": 506.75,
+      "reason": "RSI neutral, strong trend (ADX 45), n/a"
+    },
+    {
+      "symbol": "COFORGE",
+      "action": "WATCH",
+      "score": 0.767,
+      "rsi": 72.7,
+      "adx": 32.7,
+      "segment": "midcap",
+      "close": 1891.7,
+      "reason": "RSI overbought, strong trend (ADX 33), n/a"
+    },
+    {
+      "symbol": "SONACOMS",
+      "action": "ENTRY SIGNAL",
+      "score": 0.754,
+      "rsi": 68.6,
+      "adx": 62.5,
+      "segment": "smallcap",
+      "close": 817.6,
+      "reason": "RSI neutral, strong trend (ADX 63), n/a"
+    },
+    {
+      "symbol": "HEROMOTOCO",
+      "action": "ENTRY SIGNAL",
+      "score": 0.747,
+      "rsi": 64.7,
+      "adx": 48.1,
+      "segment": "midcap",
+      "close": 5735.0,
+      "reason": "RSI neutral, strong trend (ADX 48), n/a"
+    },
+    {
+      "symbol": "POLICYBZR",
+      "action": "WATCH",
+      "score": 0.717,
+      "rsi": 70.6,
+      "adx": 36.5,
+      "segment": "midcap",
+      "close": 1795.2,
+      "reason": "RSI overbought, strong trend (ADX 37), n/a"
+    },
+    {
+      "symbol": "MCX",
+      "action": "ENTRY SIGNAL",
+      "score": 0.714,
+      "rsi": 69.4,
+      "adx": 28.9,
+      "segment": "midcap",
+      "close": 3185.0,
+      "reason": "RSI neutral, moderate trend (ADX 29), n/a"
+    },
+    {
+      "symbol": "NAUKRI",
+      "action": "ENTRY SIGNAL",
+      "score": 0.703,
+      "rsi": 65.5,
+      "adx": 44.1,
+      "segment": "midcap",
+      "close": 1350.1,
+      "reason": "RSI neutral, strong trend (ADX 44), n/a"
+    },
+    {
+      "symbol": "TVSMOTOR",
+      "action": "WATCH",
+      "score": 0.693,
+      "rsi": 66.6,
+      "adx": 46.8,
+      "segment": "other",
+      "close": 4390.0,
+      "reason": "RSI neutral, strong trend (ADX 47), n/a"
+    },
+    {
+      "symbol": "HYUNDAI",
+      "action": "WATCH",
+      "score": 0.689,
+      "rsi": 63.9,
+      "adx": 40.2,
+      "segment": "other",
+      "close": 2218.8,
+      "reason": "RSI neutral, strong trend (ADX 40), n/a"
+    },
+    {
+      "symbol": "MOTHERSON",
+      "action": "WATCH",
+      "score": 0.688,
+      "rsi": 71.3,
+      "adx": 37.7,
+      "segment": "other",
+      "close": 169.38,
+      "reason": "RSI overbought, strong trend (ADX 38), n/a"
+    },
+    {
+      "symbol": "LAURUSLABS",
+      "action": "WATCH",
+      "score": 0.661,
+      "rsi": 59.9,
+      "adx": 44.8,
+      "segment": "midcap",
+      "close": 1802.0,
+      "reason": "RSI neutral, strong trend (ADX 45), n/a"
+    },
+    {
+      "symbol": "NATIONALUM",
+      "action": "WATCH",
+      "score": 0.633,
+      "rsi": 59.2,
+      "adx": 27.7,
+      "segment": "midcap",
+      "close": 394.45,
+      "reason": "RSI neutral, moderate trend (ADX 28), n/a"
+    },
+    {
+      "symbol": "MOTILALOFS",
+      "action": "WATCH",
+      "score": 0.62,
+      "rsi": 68.4,
+      "adx": 29.7,
+      "segment": "midcap",
+      "close": 990.0,
+      "reason": "RSI neutral, moderate trend (ADX 30), n/a"
+    },
+    {
+      "symbol": "KEI",
+      "action": "WATCH",
+      "score": 0.613,
+      "rsi": 53.4,
+      "adx": 33.3,
+      "segment": "midcap",
+      "close": 5527.6,
+      "reason": "RSI neutral, strong trend (ADX 33), n/a"
+    },
+    {
+      "symbol": "KFINTECH",
+      "action": "WATCH",
+      "score": 0.584,
+      "rsi": 62.9,
+      "adx": 23.3,
+      "segment": "smallcap",
+      "close": 980.0,
+      "reason": "RSI neutral, moderate trend (ADX 23), n/a"
+    },
+    {
+      "symbol": "TITAN",
+      "action": "WATCH",
+      "score": 0.535,
+      "rsi": 69.2,
+      "adx": 50.8,
+      "segment": "largecap",
+      "close": 5086.1,
+      "reason": "RSI neutral, strong trend (ADX 51), n/a"
+    },
+    {
+      "symbol": "ASHOKLEY",
+      "action": "NO SIGNAL",
+      "score": 0.498,
+      "rsi": 56.7,
+      "adx": 21.2,
+      "segment": "midcap",
+      "close": 173.0,
+      "reason": "RSI neutral, moderate trend (ADX 21), n/a"
+    }
+  ]
+}
