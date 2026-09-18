@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-17T07:55:50+00:00",
+  "timestamp": "2026-09-18T07:33:48+00:00",
   "ticker_news": {
     "COFORGE": [
       {
@@ -205,59 +205,59 @@
   "market_headlines": [
     {
       "source": "Economic Times",
-      "title": "Kanohar Electricals shares rocket 36% in two days after IPO debut. Buy, sell or hold the stock?",
-      "link": "https://economictimes.indiatimes.com/markets/stocks/news/kanohar-electricals-shares-rocket-36-in-two-days-after-ipo-debut-buy-sell-or-hold-the-stock/articleshow/134304941.cms",
-      "summary": "Kanohar Electricals shares surged on Thursday, extending gains for a second session and rising 36% above its Rs 632 issue price. The Rs 1,055.74 crore IPO was subscribed 90.59 times, led by 215.37x su",
+      "title": "Jefferies hikes Navin Fluorine share price target, forecasts 14% upside. 4 reasons why",
+      "link": "https://economictimes.indiatimes.com/markets/stocks/news/jefferies-hikes-navin-fluorine-share-price-target-forecasts-14-upside-4-reasons-why/articleshow/134328838.cms",
+      "summary": "Jefferies has retained its Buy rating on Navin Fluorine International and raised its price target to Rs 9,405, citing growth prospects in CDMO, R32 and the Chemours project. The brokerage expects a 23",
       "age_h": 0.3
     },
     {
       "source": "Economic Times",
-      "title": "Jindal Supreme IPO Day 2: Issue subscribed over 12.5x, GMP at 27% \u2014 Should you subscribe?",
-      "link": "https://economictimes.indiatimes.com/markets/ipos/fpos/jindal-supreme-ipo-day-2-issue-subscribed-over-12-5x-gmp-at-27-should-you-subscribe/articleshow/134304839.cms",
-      "summary": "The Jindal Supreme IPO has attracted strong Day 2 demand, with overall subscription reaching 12.53 times and retail subscription at 19.13 times. Its GMP stands at Rs 25, suggesting positive unofficial",
+      "title": "US Market: SEC unveils five-year exemption for tokenized stock trading",
+      "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/us-market-sec-unveils-five-year-exemption-for-tokenized-stock-trading/articleshow/134328527.cms",
+      "summary": "The SEC has introduced a five-year exemption to facilitate trading in tokenized stocks, allowing certain blockchain-based platforms to operate under limited regulatory relief. The framework gives issu",
       "age_h": 0.5
     },
     {
       "source": "Economic Times",
-      "title": "Paytm karo, back in vogue again: Can the stock reclaim IPO price after 5 years and 480% rally?",
-      "link": "https://economictimes.indiatimes.com/markets/stocks/news/paytm-karo-back-in-vogue-again-can-the-stock-reclaim-ipo-price-after-5-years-and-480-rally/articleshow/134304777.cms",
-      "summary": "Paytm shares have rebounded over 480% from their lifetime low but remain 20% below the Rs 2,150 IPO price. The introduction of MDR on select high-value UPI transactions could create a new revenue stre",
+      "title": "14 stocks held by 100+ MFs in August surged up to 200%; 5 turned multibaggers in CY26",
+      "link": "https://economictimes.indiatimes.com/markets/stocks/news/14-stocks-held-by-100-mfs-in-august-surged-up-to-200-5-turned-multibaggers-in-cy26/slideshow/134328934.cms",
+      "summary": "Fourteen stocks held by over 100 mutual fund schemes each surged 60-200% in CY26 through August, with Welspun Corp, Aditya Infotech and Apar Industries among the biggest gainers.",
       "age_h": 0.6
     },
     {
       "source": "Economic Times",
-      "title": "ETMarkets Smart Talk| India less vulnerable to US rate shocks, but expensive midcaps remain at risk: Amar K Ambani",
-      "link": "https://economictimes.indiatimes.com/markets/expert-view/etmarkets-smart-talk-india-less-vulnerable-to-us-rate-shocks-but-expensive-midcaps-remain-at-risk-amar-k-ambani/articleshow/134304584.cms",
-      "summary": "Indian equities are better positioned to withstand global rate shocks due to strong domestic liquidity, but expensive mid- and small-cap stocks remain vulnerable to rising US yields and earnings disap",
+      "title": "Can Fayuvi FDA approval lift RARE stock further?",
+      "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/can-fayuvi-fda-approval-lift-rare-stock-further/slideshow/134328451.cms",
+      "summary": "Ultragenyx Pharmaceutical shares surged 12.6% after FDA approval of Fayuvi, its gene therapy for Sanfilippo syndrome Type A, though the RARE stock remains down sharply year-to-date following a failed ",
       "age_h": 0.7
     },
     {
       "source": "Livemint",
-      "title": "This railway Navratna PSU stock rallies 5% after winning order from Prasar Bharti | Do you own?",
-      "link": "https://www.livemint.com/market/stock-market-news/this-railway-navratna-psu-stock-rallies-5-after-winning-order-from-prasar-bharti-do-you-own-11789629721281.html",
-      "summary": "Shares of a railway PSU stock surged nearly 5% after securing a  \u20b963 crore order from Prasar Bharti for services on the WAVES OTT Platform. Do you own this stock?",
-      "age_h": 0.3
+      "title": "Grauer &amp; Weil share price jumps 11% after key AGM decisions | Details here",
+      "link": "https://www.livemint.com/market/stock-market-news/grauer-weil-share-price-jumps-11-after-key-agm-decisions-details-here-11789712547415.html",
+      "summary": "Grauer &amp;amp; Weil shares surged over 11% after a final dividend of Re 0.50 per share was approved at the AGM. Key decisions included the reappointments of directors and positive audit opinions on ",
+      "age_h": 0.5
     },
     {
       "source": "Livemint",
-      "title": "Vodafone Idea share price snaps losing streak amid positive market | Is it time to book profits?",
-      "link": "https://www.livemint.com/market/stock-market-news/vodafone-idea-share-price-snaps-losing-streak-amid-positive-market-is-it-time-to-book-profits-11789625565856.html",
-      "summary": "Vodafone Idea shares opened at  \u20b914.25 apiece today, as compared to the previous close of  \u20b914.26 on Wednesday.",
-      "age_h": 0.7
+      "title": "Bombay Burmah share price jumps 9.5% after  \u20b9249 crore block deal - check details",
+      "link": "https://www.livemint.com/market/stock-market-news/bombay-burmah-share-price-jumps-9-5-after-rs-249-crore-block-deal-check-details-11789712754351.html",
+      "summary": "Bombay Burmah Trading Corporation's shares surged nearly 10% following a large block transaction of over 18 lakh shares valued at  \u20b9249 crore. Despite the rise, the stock is still down 31% from its 52",
+      "age_h": 1.0
     },
     {
       "source": "Livemint",
-      "title": "Happy Forgings share price target: 'Industrials, PVs to drive next leg of growth' - Buy from Motilal Oswal Fin Services",
-      "link": "https://www.livemint.com/market/stock-market-news/happy-forgings-share-price-target-industrials-pvs-to-drive-next-leg-of-growth-buy-rating-from-motilal-oswal-financ-11789628364291.html",
-      "summary": "Shares of Happy Forgings Limited decreased after strong performance in the previous day. Forecasts predict significant revenue growth driven by new orders, with brokerage Motilal Oswal maintaining a '",
-      "age_h": 0.8
+      "title": "Chart beat: Preference for investing in new residential launches hits multi-year high",
+      "link": "https://www.livemint.com/market/mark-to-market/chart-beat-preference-for-investing-in-new-residential-launches-hits-multi-year-high-11789710423106.html",
+      "summary": "Increased buyer confidence in established and organized developers with stronger execution capabilities, augurs well for market share gains of listed developers.",
+      "age_h": 1.0
     },
     {
       "source": "Livemint",
-      "title": "Sebi to consider brokers' concerns around MDR as UPI costs loom",
-      "link": "https://www.livemint.com/market/stock-market-news/sebi-to-consider-brokers-concerns-around-mdr-as-upi-costs-loom-11789627373300.html",
-      "summary": "Sebi chairman Tuhin Kanta Pandey's comments come after the National Payments Council of India (NPCI) on Tuesday introduced a charge on UPI payments above certain thresholds.",
-      "age_h": 0.9
+      "title": "Lords Mark Industries share price hits upper circuit after this business update | All details here",
+      "link": "https://www.livemint.com/market/stock-market-news/lords-mark-industries-share-price-hits-upper-circuit-after-this-business-update-all-details-here-11789712362531.html",
+      "summary": "Lords Mark Industries share price hit its 5% upper circuit of  \u20b989.68 during Friday's session, looking set to extend gains for the third consecutive session. At this price, the stock has surged over 1",
+      "age_h": 1.1
     }
   ]
 }
