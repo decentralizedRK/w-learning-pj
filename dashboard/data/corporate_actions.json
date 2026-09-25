@@ -1,24 +1,24 @@
 {
-  "timestamp": "2026-09-24T07:45:33+00:00",
+  "timestamp": "2026-09-25T08:06:11+00:00",
   "events": [
     {
       "symbol": "ETERNAL",
       "type": "earnings_date",
       "date": "2026-10-15",
       "detail": "Earnings Date",
-      "days_away": 21
-    },
-    {
-      "symbol": "COFORGE",
-      "type": "earnings_date",
-      "date": "2026-10-22",
-      "detail": "Earnings Date",
-      "days_away": 28
+      "days_away": 20
     },
     {
       "symbol": "SONACOMS",
       "type": "earnings_date",
       "date": "2026-10-22",
+      "detail": "Earnings Date",
+      "days_away": 27
+    },
+    {
+      "symbol": "COFORGE",
+      "type": "earnings_date",
+      "date": "2026-10-23",
       "detail": "Earnings Date",
       "days_away": 28
     },
@@ -27,49 +27,49 @@
       "type": "earnings_date",
       "date": "2026-10-29",
       "detail": "Earnings Date",
-      "days_away": 35
+      "days_away": 34
     },
     {
       "symbol": "DIVISLAB",
       "type": "earnings_date",
       "date": "2026-10-31",
       "detail": "Earnings Date",
-      "days_away": 37
+      "days_away": 36
     },
     {
       "symbol": "PAYTM",
       "type": "earnings_date",
       "date": "2026-11-03",
       "detail": "Earnings Date",
-      "days_away": 40
+      "days_away": 39
     },
     {
       "symbol": "MCX",
       "type": "earnings_date",
       "date": "2026-11-05",
       "detail": "Earnings Date",
-      "days_away": 42
+      "days_away": 41
     },
     {
       "symbol": "NAUKRI",
       "type": "earnings_date",
       "date": "2026-11-11",
       "detail": "Earnings Date",
-      "days_away": 48
+      "days_away": 47
     },
     {
       "symbol": "HEROMOTOCO",
       "type": "earnings_date",
       "date": "2026-11-12",
       "detail": "Earnings Date",
-      "days_away": 49
+      "days_away": 48
     },
     {
       "symbol": "JUBLFOOD",
       "type": "earnings_date",
       "date": "2026-11-19",
       "detail": "Earnings Date",
-      "days_away": 56
+      "days_away": 55
     }
   ],
   "by_symbol": {
@@ -83,7 +83,7 @@
       "splits": [],
       "calendar": {
         "Earnings Date": [
-          "2026-10-22"
+          "2026-10-23"
         ],
         "Ex-Dividend Date": "2026-08-03"
       }
