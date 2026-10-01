@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-30T08:54:02+00:00",
+  "timestamp": "2026-10-01T09:18:20+00:00",
   "ticker_news": {
     "COFORGE": [
       {
@@ -43,6 +43,12 @@
     ],
     "ETERNAL": [
       {
+        "title": "Apple Pay finally launches in India after years on the sidelines",
+        "publisher": "TechCrunch",
+        "link": "https://finance.yahoo.com/technology/articles/apple-pay-set-launch-india-184500796.html",
+        "age_h": null
+      },
+      {
         "title": "KKR to buy 6% stake in India's BookMyShow for up to $50 million, source says",
         "publisher": "Reuters",
         "link": "https://sg.finance.yahoo.com/news/kkr-buy-stake-indias-bookmyshow-052111012.html",
@@ -53,21 +59,9 @@
         "publisher": "Reuters",
         "link": "https://sg.finance.yahoo.com/news/indian-logistics-firm-shiprockets-170-055650349.html",
         "age_h": null
-      },
-      {
-        "title": "Jefferies sees brighter India outlook as credit, capital flows ramp up; removes HDFC Bank in portfolio revamp",
-        "publisher": "Reuters",
-        "link": "https://sg.finance.yahoo.com/news/jefferies-sees-brighter-india-outlook-065314636.html",
-        "age_h": null
       }
     ],
     "HEROMOTOCO": [
-      {
-        "title": "Ather Energy\u2019s 130% Stock Surge Leaves Tesla and BYD Behind in 2026",
-        "publisher": "Bloomberg",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/ather-energy-130-stock-surge-065116645.html",
-        "age_h": null
-      },
       {
         "title": "India's Hero MotoCorp to invest additional $184 million in Ather Energy",
         "publisher": "Reuters",
@@ -78,6 +72,12 @@
         "title": "Hero MotoCorp Ltd (BOM:500182) (Q1 2027) Earnings Call Highlights: Revenue Surges 36% on Record ...",
         "publisher": "GuruFocus.com",
         "link": "https://finance.yahoo.com/markets/stocks/articles/hero-motocorp-ltd-bom-500182-130043205.html",
+        "age_h": null
+      },
+      {
+        "title": "India's Hero MotoCorp gains after quarterly profit rise",
+        "publisher": "Reuters",
+        "link": "https://sg.finance.yahoo.com/news/indias-hero-motocorp-gains-quarterly-035632811.html",
         "age_h": null
       }
     ],
@@ -143,6 +143,12 @@
     ],
     "PAYTM": [
       {
+        "title": "Apple Pay finally launches in India after years on the sidelines",
+        "publisher": "TechCrunch",
+        "link": "https://finance.yahoo.com/technology/articles/apple-pay-set-launch-india-184500796.html",
+        "age_h": null
+      },
+      {
         "title": "Top 3 Indian Promoter Led Stocks To Watch In September 2026",
         "publisher": "Simply Wall St.",
         "link": "https://finance.yahoo.com/markets/stocks/articles/top-3-indian-promoter-led-161117896.html",
@@ -152,12 +158,6 @@
         "title": "Paytm Bets on Workplace AI Agents in Pivot Beyond Payments",
         "publisher": "Bloomberg",
         "link": "https://finance.yahoo.com/technology/ai/articles/paytm-bets-workplace-ai-agents-010020299.html",
-        "age_h": null
-      },
-      {
-        "title": "Founder Led Stocks Worth Watching As Capital Spending Picks Up",
-        "publisher": "Simply Wall St.",
-        "link": "https://finance.yahoo.com/markets/stocks/articles/founder-led-stocks-worth-watching-221642598.html",
         "age_h": null
       }
     ],
@@ -205,59 +205,59 @@
   "market_headlines": [
     {
       "source": "Economic Times",
-      "title": "Re-rating on cars for HAL shares as Tejas Mk1A aircraft deliveries near: Jefferies",
-      "link": "https://economictimes.indiatimes.com/markets/stocks/news/re-rating-on-cars-for-hal-shares-as-tejas-mk1a-aircraft-deliveries-near-jefferies/articleshow/134586938.cms",
-      "summary": "Tejas Mk1A accounts for 43% of HAL\u2019s order book and could emerge as a key re-rating trigger as deliveries gain visibility, Jefferies said. HAL CMD Ravi Kota expects to deliver 10 aircraft this year, a",
-      "age_h": 0.4
-    },
-    {
-      "source": "Economic Times",
-      "title": "Global Market: European shares head for first monthly decline in six months as yields rise",
-      "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-european-shares-head-for-first-monthly-decline-in-six-months-as-yields-rise/articleshow/134587091.cms",
-      "summary": "European shares were set for their first monthly decline in six months as Middle East tensions, higher energy prices and rising bond yields heightened inflation and interest-rate concerns. The STOXX 6",
+      "title": "Stock Market Holiday: Are BSE, NSE open or closed for Gandhi Jayanti tomorrow? Check upcoming market holidays",
+      "link": "https://economictimes.indiatimes.com/markets/stocks/news/stock-market-holiday-are-bse-nse-open-or-closed-for-gandhi-jayanti-tomorrow-check-upcoming-market-holidays/articleshow/134613448.cms",
+      "summary": "The Indian stock market will remain closed on October 2 for Mahatma Gandhi Jayanti, with the BSE and NSE shutting trading. MCX and NCDEX will also remain closed. Investors can check the remaining 2026",
       "age_h": 0.5
     },
     {
       "source": "Economic Times",
-      "title": "Global Market: Euro under pressure from energy shock and political risks",
-      "link": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/global-market-euro-under-pressure-from-energy-shock-and-political-risks/articleshow/134587000.cms",
-      "summary": "The euro has fallen nearly 2% in September as energy prices, political uncertainty and a stronger dollar weigh on the currency. Concerns over German and French politics, rising borrowing-cost spreads ",
-      "age_h": 0.6
+      "title": "India bonds slide as US Treasury rout, supply weigh",
+      "link": "https://economictimes.indiatimes.com/markets/bonds/india-bonds-slide-as-us-treasury-rout-supply-weigh/articleshow/134613344.cms",
+      "summary": "Indian government bonds experienced a decline as US Treasury yields rose and supply increased ahead of the Reserve Bank of India meeting. The benchmark bond yield reached its highest level in two and ",
+      "age_h": 0.7
     },
     {
       "source": "Economic Times",
-      "title": "Can NSE shares trade on its own platform? Sebi chief says no panel considering self-trading in exchange shares",
-      "link": "https://economictimes.indiatimes.com/markets/stocks/news/can-nse-shares-trade-on-its-own-platform-sebi-chief-says-no-panel-considering-self-trading-in-exchange-shares/articleshow/134586236.cms",
-      "summary": "Sebi Chairman Tuhin Kanta Pandey said the regulator is not currently considering self-listing or self-trading of exchange shares, days after NSE CEO Ashish Kumar Chauhan suggested exploring the possib",
+      "title": "10-year US Treasury yield hits highest level since 2002",
+      "link": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/10-year-us-treasury-yield-hits-highest-since-2002/articleshow/134613220.cms",
+      "summary": "The US 10-year Treasury yield hit its highest level in 24 years on Thursday, as a brutal bonds selloff gathered pace.",
+      "age_h": 0.7
+    },
+    {
+      "source": "Economic Times",
+      "title": "Two tractor stocks: Escorts Kubota shares fall 6%; VST Tillers shares rally 5% after September sales",
+      "link": "https://economictimes.indiatimes.com/markets/stocks/news/two-tractor-stocks-escorts-kubota-shares-fall-6-vst-tillers-shares-rally-5-after-september-sales/articleshow/134613134.cms",
+      "summary": "Escorts Kubota shares fell sharply on Thursday after September tractor sales declined 16.7% year-on-year, while VST Tillers shares rose 5% as total sales jumped 33%. Escorts cited a high base, festive",
+      "age_h": 0.7
+    },
+    {
+      "source": "Livemint",
+      "title": "Gold price future roadmap: What led to 6% yellow metal fall in Sept 2026? Will Diwali help bounce back? Experts view",
+      "link": "https://www.livemint.com/market/commodities/gold-price-future-roadmap-why-led-to-6-yellow-metal-fall-in-sept-2026-will-diwali-help-bounce-back-experts-view-11790842892313.html",
+      "summary": "Gold prices dropped 6.5% in September, the worst monthly performance since June, due to rising US bond yields and a strong dollar. Investors are now assessing whether seasonal demand and geopolitical ",
+      "age_h": 0.5
+    },
+    {
+      "source": "Livemint",
+      "title": "Stock market closed for next 3 days - here is why | Check NSE calendar dates October 2026",
+      "link": "https://www.livemint.com/market/stock-market-news/stock-market-closed-for-next-3-days-here-is-why-check-nse-calendar-dates-october-2026-11790836529710.html",
+      "summary": "The Indian stock market will be closed on Friday, October 2 for Mahatma Gandhi Jayanti, resulting in three consecutive days of holiday.&amp;nbsp;",
+      "age_h": 0.7
+    },
+    {
+      "source": "Livemint",
+      "title": "ESDS share price: Newly listed stock doubles IPO investors' money | Is more steam left?",
+      "link": "https://www.livemint.com/market/stock-market-news/esds-share-price-newly-listed-stock-doubles-ipo-investors-money-is-more-steam-left-11790837897408.html",
+      "summary": "The stock has climbed from its IPO price of  \u20b9429 to the current market price of  \u20b91,434.10, marking a gain of  \u20b91,005.10 per share, or around 234.3%.",
       "age_h": 0.8
     },
     {
       "source": "Livemint",
-      "title": "Sensex, Nifty impact Explained: Why 30-year US Treasury bond yields surged to 2002 levels and why it matters to India?",
-      "link": "https://www.livemint.com/market/stock-market-news/sensex-nifty-impact-explained-why-30-year-us-treasury-bond-yields-surged-to-2002-levels-and-why-it-matters-to-india-11790751047666.html",
-      "summary": "When bond yields rise, equities tend to come under pressure as fixed-income investments become relatively more attractive.",
-      "age_h": 0.3
-    },
-    {
-      "source": "Livemint",
-      "title": "Nifty Outlook: Down in just 3 of last 10 Octobers \u2014 Can bulls return after September sell-off? Experts weigh in",
-      "link": "https://www.livemint.com/market/stock-market-news/nifty-outlook-down-in-just-3-of-last-10-octobers-can-bulls-return-after-september-sell-off-experts-weigh-in-11790752082906.html",
-      "summary": "October is anticipated to be volatile following September's sell-off. Analysts suggest possible tactical recovery, contingent on stabilizing crude prices and FII investments. Nifty's crucial support l",
-      "age_h": 0.6
-    },
-    {
-      "source": "Livemint",
-      "title": "BSE share price dips 3% as Goldman Sachs, BNP Paribas sell 1.7% stake worth  \u20b92186 crore",
-      "link": "https://www.livemint.com/market/stock-market-news/bse-share-price-dips-3-as-goldman-sachs-bnp-paribas-sell-1-7-stake-worth-rs-2186-crore-11790741701244.html",
-      "summary": "BSE Limited's shares dropped nearly 3% following a stake sale by Goldman Sachs and BNP Paribas. The stock fell to  \u20b93075 on Wednesday.",
-      "age_h": 1.0
-    },
-    {
-      "source": "Livemint",
-      "title": "Nifty\u2019s seven-week losing streak: Is a relief rally next?",
-      "link": "https://www.livemint.com/market/stock-market-news/nifty-50-seven-week-losing-streak-relief-rally-11790744930090.html",
-      "summary": "History offers hope of a rebound, but the current sell-off is far milder than past seven-week declines, making a sustained recovery harder to call.",
-      "age_h": 1.2
+      "title": "Explained: What is Corporate Bond Index Futures - NSE gets SEBI nod |How the bond market has grown in India over years",
+      "link": "https://www.livemint.com/market/stock-market-news/explained-what-is-corporate-bond-index-futures-nse-gets-sebi-nod-how-the-bond-market-has-grown-in-india-over-years-11790840364837.html",
+      "summary": "NSE has received SEBI's No Objection Certificate to launch Corporate Bond Index futures, allowing participants to manage corporate bond market risks and improve price discovery. The product awaits RBI",
+      "age_h": 1.1
     }
   ]
 }
