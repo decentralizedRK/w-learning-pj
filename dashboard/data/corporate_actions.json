@@ -1,75 +1,75 @@
 {
-  "timestamp": "2026-10-01T09:18:23+00:00",
+  "timestamp": "2026-10-02T08:51:24+00:00",
   "events": [
     {
       "symbol": "ETERNAL",
       "type": "earnings_date",
       "date": "2026-10-15",
       "detail": "Earnings Date",
-      "days_away": 14
+      "days_away": 13
     },
     {
       "symbol": "SONACOMS",
       "type": "earnings_date",
       "date": "2026-10-22",
       "detail": "Earnings Date",
-      "days_away": 21
+      "days_away": 20
     },
     {
       "symbol": "COFORGE",
       "type": "earnings_date",
       "date": "2026-10-23",
       "detail": "Earnings Date",
-      "days_away": 22
+      "days_away": 21
     },
     {
       "symbol": "POLICYBZR",
       "type": "earnings_date",
       "date": "2026-10-29",
       "detail": "Earnings Date",
-      "days_away": 28
+      "days_away": 27
     },
     {
       "symbol": "DIVISLAB",
       "type": "earnings_date",
       "date": "2026-10-31",
       "detail": "Earnings Date",
-      "days_away": 30
+      "days_away": 29
     },
     {
       "symbol": "PAYTM",
       "type": "earnings_date",
       "date": "2026-11-03",
       "detail": "Earnings Date",
-      "days_away": 33
+      "days_away": 32
     },
     {
       "symbol": "MCX",
       "type": "earnings_date",
       "date": "2026-11-05",
       "detail": "Earnings Date",
-      "days_away": 35
+      "days_away": 34
     },
     {
       "symbol": "NAUKRI",
       "type": "earnings_date",
       "date": "2026-11-11",
       "detail": "Earnings Date",
-      "days_away": 41
+      "days_away": 40
     },
     {
       "symbol": "HEROMOTOCO",
       "type": "earnings_date",
       "date": "2026-11-12",
       "detail": "Earnings Date",
-      "days_away": 42
+      "days_away": 41
     },
     {
       "symbol": "JUBLFOOD",
       "type": "earnings_date",
       "date": "2026-11-19",
       "detail": "Earnings Date",
-      "days_away": 49
+      "days_away": 48
     }
   ],
   "by_symbol": {
