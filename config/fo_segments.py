@@ -1,4 +1,4 @@
-LAST_UPDATED = "2026-09-27"
+LAST_UPDATED = "2026-10-04"
 
 LARGECAP_FO: list[str] = [
     "ADANIENT",
@@ -11,6 +11,7 @@ LARGECAP_FO: list[str] = [
     "BAJFINANCE",
     "BEL",
     "BHARTIARTL",
+    "BSE",
     "CIPLA",
     "COALINDIA",
     "DRREDDY",
@@ -49,7 +50,6 @@ LARGECAP_FO: list[str] = [
     "TITAN",
     "TRENT",
     "ULTRACEMCO",
-    "WIPRO",
 ]
 
 MIDCAP_FO: list[str] = [
@@ -67,7 +67,6 @@ MIDCAP_FO: list[str] = [
     "BHEL",
     "BIOCON",
     "BLUESTARCO",
-    "BSE",
     "COCHINSHIP",
     "COFORGE",
     "COLPAL",
@@ -87,8 +86,8 @@ MIDCAP_FO: list[str] = [
     "HINDPETRO",
     "ICICIGI",
     "ICICIPRULI",
-    "IDEA",
     "IDFCFIRSTB",
+    "INDHOTEL",
     "INDIANB",
     "INDUSINDBK",
     "INDUSTOWER",
@@ -98,10 +97,10 @@ MIDCAP_FO: list[str] = [
     "JUBLFOOD",
     "KALYANKJIL",
     "KEI",
-    "KPITTECH",
     "LAURUSLABS",
     "LICHSGFIN",
     "LICI",
+    "LODHA",
     "LTF",
     "LUPIN",
     "MANKIND",
@@ -126,20 +125,20 @@ MIDCAP_FO: list[str] = [
     "PHOENIXLTD",
     "PIIND",
     "POLICYBZR",
-    "POLYCAB",
-    "POWERINDIA",
     "PREMIERENE",
     "PRESTIGE",
     "RADICO",
+    "RECLTD",
     "RVNL",
     "SAIL",
     "SBICARD",
+    "SHREECEM",
     "SRF",
     "SUPREMEIND",
     "SUZLON",
     "SWIGGY",
-    "TATAELXSI",
     "TIINDIA",
+    "UNITDSPR",
     "UNOMINDA",
     "UPL",
     "VOLTAS",
@@ -161,6 +160,7 @@ SMALLCAP_FO: list[str] = [
     "INOXWIND",
     "KAYNES",
     "KFINTECH",
+    "KPITTECH",
     "MANAPPURAM",
     "NBCC",
     "NUVAMA",
@@ -169,6 +169,7 @@ SMALLCAP_FO: list[str] = [
     "RBLBANK",
     "SONACOMS",
     "SYNGENE",
+    "TATAELXSI",
 ]
 
 SEGMENT_MAP: dict[str, list[str]] = {
