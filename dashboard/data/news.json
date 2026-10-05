@@ -1,103 +1,155 @@
 {
-  "timestamp": "2026-10-02T08:51:20+00:00",
+  "timestamp": "2026-10-05T09:30:36+00:00",
   "ticker_news": {
     "COFORGE": [
       {
-        "title": "Coforge shares advance 2% as board appoints Akhil Gupta as Chairperson; key details to know - Upstox",
+        "title": "Coforge Share Price - Upstox",
         "publisher": "Google News",
-        "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNU2pUSTg1NmZ0QUdQQTNpdjZQVnA1TE85U0F5Tl9McmJDZ280XzNfY3lVSWlMeHljMUNKUXV6UTFqc1Q0Z3huXzFEUzE5eUwyc1N2aEdFWDIwMDVqaTN5RXJIakFoaU9ubThVaDN4bXVMbEFHbTJheVhMWE5PdjBabEVGcDJkRktDdWNGTU93bTVpVThVRExOSFg5akF0NndzWmk5SUJJdkFwenNLWlZHN0J3dXI2ODdwYlJXdU5pUWpXYVVoTHJsVzhTemw3NlRiSVdrM3ZqaVpCc2dWRENVYlpB?oc=5",
-        "age_h": 75.6
+        "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9US3I1X0pBV2VvWTdZSE90dWhvY1FES1VvMnZ4b1JITGgzSk5KQUFtalBuX1VqT0F5cGtuRFhsbjRHSHlTR2t5Z3cxQktKRE1yUFREVWhmRVJiU2lwZ1BiZTI0YnY?oc=5",
+        "age_h": 98.5
+      },
+      {
+        "title": "Coforge (NSEI:COFORGE) Stock Forecast & Analyst Predictions - simplywall.st",
+        "publisher": "Google News",
+        "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5RWlNHRzdjVmhYOGVZdkh4RVU0WnN4dHVQejl5M3dHeEp6eDU0aWFWelpweXNWN0I5VzR3Rkw2THlnMkpCVWFCZXcyLUxnUXpoZXJ2dS10WWdURVdTNElhMGk2UElSTldjaW5PaGRoQlZpZF9ERTN3NUJSLWliMUE?oc=5",
+        "age_h": 74.5
       }
     ],
     "ETERNAL": [
       {
+        "title": "Zomato Share Price - Live NSE: ETERNAL Stock Price & Chart - Upstox",
+        "publisher": "Google News",
+        "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9WQzNEWlBxdEUyRW9HUDYwalMxLXRKX0dLSG1TU1pXbFlfUmxWTW9pVXlBZXhQTHFLWDNOemxxMUdtWWxMekNaNUZqWUhVTlVKR0dEeEh5S3p0dmNhcmFjd0dPMUM?oc=5",
+        "age_h": 98.5
+      },
+      {
         "title": "Eternal (Zomato) (ETERNAL) Share Price, News, Stock Market Cap NSE/BSE - TechGraph",
         "publisher": "Google News",
         "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFA0TUNJaWhnNklqN0tjb2Z3X1Z6U0pWWklnZzZCMExHYzd3RGNDYi1zQVViNi1iT2pBbWE2QmpXTjNhU1ZfWGN2QjBHSlpSa2xkeHAwbTR0S05VT0dQR0laLQ?oc=5",
-        "age_h": 26.0
+        "age_h": 98.5
+      },
+      {
+        "title": "Eternal (NSEI:ETERNAL) Stock Forecast & Analyst Predictions - simplywall.st",
+        "publisher": "Google News",
+        "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPSlFfcnQ0SldFSlN6bi1fcjBlZ24xNE50YmdfY3VPdEh4aEkyd3U4a21RdGI4SEVLa0dheWV5Ni01N0JFM3dpc0N3NzR2dndBTWo1Wi12RDEyYk5OcVZYb1J6RV9rUUdNS2FKQWhkaXFCdzU3TWtPdUg3T21xU1lLbnp4V1lqS3dQRkpv?oc=5",
+        "age_h": 74.5
+      }
+    ],
+    "HEROMOTOCO": [
+      {
+        "title": "Hero MotoCorp (NSEI:HEROMOTOCO) - Aandelenanalyse - simplywall.st",
+        "publisher": "Google News",
+        "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPWmh5RlJuV2VxY09MYzkyRlQ3TjByVXE5cFBraHRCWV9IZnlrVjJrM1F4ZzR0V214RXZEalg0eGdScGJCQ2R4eWMxNU5IVkF2X0d6RmNmYXdtb2hyZkNNZkxWajQ5Z0djTkhva2dERFpzR2RZRUZVMzAtX1cwVTAzZ3YxTWd2N1g1eGRhQzRFN0hmYTk4b0ZsWHdB?oc=5",
+        "age_h": 25.4
       }
     ],
     "MCX": [
       {
-        "title": "Multi Commodity Exchange of India (NSEI:MCX) Stock Forecast & Analyst Predictions - simplywall.st",
+        "title": "MCX Share Price - Upstox",
         "publisher": "Google News",
-        "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNalZuWkNQVjhRMGtneGdsbWFteGhXbUh3MGpGMFNLQVN4b25QeVNMNWJPeDdCcGMxamJaa1ZpbDVKRm41UWNvSDV5enFJb3lHcXJ1ZGlDNUhvSDkyWUl6RDZPaHdkaHR5YU16TXloZVRmV2R1UDd5c25hTUEzaFJpNDBGa21XWFgyaktodnhyTDZiQk45SVc5RVRhLTdzUTlUYkNCS01nVUtIZFNDWE9N?oc=5",
-        "age_h": 73.9
+        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE4tNG50TjYyTkZtSWhSQUVVLVdOZGFHQWE4LUxHREdiRGIzYWp4WHlWU2VhOGpSblBXSFNDT1FJU3JqWjdXTDVWQWhILXJJY09ULVI0S1FNUWdIWHB5VnlBbkRiU0FMVFhQMVlhQ2N0T0w?oc=5",
+        "age_h": 98.5
+      },
+      {
+        "title": "SEBI\u2019s investor awareness campaign grabs investors\u2019 attention | Here's social media post by BSE, NSE, MCX, CDSL & NSDL - Livemint",
+        "publisher": "Google News",
+        "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxQQXV1V3d2MXdoWkM5TGRsd0E4Ukl1a1F3MGFCaV9vYm1CYkl0R0xETUo1UWE2NWRYazhqc093NlgtVG5TS3E2R3NQN1JUcFRKaDBZTk5VQk1mWng1bVh4VjZDMzZQaXpvWlI1M1dRVVItRjlxN2xDbnpOcDF6V2ROUm4zeDgzdXJOM0JnY1NXY28tY1RtRDIteHdDanBlMUpGa19WNDhiVnlGZXBPMWptcWw0TmU3SjhKTGVNeEQya1ByM2prR25EaERpb3pGNERJdjY1bXJ4TkNRbjdlUDlsY3pyc0ZIY0VjOUZDWVFDa3RacjZKOEtQdmlDaWlma05IUFZR0gGIAkFVX3lxTFBxMzhyOXU5ZjZudXRrYm5DRFNvUnBqeWRYN0hPYTNjdlVWcTBmM3FsMlU3blh2NnBvcWNYSmlkN083Q3ZvVHF6NV9seU9DOGZEblFzSHpjWXhqOGRCWS1jSXczNEF2MGVNVk1JdUZsWnJaRGdIV1hiQ1NhWDNmQjE2MVlBOGRyV0xMODAtOVhBMGo4ZlFuNk81dVQ4Q1ZsdURPVEduYmdHTjVVT3U5RkdBTm1FXzJwajhJVm5Oa3daQUF2NGhxanlUV2NNZFdiSlFMY2YzSmllb3ZxNHE0WjREXzYwWHE5bm0tZllwUVY0Wjl3VU83N3J0T3R1eTVjNmR1ZW1DQlU5Qw?oc=5",
+        "age_h": 6.9
+      },
+      {
+        "title": "Multi Commodity Exchange of India Ltd (MCX) Share Price - Business Today",
+        "publisher": "Google News",
+        "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNT0MwNERYX055RnU1VWs5blBsd2JPc0pTcGdFUFk4UXVPYjZkZVNvYzFaZmpDYmNUQmtud0FtVHFKMzBUdEkwajAyTjdQZ3RQdDZUTHppczhjdk1lLVRaeEIycFFoSjJiUjZzZ3BRQzBBWk95TGVJT3lwdFZ0WDRMWm5Dbm83cGgzT3hBTVBfdkZRaFNWVHJVWElESmM?oc=5",
+        "age_h": 98.5
+      }
+    ],
+    "NAUKRI": [
+      {
+        "title": "Info Edge (India) Share Price - Live NSE: NAUKRI Stock Price & Chart - Upstox",
+        "publisher": "Google News",
+        "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1xb1drOVpfdk4yVVVOb2lQdnVqeFZ1TEF0ajNpbWhZQ3VVeTdQLWo1Q3B4MmQwRXFmM1ZjN1ZObDdTSXpYUWV5NnJnTVBZRG14Znl2aE9aNlk5X2NOX3hDTWhaWHM?oc=5",
+        "age_h": 98.5
+      }
+    ],
+    "PAYTM": [
+      {
+        "title": "One97 Communications (NSEI:PAYTM) Stock Forecast & Analyst Predictions - simplywall.st",
+        "publisher": "Google News",
+        "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPZW5feERSUmZQb2dYXzctRkZJTFlRT1JxTUJXM1p1am55ZEdJN1RMTHBzTmpMMUNXMzdxMjU1dXk4TDcxRnp5TG5uX2d3Mi1SU3p6Um92eEZ6M2lWTjhvOFM3MmlCbUdsUXBqTnpGOEhWc2VyT3c0ZmdjUzR4Y282NmxTeFZfUWFIZTJvNWhMdkd0YUVJdHY0WFYzUldtYm1j?oc=5",
+        "age_h": 74.5
       }
     ],
     "POLICYBZR": [
       {
-        "title": "PB Fintech NSE:POLICYBZR Share Recovery and Analyst Outlook - Kalkine India",
+        "title": "PB Fintech (NSEI:POLICYBZR) Stock Forecast & Analyst Predictions - simplywall.st",
         "publisher": "Google News",
-        "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQSDk3N2NSSXFNWk1OZ0t0SGFqb0F1Qldqd21KVWc5QUF2dGdVTmlUYjdobkVPNHVkbTFaa3ptMUxuUThMdnZhTUwwd1BDbzlVdFRfWWhqN296TFlyZDhKTi0tUUdQV1ZCa2FLU09EWHRTbWFQYUJFbWFWYlgyQ0FoUTRkTWtLQVhNXzJNWG9wWDQyV3FZVElGb1FUSzRtWWlILTV4amlkMGdnWGdiZE1NWGFaMlVGR0JHVWJYSElkcXRSQnNlay1F?oc=5",
-        "age_h": 91.9
-      }
-    ],
-    "SONACOMS": [
+        "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxObzVUZ1NsM2M3Q0VZWTlEOHhmdEtKdFExX2RDRVA0d2lvSk1VanRJZVFnNmN3VWJEYWZaUnhuSGR5eHRwRE1CWm9hWXU2UVYzTTRrVnpLeHpxcDFVS0hpNHVGdUN5c0t0dTlHMWloY3k0TjBtZHZCd0pxeGZvbWoxUTZySG0zVzA?oc=5",
+        "age_h": 74.5
+      },
       {
-        "title": "SONACOMS Share Price near 52-week high: price action view - Univest",
+        "title": "PB Fintech Ltd (POLICYBZR) Share Price - Business Today",
         "publisher": "Google News",
-        "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNSWJkcF9QYVFVaGx5LUNMMzg5WFIxUWYxYzZsNUhYZjlWN0tGSWo2T05peTgyN2lmQVEwR1YxZ3ZyV0RqQXVxWE5paFBVR005U0ZEVnN6WWFGSGhZenZjT2F6MzBVc1c4UFNGWGF0YXB2VVU0cldUam4yUVIwV3dTSm9KSGVURWppRGJDM1dCcV9sa3hGUWMwTGV1NGJEVnl6cWtv?oc=5",
-        "age_h": 36.5
+        "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNc1o4Rm9LVlUtSUt2eDl3Y1hkNHZPRGlpTy01ZVI1dEI0Vmcybk83YS1ER2QxTkFJXzJKR1hHeFpiQkNSTElicDZ0TGM2R2lUcEVObFNhUkctSkc1dkV5Q21WOUdCR3RacXNOcXYxZnN5NXhTcTBWYlJ1S3h6bWcwd2YtMTJJQQ?oc=5",
+        "age_h": 98.5
       }
     ]
   },
   "market_headlines": [
     {
       "source": "Economic Times",
-      "title": "European shares edge higher after bonds-driven selloff, focus on inflation data",
-      "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/european-shares-edge-higher-after-bonds-driven-selloff-focus-on-inflation-data/articleshow/134635254.cms",
-      "summary": "Following a sharp selloff, European stocks made a modest recovery, influenced by recent shifts in the bond market. Investors are keeping a close eye on upcoming euro zone inflation data that could ste",
-      "age_h": 0.4
+      "title": "FIIs, retail investors raise stakes in 10 stocks, stocks rally up to 35% in 3 months",
+      "link": "https://economictimes.indiatimes.com/markets/stocks/news/fiis-retail-investors-raise-stakes-in-10-stocks-stocks-rally-up-to-35-in-3-months/slideshow/134695032.cms",
+      "summary": "Nearly 78 BSE 500 stocks saw both FII and retail ownership rise in June 2026. Ten stocks gained 10%-35% over three months, led by Lenskart Solutions.",
+      "age_h": 0.5
     },
     {
       "source": "Economic Times",
-      "title": "Inox Air Products files draft papers for initial offer",
-      "link": "https://economictimes.indiatimes.com/markets/ipos/fpos/inox-air-products-files-draft-papers-for-initial-offer/articleshow/134634874.cms",
-      "summary": "INOX Air Products, an integrated industrial, medical, electronic and specialty gases company, has filed DRHP with Sebi for launching an IPO.",
-      "age_h": 0.8
+      "title": "CAS chaos eases? Jefferies names top stock picks as options volumes recover, IPOs and commodities gain traction",
+      "link": "https://economictimes.indiatimes.com/markets/stocks/news/cas-chaos-eases-jefferies-names-top-stock-picks-as-options-volumes-recover-ipos-and-commodities-gain-traction/articleshow/134692619.cms",
+      "summary": "Jefferies sees signs of recovery in India\u2019s derivatives market as options volumes rebound after the disruption caused by the closing auction session (CAS). BSE\u2019s cash-market share also rose, while MCX",
+      "age_h": 1.1
     },
     {
       "source": "Economic Times",
-      "title": "Carlsberg India unit, 3 other firms get Sebi nod to proceed with IPO plans",
-      "link": "https://economictimes.indiatimes.com/markets/ipos/fpos/carlsberg-india-unit-3-other-firms-get-sebi-nod-to-proceed-with-ipo-plans/articleshow/134634784.cms",
-      "summary": "Sebi has provided observations for the IPOs of Carlsberg India, Matangi Rubber, Ujin Pharma, and TMC Transformer. Carlsberg's filing is under wraps, with specifics to be announced later. Matangi Rubbe",
-      "age_h": 0.9
+      "title": "Nomura sees IndiGo emerging stronger from fuel shock; initiates Buy with Rs 6,000 target",
+      "link": "https://economictimes.indiatimes.com/markets/stocks/news/nomura-sees-indigo-emerging-stronger-from-fuel-shock-initiates-buy-with-rs-6000-target/articleshow/134692630.cms",
+      "summary": "Nomura initiated coverage on InterGlobe Aviation with a Buy rating and a Rs 6,000 target price, implying around 20% upside from the September 30 close. It believes IndiGo\u2019s low-cost model, large aircr",
+      "age_h": 1.1
     },
     {
       "source": "Economic Times",
-      "title": "Bitcoin leads crypto market rebound above $85K as short liquidations accelerate",
-      "link": "https://economictimes.indiatimes.com/markets/cryptocurrency/crypto-news/bitcoin-leads-crypto-market-rebound-above-85k-as-short-liquidations-accelerate/articleshow/134634234.cms",
-      "summary": "Crypto markets rose on Friday as total market capitalisation reached $3.042 trillion, with Bitcoin reclaiming $85,000 amid easing Treasury yields and a short squeeze. Bitcoin gained about 2%, while Et",
-      "age_h": 1.5
+      "title": "US Market: Fed\u2019s Hammack says jobs data gives time to assess rate path",
+      "link": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-market-feds-hammack-says-jobs-data-gives-time-to-assess-rate-path/articleshow/134692368.cms",
+      "summary": "Federal Reserve officials have signalled they have time to assess incoming economic data before making further changes to interest rates. Cleveland Fed President Beth Hammack said September\u2019s weak emp",
+      "age_h": 1.2
     },
     {
       "source": "Livemint",
-      "title": "66% returns in 6 months, small-cap stock Rolex Rings gets Buy rating: InCred sees 32% upside - Check share price target",
-      "link": "https://www.livemint.com/market/stock-market-news/66-returns-in-6-months-small-cap-stock-rolex-rings-gets-buy-rating-incred-sees-32-upside-check-share-price-target-11790927993426.html",
-      "summary": "InCred praises Rolex Rings for strong potential growth, forecasting revenue and EBITDA increases up to FY28, with an expected 28% price upside to INR 251. The outlook is buoyed by recovering US export",
+      "title": "ITC, Godfrey Phillips, VST: What analysts expect from cigarette stocks in Q2 after new tax regime | Best stock to buy?",
+      "link": "https://www.livemint.com/market/stock-market-news/itc-godfrey-phillips-vst-what-analysts-expect-from-cigarette-stocks-in-q2-after-new-tax-regime-best-stock-to-buy-11791190459207.html",
+      "summary": "According to analysts, with companies now having more time to implement price increases and pass on higher taxes to consumers, some sequential improvement in margins in Q2 FY27 is expected.",
+      "age_h": 0.1
+    },
+    {
+      "source": "Livemint",
+      "title": "Power &amp; Electrical Equipment stocks rise | What\u2019s driving CESC, TD Power, RR Kabel Transformers &amp; Rectifiers?",
+      "link": "https://www.livemint.com/market/stock-market-news/power-stocks-surge-what-s-behind-cesc-transformers-rectifiers-rr-kabel-pg-electroplast-td-power-systems-rally-11791190120645.html",
+      "summary": "Shares of CESC, Transformers &amp;amp; Rectifiers, RR Kabel, PG Electroplast, and TD Power Systems rose on Monday, driven by company-specific developments and broader market recovery. Key movers inclu",
+      "age_h": 0.2
+    },
+    {
+      "source": "Livemint",
+      "title": "860% YTD rally!  \u20b910.42 lakh became  \u20b91 crore in 9 months; Nirmal Bang sees another 40% upside; do you own?",
+      "link": "https://www.livemint.com/market/stock-market-news/860-ytd-rally-10-42-lakh-became-1-crore-in-9-months-nirmal-bang-sees-another-40-upside-do-you-own-11791189203360.html",
+      "summary": "This telecom stock has captured market attention with an extraordinary 860% rally this year, turning a  \u20b910.42 lakh investment into nearly  \u20b91 crore. Factors such as long-term contracts and growing de",
       "age_h": 0.3
     },
     {
       "source": "Livemint",
-      "title": "Final touch underway for Jio Platforms IPO; latest GMP, expected launch date, size, valuation, shareholders quota",
-      "link": "https://www.livemint.com/market/ipo/final-touch-underway-for-jio-platforms-ipo-latest-gmp-expected-launch-date-size-valuation-shareholders-quota-11790924443524.html",
-      "summary": "Jio Platforms is finalising its IPO documents for what may be India's largest public offering, estimated at $3.8 billion. Led by Akash Ambani, the IPO marks Reliance's first offering since 2008 and ai",
-      "age_h": 0.7
-    },
-    {
-      "source": "Livemint",
-      "title": "Nifty 500 stocks fall up to 70% from 52-week highs; why broad market recovery may remain elusive in short term",
-      "link": "https://www.livemint.com/market/stock-market-news/nifty-500-stocks-fall-up-to-70-from-52-week-highs-why-broad-market-recovery-may-remain-elusive-in-short-term-11790910378791.html",
-      "summary": "The Nifty 500 index has faced a significant downturn, with stocks plummeting by up to 70% from their 52-week highs. A blend of geopolitical tensions, escalating oil prices, and weak monsoon prediction",
-      "age_h": 0.7
-    },
-    {
-      "source": "Livemint",
-      "title": "Emami\u2019s D2C bet faces a new test as buyback offers support",
-      "link": "https://www.livemint.com/market/mark-to-market/emamis-d2c-bet-faces-a-new-test-as-buyback-offers-support-11790923580043.html",
-      "summary": "Emami is betting on D2C brands and acquisitions to drive growth, but the bigger test is whether the portfolio can turn that growth into profits as the core business faces pressure.",
-      "age_h": 1.0
+      "title": "Gold, silver or stocks: Where should investors put fresh money after the Sensex, Nifty crash?",
+      "link": "https://www.livemint.com/market/stock-market-news/gold-silver-or-stocks-where-should-investors-put-fresh-money-after-the-sensex-nifty-crash-11791185267820.html",
+      "summary": "Gold, silver or stocks: The sharp correction in the Indian stock market has left investors facing a dilemma: should fresh money be deployed into stocks after the Sensex and Nifty crash, or should inve",
+      "age_h": 0.9
     }
   ]
 }
