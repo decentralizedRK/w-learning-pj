@@ -1,125 +1,109 @@
 {
-  "timestamp": "2026-10-06T09:16:22+00:00",
+  "timestamp": "2026-10-07T09:06:11+00:00",
   "ticker_news": {
     "COFORGE": [
       {
         "title": "Coforge Share Price - Upstox",
         "publisher": "Google News",
         "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9US3I1X0pBV2VvWTdZSE90dWhvY1FES1VvMnZ4b1JITGgzSk5KQUFtalBuX1VqT0F5cGtuRFhsbjRHSHlTR2t5Z3cxQktKRE1yUFREVWhmRVJiU2lwZ1BiZTI0YnY?oc=5",
-        "age_h": 25.5
-      },
-      {
-        "title": "Coforge (NSEI:COFORGE) Stock Forecast & Analyst Predictions - simplywall.st",
-        "publisher": "Google News",
-        "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5RWlNHRzdjVmhYOGVZdkh4RVU0WnN4dHVQejl5M3dHeEp6eDU0aWFWelpweXNWN0I5VzR3Rkw2THlnMkpCVWFCZXcyLUxnUXpoZXJ2dS10WWdURVdTNElhMGk2UElSTldjaW5PaGRoQlZpZF9ERTN3NUJSLWliMUE?oc=5",
-        "age_h": 98.3
-      }
-    ],
-    "DIVISLAB": [
-      {
-        "title": "Divi's Laboratories (DIVISLAB) Share Price, News, Stock Market Cap NSE/BSE - TechGraph",
-        "publisher": "Google News",
-        "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9QRFFXOTJ4aVRDWUxlT2ZndlJTTnNEeVN1ZXpoWnhrZU5wVFdrRUJ6cElkOTRGVkVxMnU3LUFEQnpSUmxlbzhGU2hhTElpOURIMnN5YnlEd1lwbnZCLTJ4Wmd3?oc=5",
-        "age_h": 98.3
+        "age_h": 30.5
       }
     ],
     "ETERNAL": [
       {
-        "title": "Eternal (NSEI:ETERNAL) Stock Forecast & Analyst Predictions - simplywall.st",
+        "title": "Eternal stock gets 4,179,012 ESOP options allotted to employees - AD HOC NEWS",
         "publisher": "Google News",
-        "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPSlFfcnQ0SldFSlN6bi1fcjBlZ24xNE50YmdfY3VPdEh4aEkyd3U4a21RdGI4SEVLa0dheWV5Ni01N0JFM3dpc0N3NzR2dndBTWo1Wi12RDEyYk5OcVZYb1J6RV9rUUdNS2FKQWhkaXFCdzU3TWtPdUg3T21xU1lLbnp4V1lqS3dQRkpv?oc=5",
-        "age_h": 98.3
+        "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNa3ZudkhRenJteFV3SFhmMnpkZUh1c0Q0d1p3Z0FfazBFVTNWbzF2TFJraU5lZWFnX09uY2l3SWJEUHpjRzVBVW95WHhwdTdWWFFjWW4tTFpZNjlHMV84YVM2MDIySjhyU191aWpIU0I0X1VienJoR2d0NWptWm13VjNPd3c1a1Q1cDVYUzJnMlhMbTRDakRZWUp2RW1KazIyVXZtNjhoZzVsRlhGRTg1dUpsZGg2UUVoMEhFUGNtX0dpdUdV?oc=5",
+        "age_h": 0.7
       }
     ],
     "HEROMOTOCO": [
       {
-        "title": "Hero MotoCorp (NSEI:HEROMOTOCO) - Aandelenanalyse - simplywall.st",
+        "title": "Hero MotoCorp (NSEI:HEROMOTOCO) - Aandelenanalyse - Simply Wall Street",
         "publisher": "Google News",
         "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPWmh5RlJuV2VxY09MYzkyRlQ3TjByVXE5cFBraHRCWV9IZnlrVjJrM1F4ZzR0V214RXZEalg0eGdScGJCQ2R4eWMxNU5IVkF2X0d6RmNmYXdtb2hyZkNNZkxWajQ5Z0djTkhva2dERFpzR2RZRUZVMzAtX1cwVTAzZ3YxTWd2N1g1eGRhQzRFN0hmYTk4b0ZsWHdB?oc=5",
-        "age_h": 49.2
+        "age_h": 73.0
       }
     ],
     "MCX": [
       {
-        "title": "SEBI\u2019s investor awareness campaign grabs investors\u2019 attention | Here's social media post by BSE, NSE, MCX, CDSL & NSDL - Livemint",
+        "title": "MCX Share Price Today - MCX on NSE/BSE - scanx.trade",
         "publisher": "Google News",
-        "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxQQXV1V3d2MXdoWkM5TGRsd0E4Ukl1a1F3MGFCaV9vYm1CYkl0R0xETUo1UWE2NWRYazhqc093NlgtVG5TS3E2R3NQN1JUcFRKaDBZTk5VQk1mWng1bVh4VjZDMzZQaXpvWlI1M1dRVVItRjlxN2xDbnpOcDF6V2ROUm4zeDgzdXJOM0JnY1NXY28tY1RtRDIteHdDanBlMUpGa19WNDhiVnlGZXBPMWptcWw0TmU3SjhKTGVNeEQya1ByM2prR25EaERpb3pGNERJdjY1bXJ4TkNRbjdlUDlsY3pyc0ZIY0VjOUZDWVFDa3RacjZKOEtQdmlDaWlma05IUFZR0gGIAkFVX3lxTFBxMzhyOXU5ZjZudXRrYm5DRFNvUnBqeWRYN0hPYTNjdlVWcTBmM3FsMlU3blh2NnBvcWNYSmlkN083Q3ZvVHF6NV9seU9DOGZEblFzSHpjWXhqOGRCWS1jSXczNEF2MGVNVk1JdUZsWnJaRGdIV1hiQ1NhWDNmQjE2MVlBOGRyV0xMODAtOVhBMGo4ZlFuNk81dVQ4Q1ZsdURPVEduYmdHTjVVT3U5RkdBTm1FXzJwajhJVm5Oa3daQUF2NGhxanlUV2NNZFdiSlFMY2YzSmllb3ZxNHE0WjREXzYwWHE5bm0tZllwUVY0Wjl3VU83N3J0T3R1eTVjNmR1ZW1DQlU5Qw?oc=5",
-        "age_h": 30.6
-      }
-    ],
-    "PAYTM": [
+        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9xSzl3LWcyUDZtWjFkeDNudG56R25fcGZyTGFaaE1GSjNjaml1aEFqWDJ0c2FmaThlX3N0eW1SUGpiaWFCZDlUaUNHZl9USVNMVlgwTTczR3FJT0p0NkdBOGRuVHpvcGc?oc=5",
+        "age_h": 110.7
+      },
       {
-        "title": "One97 Communications (NSEI:PAYTM) Stock Forecast & Analyst Predictions - simplywall.st",
+        "title": "Multi Commodity Exchange of India (NSEI:MCX) Stock Forecast & Analyst Predictions - Simply Wall Street",
         "publisher": "Google News",
-        "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPZW5feERSUmZQb2dYXzctRkZJTFlRT1JxTUJXM1p1am55ZEdJN1RMTHBzTmpMMUNXMzdxMjU1dXk4TDcxRnp5TG5uX2d3Mi1SU3p6Um92eEZ6M2lWTjhvOFM3MmlCbUdsUXBqTnpGOEhWc2VyT3c0ZmdjUzR4Y282NmxTeFZfUWFIZTJvNWhMdkd0YUVJdHY0WFYzUldtYm1j?oc=5",
-        "age_h": 98.3
+        "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNalZuWkNQVjhRMGtneGdsbWFteGhXbUh3MGpGMFNLQVN4b25QeVNMNWJPeDdCcGMxamJaa1ZpbDVKRm41UWNvSDV5enFJb3lHcXJ1ZGlDNUhvSDkyWUl6RDZPaHdkaHR5YU16TXloZVRmV2R1UDd5c25hTUEzaFJpNDBGa21XWFgyaktodnhyTDZiQk45SVc5RVRhLTdzUTlUYkNCS01nVUtIZFNDWE9N?oc=5",
+        "age_h": 74.1
       }
     ],
     "POLICYBZR": [
       {
-        "title": "PB Fintech (NSEI:POLICYBZR) Stock Forecast & Analyst Predictions - simplywall.st",
+        "title": "PB Fintech Ltd. - Moneycontrol.com",
         "publisher": "Google News",
-        "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxObzVUZ1NsM2M3Q0VZWTlEOHhmdEtKdFExX2RDRVA0d2lvSk1VanRJZVFnNmN3VWJEYWZaUnhuSGR5eHRwRE1CWm9hWXU2UVYzTTRrVnpLeHpxcDFVS0hpNHVGdUN5c0t0dTlHMWloY3k0TjBtZHZCd0pxeGZvbWoxUTZySG0zVzA?oc=5",
-        "age_h": 98.3
+        "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOUkozaTZWMUpKTXdyLXF0ZXVia0lQR2lkNl9DS3RjaVF3bXRSNW1OdzFmY3Y3Z3h5OWprWW9qTlctOWcydE52Um51eXZfcHVEaTMzTGpMUGQzMFVmcDhHN3RMNTVIVEowaXdIRmx2RUVOX3BvYlJIUWdnSHdDSFNLVXRBbk91dUNVSmRHd3NoRWl3Ri1iWG1V?oc=5",
+        "age_h": 2.7
       }
     ]
   },
   "market_headlines": [
     {
       "source": "Economic Times",
-      "title": "LIC mints Rs 531 crore in one day as Trent shares rally 13%; insurance behemoth\u2019s stake value nears Rs 4,700 cr",
-      "link": "https://economictimes.indiatimes.com/markets/stocks/news/lic-mints-rs-531-crore-in-one-day-as-trent-shares-rally-13-insurance-behemoths-stake-value-nears-rs-4700-cr/articleshow/134730569.cms",
-      "summary": "Trent shares rose sharply  after a strong Q2 business update, adding over Rs 17,540 crore to its market capitalisation. The surge lifted the value of LIC\u2019s stake in the Zudio parent by more than Rs 53",
-      "age_h": 0.3
+      "title": "Global Market: France faces rising market pressure to rein in public finances",
+      "link": "https://economictimes.indiatimes.com/markets/stocks/news/global-market-france-faces-rising-market-pressure-to-rein-in-public-finances/articleshow/134760755.cms",
+      "summary": "As France grapples with escalating borrowing costs and a dwindling euro, the urgency for bolstered fiscal stability intensifies. With the presidential election on the horizon, tension mounts from poli",
+      "age_h": 0.5
     },
     {
       "source": "Economic Times",
-      "title": "Dabur shares rise 4% as firm sees double-digit Q2 growth; FMCG set for strong performance",
-      "link": "https://economictimes.indiatimes.com/markets/stocks/news/dabur-shares-rise-4-as-firm-sees-double-digit-q2-growth-fmcg-set-for-strong-performance/articleshow/134730433.cms",
-      "summary": "Dabur shares rose sharply on Tuesday after the FMCG major projected double-digit consolidated revenue and PAT growth in Q2FY27. Its India FMCG business is expected to accelerate, while Home &amp; Pers",
-      "age_h": 0.4
+      "title": "Tata Motors PV, Maruti Suzuki, Ashok Leyland, auto stocks drop up to 3% as RBI signals rate cuts are \u2018off the table\u2019",
+      "link": "https://economictimes.indiatimes.com/markets/stocks/news/tata-motors-pv-maruti-suzuki-ashok-leyland-auto-stocks-drop-up-to-3-as-rbi-signals-rate-cuts-are-off-the-table/articleshow/134760101.cms",
+      "summary": "Auto stocks including Tata Motors PV, Maruti Suzuki, M&amp;M and Ashok Leyland dropped on Wednesday after the RBI raised the repo rate and shifted to calibrated tightening. Analysts expect Q2 revenue ",
+      "age_h": 1.1
     },
     {
       "source": "Economic Times",
-      "title": "Global Market:  Gulf oil flows rebound to 81% of pre-war levels in September",
-      "link": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/global-market-gulf-oil-flows-rebound-to-81-of-pre-war-levels-in-september/articleshow/134730619.cms",
-      "summary": "Gulf oil flows excluding Iran recovered to 81% of pre-war levels in September, supported by a sharp rebound in Saudi Arabian exports. Crude and condensate shipments reached 91% of pre-war levels, whil",
-      "age_h": 0.4
+      "title": "Indian rupee FX premiums jump after RBI policy leaves traders bracing for more sell/buy swaps",
+      "link": "https://economictimes.indiatimes.com/markets/forex/indian-rupee-fx-premiums-jump-after-rbi-policy-leaves-traders-bracing-for-more-sell/buy-swaps/articleshow/134759598.cms",
+      "summary": "On Wednesday, after the Reserve Bank of India's policy meeting, dollar-rupee forward premiums soared, marking the highest implied 1-year dollar/rupee forward premium seen in six months. With traders e",
+      "age_h": 1.6
     },
     {
       "source": "Economic Times",
-      "title": "Motilal Oswal initiates coverage on Molbio Diagnostics stock with Buy, sees 21% upside. Here's why",
-      "link": "https://economictimes.indiatimes.com/markets/stocks/news/motilal-oswal-initiates-coverage-on-molbio-diagnostics-stock-with-buy-sees-21-upside-heres-why/articleshow/134729418.cms",
-      "summary": "Motilal Oswal initiated coverage on Molbio Diagnostics with a Buy rating and \u20b91,800 target, implying 21% upside. The brokerage sees strong growth potential from decentralised molecular diagnostics, le",
-      "age_h": 0.8
+      "title": "Global Market: Hedge fund group warns BoE repo reforms could worsen market stress",
+      "link": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/global-market-hedge-fund-group-warns-boe-repo-reforms-could-worsen-market-stress/articleshow/134759516.cms",
+      "summary": "Hedge fund group AIMA has warned the Bank of England that proposed gilt repo reforms, including wider central clearing, could reduce liquidity and increase vulnerability to funding disruptions during ",
+      "age_h": 1.6
     },
     {
       "source": "Livemint",
-      "title": "India is cheaper. Why are foreign investors still selling?",
-      "link": "https://www.livemint.com/market/stock-market-news/fpi-selling-indian-stocks-2026-india-valuations-11791265250132.html",
-      "summary": "FPIs invested  \u20b955,524 crore through the primary market despite heavy secondary-market selling. Lower valuations have yet to offset concerns over earnings and dollar returns.",
+      "title": "Green Infra stock hits 5% upper circuit after  \u20b9615 crore order | Do you own?",
+      "link": "https://www.livemint.com/market/stock-market-news/green-infra-stock-hits-5-upper-circuit-after-rs-615-crore-order-do-you-own-11791362073164.html",
+      "summary": "Infra stock informed the Indian exchanges about the receipt of an order of  \u20b9615.76 crore from MSEDCL",
       "age_h": 0.1
     },
     {
       "source": "Livemint",
-      "title": "Best auto stocks to buy ahead of Q2 results: Eicher, Hyundai Motor, Tata Motors PV among Nuvama\u2019s top picks | Full list",
-      "link": "https://www.livemint.com/market/stock-market-news/best-auto-stocks-to-buy-ahead-of-q2-results-eicher-hyundai-motor-tata-motors-pv-among-nuvama-s-top-picks-full-list-11791275027303.html",
-      "summary": "Nuvama Institutional Equities maintains a positive outlook on the auto sector, with key picks including Hyundai Motor, Tata Motors, and Eicher Motors. They anticipate 27% revenue growth driven by indu",
-      "age_h": 0.3
+      "title": "Metal stocks to buy ahead of Q2 results: Nuvama picks Coal India, Tata Steel; Jindal Steel an underperformer |Here\u2019s why",
+      "link": "https://www.livemint.com/market/stock-market-news/metal-stocks-to-buy-ahead-of-q2-results-nuvama-picks-coal-india-tata-steel-jindal-steel-an-underperformer-here-s-why-11791361463865.html",
+      "summary": "Metal stocks show mixed Q2 FY27 performance expectations. Coal India and Tata Steel are favored, while Jindal Steel may underperform. EBITDA per tonne for steel companies is projected to decline due t",
+      "age_h": 0.2
     },
     {
       "source": "Livemint",
-      "title": "Up to 52% upside - Jindal SAW, SBI Life, ICICI Bank shares | 360 ONE's 21 biggest bets for investors - Check full list",
-      "link": "https://www.livemint.com/market/stock-market-news/up-to-52-upside-jindal-saw-sbi-life-icici-bank-shares-360-ones21-biggest-bets-for-investors-check-full-list-11791271707802.html",
-      "summary": "Stocks to buy: The brokerage has retained a focused list of 21 top multicap picks, with several stocks offering substantial potential upside from current levels.",
-      "age_h": 0.5
+      "title": "Titan share price drops 5% after Q2FY27 update - Should you buy this Tata Group stock now? Here's what experts say",
+      "link": "https://www.livemint.com/market/stock-market-news/titan-share-price-drops-5-after-q2fy27-update-should-you-buy-this-tata-group-stock-now-heres-what-experts-say-11791359754870.html",
+      "summary": "Titan Company's share price fell nearly 5% post Q2FY27 report, despite strong year-on-year growth across consumer segments. Experts weigh in on whether it\u2019s wise to invest now or wait for signs of sta",
+      "age_h": 0.7
     },
     {
       "source": "Livemint",
-      "title": "Q2 business updates: Experts tell best banking stocks to buy ahead of Q2 results FY27?",
-      "link": "https://www.livemint.com/market/stock-market-news/q2-business-updates-experts-tell-which-banking-stocks-to-buy-ahead-of-q2-results-fy27-11791272451622.html",
-      "summary": "Market investors may be wondering whether now is the right time to invest in private-sector banking stocks.",
-      "age_h": 0.5
+      "title": "Suzlon Energy share: 25% dip in YTD! Will there be a trend reversal? Experts weigh in | Support, target price, rationale",
+      "link": "https://www.livemint.com/market/stock-market-news/suzlon-energy-share-25-dip-in-ytd-will-there-be-a-trend-reversal-experts-weigh-in-support-target-price-rationale-11791357987651.html",
+      "summary": "Suzlon shares have fallen from around  \u20b952.50 apiece to  \u20b938.50 per share in 2026",
+      "age_h": 0.8
     }
   ]
 }
