@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>QuantOS — Signals</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<nav>
+  <div class="logo"><span class="logo-text">Quant<span>OS</span></span></div>
+  <div class="nav-tabs">
+    <a href="index.html" class="nav-tab">Portfolio</a>
+    <a href="screener.html" class="nav-tab">Screener</a>
+    <a href="signals.html" class="nav-tab active">Signals</a>
+    <a href="news.html" class="nav-tab">News</a>
+    <a href="backtest.html" class="nav-tab">Backtest</a>
+  </div>
+  <div class="nav-right"><span id="statusText"></span></div>
+</nav>
+
+<div class="container">
+  <div class="sub-tabs">
+    <div class="sub-tab active" data-tab="portfolio" onclick="switchSub('portfolio')">Portfolio Actions <span class="badge" id="paCount">—</span></div>
+    <div class="sub-tab" data-tab="entry" onclick="switchSub('entry')">Entry Signals <span class="badge" id="esCount">—</span></div>
+  </div>
+
+  <div class="sub-panel active" id="panel_portfolio">
+    <div class="card" style="overflow:hidden"><div class="table-wrap">
+      <table id="paTable"><thead><tr>
+        <th onclick="sortTbl('paTable',0)">Symbol</th>
+        <th onclick="sortTbl('paTable',1)">Action</th>
+        <th onclick="sortTbl('paTable',2)" class="text-right">Score</th>
+        <th onclick="sortTbl('paTable',3)" class="text-right">RSI</th>
+        <th onclick="sortTbl('paTable',4)" class="text-right">ADX</th>
+        <th onclick="sortTbl('paTable',5)">Trend</th>
+        <th onclick="sortTbl('paTable',6)" class="text-right">Return</th>
+        <th onclick="sortTbl('paTable',7)">Reason</th>
+      </tr></thead>
+      <tbody id="paBody"><tr><td colspan="8" class="empty-state">Loading...</td></tr></tbody>
+      </table>
+    </div></div>
+  </div>
+
+  <div class="sub-panel" id="panel_entry">
+    <div class="card" style="overflow:hidden"><div class="table-wrap">
+      <table id="esTable"><thead><tr>
+        <th onclick="sortTbl('esTable',0)">Symbol</th>
+        <th onclick="sortTbl('esTable',1)">Signal</th>
+        <th onclick="sortTbl('esTable',2)" class="text-right">Score</th>
+        <th onclick="sortTbl('esTable',3)" class="text-right">Close</th>
+        <th onclick="sortTbl('esTable',4)" class="text-right">RSI</th>
+        <th onclick="sortTbl('esTable',5)" class="text-right">ADX</th>
+        <th onclick="sortTbl('esTable',6)">Tier</th>
+        <th onclick="sortTbl('esTable',7)">Reason</th>
+      </tr></thead>
+      <tbody id="esBody"><tr><td colspan="8" class="empty-state">Loading...</td></tr></tbody>
+      </table>
+    </div></div>
+  </div>
+</div>
+
+<footer><div>QuantOS — Unified Trading & Investment Platform</div></footer>
+
+<script>
+const D='data';
+function fmt(n,d=0){if(n==null||isNaN(n))return'—';return n.toLocaleString('en-IN',{minimumFractionDigits:d,maximumFractionDigits:d});}
+function pnlCls(v){return v>0?'positive':v<0?'negative':'';}
+async function fetchJ(f){try{const r=await fetch(`${D}/${f}?t=${Date.now()}`);return r.ok?await r.json():null;}catch{return null;}}
+function sym(s){return `<a href="https://www.tradingview.com/chart/?symbol=NSE%3A${s}" target="_blank" class="ticker-chip">${s} ↗</a>`;}
+function scoreBar(sc){const p=Math.min(Math.max(sc,0),1),w=Math.round(p*50);const r=Math.round(239*(1-p)+16*p),g=Math.round(68*(1-p)+185*p),b=Math.round(68*(1-p)+129*p);return `<span class="score-bar" style="width:${w}px;background:rgb(${r},${g},${b})"></span>${fmt(sc,3)}`;}
+
+function actionBadge(a) {
+  const map={'STRONG BUY':'action-green','ACCUMULATE':'action-blue','HOLD':'action-yellow','MONITOR':'action-yellow','EXIT':'action-red','ENTRY SIGNAL':'action-green','WATCH':'action-blue','NO SIGNAL':'action-gray'};
+  const cls=map[a]||'action-gray';
+  return `<span class="badge ${cls}" style="border-radius:6px;padding:3px 10px;border-left:3px solid">${a}</span>`;
+}
+
+function tierBadge(seg) {
+  if(!seg) return '';
+  const s=seg.charAt(0).toUpperCase();
+  const c=s==='L'?'tier-l':s==='M'?'tier-m':'tier-s';
+  return `<span class="${c}">${s}</span>`;
+}
+
+function switchSub(t){
+  document.querySelectorAll('.sub-tab').forEach(s=>s.classList.toggle('active',s.dataset.tab===t));
+  document.querySelectorAll('.sub-panel').forEach(p=>p.classList.toggle('active',p.id==='panel_'+t));
+}
+
+function sortTbl(id,col){
+  const tbl=document.getElementById(id),tb=tbl.querySelector('tbody');
+  const rows=Array.from(tb.querySelectorAll('tr'));if(rows.length<=1)return;
+  const dir=tbl.dataset.sc===String(col)&&tbl.dataset.sd==='asc'?'desc':'asc';
+  tbl.dataset.sc=col;tbl.dataset.sd=dir;
+  rows.sort((a,b)=>{let av=a.cells[col]?.textContent.trim().replace(/[,%+₹↗—]/g,'')||'';let bv=b.cells[col]?.textContent.trim().replace(/[,%+₹↗—]/g,'')||'';const an=parseFloat(av.replace(/,/g,'')),bn=parseFloat(bv.replace(/,/g,''));if(!isNaN(an)&&!isNaN(bn))return dir==='asc'?an-bn:bn-an;return dir==='asc'?av.localeCompare(bv):bv.localeCompare(av);});
+  rows.forEach(r=>tb.appendChild(r));
+  tbl.querySelectorAll('th').forEach((h,i)=>{h.classList.remove('sort-asc','sort-desc');if(i===col)h.classList.add(dir==='asc'?'sort-asc':'sort-desc');});
+}
+
+async function load(){
+  const data=await fetchJ('recommendations.json');
+  const st=document.getElementById('statusText');
+  if(!data){st.textContent='No signal data. Run screener + recommendations.';return;}
+  if(data.timestamp) st.textContent=`Last run: ${new Date(data.timestamp).toLocaleString('en-IN')}`;
+
+  const pa=data.portfolio_actions||[], es=data.entry_signals||[];
+  document.getElementById('paCount').textContent=pa.length;
+  document.getElementById('esCount').textContent=es.filter(e=>e.action==='ENTRY SIGNAL').length;
+
+  document.getElementById('paBody').innerHTML=pa.length===0
+    ?'<tr><td colspan="8" class="empty-state">No portfolio recommendations</td></tr>'
+    :pa.map(r=>`<tr>
+      <td>${sym(r.symbol)}</td>
+      <td>${actionBadge(r.action)}</td>
+      <td class="text-right">${scoreBar(r.score)}</td>
+      <td class="text-right">${fmt(r.rsi,0)}</td>
+      <td class="text-right">${fmt(r.adx,0)}</td>
+      <td class="${r.trend==='UPTREND'?'positive':r.trend==='DOWNTREND'?'negative':'text-muted'}">${r.trend||'—'}</td>
+      <td class="text-right"><span class="badge ${r.pnl_pct>0?'tag-up':r.pnl_pct<0?'tag-down':'tag-neutral'}">${r.pnl_pct>0?'+':''}${fmt(r.pnl_pct,1)}%</span></td>
+      <td style="font-size:0.75rem;color:var(--text-dim);max-width:180px">${r.reason||''}</td>
+    </tr>`).join('');
+
+  document.getElementById('esBody').innerHTML=es.length===0
+    ?'<tr><td colspan="8" class="empty-state">No entry signals</td></tr>'
+    :es.map(e=>`<tr>
+      <td>${sym(e.symbol)}</td>
+      <td>${actionBadge(e.action)}</td>
+      <td class="text-right">${scoreBar(e.score)}</td>
+      <td class="text-right font-medium">${fmt(e.close,2)}</td>
+      <td class="text-right">${fmt(e.rsi,0)}</td>
+      <td class="text-right">${fmt(e.adx,0)}</td>
+      <td>${tierBadge(e.segment)}</td>
+      <td style="font-size:0.75rem;color:var(--text-dim);max-width:180px">${e.reason||''}</td>
+    </tr>`).join('');
+}
+load();
+</script>
+</body>
+</html>

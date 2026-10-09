@@ -1,0 +1,58 @@
+{
+  "timestamp": "2026-10-09T02:03:31+05:30",
+  "total_invested": 1140170.67,
+  "total_current": 1269289.96,
+  "total_pnl": 129119.3,
+  "total_pnl_pct": 11.32,
+  "sip_recorded_today": false,
+  "funds": [
+    {
+      "name": "Quant Healthcare Fund - Direct Plan - Growth",
+      "scheme_code": "151853",
+      "units": 42115.414,
+      "avg_nav": 15.6042,
+      "current_nav": 18.6491,
+      "invested": 657176.74,
+      "current": 785414.57,
+      "pnl": 128237.84,
+      "pnl_pct": 19.51,
+      "sip_amount": 27500
+    },
+    {
+      "name": "DSP Nifty Smallcap250 Quality 50 Index Fund - Direct - Growth",
+      "scheme_code": "152243",
+      "units": 37102.791,
+      "avg_nav": 11.1034,
+      "current_nav": 10.8567,
+      "invested": 411966.32,
+      "current": 402813.87,
+      "pnl": -9152.45,
+      "pnl_pct": -2.22,
+      "sip_amount": 27500
+    },
+    {
+      "name": "Axis ELSS Tax Saver Fund - Direct Plan - Growth",
+      "scheme_code": "120503",
+      "units": 315.16,
+      "avg_nav": 79.42,
+      "current_nav": 106.0207,
+      "invested": 25030.01,
+      "current": 33413.48,
+      "pnl": 8383.48,
+      "pnl_pct": 33.49,
+      "sip_amount": 0
+    },
+    {
+      "name": "Parag Parikh Flexi Cap Fund - Direct Plan - Growth",
+      "scheme_code": "122639",
+      "units": 536.342,
+      "avg_nav": 85.7617,
+      "current_nav": 88.8389,
+      "invested": 45997.6,
+      "current": 47648.03,
+      "pnl": 1650.43,
+      "pnl_pct": 3.59,
+      "sip_amount": 0
+    }
+  ]
+}
