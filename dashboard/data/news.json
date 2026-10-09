@@ -1,20 +1,24 @@
 {
-  "timestamp": "2026-10-08T09:21:18+00:00",
+  "timestamp": "2026-10-09T09:28:54+00:00",
   "ticker_news": {
     "COFORGE": [
       {
         "title": "Coforge Share Price - Upstox",
         "publisher": "Google News",
         "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9US3I1X0pBV2VvWTdZSE90dWhvY1FES1VvMnZ4b1JITGgzSk5KQUFtalBuX1VqT0F5cGtuRFhsbjRHSHlTR2t5Z3cxQktKRE1yUFREVWhmRVJiU2lwZ1BiZTI0YnY?oc=5",
-        "age_h": 0.8
-      }
-    ],
-    "DIVISLAB": [
+        "age_h": 18.4
+      },
       {
-        "title": "Divi's Laboratories (NSEI:DIVISLAB) Stock Forecast & Analyst Predictions - Simply Wall Street",
+        "title": "Coforge (NSEI:COFORGE) Stock Forecast & Analyst Predictions - Simply Wall Street",
         "publisher": "Google News",
-        "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPSkJ2NE9zT2FLY3JwdlNoQWJCNXpfMXB4QU5YbE9pWEtNaE9RUlJsbThWRzUtVHNiQkNtcEVpakQ3eUJUc3lncWFFNkZyUVRqY3kxeThPVzNzRXJxT1RmczBlaXZIbW9uYU15ZUF3WHJ5QllHQXBtTGpxX2VEV1k0VjRFYm13UFQxRWF6MGxUUFBCeG1XRVNLVFZNWmlPdElzSDlv?oc=5",
-        "age_h": 98.4
+        "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5RWlNHRzdjVmhYOGVZdkh4RVU0WnN4dHVQejl5M3dHeEp6eDU0aWFWelpweXNWN0I5VzR3Rkw2THlnMkpCVWFCZXcyLUxnUXpoZXJ2dS10WWdURVdTNElhMGk2UElSTldjaW5PaGRoQlZpZF9ERTN3NUJSLWliMUE?oc=5",
+        "age_h": 74.5
+      },
+      {
+        "title": "COFORGE Share Price Today - Coforge on NSE/BSE - scanx.trade",
+        "publisher": "Google News",
+        "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBZa0lSZHA2N3hySDFSYldJbkJFZkRsOHRzbXJuaWgwOUQyeTBsckQyM3FBYkQ1c3F6a1N1M0RJZjkyYWU2c3VNVHpDNHA1Z0Q3?oc=5",
+        "age_h": 58.4
       }
     ],
     "ETERNAL": [
@@ -22,88 +26,110 @@
         "title": "Eternal stock falls while a September compliance filing reaches NSE - AD HOC NEWS",
         "publisher": "Google News",
         "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQTkdVS2JIZEowUWlrOFR2SHBNUVhQRlZtcjJaSE5PRnI4dlBHMU1tX0ZHWERuQXc4MW9pSk9weDRRQTRKTGFRX1NVUEVfOEhDTEFaR1NsQWtuUF9LMHowWUtuUW5zdXpTUUtVT0xhNHgyeDVCcWhmbkpBVGJiblNSRnNrN0cyTzdrcEVFcUZGWU5HTDI5cS1nekw1ai11UEUtdmExMFk5bklieWk3M0NZaWQ2T2c0NmFUSXBWeE1jd3NiUF9CdHpodG93?oc=5",
-        "age_h": 1.3
+        "age_h": 25.4
       }
     ],
-    "HEROMOTOCO": [
+    "JUBLFOOD": [
       {
-        "title": "Hero MotoCorp (NSEI:HEROMOTOCO) - Aandelenanalyse - Simply Wall Street",
+        "title": "Jubilant FoodWorks Holders Are Down 29% With Revenue Rising - Simply Wall Street",
         "publisher": "Google News",
-        "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPWmh5RlJuV2VxY09MYzkyRlQ3TjByVXE5cFBraHRCWV9IZnlrVjJrM1F4ZzR0V214RXZEalg0eGdScGJCQ2R4eWMxNU5IVkF2X0d6RmNmYXdtb2hyZkNNZkxWajQ5Z0djTkhva2dERFpzR2RZRUZVMzAtX1cwVTAzZ3YxTWd2N1g1eGRhQzRFN0hmYTk4b0ZsWHdB?oc=5",
-        "age_h": 97.2
+        "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPbjJpb0ZKWTFySWhldU0zQW5rWVh1TjZYdGUzLXN3Mks3R1Z4S2hVTUQxaTVPTjVCWktrcGNiRHhrZkpub3BFM1dqOUtmc3A4czM3Y1VDZ0dLXzl4a2p2Q1YxcTNQcHFTb2dtZ1diZW1CTXc4Zjlid1ljeG5fTTVCVlRLSndLRGJRSF85Ymg4cGdUN0F3VFhZSUpxOVg3M21JSFUxTjRWVXBIbXhtdFY4UG00QW1rQUJUZHpGZlNkUnlZZWdrYWo2ZnpuMFJIUm8xUnRndWVVdlpJTmpLWXRwMUVpdlRVSjTSAewBQVVfeXFMTmN2U2ZKMGlrN0xTcHYyaDRTYzExcEc0cEc3UnVZY0xYQWhfbWtLT3hMRjJmaExNMEVQT2tWQUpTODNtQUdZTTBPYXlHZnN3aC1XQ0NTS1FWcjFXOTk5bjV5UXdBWnluZXFaZl8tTF9YNlk5Vlg4Ynh6alJHZGxtS1cycXpCdXFrel9jcUNVX2EtNGptUEZNRy1FYTQySDZiY1NyR1h5dF81MEpBLW1TQnFkQzYtS0tvRmZJVTg1WjU1VXRQRXB1MFMyUmNXWGsyU1lwdHFtOVBjck9VRXc5MFBoMGdSQnFMVkdkNHA?oc=5",
+        "age_h": 117.1
       }
     ],
-    "MCX": [
+    "PAYTM": [
       {
-        "title": "Multi Commodity Exchange of India (NSEI:MCX) Stock Forecast & Analyst Predictions - Simply Wall Street",
+        "title": "One97 Communications (NSEI:PAYTM) Stock Forecast & Analyst Predictions - Simply Wall Street",
         "publisher": "Google News",
-        "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNalZuWkNQVjhRMGtneGdsbWFteGhXbUh3MGpGMFNLQVN4b25QeVNMNWJPeDdCcGMxamJaa1ZpbDVKRm41UWNvSDV5enFJb3lHcXJ1ZGlDNUhvSDkyWUl6RDZPaHdkaHR5YU16TXloZVRmV2R1UDd5c25hTUEzaFJpNDBGa21XWFgyaktodnhyTDZiQk45SVc5RVRhLTdzUTlUYkNCS01nVUtIZFNDWE9N?oc=5",
-        "age_h": 98.4
+        "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPZW5feERSUmZQb2dYXzctRkZJTFlRT1JxTUJXM1p1am55ZEdJN1RMTHBzTmpMMUNXMzdxMjU1dXk4TDcxRnp5TG5uX2d3Mi1SU3p6Um92eEZ6M2lWTjhvOFM3MmlCbUdsUXBqTnpGOEhWc2VyT3c0ZmdjUzR4Y282NmxTeFZfUWFIZTJvNWhMdkd0YUVJdHY0WFYzUldtYm1j?oc=5",
+        "age_h": 98.5
       },
       {
-        "title": "SEBI\u2019s investor awareness campaign grabs investors\u2019 attention | Here's social media post by BSE, NSE, MCX, CDSL & NSDL - Livemint",
+        "title": "Payment stocks today: Paytm, MobiKwik, Pine Labs fall around 5% amid UPI MDR delay report - Moneycontrol.com",
         "publisher": "Google News",
-        "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxQQXV1V3d2MXdoWkM5TGRsd0E4Ukl1a1F3MGFCaV9vYm1CYkl0R0xETUo1UWE2NWRYazhqc093NlgtVG5TS3E2R3NQN1JUcFRKaDBZTk5VQk1mWng1bVh4VjZDMzZQaXpvWlI1M1dRVVItRjlxN2xDbnpOcDF6V2ROUm4zeDgzdXJOM0JnY1NXY28tY1RtRDIteHdDanBlMUpGa19WNDhiVnlGZXBPMWptcWw0TmU3SjhKTGVNeEQya1ByM2prR25EaERpb3pGNERJdjY1bXJ4TkNRbjdlUDlsY3pyc0ZIY0VjOUZDWVFDa3RacjZKOEtQdmlDaWlma05IUFZR0gGIAkFVX3lxTFBxMzhyOXU5ZjZudXRrYm5DRFNvUnBqeWRYN0hPYTNjdlVWcTBmM3FsMlU3blh2NnBvcWNYSmlkN083Q3ZvVHF6NV9seU9DOGZEblFzSHpjWXhqOGRCWS1jSXczNEF2MGVNVk1JdUZsWnJaRGdIV1hiQ1NhWDNmQjE2MVlBOGRyV0xMODAtOVhBMGo4ZlFuNk81dVQ4Q1ZsdURPVEduYmdHTjVVT3U5RkdBTm1FXzJwajhJVm5Oa3daQUF2NGhxanlUV2NNZFdiSlFMY2YzSmllb3ZxNHE0WjREXzYwWHE5bm0tZllwUVY0Wjl3VU83N3J0T3R1eTVjNmR1ZW1DQlU5Qw?oc=5",
-        "age_h": 78.7
+        "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOdUFpN1Zvbi13em56RjVJNjR4VFU5VEhiLV9iaFo1Sy0xOFAyVzZVeVpDM29KbjBMTXBWM3F5WmN5M1JnSmMtTTFIb2R4M1prX19zdi1tajNkcWRSNk5fZndRNzc4RXdYUm9mNEROdUlyV2pkcllmanNrVVM5R0RvdjB6UTJLVmZQZFhzRjRfYmFWUGVoNHZlSHNoaUZRLVozNF9PaC1FbjlQMG9xNjhEdHlEanBqRDFzQzhHS0FIRlNySDhsNS00V0dIQnV2dzFTRFNBbnNVYTc2N0Z2RTZJc045Z9IB6AFBVV95cUxQakpiT2kyZTJZMHdWQnVSV2ZFSHJfWVVUeW93NXRSZ3RWbFQ4SU1PajlORjlYVnBmeUFKeVVBb1lSZGp3czdFR3NOcE52YW1oNW5Iak1OVV9vOFJqeHE5cUM5d3FQTmRtc2pvS3ozQ19nd2NLLWhuazBwbGZWOFh1ZkN6YmF6SDlnVUplc1ZXVTByRHdNRjFsVEZEanlSUkdjOUlPVzdtRnRLZ2pnUHdncUc2Y3AtamJSV1lKZWN5UWJMa19acGhVdGE1Vkw5dFM2akdwci1zZ1hlcVo2M3N2THZCcVBzV2JO?oc=5",
+        "age_h": 28.8
+      },
+      {
+        "title": "PAYTM Share Price Today - One 97 Communications on NSE/BSE - scanx.trade",
+        "publisher": "Google News",
+        "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5uZ1FGcVRuX2Z1cXp3Q3JuRS1xY1RqWDFLMS1aVnIzWFRJUWViYUtzRy1YamwxdFI5NDdqUmxGcGdmeXVBLXR6U1U3WERfdw?oc=5",
+        "age_h": 108.7
+      }
+    ],
+    "POLICYBZR": [
+      {
+        "title": "PB Fintech (NSEI:POLICYBZR) Stock Forecast & Analyst Predictions - Simply Wall Street",
+        "publisher": "Google News",
+        "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxObzVUZ1NsM2M3Q0VZWTlEOHhmdEtKdFExX2RDRVA0d2lvSk1VanRJZVFnNmN3VWJEYWZaUnhuSGR5eHRwRE1CWm9hWXU2UVYzTTRrVnpLeHpxcDFVS0hpNHVGdUN5c0t0dTlHMWloY3k0TjBtZHZCd0pxeGZvbWoxUTZySG0zVzA?oc=5",
+        "age_h": 98.5
+      }
+    ],
+    "SONACOMS": [
+      {
+        "title": "Sona BLW Precision Forgings SONACOMS Reg 74(5) Q2 FY27 - Kalkine India",
+        "publisher": "Google News",
+        "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNR0MySHZveEtDb0VYRGx2ejNFV2FCWFVwamN2STBYXzgwcWVFVDFiQTFXTEtjZV9ObFBXMUdDUjRxRmNwWXlsbTVWeGdlTVN3MlFOd1JxRUtXSnMyeFNfcFh0X1prcHBvTlRfbXhQYWVVSkVKQ0VuUG8wMGJXUGFCQXZob21yVFJNbEI5N3duVVdhN1ZsZUFpdU1rcnZTY29UbEo4SFQtdzlfVGc1dE9JZGFXMGtZMExaQzhrb2pFbFI2WjlkSG0yQUs1Z09SczU1VVJIWUJ6dDRXN0RZVFpxeGU1RWw?oc=5",
+        "age_h": 26.2
       }
     ]
   },
   "market_headlines": [
     {
       "source": "Economic Times",
-      "title": "Inside 11-quarter high earnings pomp, 46 companies may wipe out up to 84% of their Q2 profits",
-      "link": "https://economictimes.indiatimes.com/markets/stocks/news/inside-11-quarter-high-earnings-pomp-46-companies-may-wipe-out-up-to-84-of-their-q2-profits/articleshow/134785476.cms",
-      "summary": "At least 46 companies are expected to report double-digit profit declines in Q2, despite Motilal Oswal projecting 22% earnings growth for its coverage universe. Autos, cement, healthcare, consumer and",
-      "age_h": 0.2
-    },
-    {
-      "source": "Economic Times",
-      "title": "Vedanta dividend alert! Anil Agarwal-led firm announces Rs 5/share interim dividend for FY27. Check record date",
-      "link": "https://economictimes.indiatimes.com/markets/stocks/news/vedanta-dividend-alert-anil-agarwal-led-firm-announces-rs-5/share-interim-dividend-for-fy27-check-record-date/articleshow/134785319.cms",
-      "summary": "Vedanta has announced its first interim dividend of Rs 5 per share for FY27, with a total payout of Rs 1,955 crore. The dividend comes after the company\u2019s mega demerger earlier this year. Investors wi",
-      "age_h": 0.4
-    },
-    {
-      "source": "Economic Times",
-      "title": "8 smallcap stocks turned multibaggers in 2026 after crashing over 40% in 2025",
-      "link": "https://economictimes.indiatimes.com/markets/stocks/news/8-smallcap-stocks-turned-multibaggers-in-2026-after-crashing-over-40-in-2025/slideshow/134785509.cms",
-      "summary": "Nine smallcap stocks that fell over 40% in 2025 have more than doubled in 2026, highlighting sharp turnarounds in investor sentiment and emerging as some of the year\u2019s biggest multibagger stories.",
-      "age_h": 0.5
-    },
-    {
-      "source": "Economic Times",
-      "title": "Nifty less than 10 points away from a new 52-week low. What technical levels may bring some support?",
-      "link": "https://economictimes.indiatimes.com/markets/stocks/news/nifty-just-100-points-away-from-a-new-52-week-low-what-technical-levels-may-bring-some-support/articleshow/134785090.cms",
-      "summary": "Nifty 50 approaches its 52-week low as the index breaches key technical support levels amid RBI policy tightening, persistent FII selling, rising oil prices and weak global cues.",
+      "title": "Global Market: European stocks rebound as oil prices ease; telecom shares slide on SpaceX deal",
+      "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-european-stocks-rebound-as-oil-prices-ease-telecom-shares-slide-on-spacex-deal/articleshow/134827199.cms",
+      "summary": "European shares rebound as easing oil prices and retreating bond yields support sentiment amid hopes of reduced Middle East tensions. Telecom stocks lag after SpaceX\u2019s spectrum deal sparks concerns ab",
       "age_h": 0.6
     },
     {
-      "source": "Livemint",
-      "title": "IFCI shares jump 9% despite weak stock market | What lies ahead?",
-      "link": "https://www.livemint.com/market/stock-market-news/ifci-shares-jump-9-despite-weak-stock-market-what-lies-ahead-11791450263388.html",
-      "summary": "IFCI shares rose nearly 9% on Thursday, but analysts said the move may be a relief bounce, not a trend reversal. The stock remains below key moving averages, with  \u20b969.50 a crucial resistance and  \u20b960",
-      "age_h": 0.1
+      "source": "Economic Times",
+      "title": "Rs 1,024-crore market cap, Rs 10,000-crore order book: This penny stock jumps 11% after SAIL deal",
+      "link": "https://economictimes.indiatimes.com/markets/stocks/news/rs-1024-crore-market-cap-rs-10000-crore-order-book-this-penny-stock-jumps-11-after-sail-deal/articleshow/134827035.cms",
+      "summary": "SEPC shares jumped nearly 11% to Rs 5.47 on Friday after securing an Rs 854.57-crore contract from SAIL for its IISCO Steel Plant expansion in Burnpur. The deal pushes SEPC's consolidated order book p",
+      "age_h": 0.6
+    },
+    {
+      "source": "Economic Times",
+      "title": "How Do Family Offices Hunt for Multibagger Startups?",
+      "link": "https://economictimes.indiatimes.com/markets/stocks/news/how-do-family-offices-hunt-for-multibagger-startups/videoshow/134827194.cms",
+      "summary": "",
+      "age_h": 0.6
+    },
+    {
+      "source": "Economic Times",
+      "title": "US 10-year Treasury yield could hit 6% as oil prices, debt worries mount: Pimco CIO",
+      "link": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-10-year-treasury-yield-could-hit-6-as-oil-prices-debt-worries-mount-pimco-cio/articleshow/134825801.cms",
+      "summary": "The 10-year US Treasury yield could reach 6% for the first time since 2000, according to Pimco\u2019s Dan Ivascyn. Rising oil prices, inflation concerns, mounting government debt and bond market pressures ",
+      "age_h": 0.9
     },
     {
       "source": "Livemint",
-      "title": "Adani Power shares crash over 6%, down for second consecutive session - What tech charts signal? Experts decode",
-      "link": "https://www.livemint.com/market/stock-market-news/adani-power-shares-crash-over-6-down-for-second-consecutive-session-what-tech-charts-signal-experts-decode-11791446333802.html",
-      "summary": "Year-to-date, Adani Power share price is 26% up compared to a 16% fall in the equity benchmark Sensex and a 6% rise in the BSE Power index. Over the last six months, the stock has gained 11%.",
-      "age_h": 0.3
+      "title": "Asian Paints Q2 results, dividend 2026: Board meet on Oct 29 for quarterly earnings; check record date, payout history",
+      "link": "https://www.livemint.com/market/stock-market-news/asian-paints-q2-results-dividend-2026-board-meet-on-oct-29-for-quarterly-earnings-check-record-date-payout-history-11791531215441.html",
+      "summary": "Asian Paints\u2019 board will meet on October 29, 2026, to review Q2 FY27 results and consider an interim dividend. The record date, if a dividend is declared, is November 4. The company paid  \u20b927.50 per s",
+      "age_h": 0.5
     },
     {
       "source": "Livemint",
-      "title": "Pharma stocks to buy ahead of Q2 results: Acutaas Chemicals, Mankind Pharma, Ipca Labs - Max upside? Target price",
-      "link": "https://www.livemint.com/market/stock-market-news/pharma-stocks-to-buy-ahead-of-q2-results-acutaas-chemicals-mankind-pharma-ipca-labs-max-upside-target-price-11791449813451.html",
-      "summary": "Pharma results may benefit from rupee depreciation, particularly for exporters, though elevated freight and input costs remain risks. InCred sees potential pressure at Dr Reddy\u2019s, Divi\u2019s, Lupin, Cipla",
-      "age_h": 0.3
+      "title": "No RBI rate cuts in the near-term! Where are banking stocks headed in the next 3-6 months?",
+      "link": "https://www.livemint.com/market/stock-market-news/no-rbi-rate-cuts-in-the-near-term-where-are-banking-stocks-headed-in-the-next-3-6-months-11791530528880.html",
+      "summary": "RBI MPC meeting October 2026: According to Gaurav Garg, Head of Research at Lemonn, large private-sector lenders could hold up better than the broader market following the RBI\u2019s rate hike.",
+      "age_h": 0.8
     },
     {
       "source": "Livemint",
-      "title": "PC Jeweller vs Senco Gold vs Kalyan Jewellers - Best jewellery stock to buy after Q2 business update? Experts decode",
-      "link": "https://www.livemint.com/market/stock-market-news/pc-jeweller-vs-senco-gold-vs-kalyan-jewellers-best-jewellery-stock-to-buy-after-q2-business-update-experts-decode-11791445379736.html",
-      "summary": "PC Jeweller vs Senco Gold vs Kalyan Jewellers: Jewellery players such as PC Jeweller, Senco Gold and Kalyan Jewellers have also announced their September quarter business updates, giving a sneak peak ",
-      "age_h": 0.7
+      "title": "Inox Green Energy Services share price jumps 15% after this acquisition update \u2014 buy, sell or hold? Experts' view",
+      "link": "https://www.livemint.com/market/stock-market-news/inox-green-energy-services-share-price-jumps-15-after-this-acquisition-update-buy-sell-or-hold-experts-view-11791533768936.html",
+      "summary": "Inox Green Energy Services share price today opened upside at  \u20b9117.04 per share and touched an intraday high of  \u20b9131.80 per share on the NSE, logging an intraday gain of around 15%",
+      "age_h": 0.9
+    },
+    {
+      "source": "Livemint",
+      "title": "TCS gets a lift from the anti-AI trade, but earnings risks are building",
+      "link": "https://www.livemint.com/market/mark-to-market/tcs-tata-consultancy-services-nifty-it-openai-ai-disruption-anti-ai-trade-q2fy27-results-it-stocks-11791531832161.html",
+      "summary": "TCS\u2019s in-line Q2 and reports of lower-than-indicated OpenAI revenue helped lift IT stocks, but muted demand, H2 margin pressure and AI-led pricing risks cloud the outlook.",
+      "age_h": 0.9
     }
   ]
 }
