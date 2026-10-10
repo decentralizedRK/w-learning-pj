@@ -14,7 +14,8 @@ def get_fetcher() -> BaseFetcher:
             from data.fetchers.kite_fetcher import KiteFetcher
 
             broker = ZerodhaBroker()
-            broker.authenticate()
+            if not broker.authenticate():
+                raise ConnectionError("Kite authentication returned False")
             logger.info("Using Kite API for market data")
             return KiteFetcher(broker)
         except Exception as e:
