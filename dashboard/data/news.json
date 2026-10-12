@@ -1,60 +1,44 @@
 {
-  "timestamp": "2026-10-09T09:28:54+00:00",
+  "timestamp": "2026-10-12T09:37:03+00:00",
   "ticker_news": {
-    "COFORGE": [
+    "NAUKRI": [
       {
-        "title": "Coforge Share Price - Upstox",
+        "title": "Info Edge (India) (NSEI:NAUKRI) Stock Forecast & Analyst Predictions - Simply Wall Street",
         "publisher": "Google News",
-        "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9US3I1X0pBV2VvWTdZSE90dWhvY1FES1VvMnZ4b1JITGgzSk5KQUFtalBuX1VqT0F5cGtuRFhsbjRHSHlTR2t5Z3cxQktKRE1yUFREVWhmRVJiU2lwZ1BiZTI0YnY?oc=5",
-        "age_h": 18.4
+        "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQOGxCOV9vdG9CNUZRdzBvMzFydExMSnBEdzZkR0tyaGxCSlVNWEl4Z0xYTXNKM1NZM0RVczlVMTVLZ1NWZFd2U0Q4eFY0bk1LNlFLVXFWUjFCQVhxbDhwSEFhZkhfUmdONkg2QjNvbnpjQnRCdkpRS0FoZEh0QkRVWmN3c3Q?oc=5",
+        "age_h": 74.6
       },
       {
-        "title": "Coforge (NSEI:COFORGE) Stock Forecast & Analyst Predictions - Simply Wall Street",
+        "title": "Info Edge (India) Ltd. Share Price Today - Info Edge (India) Ltd. Stock Price Live NSE/BSE - CNBC TV18",
         "publisher": "Google News",
-        "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5RWlNHRzdjVmhYOGVZdkh4RVU0WnN4dHVQejl5M3dHeEp6eDU0aWFWelpweXNWN0I5VzR3Rkw2THlnMkpCVWFCZXcyLUxnUXpoZXJ2dS10WWdURVdTNElhMGk2UElSTldjaW5PaGRoQlZpZF9ERTN3NUJSLWliMUE?oc=5",
-        "age_h": 74.5
+        "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPRXg5bC1wYUU3RDg5Z2dtR1JzZEdDSFRSODdKQk50NkpuY3BrUTVuU2c0ZUR0VjJUNkNFMl9YcFpBejhLbE1GRWktN05USGN6UE9lV2JDcmtqRElRcHFxZlRXSzA0MThIbTZjZnp0LUhsNVBfcUYtWm5qWnR6UjFOektqWQ?oc=5",
+        "age_h": 71.1
       },
       {
-        "title": "COFORGE Share Price Today - Coforge on NSE/BSE - scanx.trade",
+        "title": "Info Edge (India) Share Price - Live NSE: NAUKRI Stock Price & Chart - Upstox",
         "publisher": "Google News",
-        "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBZa0lSZHA2N3hySDFSYldJbkJFZkRsOHRzbXJuaWgwOUQyeTBsckQyM3FBYkQ1c3F6a1N1M0RJZjkyYWU2c3VNVHpDNHA1Z0Q3?oc=5",
-        "age_h": 58.4
-      }
-    ],
-    "ETERNAL": [
-      {
-        "title": "Eternal stock falls while a September compliance filing reaches NSE - AD HOC NEWS",
-        "publisher": "Google News",
-        "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQTkdVS2JIZEowUWlrOFR2SHBNUVhQRlZtcjJaSE5PRnI4dlBHMU1tX0ZHWERuQXc4MW9pSk9weDRRQTRKTGFRX1NVUEVfOEhDTEFaR1NsQWtuUF9LMHowWUtuUW5zdXpTUUtVT0xhNHgyeDVCcWhmbkpBVGJiblNSRnNrN0cyTzdrcEVFcUZGWU5HTDI5cS1nekw1ai11UEUtdmExMFk5bklieWk3M0NZaWQ2T2c0NmFUSXBWeE1jd3NiUF9CdHpodG93?oc=5",
-        "age_h": 25.4
-      }
-    ],
-    "JUBLFOOD": [
-      {
-        "title": "Jubilant FoodWorks Holders Are Down 29% With Revenue Rising - Simply Wall Street",
-        "publisher": "Google News",
-        "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPbjJpb0ZKWTFySWhldU0zQW5rWVh1TjZYdGUzLXN3Mks3R1Z4S2hVTUQxaTVPTjVCWktrcGNiRHhrZkpub3BFM1dqOUtmc3A4czM3Y1VDZ0dLXzl4a2p2Q1YxcTNQcHFTb2dtZ1diZW1CTXc4Zjlid1ljeG5fTTVCVlRLSndLRGJRSF85Ymg4cGdUN0F3VFhZSUpxOVg3M21JSFUxTjRWVXBIbXhtdFY4UG00QW1rQUJUZHpGZlNkUnlZZWdrYWo2ZnpuMFJIUm8xUnRndWVVdlpJTmpLWXRwMUVpdlRVSjTSAewBQVVfeXFMTmN2U2ZKMGlrN0xTcHYyaDRTYzExcEc0cEc3UnVZY0xYQWhfbWtLT3hMRjJmaExNMEVQT2tWQUpTODNtQUdZTTBPYXlHZnN3aC1XQ0NTS1FWcjFXOTk5bjV5UXdBWnluZXFaZl8tTF9YNlk5Vlg4Ynh6alJHZGxtS1cycXpCdXFrel9jcUNVX2EtNGptUEZNRy1FYTQySDZiY1NyR1h5dF81MEpBLW1TQnFkQzYtS0tvRmZJVTg1WjU1VXRQRXB1MFMyUmNXWGsyU1lwdHFtOVBjck9VRXc5MFBoMGdSQnFMVkdkNHA?oc=5",
-        "age_h": 117.1
+        "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1xb1drOVpfdk4yVVVOb2lQdnVqeFZ1TEF0ajNpbWhZQ3VVeTdQLWo1Q3B4MmQwRXFmM1ZjN1ZObDdTSXpYUWV5NnJnTVBZRG14Znl2aE9aNlk5X2NOX3hDTWhaWHM?oc=5",
+        "age_h": 74.6
       }
     ],
     "PAYTM": [
       {
+        "title": "Paytm Share Price - Upstox",
+        "publisher": "Google News",
+        "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE10YnFLTkJqaUJ6ajFFc2tOQzFWS055TllhWG1LckQ3bnJyQUZMZnNLczA2SlhXMlBnV3RHY3JDazVRSVZacGY2b2JyV09XaHVudXBnSjRBQldudEZYTEoyOWdlNU9XVG8xWUVhUXJXUTVCZw?oc=5",
+        "age_h": 74.6
+      },
+      {
         "title": "One97 Communications (NSEI:PAYTM) Stock Forecast & Analyst Predictions - Simply Wall Street",
         "publisher": "Google News",
         "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPZW5feERSUmZQb2dYXzctRkZJTFlRT1JxTUJXM1p1am55ZEdJN1RMTHBzTmpMMUNXMzdxMjU1dXk4TDcxRnp5TG5uX2d3Mi1SU3p6Um92eEZ6M2lWTjhvOFM3MmlCbUdsUXBqTnpGOEhWc2VyT3c0ZmdjUzR4Y282NmxTeFZfUWFIZTJvNWhMdkd0YUVJdHY0WFYzUldtYm1j?oc=5",
-        "age_h": 98.5
+        "age_h": 98.6
       },
       {
         "title": "Payment stocks today: Paytm, MobiKwik, Pine Labs fall around 5% amid UPI MDR delay report - Moneycontrol.com",
         "publisher": "Google News",
         "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOdUFpN1Zvbi13em56RjVJNjR4VFU5VEhiLV9iaFo1Sy0xOFAyVzZVeVpDM29KbjBMTXBWM3F5WmN5M1JnSmMtTTFIb2R4M1prX19zdi1tajNkcWRSNk5fZndRNzc4RXdYUm9mNEROdUlyV2pkcllmanNrVVM5R0RvdjB6UTJLVmZQZFhzRjRfYmFWUGVoNHZlSHNoaUZRLVozNF9PaC1FbjlQMG9xNjhEdHlEanBqRDFzQzhHS0FIRlNySDhsNS00V0dIQnV2dzFTRFNBbnNVYTc2N0Z2RTZJc045Z9IB6AFBVV95cUxQakpiT2kyZTJZMHdWQnVSV2ZFSHJfWVVUeW93NXRSZ3RWbFQ4SU1PajlORjlYVnBmeUFKeVVBb1lSZGp3czdFR3NOcE52YW1oNW5Iak1OVV9vOFJqeHE5cUM5d3FQTmRtc2pvS3ozQ19nd2NLLWhuazBwbGZWOFh1ZkN6YmF6SDlnVUplc1ZXVTByRHdNRjFsVEZEanlSUkdjOUlPVzdtRnRLZ2pnUHdncUc2Y3AtamJSV1lKZWN5UWJMa19acGhVdGE1Vkw5dFM2akdwci1zZ1hlcVo2M3N2THZCcVBzV2JO?oc=5",
-        "age_h": 28.8
-      },
-      {
-        "title": "PAYTM Share Price Today - One 97 Communications on NSE/BSE - scanx.trade",
-        "publisher": "Google News",
-        "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5uZ1FGcVRuX2Z1cXp3Q3JuRS1xY1RqWDFLMS1aVnIzWFRJUWViYUtzRy1YamwxdFI5NDdqUmxGcGdmeXVBLXR6U1U3WERfdw?oc=5",
-        "age_h": 108.7
+        "age_h": 100.9
       }
     ],
     "POLICYBZR": [
@@ -62,74 +46,98 @@
         "title": "PB Fintech (NSEI:POLICYBZR) Stock Forecast & Analyst Predictions - Simply Wall Street",
         "publisher": "Google News",
         "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxObzVUZ1NsM2M3Q0VZWTlEOHhmdEtKdFExX2RDRVA0d2lvSk1VanRJZVFnNmN3VWJEYWZaUnhuSGR5eHRwRE1CWm9hWXU2UVYzTTRrVnpLeHpxcDFVS0hpNHVGdUN5c0t0dTlHMWloY3k0TjBtZHZCd0pxeGZvbWoxUTZySG0zVzA?oc=5",
-        "age_h": 98.5
+        "age_h": 74.6
+      },
+      {
+        "title": "PB Fintech Ltd (POLICYBZR) Share Price - Business Today",
+        "publisher": "Google News",
+        "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNc1o4Rm9LVlUtSUt2eDl3Y1hkNHZPRGlpTy01ZVI1dEI0Vmcybk83YS1ER2QxTkFJXzJKR1hHeFpiQkNSTElicDZ0TGM2R2lUcEVObFNhUkctSkc1dkV5Q21WOUdCR3RacXNOcXYxZnN5NXhTcTBWYlJ1S3h6bWcwd2YtMTJJQQ?oc=5",
+        "age_h": 74.6
+      },
+      {
+        "title": "PB Fintech (NSE:POLICYBZR): What Does Its Q2 FY27 Depository Compliance Certificate Mean? - Kalkine India",
+        "publisher": "Google News",
+        "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNRG1lNVRJbm1Odl9SLTZVVkdqOExWTHpTd3ZuZVNMS3c5ZEhnd05yb2x6NUZBcndHb0ZpMUx1MnE2b3ZBUDc0bTh2YnMwNmJaWGR4N0J4dGJlWHQ2OXU1dTZkZWFHSlgxS2NsWHNTNVFFQUN3Y0RYbGQyUnpPZVM3amgzV1gwSlM1bTJTZ2w4ZjJTNHlmekZKV19Za0M3Mlh4ME45U2J5bU10bjNZdDlOSGs2TXZHQS1WcXUyNVVPTHMtN3ZPelE3SG52WjE?oc=5",
+        "age_h": 70.7
       }
     ],
     "SONACOMS": [
       {
-        "title": "Sona BLW Precision Forgings SONACOMS Reg 74(5) Q2 FY27 - Kalkine India",
+        "title": "Sona BLW Precision Forgings Share Price - Live NSE: SONACOMS Stock Price & Chart - Upstox",
         "publisher": "Google News",
-        "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNR0MySHZveEtDb0VYRGx2ejNFV2FCWFVwamN2STBYXzgwcWVFVDFiQTFXTEtjZV9ObFBXMUdDUjRxRmNwWXlsbTVWeGdlTVN3MlFOd1JxRUtXSnMyeFNfcFh0X1prcHBvTlRfbXhQYWVVSkVKQ0VuUG8wMGJXUGFCQXZob21yVFJNbEI5N3duVVdhN1ZsZUFpdU1rcnZTY29UbEo4SFQtdzlfVGc1dE9JZGFXMGtZMExaQzhrb2pFbFI2WjlkSG0yQUs1Z09SczU1VVJIWUJ6dDRXN0RZVFpxeGU1RWw?oc=5",
-        "age_h": 26.2
+        "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBWMUROV1NvMmV6eTB2VXQ4aUp4UzByM1hDZDBqWW9QM0VFeTlQMjBrV2Q3Nm5aN0F1b3RveTd3OEtrRl8wMGgtSHdpQ3JhSjl0aFJlcUNHbzFkQ3A2d2U5VkoyV181V3JiVDF2UXNLc3drUQ?oc=5",
+        "age_h": 74.6
+      },
+      {
+        "title": "Sona BLW Precision Forgings (SONACOMS) Share Price, NSE - TechGraph",
+        "publisher": "Google News",
+        "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1QUV9seHBzWG5JZWJvaXZFeVNlYzQ0QmxLbUhrTUFIblA3d1A0eWg1amczRWJhR2FqZFNlb0ZvVHpMVndxbUpPQ0ZyT2w2OGJvR3dwS1lrekNmTE5FVXBvUVh3?oc=5",
+        "age_h": 74.6
+      },
+      {
+        "title": "Sona BLW Precision Forgings Ltd (SONACOMS) Share Price - Business Today",
+        "publisher": "Google News",
+        "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPSjJBY1NGM1gxLVNGck1kVkc5cjZldWQ0azVXT1EwUElHNkd4bDhTeS14alFxRXlRNUtzUTVVdkFXUjJ6aU95cDJIT1dlYlJjcjlBZmJZZ0xVMUxOd3hIWGdQeS1DWXViSklTVFQ0Qk1WeEozaEc3NWNsMDhFdUpCNENLNzB4Q3pXLXVSc0xQcElPRS1rYUJPN3g3aw?oc=5",
+        "age_h": 95.2
       }
     ]
   },
   "market_headlines": [
     {
       "source": "Economic Times",
-      "title": "Global Market: European stocks rebound as oil prices ease; telecom shares slide on SpaceX deal",
-      "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-european-stocks-rebound-as-oil-prices-ease-telecom-shares-slide-on-spacex-deal/articleshow/134827199.cms",
-      "summary": "European shares rebound as easing oil prices and retreating bond yields support sentiment amid hopes of reduced Middle East tensions. Telecom stocks lag after SpaceX\u2019s spectrum deal sparks concerns ab",
-      "age_h": 0.6
+      "title": "Dolly Khanna portfolio: Ace investor sells 4 lakh shares of Chennai Petroleum in Q2, stock up 82% in one year",
+      "link": "https://economictimes.indiatimes.com/markets/stocks/news/dolly-khanna-portfolio-ace-investor-sells-4-lakh-shares-of-chennai-petroleum-in-q2-stock-up-82-in-one-year/articleshow/134888180.cms",
+      "summary": "Ace investor Dolly Khanna trimmed her stake in Chennai Petroleum Corporation by around 3.85 lakh shares in Q2 FY27. The stock has delivered multibagger returns over three and five years, despite recen",
+      "age_h": 0.4
     },
     {
       "source": "Economic Times",
-      "title": "Rs 1,024-crore market cap, Rs 10,000-crore order book: This penny stock jumps 11% after SAIL deal",
-      "link": "https://economictimes.indiatimes.com/markets/stocks/news/rs-1024-crore-market-cap-rs-10000-crore-order-book-this-penny-stock-jumps-11-after-sail-deal/articleshow/134827035.cms",
-      "summary": "SEPC shares jumped nearly 11% to Rs 5.47 on Friday after securing an Rs 854.57-crore contract from SAIL for its IISCO Steel Plant expansion in Burnpur. The deal pushes SEPC's consolidated order book p",
-      "age_h": 0.6
+      "title": "US bull market nears four-year milestone as AI boom fuels profits, growth",
+      "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/us-bull-market-nears-four-year-milestone-as-ai-boom-fuels-profits-growth/articleshow/134886825.cms",
+      "summary": "The US bull market is reaching its four-year milestone as AI infrastructure investments drive a 117% S&amp;P 500 rally. However, market concentration in top tech giants, rising 10-year Treasury yields",
+      "age_h": 1.5
     },
     {
       "source": "Economic Times",
-      "title": "How Do Family Offices Hunt for Multibagger Startups?",
-      "link": "https://economictimes.indiatimes.com/markets/stocks/news/how-do-family-offices-hunt-for-multibagger-startups/videoshow/134827194.cms",
-      "summary": "",
-      "age_h": 0.6
+      "title": "Telecom stocks under fire, sink up to 13% as Elon Musk\u2019s Starlink buys spectrum from Grain Management",
+      "link": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/telecom-stocks-under-fire-sink-up-to-13-as-elon-musks-starlink-buys-spectrum-from-grain-management/articleshow/134886760.cms",
+      "summary": "SpaceX\u2019s move to acquire low-band spectrum licences has intensified concerns about disruption in the US telecom industry, sending shares of Verizon, AT&amp;T and T-Mobile lower. The company plans to c",
+      "age_h": 1.5
     },
     {
       "source": "Economic Times",
-      "title": "US 10-year Treasury yield could hit 6% as oil prices, debt worries mount: Pimco CIO",
-      "link": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-10-year-treasury-yield-could-hit-6-as-oil-prices-debt-worries-mount-pimco-cio/articleshow/134825801.cms",
-      "summary": "The 10-year US Treasury yield could reach 6% for the first time since 2000, according to Pimco\u2019s Dan Ivascyn. Rising oil prices, inflation concerns, mounting government debt and bond market pressures ",
-      "age_h": 0.9
+      "title": "FIIs cut stakes in 12 stocks in September quarter; shares fall up to 27% in 3 months",
+      "link": "https://economictimes.indiatimes.com/markets/stocks/news/fiis-cut-stakes-in-12-stocks-in-september-quarter-shares-fall-up-to-27-in-3-months/slideshow/134886941.cms",
+      "summary": "FIIs reduced stakes in 36 of 68 BSE 500 companies reporting September-quarter shareholding data. Twelve stocks fell up to 27% over three months as foreign investors trimmed holdings.",
+      "age_h": 1.6
     },
     {
       "source": "Livemint",
-      "title": "Asian Paints Q2 results, dividend 2026: Board meet on Oct 29 for quarterly earnings; check record date, payout history",
-      "link": "https://www.livemint.com/market/stock-market-news/asian-paints-q2-results-dividend-2026-board-meet-on-oct-29-for-quarterly-earnings-check-record-date-payout-history-11791531215441.html",
-      "summary": "Asian Paints\u2019 board will meet on October 29, 2026, to review Q2 FY27 results and consider an interim dividend. The record date, if a dividend is declared, is November 4. The company paid  \u20b927.50 per s",
-      "age_h": 0.5
+      "title": "1:10 stock split follows strong Q2 results; newly listed stock up 6% | Rises 32% over IPO price in 3 months; what next?",
+      "link": "https://www.livemint.com/market/stock-market-news/110-stock-split-follows-strong-q2-results-newly-listed-stock-up-6-rises-32-over-ipo-price-in-3-months-what-next-11791793065745.html",
+      "summary": "Stock split: The newly listed share traded ex-split on 25 August 2026 for the sub-division of stock in a 1:10 ratio",
+      "age_h": 0.2
     },
     {
       "source": "Livemint",
-      "title": "No RBI rate cuts in the near-term! Where are banking stocks headed in the next 3-6 months?",
-      "link": "https://www.livemint.com/market/stock-market-news/no-rbi-rate-cuts-in-the-near-term-where-are-banking-stocks-headed-in-the-next-3-6-months-11791530528880.html",
-      "summary": "RBI MPC meeting October 2026: According to Gaurav Garg, Head of Research at Lemonn, large private-sector lenders could hold up better than the broader market following the RBI\u2019s rate hike.",
-      "age_h": 0.8
+      "title": "Retail stocks to buy before Q2 results: Metro Brands, Campus Activewear, Vishal Mega Mart shares \u2014 Elara recommends",
+      "link": "https://www.livemint.com/market/stock-market-news/retail-stocks-to-buy-before-q2-results-metro-brands-campus-activewear-vishal-mega-mart-shares-elara-recommends-11791793729318.html",
+      "summary": "Elara Securities expects India\u2019s retail sector to post 11.8% revenue growth in Q2FY27, led by value retail, footwear and innerwear. Apparel may weaken as festive purchases shift to the next quarter. T",
+      "age_h": 0.2
     },
     {
       "source": "Livemint",
-      "title": "Inox Green Energy Services share price jumps 15% after this acquisition update \u2014 buy, sell or hold? Experts' view",
-      "link": "https://www.livemint.com/market/stock-market-news/inox-green-energy-services-share-price-jumps-15-after-this-acquisition-update-buy-sell-or-hold-experts-view-11791533768936.html",
-      "summary": "Inox Green Energy Services share price today opened upside at  \u20b9117.04 per share and touched an intraday high of  \u20b9131.80 per share on the NSE, logging an intraday gain of around 15%",
-      "age_h": 0.9
+      "title": "Poonawalla Fincorp share price target: Q2 result rally fades as brokerages split - MOFSL sees 27% upside, Emkay chips in",
+      "link": "https://www.livemint.com/market/stock-market-news/poonawalla-fincorp-share-price-target-q2-result-rally-fades-as-brokerages-split-mofsl-sees-27-upside-emkay-11791793144051.html",
+      "summary": "Poonawalla Fincorp shares pared early gains after rising nearly 8% following its Q2 results. Motilal Oswal maintained a Buy rating with a  \u20b9570 target, citing growth and improving margins, while Emkay",
+      "age_h": 0.4
     },
     {
       "source": "Livemint",
-      "title": "TCS gets a lift from the anti-AI trade, but earnings risks are building",
-      "link": "https://www.livemint.com/market/mark-to-market/tcs-tata-consultancy-services-nifty-it-openai-ai-disruption-anti-ai-trade-q2fy27-results-it-stocks-11791531832161.html",
-      "summary": "TCS\u2019s in-line Q2 and reports of lower-than-indicated OpenAI revenue helped lift IT stocks, but muted demand, H2 margin pressure and AI-led pricing risks cloud the outlook.",
-      "age_h": 0.9
+      "title": "China Coal Prices at Three-Year High With Little Relief in Sight",
+      "link": "https://www.livemint.com/market/china-coal-prices-at-three-year-high-with-little-relief-in-sight-11791796351894.html",
+      "summary": "China\u2019s thermal coal prices climbed to a three-year high as sluggish domestic production growth and disruptions in top exporter Indonesia coincide with an energy rally driven by the US-Iran war.",
+      "age_h": 0.4
     }
   ]
 }
