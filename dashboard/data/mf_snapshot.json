@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-10-13T03:55:53+05:30",
+  "timestamp": "2026-10-14T02:03:03+05:30",
   "total_invested": 1140170.67,
-  "total_current": 1255224.92,
-  "total_pnl": 115054.25,
-  "total_pnl_pct": 10.09,
+  "total_current": 1255025.88,
+  "total_pnl": 114855.22,
+  "total_pnl_pct": 10.07,
   "sip_recorded_today": false,
   "funds": [
     {
@@ -47,11 +47,11 @@
       "scheme_code": "122639",
       "units": 536.342,
       "avg_nav": 85.7617,
-      "current_nav": 88.9258,
+      "current_nav": 88.5547,
       "invested": 45997.6,
-      "current": 47694.64,
-      "pnl": 1697.04,
-      "pnl_pct": 3.69,
+      "current": 47495.6,
+      "pnl": 1498.0,
+      "pnl_pct": 3.26,
       "sip_amount": 0
     }
   ]
