@@ -1,32 +1,18 @@
 {
-  "timestamp": "2026-10-13T09:39:54+00:00",
+  "timestamp": "2026-10-14T07:55:34+00:00",
   "ticker_news": {
-    "ADANIPORTS": [
-      {
-        "title": "Adani Ports and Special Economic Zone (NSEI:ADANIPORTS) Stock Forecast & Analyst Predictions - Simply Wall Street",
-        "publisher": "Google News",
-        "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQZGltSUxKOUlUVnc0QTliWEd3MnE5TWtBU3R0cTl0blpHUFR1RmVNNFFSQ0Rxd3ZrdnlIRmlvSnlFTmx4WGRzUTk3SzBhdjRGeEZqOHZRWjJtX09QTTBOWWJ4dFNSOXgwcmZKMFczOGIyS2M1VWVyd0Y1ZUV1WnMwZ1lNN0RjdjFPMXBzQUtBTHk0eENUTGFUNFJnMEh5YkNpNXc1OFR3a1ZvUi1WQk03WDB3VQ?oc=5",
-        "age_h": 98.7
-      },
-      {
-        "title": "Adani Ports stock at INR 1,754, market cap INR 4,041.1 billion - ad-hoc-news.de",
-        "publisher": "Google News",
-        "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNOGY5WWdvUWJtb0IzTmV2OGRLbDI4NG4zcDRqaEctdDlXNmI0QXIzbG1KTkd5WF9jTGxDd0NkVHFpSXN3b1BCaG9udnZwM0dtUVppdzVEUW40LV9ZZnRyRkx2OWRVWDVFZ1pzNG1sczFCUzJnYm1XVnhJa2h0elg5c2h5dGJvQ3NqRDB1YzFONWUzeTdZb3R5WGl0d2FHWjkyYXFIYlZjOHc4Zmd5NnBESHJ4V1g5U3pwOHR4LW1mQXpaQQ?oc=5",
-        "age_h": 21.2
-      }
-    ],
     "COFORGE": [
       {
-        "title": "Coforge (NSEI:COFORGE) Stock Forecast & Analyst Predictions - Simply Wall Street",
+        "title": "Coforge Share Price - Upstox",
         "publisher": "Google News",
-        "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5RWlNHRzdjVmhYOGVZdkh4RVU0WnN4dHVQejl5M3dHeEp6eDU0aWFWelpweXNWN0I5VzR3Rkw2THlnMkpCVWFCZXcyLUxnUXpoZXJ2dS10WWdURVdTNElhMGk2UElSTldjaW5PaGRoQlZpZF9ERTN3NUJSLWliMUE?oc=5",
-        "age_h": 98.7
+        "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9US3I1X0pBV2VvWTdZSE90dWhvY1FES1VvMnZ4b1JITGgzSk5KQUFtalBuX1VqT0F5cGtuRFhsbjRHSHlTR2t5Z3cxQktKRE1yUFREVWhmRVJiU2lwZ1BiZTI0YnY?oc=5",
+        "age_h": 19.4
       },
       {
-        "title": "COFORGE Share Price Today - Coforge on NSE/BSE - scanx.trade",
+        "title": "Coforge Limited (COFORGE.NS) Stock Price, News, Quote & History - Yahoo! Finance Canada",
         "publisher": "Google News",
-        "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBZa0lSZHA2N3hySDFSYldJbkJFZkRsOHRzbXJuaWgwOUQyeTBsckQyM3FBYkQ1c3F6a1N1M0RJZjkyYWU2c3VNVHpDNHA1Z0Q3?oc=5",
-        "age_h": 59.0
+        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5ETjdaNnNqZXl6dENKU2RBV3VYN3NHUEkxMElqbTJLWlo1VC1GNklDTWljM25jTWtjM2xxQjBXcXo4SlhSRFZZeHBMM1FpeUFnb1ZPU0l6czZ1QQ?oc=5",
+        "age_h": 55.0
       }
     ],
     "DRREDDY": [
@@ -34,106 +20,80 @@
         "title": "Dr. Reddy's Laboratories Share Price - Live NSE: DRREDDY Stock Price & Chart - Upstox",
         "publisher": "Google News",
         "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE0zSVhMclV3N2dOMVJfcHNVbWN1LUhfYWFxQ3gzMjMxamNNaGhDOEt2bEQ0NGhXU2paSVEwVWpseW1ZZzNRUm5XSkRiSm9TMEhBVkRmNzdGYTVkeC04QVZMY0NUYlhGX2Z3cm1iR2ZzSQ?oc=5",
-        "age_h": 20.7
+        "age_h": 18.1
       },
       {
-        "title": "Dr. Reddy\u2019s Laboratories (DRREDDY) Share Price, NSE - TechGraph",
+        "title": "Dr Reddy stock at INR 1,229.40, 13.1 percent below its high - ad-hoc-news.de",
         "publisher": "Google News",
-        "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBYOG5ZVFpPUXhwbkQ5cVFlblZ1bko2VElVaGt4bFQ2dXRhZGZvb0FZT1dzYjJuMmpMZHZpSGFnV0ZtWDZDbkQxUmp3bUpyRTVrMVloV2c1Y1JrRkdhUTBBNQ?oc=5",
-        "age_h": 24.6
-      },
-      {
-        "title": "DRREDDY Share Price Today - Dr Reddys Laboratories on NSE/BSE - scanx.trade",
-        "publisher": "Google News",
-        "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE03S3NFMG8zNnRMb1VRMlUzLVRLQXJvN2NWLTNiaGdfV1dpRDhFVmQ4THlNdGNiZkZPTFEzQWtDbENQNU03bnlrUlRjLVFXWk1VWC15aXRXMlZ0cU05d1dvdk9kMW4?oc=5",
-        "age_h": 84.8
+        "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOZk9Qa2ZZTDlDTHpGcXEyTVlzVW5Rclh4MGFjczFSbC1YNnVZcjNQUGZ2UldRY1pnVEZoWlJGRVdIaU1uWGZHb1YwM3haWkduSm5TR1lWb2ZPVXBtdU5qd3duOXJ3OTd2bzFvcnhkNVF6SWZzYlhLT05NZmt5NWMzV05KWWdBTnB4WHR1LVdOZjRJWG1BTng0VS1vOHhUejNFM0ljYkNpZlNvWDhMX0VzUjd3SjhUWmVSNnU1eXFB?oc=5",
+        "age_h": 44.9
       }
     ],
     "KOTAKBANK": [
       {
-        "title": "Kotak Bank names Anup Kumar Saha CEO: Kotak Bank stock sits 3.10 percent below its high - ad-hoc-news.de",
+        "title": "HSBC raises target for Kotak Bank stock to INR 520 - ad-hoc-news.de",
         "publisher": "Google News",
-        "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPUXpZR1lqazV3LXRubXl1bm0tNWpBSm5NZVc0S0h0UTJCV3BKNzZfcmk0RC1Bb05PODcwSmR0bWF6bDFidG5URmR5aVNaZmpyNTJsNkdlWU41VjRsVDc0UkxVVlBsU0JFV096V0J0ZVVkb2l6em9OTm9HMUhnbzRQUlZBWlRUVEo1VlZRV3lCa1pWMWx5ZUJBWkVBMERKazFVTUJvVEZwN09QR0FfME4wY3FjX3h3OUw2VjQ2OVp6UWJtNXByOW4wTC05cWdhUW8?oc=5",
-        "age_h": 2.4
-      },
-      {
-        "title": "Kotak Mahindra Bank (NSEI:KOTAKBANK) Stock Forecast & Analyst Predictions - Simply Wall Street",
-        "publisher": "Google News",
-        "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPLWx4NEJzQnhETUNfTTc3alJpNXIybjk0RGxGOVFEMm8xUjlLenJCT2o2UzNzdS1PQXNlNnRod2E0VFhVMUFNYjA5TWdrQzdZZUlybU5HRTNmc3Vza2t0TTNHb1N0Y1ktSmhfZTYzSk9EcnJzVENuNG5FWVBRSnVsV0hhbkpENUlUSnNBZnpR?oc=5",
-        "age_h": 98.7
-      },
-      {
-        "title": "Kotak Mahindra Bank (KOTAKBANK) Share/Stock Price Live, NSE - TechGraph",
-        "publisher": "Google News",
-        "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE12YlRBd3NkTDZtU1ZicGltWkhMQWdKc2dhSE43Um0xd3M4T0hmUWEyUVRRVUdoYUlBWnM4cjFwRnotXzJQeDk4b3M5OGJqYmZ6QVZPOGRRNVYtNFlGYWhwRVlvbw?oc=5",
-        "age_h": 98.7
-      }
-    ],
-    "LICHSGFIN": [
-      {
-        "title": "IIFL Finance (NSEI:IIFL) - Stock Analysis - Simply Wall Street",
-        "publisher": "Google News",
-        "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOQ05vT3JGeUJaQVpuTXh3SDhtV3hfVjFESlAxcVZvc2IwV3VIZzRZME03alViLUNRWjZJVjBuMUd3TDNDZ0J1ZWtWdjZUaWRJRVUyRmZpd0hjNXl6WkVLR0FyNVktR29MbUR6a3NKRmxWR0R1djFCZ2ttMzBQQXVxeXd1ZlZadENtUjQw?oc=5",
-        "age_h": 108.9
+        "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOU0ZOVFpreXRiYU5ybTVBZlMzSUhYQWtUS2tHbzBNdXZzX19ZTVY5V3lJSTNJaWRJTVRTN3Vpc1c4SUtGak1Qb2oxSkRsN3ZZdGh2bXFLdjB3dGFRamlYWlRSbkVkeWd0eGU1ajJUQUpLbmQ3ckZHNXd5UVNPMFlZM3Y0MGFpUFlvT2RqTkFob3VKWUV4OWk4blNCcEpTRGVLZ0FnTzhVUGt3b3J2LWlOMkFrdw?oc=5",
+        "age_h": 19.3
       }
     ]
   },
   "market_headlines": [
     {
       "source": "Economic Times",
-      "title": "Hitachi Energy, E2E Networks, Anant Raj, other AI-linked stocks slide up to 5% as global AI rout hits Indian markets",
-      "link": "https://economictimes.indiatimes.com/markets/stocks/news/hitachi-energy-e2e-networks-anant-raj-other-ai-linked-stocks-slide-up-to-5-as-global-ai-rout-hits-indian-markets/articleshow/134913521.cms",
-      "summary": "Indian AI- and energy-linked stocks decline as a global technology sell-off deepens, with South Korea\u2019s KOSPI plunging amid intensifying competition in the AI sector. Investors reassess AI valuations ",
-      "age_h": 0.3
+      "title": "Groww Q2 Results: Cons net profit surges 54% YoY to Rs 726 crore; revenue jumps 47%",
+      "link": "https://economictimes.indiatimes.com/markets/stocks/earnings/groww-q2-results-cons-net-profit-surges-54-yoy-to-rs-726-crore-revenue-jumps-47/articleshow/134935652.cms",
+      "summary": "Groww Q2 Results: The company\u2019s revenue from operations came in at Rs 1,501 crore, marking a 47% increase from Rs 1,019 crore posted in the corresponding quarter of the previous financial year.",
+      "age_h": 0.4
     },
     {
       "source": "Economic Times",
-      "title": "Rule out V-shaped recovery, markets can fall more, says PL Capital with Nifty 12-month target at 27,589",
-      "link": "https://economictimes.indiatimes.com/markets/stocks/news/rule-out-v-shaped-recovery-markets-can-fall-more-says-pl-capital-with-nifty-12-month-target-at-27589/articleshow/134912984.cms",
-      "summary": "PL Capital remains cautious on the Nifty after its eight-week losing streak, ruling out a quick V-shaped recovery. The brokerage has trimmed earnings estimates but sees valuation comfort in largecaps,",
+      "title": "AI: A Boon or a threat for future? Atul Suri | Ravi Dharamshi | Alpha Wealth Summit 2.0",
+      "link": "https://economictimes.indiatimes.com/markets/stocks/news/ai-a-boon-or-a-threat-for-future-atul-suri-ravi-dharamshi-alpha-wealth-summit-2-0/videoshow/134935345.cms",
+      "summary": "",
       "age_h": 0.8
     },
     {
       "source": "Economic Times",
-      "title": "Unique Picks: 10 stocks held by a single MF scheme in September; rally up to 225% in FY27 so far",
-      "link": "https://economictimes.indiatimes.com/markets/stocks/news/unique-picks-10-stocks-held-by-a-single-mf-scheme-in-september-rally-up-to-225-in-fy27-so-far/slideshow/134912975.cms",
-      "summary": "ETMarkets identifies 11 stocks held by single mutual fund schemes that surged 80%\u2013224% in FY27 so far, highlighting seven multibaggers with exclusive fund ownership as of September 2026.",
+      "title": "Canara Bank Q2 Results: Standalone net profit rises 8% YoY to Rs 5,175 crore, NII jumps 20%",
+      "link": "https://economictimes.indiatimes.com/markets/stocks/earnings/canara-bank-q2-results-standalone-net-profit-rises-8-yoy-to-rs-5175-crore-nii-jumps-20/articleshow/134935180.cms",
+      "summary": "Canara Bank has announced a standalone net profit of approximately Rs 5,175 crore for the second quarter of FY27, reflecting a growth of over 8% from the previous year. The bank also experienced a sub",
       "age_h": 0.9
     },
     {
       "source": "Economic Times",
-      "title": "Paytm, Pine Labs, Mobikwik shares crash up to 7% as UPI MPR fee rollout delayed beyond Diwali",
-      "link": "https://economictimes.indiatimes.com/markets/stocks/news/paytm-pine-labs-mobikwik-shares-crash-up-to-7-as-upi-mpr-fee-rollout-delayed-beyond-diwali/articleshow/134912740.cms",
-      "summary": "Shares of Paytm, Pine Labs dropped after NPCI delayed the rollout of merchant discount rate (MDR) fees on select UPI transactions beyond Diwali. The rollout, earlier scheduled for October 15, was expe",
+      "title": "Johnson &amp; Johnson stock rout: What's driving the sharp decline?",
+      "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/johnson-amp-johnson-stock-rout-whats-driving-the-sharp-decline/slideshow/134935157.cms",
+      "summary": "Johnson &amp; Johnson shares fell as much as 6.8% despite an improved full-year earnings outlook. A sharp decline in reported quarterly profit, weaker-than-expected MedTech performance and litigation-",
+      "age_h": 1.0
+    },
+    {
+      "source": "Livemint",
+      "title": "The pros and cons of investing in Bonfiglioli Transmissions IPO",
+      "link": "https://www.livemint.com/market/bonfiglioli-transmissions-ipo-price-band-valuation-11791955731566.html",
+      "summary": "Armed with a 25% market share, debt-free balance sheet, and strong OEM lock-ins, Bonfiglioli hits the primary market at  \u20b9558-586 per share. Analysts say the IPO is fairly priced, but not cheap.",
+      "age_h": 0.1
+    },
+    {
+      "source": "Livemint",
+      "title": "TCS share price rebounds 14% from September low: Can the rally extend further?",
+      "link": "https://www.livemint.com/market/stock-market-news/tcs-share-price-rebounds-14-from-september-low-can-the-rally-extend-further-11791959658391.html",
+      "summary": "TCS shares rose 3% after the company reported higher Q2 profit and revenue, with annualised AI revenue reaching $3.1 billion. Brokerages were broadly positive but differed on growth and margin prospec",
+      "age_h": 0.8
+    },
+    {
+      "source": "Livemint",
+      "title": "TCS shares rally 11% in a week: IT major poised for bigger recovery as \u2018Reverse AI Trade\u2019 gains momentum? Decoded",
+      "link": "https://www.livemint.com/market/stock-market-news/tcs-shares-rally-11-in-a-week-it-major-poised-for-bigger-recovery-as-reverse-ai-trade-gains-momentum-decoded-11791959961129.html",
+      "summary": "TCS gained around 11% in a week, supported by stronger-than-expected results, institutional buying and growing AI revenue. Analysts see potential for further gains if the stock breaks above  \u20b92,500, w",
       "age_h": 0.9
     },
     {
       "source": "Livemint",
-      "title": "Swaraj Engines share price in focus after strong Q2 results; Centrum Broking sees 24% upside \u2014 What's next for the stock",
-      "link": "https://www.livemint.com/market/stock-market-news/swaraj-engines-share-price-in-focus-after-strong-q2-results-centrum-broking-sees-24-upside-whats-next-for-the-stock-11791880800959.html",
-      "summary": "Swaraj Engines reported strong Q2results, with net profit up 21.9%, revenue up 26% and engine sales rising 19.6% year on year. Centrum retained its Buy rating and  \u20b94,500 target, while flagging modera",
-      "age_h": 0.0
-    },
-    {
-      "source": "Livemint",
-      "title": "Moneyview share price: Newly listed stock gives 83% returns in 13 days | Should you hold for more gains or book profits?",
-      "link": "https://www.livemint.com/market/stock-market-news/moneyview-share-price-newly-listed-stock-gives-83-returns-in-13-days-should-you-hold-for-more-gains-or-book-profits-11791881534101.html",
-      "summary": "Moneyview share price: The digital lending platform\u2019s shares were fixed at  \u20b934 apiece and listed on 1 October 2026 at  \u20b955 on the NSE, a premium of 61.76% over the IPO price.",
-      "age_h": 0.2
-    },
-    {
-      "source": "Livemint",
-      "title": "Sugar stock declares 1:10 bonus shares; here's board meeting outcome on record date, change in authorised capital",
-      "link": "https://www.livemint.com/market/stock-market-news/sugar-stock-declares-1-10-bonus-shares-heres-board-meeting-outcome-on-record-date-change-in-authorised-capital-11791881761579.html",
-      "summary": "1:10 bonus shares: The board of directors of the sugar industry company declared issuance of 10 bonus shares for every one share held by the eligible shareholder",
-      "age_h": 0.4
-    },
-    {
-      "source": "Livemint",
-      "title": "RIL target price ahead of Jio IPO: 47% upside - Why Religare recommends buying Mukesh Ambani stock before issue launch",
-      "link": "https://www.livemint.com/market/stock-market-news/ril-target-price-ahead-of-jio-ipo-47-upside-why-religare-recommends-buying-mukesh-ambani-stock-before-issue-launch-11791877937959.html",
-      "summary": "Religare Broking recommends buying Reliance Industries, setting a target price of  \u20b91,696 against a reference price of  \u20b91,156, implying 46.7% upside. It sees a potential Jio Platforms IPO, improving ",
-      "age_h": 0.7
+      "title": "Tata Elxsi stock rebounds as growth improves in Q2. Can it continue?",
+      "link": "https://www.livemint.com/market/mark-to-market/tata-elxsi-q2-results-stock-recovery-ai-growth-outlook-11791957021978.html",
+      "summary": "Tata Elxsi's investments, including in AI, and onshoring expenses amid US immigration challenges need closer tracking",
+      "age_h": 1.2
     }
   ]
 }
