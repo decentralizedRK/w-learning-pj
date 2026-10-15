@@ -1,18 +1,26 @@
 {
-  "timestamp": "2026-10-14T07:55:34+00:00",
+  "timestamp": "2026-10-15T07:40:10+00:00",
   "ticker_news": {
+    "ADANIPORTS": [
+      {
+        "title": "Adani Ports grows revenue 23.90 percent and Adani Ports stock sits 6.78 percent below its high - ad-hoc-news.de",
+        "publisher": "Google News",
+        "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOYWZrU1hpX2YwLTlpWlNudDMwd1ZVcVhiT2d5aWlDRVVNSFk4TU9IT04tY2VIdjRGUFlNOXI1UkFUUmhOYWppdVZJcnNWcWN2azFlX09fR19RSmN6a2VhTFk3dFBWWXlhdXBOcFJIV0NvX2JUdC1fREZnTEMtaG1ZTDJzMExGZ1N4TF81aEU5T3RaMkNqaTVEcWZvZFNCZHRpelU5WjFBRGgtRUU5NFJVVDVFalZVUHJQZmdkd0tCS3U2WTFyeW9MRjhXUXhSSU0?oc=5",
+        "age_h": 42.9
+      }
+    ],
     "COFORGE": [
       {
         "title": "Coforge Share Price - Upstox",
         "publisher": "Google News",
         "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9US3I1X0pBV2VvWTdZSE90dWhvY1FES1VvMnZ4b1JITGgzSk5KQUFtalBuX1VqT0F5cGtuRFhsbjRHSHlTR2t5Z3cxQktKRE1yUFREVWhmRVJiU2lwZ1BiZTI0YnY?oc=5",
-        "age_h": 19.4
+        "age_h": 26.6
       },
       {
         "title": "Coforge Limited (COFORGE.NS) Stock Price, News, Quote & History - Yahoo! Finance Canada",
         "publisher": "Google News",
         "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5ETjdaNnNqZXl6dENKU2RBV3VYN3NHUEkxMElqbTJLWlo1VC1GNklDTWljM25jTWtjM2xxQjBXcXo4SlhSRFZZeHBMM1FpeUFnb1ZPU0l6czZ1QQ?oc=5",
-        "age_h": 55.0
+        "age_h": 78.8
       }
     ],
     "DRREDDY": [
@@ -20,80 +28,88 @@
         "title": "Dr. Reddy's Laboratories Share Price - Live NSE: DRREDDY Stock Price & Chart - Upstox",
         "publisher": "Google News",
         "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE0zSVhMclV3N2dOMVJfcHNVbWN1LUhfYWFxQ3gzMjMxamNNaGhDOEt2bEQ0NGhXU2paSVEwVWpseW1ZZzNRUm5XSkRiSm9TMEhBVkRmNzdGYTVkeC04QVZMY0NUYlhGX2Z3cm1iR2ZzSQ?oc=5",
-        "age_h": 18.1
+        "age_h": 41.9
       },
       {
         "title": "Dr Reddy stock at INR 1,229.40, 13.1 percent below its high - ad-hoc-news.de",
         "publisher": "Google News",
         "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOZk9Qa2ZZTDlDTHpGcXEyTVlzVW5Rclh4MGFjczFSbC1YNnVZcjNQUGZ2UldRY1pnVEZoWlJGRVdIaU1uWGZHb1YwM3haWkduSm5TR1lWb2ZPVXBtdU5qd3duOXJ3OTd2bzFvcnhkNVF6SWZzYlhLT05NZmt5NWMzV05KWWdBTnB4WHR1LVdOZjRJWG1BTng0VS1vOHhUejNFM0ljYkNpZlNvWDhMX0VzUjd3SjhUWmVSNnU1eXFB?oc=5",
-        "age_h": 44.9
+        "age_h": 68.6
+      }
+    ],
+    "ICICIGI": [
+      {
+        "title": "ICICI Lombard ICICIGI ESOP Share Allotment October 2026 - Kalkine India",
+        "publisher": "Google News",
+        "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNUTZ6STVLc3ZaNjlfVFVmeU5ZdzNhcEdqNFJRRml0a1lJLVozbU5FSVdCSFNiUVd1RGlsODBBNlR3RmJSaDhGV2ZYcFY0Qmt4bWwtaDlEZFpSUmQxc28zZXV6LUttQlhqNzc0TkFPaWRCMnZfa2tzTkF1NzBxVFRyRjktSGRaNEN5ejhPQlJ3azNsQk5Vb1R6d3lmZU9jQUZmbjhaazhUdFNDT0hqTzhiMGNtSVBzZVg1R1pyeGIwMA?oc=5",
+        "age_h": 23.0
       }
     ],
     "KOTAKBANK": [
       {
         "title": "HSBC raises target for Kotak Bank stock to INR 520 - ad-hoc-news.de",
         "publisher": "Google News",
-        "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOU0ZOVFpreXRiYU5ybTVBZlMzSUhYQWtUS2tHbzBNdXZzX19ZTVY5V3lJSTNJaWRJTVRTN3Vpc1c4SUtGak1Qb2oxSkRsN3ZZdGh2bXFLdjB3dGFRamlYWlRSbkVkeWd0eGU1ajJUQUpLbmQ3ckZHNXd5UVNPMFlZM3Y0MGFpUFlvT2RqTkFob3VKWUV4OWk4blNCcEpTRGVLZ0FnTzhVUGt3b3J2LWlOMkFrdw?oc=5",
-        "age_h": 19.3
+        "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNZmh2a1Z5bFlwSmQxRlc1MGp1QmdJZjRBUU9zQ1JQUW44UG5ucUNteXRXWVBtMVlYUFhEa3JRUE16RjB1d3ozNm1PX0Vtc05vMmFvNDhZNDFDMWx2MmlCS1VtWlVvTmt5ajVyWnNFMnQ0T0ZWVWd3NFZlZEtFWFFaZjNjV1pyYnd6M0J2OVRQS2lFdFNnZk9RNUtOTF9ub3phT2xkbXdsLUt6UlE0LVJ3eGJBVQ?oc=5",
+        "age_h": 16.0
       }
     ]
   },
   "market_headlines": [
     {
       "source": "Economic Times",
-      "title": "Groww Q2 Results: Cons net profit surges 54% YoY to Rs 726 crore; revenue jumps 47%",
-      "link": "https://economictimes.indiatimes.com/markets/stocks/earnings/groww-q2-results-cons-net-profit-surges-54-yoy-to-rs-726-crore-revenue-jumps-47/articleshow/134935652.cms",
-      "summary": "Groww Q2 Results: The company\u2019s revenue from operations came in at Rs 1,501 crore, marking a 47% increase from Rs 1,019 crore posted in the corresponding quarter of the previous financial year.",
+      "title": "Nestle India Q2 Results: Standalone profit jumps 36% YoY to Rs 1,027 crore, revenue rises 20%",
+      "link": "https://economictimes.indiatimes.com/markets/stocks/earnings/nestle-india-q2-results-standalone-profit-jumps-36-yoy-to-rs-1027-crore-revenue-rises-20/articleshow/134960308.cms",
+      "summary": "In the second quarter of FY27, Nestle India achieved a remarkable standalone net profit of Rs 1,027 crore, marking a substantial 36% increase from last year's Rs 753 crore. Revenue from operations soa",
+      "age_h": 0.5
+    },
+    {
+      "source": "Economic Times",
+      "title": "Indian bonds breathe easy as Treasury yields decline",
+      "link": "https://economictimes.indiatimes.com/markets/bonds/indian-bonds-breathe-easy-as-treasury-yields-decline/articleshow/134960547.cms",
+      "summary": "Early Thursday, bonds issued by the Indian government saw slight upswings, influenced by a rally in US Treasuries. Despite this, concerns over liquidity, climbing interest rates, and mounting supply c",
+      "age_h": 0.5
+    },
+    {
+      "source": "Economic Times",
+      "title": "Redington could gain as memory shortage reshapes ICT distribution; brokerage sees 20% upside",
+      "link": "https://economictimes.indiatimes.com/markets/stocks/news/redington-could-gain-as-memory-shortage-reshapes-ict-distribution-brokerage-sees-20-upside/articleshow/134960409.cms",
+      "summary": "DAM Capital has re-initiated coverage on Redington with a Buy rating and a target price of Rs 470, implying nearly 20% upside. The brokerage sees the memory shortage, distributor consolidation and sof",
+      "age_h": 0.6
+    },
+    {
+      "source": "Economic Times",
+      "title": "Global Market: Citi expects Fed to raise rates by 25 basis points in December after hot US inflation data",
+      "link": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/global-market-citi-expects-fed-to-raise-rates-by-25-basis-points-in-december-after-hot-us-inflation-data/articleshow/134960261.cms",
+      "summary": "Citigroup now expects the US Federal Reserve to raise interest rates by 25 basis points in December following hotter-than-expected September inflation. The brokerage forecasts rates to remain unchange",
+      "age_h": 0.7
+    },
+    {
+      "source": "Livemint",
+      "title": "Nykaa, Tata Consumer, Blue Star shares: Top stocks to buy | What Kotak Securities suggests - Target price, stop loss",
+      "link": "https://www.livemint.com/market/stock-market-news/nykaa-tata-consumer-blue-star-shares-top-stocks-to-buy-what-kotak-securities-suggests-target-price-stop-loss-11792046752469.html",
+      "summary": "Kotak Securities' Amol Athawale sees Nifty support at 22,450\u201322,500 and a possible move toward 23,000, above 22,800. He recommends three stocks for a 1\u20132-week horizon, with specified price levels guid",
+      "age_h": 0.2
+    },
+    {
+      "source": "Livemint",
+      "title": "BLS International share price jumps 9%: Can the recovery sustain? Check forecast by stock market experts",
+      "link": "https://www.livemint.com/market/stock-market-news/bls-international-share-price-jumps-9-can-the-recovery-sustain-check-forecast-by-stock-market-experts-11792045784964.html",
+      "summary": "BLS International shares rose 9% on Thursday amid a broader market rally, but the stock remains down 28.56% year to date. Analysts cited resistance at  \u20b9240\u2013245 and support near  \u20b9210\u2013213, while the c",
       "age_h": 0.4
     },
     {
-      "source": "Economic Times",
-      "title": "AI: A Boon or a threat for future? Atul Suri | Ravi Dharamshi | Alpha Wealth Summit 2.0",
-      "link": "https://economictimes.indiatimes.com/markets/stocks/news/ai-a-boon-or-a-threat-for-future-atul-suri-ravi-dharamshi-alpha-wealth-summit-2-0/videoshow/134935345.cms",
-      "summary": "",
-      "age_h": 0.8
-    },
-    {
-      "source": "Economic Times",
-      "title": "Canara Bank Q2 Results: Standalone net profit rises 8% YoY to Rs 5,175 crore, NII jumps 20%",
-      "link": "https://economictimes.indiatimes.com/markets/stocks/earnings/canara-bank-q2-results-standalone-net-profit-rises-8-yoy-to-rs-5175-crore-nii-jumps-20/articleshow/134935180.cms",
-      "summary": "Canara Bank has announced a standalone net profit of approximately Rs 5,175 crore for the second quarter of FY27, reflecting a growth of over 8% from the previous year. The bank also experienced a sub",
-      "age_h": 0.9
-    },
-    {
-      "source": "Economic Times",
-      "title": "Johnson &amp; Johnson stock rout: What's driving the sharp decline?",
-      "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/johnson-amp-johnson-stock-rout-whats-driving-the-sharp-decline/slideshow/134935157.cms",
-      "summary": "Johnson &amp; Johnson shares fell as much as 6.8% despite an improved full-year earnings outlook. A sharp decline in reported quarterly profit, weaker-than-expected MedTech performance and litigation-",
+      "source": "Livemint",
+      "title": "Gallantt Ispat shares rally 14% today: What's fuelling surge? Buy, sell or hold? Check target price, support, resistance",
+      "link": "https://www.livemint.com/market/stock-market-news/gallantt-ispat-shares-rally-14-today-whats-fuelling-surge-buy-sell-or-hold-check-target-price-support-resistance-11792045246408.html",
+      "summary": "Gallantt Ispat shares rose 14% to  \u20b9646, extending a weekly gain to 23%, amid plans to expand steel capacity to 1.3 million tonnes and invest  \u20b93,000 crore. The stock remains 32% below its peak, while",
       "age_h": 1.0
     },
     {
       "source": "Livemint",
-      "title": "The pros and cons of investing in Bonfiglioli Transmissions IPO",
-      "link": "https://www.livemint.com/market/bonfiglioli-transmissions-ipo-price-band-valuation-11791955731566.html",
-      "summary": "Armed with a 25% market share, debt-free balance sheet, and strong OEM lock-ins, Bonfiglioli hits the primary market at  \u20b9558-586 per share. Analysts say the IPO is fairly priced, but not cheap.",
-      "age_h": 0.1
-    },
-    {
-      "source": "Livemint",
-      "title": "TCS share price rebounds 14% from September low: Can the rally extend further?",
-      "link": "https://www.livemint.com/market/stock-market-news/tcs-share-price-rebounds-14-from-september-low-can-the-rally-extend-further-11791959658391.html",
-      "summary": "TCS shares rose 3% after the company reported higher Q2 profit and revenue, with annualised AI revenue reaching $3.1 billion. Brokerages were broadly positive but differed on growth and margin prospec",
-      "age_h": 0.8
-    },
-    {
-      "source": "Livemint",
-      "title": "TCS shares rally 11% in a week: IT major poised for bigger recovery as \u2018Reverse AI Trade\u2019 gains momentum? Decoded",
-      "link": "https://www.livemint.com/market/stock-market-news/tcs-shares-rally-11-in-a-week-it-major-poised-for-bigger-recovery-as-reverse-ai-trade-gains-momentum-decoded-11791959961129.html",
-      "summary": "TCS gained around 11% in a week, supported by stronger-than-expected results, institutional buying and growing AI revenue. Analysts see potential for further gains if the stock breaks above  \u20b92,500, w",
-      "age_h": 0.9
-    },
-    {
-      "source": "Livemint",
-      "title": "Tata Elxsi stock rebounds as growth improves in Q2. Can it continue?",
-      "link": "https://www.livemint.com/market/mark-to-market/tata-elxsi-q2-results-stock-recovery-ai-growth-outlook-11791957021978.html",
-      "summary": "Tata Elxsi's investments, including in AI, and onshoring expenses amid US immigration challenges need closer tracking",
-      "age_h": 1.2
+      "title": "Mangalore Refinery and Petrochemicals share price plunges 7% despite strong Q2 results | What should investors do?",
+      "link": "https://www.livemint.com/market/stock-market-news/mangalore-refinery-and-petrochemicals-share-price-plunges-7-despite-strong-q2-results-what-should-investors-do-11792043947000.html",
+      "summary": "Mangalore Refinery and Petrochemicals shares opened at  \u20b9189.60 per share on NSE today, as compared to previous close of  \u20b9185.26 on Wednesday and touched an intraday low of  \u20b9171.20 on 15 October.",
+      "age_h": 1.1
     }
   ]
 }

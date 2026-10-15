@@ -1,57 +1,93 @@
 {
-  "timestamp": "2026-10-14T07:55:38+00:00",
+  "timestamp": "2026-10-15T07:40:13+00:00",
   "events": [
     {
-      "symbol": "PNB",
+      "symbol": "ICICIGI",
       "type": "earnings_date",
-      "date": "2026-10-16",
+      "date": "2026-10-14",
       "detail": "Earnings Date",
-      "days_away": 2
+      "days_away": -1
     },
     {
       "symbol": "COFORGE",
       "type": "earnings_date",
       "date": "2026-10-23",
       "detail": "Earnings Date",
-      "days_away": 9
+      "days_away": 8
     },
     {
       "symbol": "DRREDDY",
       "type": "earnings_date",
       "date": "2026-10-23",
       "detail": "Earnings Date",
-      "days_away": 9
+      "days_away": 8
     },
     {
       "symbol": "KOTAKBANK",
       "type": "earnings_date",
       "date": "2026-10-24",
       "detail": "Earnings Date",
-      "days_away": 10
+      "days_away": 9
+    },
+    {
+      "symbol": "ADANIPORTS",
+      "type": "earnings_date",
+      "date": "2026-10-28",
+      "detail": "Earnings Date",
+      "days_away": 13
     },
     {
       "symbol": "LICHSGFIN",
       "type": "earnings_date",
       "date": "2026-10-28",
       "detail": "Earnings Date",
-      "days_away": 14
+      "days_away": 13
     },
     {
       "symbol": "APLAPOLLO",
       "type": "earnings_date",
       "date": "2026-10-29",
       "detail": "Earnings Date",
-      "days_away": 15
+      "days_away": 14
     },
     {
       "symbol": "LAURUSLABS",
       "type": "earnings_date",
       "date": "2026-10-29",
       "detail": "Earnings Date",
-      "days_away": 15
+      "days_away": 14
+    },
+    {
+      "symbol": "PAYTM",
+      "type": "earnings_date",
+      "date": "2026-11-03",
+      "detail": "Earnings Date",
+      "days_away": 19
+    },
+    {
+      "symbol": "MOTHERSON",
+      "type": "earnings_date",
+      "date": "2026-11-12",
+      "detail": "Earnings Date",
+      "days_away": 28
     }
   ],
   "by_symbol": {
+    "ADANIPORTS": {
+      "dividends": [
+        {
+          "date": "2026-06-12",
+          "amount": 7.5
+        }
+      ],
+      "splits": [],
+      "calendar": {
+        "Earnings Date": [
+          "2026-10-28"
+        ],
+        "Ex-Dividend Date": "2026-06-12"
+      }
+    },
     "APLAPOLLO": {
       "dividends": [
         {
@@ -95,6 +131,21 @@
           "2026-10-23"
         ],
         "Ex-Dividend Date": "2026-07-10"
+      }
+    },
+    "ICICIGI": {
+      "dividends": [
+        {
+          "date": "2026-05-29",
+          "amount": 7.0
+        }
+      ],
+      "splits": [],
+      "calendar": {
+        "Earnings Date": [
+          "2026-10-14"
+        ],
+        "Ex-Dividend Date": "2026-05-29"
       }
     },
     "KOTAKBANK": {
@@ -147,19 +198,28 @@
         "Ex-Dividend Date": "2026-08-21"
       }
     },
-    "PNB": {
+    "MOTHERSON": {
       "dividends": [
         {
-          "date": "2026-06-12",
-          "amount": 3.0
+          "date": "2026-07-14",
+          "amount": 0.25
         }
       ],
       "splits": [],
       "calendar": {
         "Earnings Date": [
-          "2026-10-16"
+          "2026-11-12"
         ],
-        "Ex-Dividend Date": "2026-06-12"
+        "Ex-Dividend Date": "2026-07-14"
+      }
+    },
+    "PAYTM": {
+      "dividends": [],
+      "splits": [],
+      "calendar": {
+        "Earnings Date": [
+          "2026-11-03"
+        ]
       }
     }
   }
