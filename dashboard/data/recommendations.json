@@ -1,106 +1,106 @@
 {
-  "timestamp": "2026-10-14T16:14:16",
+  "timestamp": "2026-10-15T16:01:38",
   "portfolio_actions": [],
   "entry_signals": [
+    {
+      "symbol": "ICICIGI",
+      "action": "ENTRY SIGNAL",
+      "score": 0.728,
+      "rsi": 68.2,
+      "adx": 31.1,
+      "segment": "midcap",
+      "close": 1713.0,
+      "reason": "RSI neutral, strong trend (ADX 31), n/a"
+    },
     {
       "symbol": "KOTAKBANK",
       "action": "WATCH",
       "score": 0.693,
-      "rsi": 64.8,
-      "adx": 41.1,
+      "rsi": 63.7,
+      "adx": 40.5,
       "segment": "largecap",
-      "close": 439.0,
-      "reason": "RSI neutral, strong trend (ADX 41), n/a"
-    },
-    {
-      "symbol": "ICICIGI",
-      "action": "WATCH",
-      "score": 0.668,
-      "rsi": 66.2,
-      "adx": 29.2,
-      "segment": "midcap",
-      "close": 1691.800048828125,
-      "reason": "RSI neutral, moderate trend (ADX 29), n/a"
-    },
-    {
-      "symbol": "DRREDDY",
-      "action": "WATCH",
-      "score": 0.588,
-      "rsi": 61.2,
-      "adx": 24.7,
-      "segment": "largecap",
-      "close": 1240.0,
-      "reason": "RSI neutral, moderate trend (ADX 25), n/a"
+      "close": 438.04998779296875,
+      "reason": "RSI neutral, strong trend (ADX 40), n/a"
     },
     {
       "symbol": "LAURUSLABS",
       "action": "WATCH",
-      "score": 0.573,
-      "rsi": 62.4,
-      "adx": 25.7,
+      "score": 0.613,
+      "rsi": 58.4,
+      "adx": 26.7,
       "segment": "midcap",
-      "close": 2059.39990234375,
-      "reason": "RSI neutral, moderate trend (ADX 26), n/a"
-    },
-    {
-      "symbol": "LICHSGFIN",
-      "action": "WATCH",
-      "score": 0.552,
-      "rsi": 58.8,
-      "adx": 27.0,
-      "segment": "midcap",
-      "close": 564.0,
+      "close": 2036.9000244140625,
       "reason": "RSI neutral, moderate trend (ADX 27), n/a"
     },
     {
       "symbol": "APLAPOLLO",
       "action": "WATCH",
-      "score": 0.547,
-      "rsi": 54.2,
-      "adx": 26.3,
+      "score": 0.578,
+      "rsi": 51.5,
+      "adx": 25.4,
       "segment": "midcap",
-      "close": 2185.0,
-      "reason": "RSI neutral, moderate trend (ADX 26), n/a"
-    },
-    {
-      "symbol": "PAYTM",
-      "action": "WATCH",
-      "score": 0.513,
-      "rsi": 53.1,
-      "adx": 23.6,
-      "segment": "midcap",
-      "close": 1715.0,
-      "reason": "RSI neutral, moderate trend (ADX 24), n/a"
+      "close": 2160.0,
+      "reason": "RSI neutral, moderate trend (ADX 25), n/a"
     },
     {
       "symbol": "COFORGE",
-      "action": "NO SIGNAL",
-      "score": 0.478,
-      "rsi": 62.1,
-      "adx": 20.4,
+      "action": "WATCH",
+      "score": 0.548,
+      "rsi": 62.0,
+      "adx": 20.8,
       "segment": "midcap",
-      "close": 1929.0,
+      "close": 1928.0,
+      "reason": "RSI neutral, moderate trend (ADX 21), n/a"
+    },
+    {
+      "symbol": "DRREDDY",
+      "action": "WATCH",
+      "score": 0.542,
+      "rsi": 54.2,
+      "adx": 23.8,
+      "segment": "largecap",
+      "close": 1216.0,
+      "reason": "RSI neutral, moderate trend (ADX 24), n/a"
+    },
+    {
+      "symbol": "PNB",
+      "action": "NO SIGNAL",
+      "score": 0.482,
+      "rsi": 59.1,
+      "adx": 20.3,
+      "segment": "other",
+      "close": 118.5,
       "reason": "RSI neutral, moderate trend (ADX 20), n/a"
     },
     {
-      "symbol": "ADANIPORTS",
+      "symbol": "PAYTM",
       "action": "NO SIGNAL",
-      "score": 0.463,
-      "rsi": 51.2,
-      "adx": 21.3,
-      "segment": "largecap",
-      "close": 1763.0,
-      "reason": "RSI neutral, moderate trend (ADX 21), n/a"
+      "score": 0.468,
+      "rsi": 52.8,
+      "adx": 23.6,
+      "segment": "midcap",
+      "close": 1712.4000244140625,
+      "reason": "RSI neutral, moderate trend (ADX 24), n/a"
     },
     {
       "symbol": "MOTHERSON",
       "action": "NO SIGNAL",
-      "score": 0.428,
-      "rsi": 50.1,
-      "adx": 23.6,
+      "score": 0.463,
+      "rsi": 49.8,
+      "adx": 22.0,
       "segment": "other",
-      "close": 160.0,
-      "reason": "RSI neutral, moderate trend (ADX 24), n/a"
+      "close": 159.8000030517578,
+      "reason": "RSI neutral, moderate trend (ADX 22), n/a"
+    },
+    {
+      "symbol": "PNBHOUSING",
+      "action": "NO SIGNAL",
+      "score": 0.388,
+      "rsi": 61.2,
+      "adx": 20.1,
+      "segment": "smallcap",
+      "close": 1200.0,
+      "reason": "RSI neutral, moderate trend (ADX 20), n/a"
     }
   ]
 }
