@@ -1,93 +1,64 @@
 {
-  "timestamp": "2026-10-15T07:40:13+00:00",
+  "timestamp": "2026-10-16T07:27:17+00:00",
   "events": [
     {
-      "symbol": "ICICIGI",
+      "symbol": "PNB",
       "type": "earnings_date",
-      "date": "2026-10-14",
+      "date": "2026-10-16",
       "detail": "Earnings Date",
-      "days_away": -1
+      "days_away": 0
     },
     {
       "symbol": "COFORGE",
       "type": "earnings_date",
       "date": "2026-10-23",
       "detail": "Earnings Date",
-      "days_away": 8
+      "days_away": 7
     },
     {
       "symbol": "DRREDDY",
       "type": "earnings_date",
       "date": "2026-10-23",
       "detail": "Earnings Date",
-      "days_away": 8
+      "days_away": 7
     },
     {
       "symbol": "KOTAKBANK",
       "type": "earnings_date",
       "date": "2026-10-24",
       "detail": "Earnings Date",
-      "days_away": 9
-    },
-    {
-      "symbol": "ADANIPORTS",
-      "type": "earnings_date",
-      "date": "2026-10-28",
-      "detail": "Earnings Date",
-      "days_away": 13
-    },
-    {
-      "symbol": "LICHSGFIN",
-      "type": "earnings_date",
-      "date": "2026-10-28",
-      "detail": "Earnings Date",
-      "days_away": 13
+      "days_away": 8
     },
     {
       "symbol": "APLAPOLLO",
       "type": "earnings_date",
       "date": "2026-10-29",
       "detail": "Earnings Date",
-      "days_away": 14
+      "days_away": 13
     },
     {
       "symbol": "LAURUSLABS",
       "type": "earnings_date",
       "date": "2026-10-29",
       "detail": "Earnings Date",
-      "days_away": 14
+      "days_away": 13
     },
     {
       "symbol": "PAYTM",
       "type": "earnings_date",
       "date": "2026-11-03",
       "detail": "Earnings Date",
-      "days_away": 19
+      "days_away": 18
     },
     {
       "symbol": "MOTHERSON",
       "type": "earnings_date",
       "date": "2026-11-12",
       "detail": "Earnings Date",
-      "days_away": 28
+      "days_away": 27
     }
   ],
   "by_symbol": {
-    "ADANIPORTS": {
-      "dividends": [
-        {
-          "date": "2026-06-12",
-          "amount": 7.5
-        }
-      ],
-      "splits": [],
-      "calendar": {
-        "Earnings Date": [
-          "2026-10-28"
-        ],
-        "Ex-Dividend Date": "2026-06-12"
-      }
-    },
     "APLAPOLLO": {
       "dividends": [
         {
@@ -143,7 +114,7 @@
       "splits": [],
       "calendar": {
         "Earnings Date": [
-          "2026-10-14"
+          "2027-01-12"
         ],
         "Ex-Dividend Date": "2026-05-29"
       }
@@ -183,21 +154,6 @@
         "Ex-Dividend Date": "2026-05-08"
       }
     },
-    "LICHSGFIN": {
-      "dividends": [
-        {
-          "date": "2026-08-21",
-          "amount": 10.0
-        }
-      ],
-      "splits": [],
-      "calendar": {
-        "Earnings Date": [
-          "2026-10-28"
-        ],
-        "Ex-Dividend Date": "2026-08-21"
-      }
-    },
     "MOTHERSON": {
       "dividends": [
         {
@@ -220,6 +176,34 @@
         "Earnings Date": [
           "2026-11-03"
         ]
+      }
+    },
+    "PNB": {
+      "dividends": [
+        {
+          "date": "2026-06-12",
+          "amount": 3.0
+        }
+      ],
+      "splits": [],
+      "calendar": {
+        "Earnings Date": [
+          "2026-10-16"
+        ],
+        "Ex-Dividend Date": "2026-06-12"
+      }
+    },
+    "PNBHOUSING": {
+      "dividends": [
+        {
+          "date": "2026-07-31",
+          "amount": 8.0
+        }
+      ],
+      "splits": [],
+      "calendar": {
+        "Earnings Date": [],
+        "Ex-Dividend Date": "2026-07-31"
       }
     }
   }
