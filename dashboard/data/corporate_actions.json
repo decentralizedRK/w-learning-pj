@@ -1,79 +1,64 @@
 {
-  "timestamp": "2026-10-16T07:27:17+00:00",
+  "timestamp": "2026-10-19T08:01:14+00:00",
   "events": [
     {
-      "symbol": "PNB",
+      "symbol": "PERSISTENT",
       "type": "earnings_date",
-      "date": "2026-10-16",
+      "date": "2026-10-15",
       "detail": "Earnings Date",
-      "days_away": 0
+      "days_away": -4
     },
     {
       "symbol": "COFORGE",
       "type": "earnings_date",
       "date": "2026-10-23",
       "detail": "Earnings Date",
-      "days_away": 7
+      "days_away": 4
     },
     {
       "symbol": "DRREDDY",
       "type": "earnings_date",
       "date": "2026-10-23",
       "detail": "Earnings Date",
-      "days_away": 7
+      "days_away": 4
+    },
+    {
+      "symbol": "ICICIGI",
+      "type": "ex-dividend_date",
+      "date": "2026-10-23",
+      "detail": "Ex-Dividend Date",
+      "days_away": 4
     },
     {
       "symbol": "KOTAKBANK",
       "type": "earnings_date",
       "date": "2026-10-24",
       "detail": "Earnings Date",
-      "days_away": 8
+      "days_away": 5
     },
     {
-      "symbol": "APLAPOLLO",
+      "symbol": "PAYTM",
       "type": "earnings_date",
-      "date": "2026-10-29",
+      "date": "2026-10-26",
       "detail": "Earnings Date",
-      "days_away": 13
+      "days_away": 7
     },
     {
       "symbol": "LAURUSLABS",
       "type": "earnings_date",
       "date": "2026-10-29",
       "detail": "Earnings Date",
-      "days_away": 13
-    },
-    {
-      "symbol": "PAYTM",
-      "type": "earnings_date",
-      "date": "2026-11-03",
-      "detail": "Earnings Date",
-      "days_away": 18
+      "days_away": 10
     },
     {
       "symbol": "MOTHERSON",
       "type": "earnings_date",
       "date": "2026-11-12",
       "detail": "Earnings Date",
-      "days_away": 27
+      "days_away": 24
     }
   ],
   "by_symbol": {
-    "APLAPOLLO": {
-      "dividends": [
-        {
-          "date": "2026-09-08",
-          "amount": 8.5
-        }
-      ],
-      "splits": [],
-      "calendar": {
-        "Earnings Date": [
-          "2026-10-29"
-        ],
-        "Ex-Dividend Date": "2026-09-08"
-      }
-    },
     "COFORGE": {
       "dividends": [
         {
@@ -116,7 +101,7 @@
         "Earnings Date": [
           "2027-01-12"
         ],
-        "Ex-Dividend Date": "2026-05-29"
+        "Ex-Dividend Date": "2026-10-23"
       }
     },
     "KOTAKBANK": {
@@ -174,36 +159,23 @@
       "splits": [],
       "calendar": {
         "Earnings Date": [
-          "2026-11-03"
+          "2026-10-26"
         ]
       }
     },
-    "PNB": {
+    "PERSISTENT": {
       "dividends": [
         {
-          "date": "2026-06-12",
-          "amount": 3.0
+          "date": "2026-07-27",
+          "amount": 18.0
         }
       ],
       "splits": [],
       "calendar": {
         "Earnings Date": [
-          "2026-10-16"
+          "2026-10-15"
         ],
-        "Ex-Dividend Date": "2026-06-12"
-      }
-    },
-    "PNBHOUSING": {
-      "dividends": [
-        {
-          "date": "2026-07-31",
-          "amount": 8.0
-        }
-      ],
-      "splits": [],
-      "calendar": {
-        "Earnings Date": [],
-        "Ex-Dividend Date": "2026-07-31"
+        "Ex-Dividend Date": "2026-07-27"
       }
     }
   }
