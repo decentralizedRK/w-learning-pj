@@ -1,86 +1,116 @@
 {
-  "timestamp": "2026-10-19T18:01:19",
+  "timestamp": "2026-10-20T16:05:21",
   "portfolio_actions": [],
   "entry_signals": [
     {
-      "symbol": "ICICIGI",
-      "action": "ENTRY SIGNAL",
-      "score": 0.703,
-      "rsi": 62.0,
-      "adx": 34.1,
-      "segment": "midcap",
-      "close": 1680.0999755859375,
-      "reason": "RSI neutral, strong trend (ADX 34), n/a"
+      "symbol": "TCS",
+      "action": "WATCH",
+      "score": 0.695,
+      "rsi": 73.7,
+      "adx": 28.2,
+      "segment": "largecap",
+      "close": 2460.89990234375,
+      "reason": "RSI overbought, moderate trend (ADX 28), n/a"
     },
     {
       "symbol": "KOTAKBANK",
       "action": "WATCH",
-      "score": 0.684,
-      "rsi": 68.5,
-      "adx": 42.0,
+      "score": 0.641,
+      "rsi": 63.1,
+      "adx": 41.6,
       "segment": "largecap",
-      "close": 447.3999938964844,
+      "close": 442.29998779296875,
       "reason": "RSI neutral, strong trend (ADX 42), n/a"
     },
     {
-      "symbol": "TRENT",
+      "symbol": "ICICIGI",
       "action": "WATCH",
-      "score": 0.584,
-      "rsi": 62.0,
-      "adx": 29.0,
-      "segment": "largecap",
-      "close": 2958.699951171875,
-      "reason": "RSI neutral, moderate trend (ADX 29), n/a"
+      "score": 0.627,
+      "rsi": 56.8,
+      "adx": 35.4,
+      "segment": "midcap",
+      "close": 1650.0,
+      "reason": "RSI neutral, strong trend (ADX 35), n/a"
     },
     {
-      "symbol": "LAURUSLABS",
+      "symbol": "MPHASIS",
       "action": "WATCH",
-      "score": 0.578,
-      "rsi": 60.4,
-      "adx": 24.2,
+      "score": 0.591,
+      "rsi": 67.3,
+      "adx": 23.0,
       "segment": "midcap",
-      "close": 2060.10009765625,
-      "reason": "RSI neutral, moderate trend (ADX 24), n/a"
+      "close": 2500.0,
+      "reason": "RSI neutral, moderate trend (ADX 23), n/a"
     },
     {
       "symbol": "HCLTECH",
       "action": "WATCH",
-      "score": 0.547,
+      "score": 0.559,
       "rsi": 70.2,
-      "adx": 21.1,
+      "adx": 22.8,
       "segment": "largecap",
-      "close": 1380.0,
-      "reason": "RSI overbought, moderate trend (ADX 21), n/a"
+      "close": 1379.9000244140625,
+      "reason": "RSI overbought, moderate trend (ADX 23), n/a"
     },
     {
-      "symbol": "DRREDDY",
-      "action": "NO SIGNAL",
-      "score": 0.478,
-      "rsi": 58.2,
-      "adx": 22.3,
+      "symbol": "LAURUSLABS",
+      "action": "WATCH",
+      "score": 0.559,
+      "rsi": 61.4,
+      "adx": 24.1,
+      "segment": "midcap",
+      "close": 2069.0,
+      "reason": "RSI neutral, moderate trend (ADX 24), n/a"
+    },
+    {
+      "symbol": "TRENT",
+      "action": "WATCH",
+      "score": 0.545,
+      "rsi": 54.4,
+      "adx": 27.4,
       "segment": "largecap",
-      "close": 1233.0,
-      "reason": "RSI neutral, moderate trend (ADX 22), n/a"
+      "close": 2891.60009765625,
+      "reason": "RSI neutral, moderate trend (ADX 27), n/a"
     },
     {
       "symbol": "PERSISTENT",
       "action": "NO SIGNAL",
-      "score": 0.466,
-      "rsi": 56.7,
-      "adx": 20.8,
+      "score": 0.491,
+      "rsi": 54.4,
+      "adx": 21.4,
       "segment": "midcap",
-      "close": 5741.0,
+      "close": 5690.0,
       "reason": "RSI neutral, moderate trend (ADX 21), n/a"
     },
     {
-      "symbol": "APLAPOLLO",
+      "symbol": "ADANIPORTS",
       "action": "NO SIGNAL",
-      "score": 0.459,
-      "rsi": 50.8,
-      "adx": 23.8,
-      "segment": "midcap",
-      "close": 2152.699951171875,
-      "reason": "RSI neutral, moderate trend (ADX 24), n/a"
+      "score": 0.455,
+      "rsi": 52.0,
+      "adx": 22.0,
+      "segment": "largecap",
+      "close": 1766.0,
+      "reason": "RSI neutral, moderate trend (ADX 22), n/a"
+    },
+    {
+      "symbol": "DRREDDY",
+      "action": "NO SIGNAL",
+      "score": 0.423,
+      "rsi": 60.3,
+      "adx": 21.9,
+      "segment": "largecap",
+      "close": 1242.5,
+      "reason": "RSI neutral, moderate trend (ADX 22), n/a"
+    },
+    {
+      "symbol": "ANGELONE",
+      "action": "NO SIGNAL",
+      "score": 0.414,
+      "rsi": 54.2,
+      "adx": 20.6,
+      "segment": "smallcap",
+      "close": 302.8999938964844,
+      "reason": "RSI neutral, moderate trend (ADX 21), n/a"
     }
   ]
 }
