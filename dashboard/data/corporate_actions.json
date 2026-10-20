@@ -1,77 +1,84 @@
 {
-  "timestamp": "2026-10-19T08:01:14+00:00",
+  "timestamp": "2026-10-20T07:51:37+00:00",
   "events": [
     {
       "symbol": "PERSISTENT",
       "type": "earnings_date",
       "date": "2026-10-15",
       "detail": "Earnings Date",
+      "days_away": -5
+    },
+    {
+      "symbol": "HCLTECH",
+      "type": "dividend",
+      "date": "2026-10-16",
+      "detail": "\u20b912.00 per share",
       "days_away": -4
     },
     {
-      "symbol": "COFORGE",
-      "type": "earnings_date",
-      "date": "2026-10-23",
-      "detail": "Earnings Date",
-      "days_away": 4
+      "symbol": "HCLTECH",
+      "type": "ex-dividend_date",
+      "date": "2026-10-16",
+      "detail": "Ex-Dividend Date",
+      "days_away": -4
     },
     {
       "symbol": "DRREDDY",
       "type": "earnings_date",
       "date": "2026-10-23",
       "detail": "Earnings Date",
-      "days_away": 4
+      "days_away": 3
     },
     {
       "symbol": "ICICIGI",
       "type": "ex-dividend_date",
       "date": "2026-10-23",
       "detail": "Ex-Dividend Date",
-      "days_away": 4
+      "days_away": 3
     },
     {
       "symbol": "KOTAKBANK",
       "type": "earnings_date",
       "date": "2026-10-24",
       "detail": "Earnings Date",
-      "days_away": 5
+      "days_away": 4
     },
     {
-      "symbol": "PAYTM",
+      "symbol": "APLAPOLLO",
       "type": "earnings_date",
-      "date": "2026-10-26",
+      "date": "2026-10-29",
       "detail": "Earnings Date",
-      "days_away": 7
+      "days_away": 9
     },
     {
       "symbol": "LAURUSLABS",
       "type": "earnings_date",
       "date": "2026-10-29",
       "detail": "Earnings Date",
-      "days_away": 10
+      "days_away": 9
     },
     {
-      "symbol": "MOTHERSON",
+      "symbol": "TRENT",
       "type": "earnings_date",
-      "date": "2026-11-12",
+      "date": "2026-10-29",
       "detail": "Earnings Date",
-      "days_away": 24
+      "days_away": 9
     }
   ],
   "by_symbol": {
-    "COFORGE": {
+    "APLAPOLLO": {
       "dividends": [
         {
-          "date": "2026-08-03",
-          "amount": 4.0
+          "date": "2026-09-08",
+          "amount": 8.5
         }
       ],
       "splits": [],
       "calendar": {
         "Earnings Date": [
-          "2026-10-23"
+          "2026-10-29"
         ],
-        "Ex-Dividend Date": "2026-08-03"
+        "Ex-Dividend Date": "2026-09-08"
       }
     },
     "DRREDDY": {
@@ -87,6 +94,29 @@
           "2026-10-23"
         ],
         "Ex-Dividend Date": "2026-07-10"
+      }
+    },
+    "HCLTECH": {
+      "dividends": [
+        {
+          "date": "2026-04-24",
+          "amount": 24.0
+        },
+        {
+          "date": "2026-07-17",
+          "amount": 12.0
+        },
+        {
+          "date": "2026-10-16",
+          "amount": 12.0
+        }
+      ],
+      "splits": [],
+      "calendar": {
+        "Earnings Date": [
+          "2027-01-11"
+        ],
+        "Ex-Dividend Date": "2026-10-16"
       }
     },
     "ICICIGI": {
@@ -139,30 +169,6 @@
         "Ex-Dividend Date": "2026-05-08"
       }
     },
-    "MOTHERSON": {
-      "dividends": [
-        {
-          "date": "2026-07-14",
-          "amount": 0.25
-        }
-      ],
-      "splits": [],
-      "calendar": {
-        "Earnings Date": [
-          "2026-11-12"
-        ],
-        "Ex-Dividend Date": "2026-07-14"
-      }
-    },
-    "PAYTM": {
-      "dividends": [],
-      "splits": [],
-      "calendar": {
-        "Earnings Date": [
-          "2026-10-26"
-        ]
-      }
-    },
     "PERSISTENT": {
       "dividends": [
         {
@@ -176,6 +182,26 @@
           "2026-10-15"
         ],
         "Ex-Dividend Date": "2026-07-27"
+      }
+    },
+    "TRENT": {
+      "dividends": [
+        {
+          "date": "2026-06-12",
+          "amount": 4.0
+        }
+      ],
+      "splits": [
+        {
+          "date": "2026-06-04",
+          "ratio": "1.5"
+        }
+      ],
+      "calendar": {
+        "Earnings Date": [
+          "2026-10-29"
+        ],
+        "Ex-Dividend Date": "2026-06-12"
       }
     }
   }

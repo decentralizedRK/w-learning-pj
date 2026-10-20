@@ -1,18 +1,12 @@
 {
-  "timestamp": "2026-10-19T08:01:10+00:00",
+  "timestamp": "2026-10-20T07:51:34+00:00",
   "ticker_news": {
-    "COFORGE": [
+    "APLAPOLLO": [
       {
-        "title": "COFORGE Share Price Today - Coforge on NSE/BSE - scanx.trade",
+        "title": "APL Apollo Tubes Ltd (APLAPOLLO) Share Price - Business Today",
         "publisher": "Google News",
-        "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBZa0lSZHA2N3hySDFSYldJbkJFZkRsOHRzbXJuaWgwOUQyeTBsckQyM3FBYkQ1c3F6a1N1M0RJZjkyYWU2c3VNVHpDNHA1Z0Q3?oc=5",
-        "age_h": 39.1
-      },
-      {
-        "title": "Coforge Share Price - Upstox",
-        "publisher": "Google News",
-        "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9US3I1X0pBV2VvWTdZSE90dWhvY1FES1VvMnZ4b1JITGgzSk5KQUFtalBuX1VqT0F5cGtuRFhsbjRHSHlTR2t5Z3cxQktKRE1yUFREVWhmRVJiU2lwZ1BiZTI0YnY?oc=5",
-        "age_h": 73.0
+        "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPYXowckpzR09lNzFDSVJVQ3R2a05fVjNqdWllTUZBZWVQdGc4N19na2djRkZaUmFaNzU1X2JzQi03V0NqSlpWT3dwbDlJMFBGQnpsbmRrM0lQTjVCRi1qc1dmNnlmT0NwbU9mc2Y3ZGpsOUh2WjhjNnFEQjB2X0RSRkpqYVllNHF5MVdfMUln?oc=5",
+        "age_h": 96.9
       }
     ],
     "DRREDDY": [
@@ -20,83 +14,63 @@
         "title": "DRREDDY Share Price Today - Dr Reddys Laboratories on NSE/BSE - scanx.trade",
         "publisher": "Google News",
         "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE03S3NFMG8zNnRMb1VRMlUzLVRLQXJvN2NWLTNiaGdfV1dpRDhFVmQ4THlNdGNiZkZPTFEzQWtDbENQNU03bnlrUlRjLVFXWk1VWC15aXRXMlZ0cU05d1dvdk9kMW4?oc=5",
-        "age_h": 62.7
+        "age_h": 86.6
       },
       {
-        "title": "Dr. Reddy's Laboratories Share Price - Live NSE: DRREDDY Stock Price & Chart - Upstox",
+        "title": "Dr Reddy stock: Dr Reddy sets October 23 results. P/ E is 31.29 for Dr Reddy stock - ad-hoc-news.de",
         "publisher": "Google News",
-        "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE0zSVhMclV3N2dOMVJfcHNVbWN1LUhfYWFxQ3gzMjMxamNNaGhDOEt2bEQ0NGhXU2paSVEwVWpseW1ZZzNRUm5XSkRiSm9TMEhBVkRmNzdGYTVkeC04QVZMY0NUYlhGX2Z3cm1iR2ZzSQ?oc=5",
-        "age_h": 73.0
+        "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPa3M5VlJkbTNRMHBZSjlpVTAtZTlfX2FoUkRuR3hxWTNVSFQ4dmZVR05EM1NTX0o2SlFibFYzWUU0R0lSNm14NmhDWWdsU2JvSllmdzREUzNzTkQtSi1FeHBaZ1ZzQ1lpbE9pN0toOURDSEVrRXVOUzVhNU9LNUdSOG93TDhYWGI5S0taaE50NzZVMU1VaW1sN1BvZ0V5emJFeVJOVUEtYTZwc2s0NWR6SWJuYXBOaEljRERxXzcyLTg3cFlBem93emtoVDVlcHpXUmRVMzFReEF0QQ?oc=5",
+        "age_h": 18.2
+      }
+    ],
+    "HCLTECH": [
+      {
+        "title": "HCL Technologies Share Price - Live NSE: HCLTECH Stock Price & Chart - Upstox",
+        "publisher": "Google News",
+        "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5VakFpRExUYldXMkNsOENVSHQ2NUIyNDhRZklKbjVtZGJBMzFsSXpfRGJyVzdQWkxCb0oyYnZIMTRBblBmZl9WRmlRVTZ3Qm8tR1dJS21pQkl6WGpWOWJ0dllEMVpKZEJTaE8w?oc=5",
+        "age_h": 25.6
       },
       {
-        "title": "Dr Reddy reported three FDA observations before Dr Reddy stock results - ad-hoc-news.de",
+        "title": "HCL Technologies Limited (HCLTECH.NS) stock price, news, quote and history - Yahoo Finance UK",
         "publisher": "Google News",
-        "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNMkpraDlvYndINGpaMlV6dEgwU0lWXzFSdlJzSXpWMmtfVFhXMnNOemhIUTM5SHNUNnNpWk9uZE5tckpCWFJaMi1QZHN4QWlURHNZaVdyMU9VVjg2LUVfaGVpMkdfLVk1dWg0V3poQWFEMmlRLWRxS3VhSVhtWUViREVwcWRXX2lIQnhwRkFIT3FrSnVxS1habVE5aUpCc2JKVXM0R21JVEkzVGJaZFFkcWRnQmMxUjJaMTJxeWU4VVRORlg3bDN5MjlGYV8tZw?oc=5",
-        "age_h": 0.4
+        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1nMWZvR19hY040V1pCTlJMM0hpRHJXdlhzT1ltdzB5eGlBaWt5V3pVQWNNQ2FrdnRpdFc0cG9OS0hjaHlWRVQ4b0Z2VXNpS052MFlaWi1zdFVlQQ?oc=5",
+        "age_h": 19.7
+      },
+      {
+        "title": "HCL Technologies Ltd Share Price Today,, HCLTECH Share Price NSE, BSE - Business Today",
+        "publisher": "Google News",
+        "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxObl9IN0tnQ2dHc3VpMkQwNXQzWnh0YUFxTnpTS0NGQlRfNHR1UzhrOHZoRWZYcmNwS2lWV0N5bWJDLXR4MDF0Mkxud2Y2cGtsLWt4a1FGMHNZRnlUSVVGSkFBQWltdFVVam9tbjM5eXA5bnBXeHVaYjFHRkc5bTVRbWIycDNfNmxUM2hR?oc=5",
+        "age_h": 96.9
       }
     ],
     "ICICIGI": [
       {
-        "title": "ICICI Lombard Share Price Today, ICICI Lombard Stock Price Live NSE/BSE Updates - The Economic Times",
-        "publisher": "Google News",
-        "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQc0FVYmluaGZDQmt4QnBjRFA3c0pvejBnbUFLQTN4ZndSc3JDb1ZlMFQxLUJjdEhmcGtJWFNQTlFVd05mM3hFUHlhc2J0MXl2dnBiaWY2SVZuczFYNjdxdGRIc3F4U0lFV05CSlhFdnliQkdpUEtvLTVjSWx6Q0RIUFU0aUVONEVpbG12MmNLVU9iVzk1aDNEZFVJZUlEMlRWNG1ZVkhYOUFmdw?oc=5",
-        "age_h": 82.0
-      },
-      {
         "title": "ICICI Lombard General Insurance Co Ltd (NSE:ICICIGI) (Q2 2027) Earnings Call Highlights: Profit ... - Yahoo Finance",
         "publisher": "Google News",
         "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQWW90ZUhCQ3JMZFJJZVZaUHlqNFZ3SUNLVHhBWElzSWdTUTY3dl9DVFdyeV9sVTB1QUNndGRSY1NWaHZxZmItOEdUc0h2SGpPU1VlbDAxdG0yWmZvcktDcFBLTkV3VDI1Q3p2YWNhVmk4MUNaLV9DTGM1OHF0YlEtQjZsTUtGRVNYN3YyTVpaQ3gxdHI2c1BaNzhJVQ?oc=5",
-        "age_h": 63.0
-      },
-      {
-        "title": "ICICI Lombard General Insurance (NSEI:ICICIGI) Stock Price - Simply Wall Street",
-        "publisher": "Google News",
-        "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBmcVZIOVFrR05Uc0VDOUxDWGFXNGs3aDRYeE81NFplLUYzNEtPbW9OMkVaQURnREdrZlBfZmZuZndEaXBCc0VVTm1HYTZ2UzFLQVE?oc=5",
-        "age_h": 112.9
+        "age_h": 86.8
       }
     ],
     "KOTAKBANK": [
       {
         "title": "Kotak Mahindra Bank sets October 24 results: HSBC targets Kotak Mahindra Bank stock at INR 520 - ad-hoc-news.de",
         "publisher": "Google News",
-        "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQdjlkS2V4SUpnTkhQZjZ3RThhak53dXJjVndzOGFwRkJ6cmpHUEZqazctSmkyYldrOUZzWnVrNkJLc28teGtrRHJaVGpIVmRELThONW9HTzhEV3hLb193QTdTZVc5bnA1SHVGSlMybEM3dm5CMklDQVZLbXZfckE1QWlZT0cxcXJRTkJTcHkyeDJnaDQ2dDlyaWFXVDhkamU3MXFSX2xyS2RhbWEzUU9rbk45eE5RdUVJV1lkMzN4SGlmV3NPd05NUlZXdXFsdFU?oc=5",
-        "age_h": 0.7
+        "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPdjQ2dHNHMU9sMjN1TWxKV3ZqLTYzdmw0OFpUN25CbTZxYjRKa3ZMeTFtNV9LdDUyUE9wd3BFQTNxTGJNUkhucW9uRVdJYlJyZWFmVjFoaU1mNWxNdXhhZUgtMXh1Z19CcVFUZXgwS2hmbUw0TVFtYzRidEpHeC1UWk9IRG11OF9lUmlGZ2FNU3FBSWJqX3hYSHdhZ3k4amVBNWlyWS15UHBiV0FaLVVJVF9qZ1FUSzJhRUlDNk5SNjYyVTdjUGFTV2loZThQTzBRdXpDQUh1VXhwWmpDWE02V1hMSk50UWNZeHctTw?oc=5",
+        "age_h": 24.5
       }
     ],
     "LAURUSLABS": [
       {
+        "title": "Laurus Labs Limited (LAURUSLABS.NS) Stock Price, News, Quote & History - Yahoo! Finance Canada",
+        "publisher": "Google News",
+        "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBxLUpXOHh3Z1BMOHZRamlZR1BuVGdaOVZLUmJSdkNiQ2dBLVZIWnhMbi1WMUpzUktaQm5pazNKdGFKMjZHNUdGRHcwWWd3U1Rac1c5M1RjOF9qQjVxY1E?oc=5",
+        "age_h": 89.8
+      },
+      {
         "title": "Laurus Labs Ltd. Share Price Today - Laurus Labs Ltd. Stock Price Live NSE/BSE - CNBC TV18",
         "publisher": "Google News",
         "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBlc1llMkl6NkdyQkhvS0o1cEFSQ1JBdDNfM0JYeEhmVzU4Z290TGJsekFqMm4zcU5PcmtMZm45bU9YQ2RSX1BOek05Wi0tNWhLTHNwck1FNzZJRklIQlQxLWFzZG5XenZ0STNPb3hEa0dhb1J5cEdpeFdvUk8?oc=5",
-        "age_h": 70.1
-      }
-    ],
-    "MOTHERSON": [
-      {
-        "title": "Samvardhana Motherson International (NSEI:MOTHERSON) - Stock Analysis - Simply Wall Street",
-        "publisher": "Google News",
-        "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNT3BSbjBUNU51Sk42emxyQ2xFbkJjR004SkpoWmxCQjBzRl83YTBSTEFmX1U3UnNuamdrT19NVEIxY1FuMjF5X1pNNTNQeVRkQ0h2aGJXTUN6U0xFYmd6VVFTcWlDMlJuNWVQV2dwb08tSms5dk5kUW5PTWRIM3h6RndtRkVXUzlaQ3p2OXdtV0VYS3RRSGlSaHYtc3J6MU0tUmc?oc=5",
-        "age_h": 73.0
-      },
-      {
-        "title": "Samvardhana Motherson Intl Share Price - Upstox",
-        "publisher": "Google News",
-        "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9GMXBEaUlnVHc3QzZ1cGRwRzYyT29wbDB6RmptQVZuYU9mQnRqcUxqNUJIYy1SeFE5dnRmOFBXM2VaTzZmdGd2ZzlwYVFxc2FmblNoLTYyM0k3a0R6QkdFUnE0Yl81clMzVVBoMlpMb1lEZw?oc=5",
-        "age_h": 73.0
-      },
-      {
-        "title": "Motherson Sumi Wiring India (NSEI:MSUMI) Stock Forecast & Analyst Predictions - Simply Wall Street",
-        "publisher": "Google News",
-        "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxObkF2a1FidENjRGdibXdiUjVFYWF2UDFURW5vMVJSTmRmSlE4SXlhTk12V3FaWHljVkQzbU1xRDZlVWZhanJYcG5OLWRERHJXaWo3aUUtWVF6SXZOM3VOV1BzbHdJcWlEdVc4QXhqaUNaeG4wdnIxdjNFZWYwWkIzT1g0bzdqZm12MXpCczVJb091SUtkU2pac0lHUQ?oc=5",
-        "age_h": 97.0
-      }
-    ],
-    "PAYTM": [
-      {
-        "title": "Paytm Share Price - Upstox",
-        "publisher": "Google News",
-        "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE10YnFLTkJqaUJ6ajFFc2tOQzFWS055TllhWG1LckQ3bnJyQUZMZnNLczA2SlhXMlBnV3RHY3JDazVRSVZacGY2b2JyV09XaHVudXBnSjRBQldudEZYTEoyOWdlNU9XVG8xWUVhUXJXUTVCZw?oc=5",
-        "age_h": 73.0
+        "age_h": 93.9
       }
     ],
     "PERSISTENT": [
@@ -104,72 +78,98 @@
         "title": "Persistent Systems Share Price - Upstox",
         "publisher": "Google News",
         "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5OQXZRQUQ2OUhWQnJnQldBZjZMNkN2TEZFazJEWmUwNDQxVlhjRkRPV1dWZkNJU1MwRWRCZTZ0NWRub01TQ05DOGJESXZjRmVxWi1BdzE2Zkxud0FtNmVtY1RSMGZOdVU1WEpoOGJn?oc=5",
-        "age_h": 73.0
+        "age_h": 63.3
+      },
+      {
+        "title": "Persistent Systems Limited (PERSISTENT.NS) Stock Price, News, Quote & History - Yahoo! Finance Canada",
+        "publisher": "Google News",
+        "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5LbFYxLXZ1a0g5V3FIUWZNOU0zeF8tTl96bkJqa3dYTnVQZUlmWm1scVg1V1gwM2xpMjNKWlBYc2NTSWFOaWJvREhpcGtyMk8xdXE0NGl1Z1pLcm84WHc?oc=5",
+        "age_h": 8.4
       },
       {
         "title": "Persistent Systems (NSEI:PERSISTENT) Stock Forecast & Analyst Predictions - Simply Wall Street",
         "publisher": "Google News",
         "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxON3lIS3ZPVnhqcVRMdDlKaS13UGZfQjRHQ2JyOTdMSDBYRWVNTUo2ZDFBR2lzUUMyWWh6TVlCVldJNFN4dW4tc2xQR1RpZDlpcl9pRk9tMGhLZHoxbXpfbTNvQ2YxWC05X2ctZ05DNmQ1NGdIczFQaFlhSXBiQUJMR0UyOVBVcm5DdUZsNTNvTEI5QQ?oc=5",
-        "age_h": 73.0
+        "age_h": 96.9
+      }
+    ],
+    "TRENT": [
+      {
+        "title": "Trent stock: At INR 2,891.60, Trent stock falls 2.27 percent on NSE - ad-hoc-news.de",
+        "publisher": "Google News",
+        "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNd2dmU1lhQmRCbkVabTk3Mm5aN21ObW1YbDN1dTZRZGQwTXpFQWJiWnZ4VkZ2Z0RVWnBkYzIyOThZcU5JNzNsSmJDcnNsQTJiRWhaeFppZ0hEa0hzZkZQNzc4bk5fRzV0NnVJai0ycGpJOXptdGtQemRESjQ3SnBuUDAtVjc2elZBYWlMQnlOTUdBUVlETThRZS1XcG5ING5MUU9YSmZYcWp2Q0Q5bUlxczJ4UThvWTNxUlhhdWFBZ3lKSVF1LWxr?oc=5",
+        "age_h": 16.4
+      },
+      {
+        "title": "Trent (TRENT) Share Price Today, Live Chart & News - TechGraph",
+        "publisher": "Google News",
+        "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9ma1Y1Vk81cHhIYmtxMHRwUlBBczZJSmkwUHhoVzJOdGdscTE5T1BmNG9Qa1E5ak9ONXQ3T0pTRFVoS0gySGNsM0xES1FBMXltX3VQLUpzaTl1VGlTTkE?oc=5",
+        "age_h": 96.9
+      },
+      {
+        "title": "Trent NSE:TRENT Physical Share Transfer Window 2026 - Kalkine India",
+        "publisher": "Google News",
+        "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNUXJiS1NBNEZ5MS1pVUt6RWpCMkNyZzR6ZmoybkpPQ3RaRERRLS01VDduUEw4MmVsTXNxMEF5MjlCS090RWpxMGRxbDFCekNGRzFGbnZ0dEpReExjZTFZZWVlMUJvVGNCaGs3Wi1DNGk4NVNfZ3YwMnI0OHl2MjlTRWNZZ04zeUkybkdzYzB0U0dHNEg0dExXblNyU0czbTEtcFhzRkxVWS1CODk5YWdsMUtZNA?oc=5",
+        "age_h": 26.4
       }
     ]
   },
   "market_headlines": [
     {
       "source": "Economic Times",
-      "title": "Global Market: Indonesia stock exchange to meet MSCI after downgrade warning triggers market rout",
-      "link": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/global-market-indonesia-stock-exchange-to-meet-msci-after-downgrade-warning-triggers-market-rout/articleshow/135043186.cms",
-      "summary": "Indonesia\u2019s stock exchange will meet MSCI on Monday to seek clarity over a warning that could strip the country of its emerging-market status. The threat triggered a sharp selloff, wiping $65 billion ",
+      "title": "Jio IPO opens tomorrow: How can investors maximise allotment chances under Rs 2,500 crore RIL shareholders quota",
+      "link": "https://economictimes.indiatimes.com/markets/stocks/news/jio-ipo-opens-tomorrow-how-can-investors-maximise-allotment-chances-under-rs-2500-crore-ril-shareholders-quota/articleshow/135064168.cms",
+      "summary": "The much-anticipated Reliance Jio Platforms IPO is launching for public subscription starting October 21, 2023. Shareholders of Reliance Industries can benefit from a Rs 2,500 crore reservation aimed ",
       "age_h": 0.3
     },
     {
       "source": "Economic Times",
-      "title": "Global Market: Eurozone bond selloff to weigh on growth, curb inflation, Lagarde says",
-      "link": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/global-market-eurozone-bond-selloff-to-weigh-on-growth-curb-inflation-lagarde-says/articleshow/135043065.cms",
-      "summary": "ECB President Christine Lagarde warned that a global bond selloff is tightening euro zone financial conditions, raising borrowing costs and weighing on growth. Policymakers face a challenge balancing ",
+      "title": "WhatsApp stock tips: Nithin Kamath warns of more pump-and-dump schemes as ED freezes accounts worth Rs 200 crore",
+      "link": "https://economictimes.indiatimes.com/markets/stocks/news/whatsapp-stock-tips-nithin-kamath-warns-of-more-pump-and-dump-schemes-as-ed-freezes-accounts-worth-rs-200-crore/articleshow/135064120.cms",
+      "summary": "In a post on X, formerly Twitter, Kamath said such schemes remain a concern even in 2026, calling them one of the silliest ways for investors to lose money. He also warned that these cases could becom",
       "age_h": 0.3
     },
     {
       "source": "Economic Times",
-      "title": "HFCL Q2 Results: Profit zooms 448% YoY to Rs 394 crore; stock hits 5% upper circuit",
-      "link": "https://economictimes.indiatimes.com/markets/stocks/earnings/hfcl-q2-results-profit-zooms-448-yoy-to-rs-394-crore-stock-hits-5-upper-circuit/articleshow/135042693.cms",
-      "summary": "HFCL reported a 448% year-on-year jump in Q2FY27 net profit to Rs 394 crore, compared with Rs 71.92 crore a year ago. Revenue surged 144% to Rs 2,542 crore, while EBITDA rose 224% to Rs 658 crore. EBI",
-      "age_h": 0.8
+      "title": "Japan's 20-year bond yield falls sharply after strongest auction on record",
+      "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/japans-20-year-bond-yield-falls-sharply-after-strongest-auction-on-record/articleshow/135063198.cms",
+      "summary": "Japan's 20-year government bond yield saw a notable decline following a record demand from its recent auction. This drop marked the lowest yield since early September, driven by investor confidence in",
+      "age_h": 0.9
     },
     {
       "source": "Economic Times",
-      "title": "HDFC Bank vs ICICI Bank: One has the growth, the other has the valuation edge. Which stock to buy?",
-      "link": "https://economictimes.indiatimes.com/markets/stocks/news/hdfc-bank-vs-icici-bank-one-has-the-growth-the-other-has-the-valuation-edge-which-stock-to-buy/articleshow/135042271.cms",
-      "summary": "ICICI Bank has outperformed HDFC Bank in 2026, supported by stronger loan growth, deposits and profitability. While ICICI commands a valuation premium, HDFC\u2019s 28% stock decline has created a potential",
-      "age_h": 1.1
+      "title": "Bank of Japan may raise inflation forecast, stand pat on rates, sources say",
+      "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/bank-of-japan-may-raise-inflation-forecast-stand-pat-on-rates-sources-say/articleshow/135063146.cms",
+      "summary": "The Bank of Japan plans to slightly upgrade its fiscal year 2027 inflation forecasts this month. Interest rates are expected to remain stable at 1.25% during the upcoming policy meeting in late Octobe",
+      "age_h": 1.0
     },
     {
       "source": "Livemint",
-      "title": "Just Dial shares skyrocket 13% as volume soars massively 115 times - More returns ahead or something else? Experts view",
-      "link": "https://www.livemint.com/market/stock-market-news/just-dial-shares-skyrocket-13-as-volume-soars-massively-115-times-more-returns-ahead-or-something-else-experts-view-11792394067468.html",
-      "summary": "Just Dial share price opened at  \u20b9716.45 against its previous close of  \u20b9712.45 and jumped 12.6% to an intraday high of  \u20b9802, with volume soaring massively by 115 times.",
-      "age_h": 0.1
+      "title": "SpaceX shares: Down 35% from IPO listing peak, Elon Musk firm to declare earnings today - When, where to check online",
+      "link": "https://www.livemint.com/market/stock-market-news/spacex-shares-down-35-from-ipo-listing-peak-elon-musk-firm-to-declare-earnings-today-when-where-to-check-online-11792477309523.html",
+      "summary": "SpaceX will report its third-quarter results on October 20, with investors focused on Starlink\u2019s growth, subscriber gains and profitability, as well as rising investment in AI-related businesses. The ",
+      "age_h": 0.7
     },
     {
       "source": "Livemint",
-      "title": "Platinum Industries share price jumps 14%: Technical analyst sees further upside; Check key levels to watch",
-      "link": "https://www.livemint.com/market/stock-market-news/platinum-industries-share-price-jumps-14-technical-analyst-sees-further-upside-check-key-levels-to-watch-11792393248087.html",
-      "summary": "Platinum Industries shares jumped nearly 14% on Monday amid strong trading volumes, after crossing key moving averages. The company reported lower Q1 FY27 revenue and profit, while ramping up expanded",
-      "age_h": 0.6
-    },
-    {
-      "source": "Livemint",
-      "title": "Tanla Platforms shares crash 6% - Experts decode future of 'long-term downtrend' | What lies ahead for CPaaS stock?",
-      "link": "https://www.livemint.com/market/stock-market-news/tanla-platforms-shares-crash-6-before-trimming-losses-time-to-buy-experts-decode-11792391852511.html",
-      "summary": "The stock is up 6% year-to-date compared to a 13% fall in the equity benchmark Sensex. Over the last six months, it is up 12% compared to a 6% decline in the Sensex.",
+      "title": "Dividend stocks alert: Check Elecon Eng, ICICI Prudential, Mangalore Refinery record date - Amount, yield, history",
+      "link": "https://www.livemint.com/market/stock-market-news/dividend-stocks-check-elecon-eng-icici-prudential-mangalore-refinery-record-date-on-21-oct-amount-yield-history-11792476558518.html",
+      "summary": "Dividend stocks alert: All three companies have fixed Wednesday, 21 October, as the record date for their respective dividends, according to available on NSE.",
       "age_h": 0.9
     },
     {
       "source": "Livemint",
-      "title": "What to do with IT stocks? TCS, HCL Tech, Wipro, Infosys, Tech Mahindra \u2014 Why experts are bullish after Accenture news",
-      "link": "https://www.livemint.com/market/stock-market-news/tcs-hcl-tech-wipro-infosys-to-tech-mahindra-experts-bullish-on-it-shares-after-accentures-shift-from-ai-investment-11792390800742.html",
-      "summary": "IT stocks have been on an uptrend since announcement of &amp;nbsp;Accenture results on October 1, 2026, signaling broader IT spendings beyond AI",
-      "age_h": 0.9
+      "title": "Hindustan Zinc shares: Experts bullish on Anil Agarwal-led metal stock after robust Q2 results 2026 | Target, stop-loss",
+      "link": "https://www.livemint.com/market/stock-market-news/hindustan-zinc-shares-experts-bullish-on-anil-agarwal-led-metal-stock-after-robust-q2-results-2026-target-stoploss-11792474520524.html",
+      "summary": "Hindustan Zinc share price target: Experts have predicted a long term target price of  \u20b9677 for Anil Agarwal's metal stock",
+      "age_h": 1.4
+    },
+    {
+      "source": "Livemint",
+      "title": "Nykaa shares: Anand Rathi initiates coverage on e-commerce stock with 'buy' rating | Check target price, rating",
+      "link": "https://www.livemint.com/market/stock-market-news/nykaa-shares-anand-rathi-initiates-coverage-on-e-commerce-stock-with-buy-rating-check-target-price-rating-11792473585712.html",
+      "summary": "Stock to buy: The brokerage firm further added that Nykaa saw a significant turnaround in FY26 with a record $1 billion revenue.",
+      "age_h": 1.9
     }
   ]
 }
