@@ -1,84 +1,105 @@
 {
-  "timestamp": "2026-10-20T07:51:37+00:00",
+  "timestamp": "2026-10-21T07:55:30+00:00",
   "events": [
+    {
+      "symbol": "TCS",
+      "type": "dividend",
+      "date": "2026-10-14",
+      "detail": "\u20b912.00 per share",
+      "days_away": -7
+    },
+    {
+      "symbol": "TCS",
+      "type": "ex-dividend_date",
+      "date": "2026-10-14",
+      "detail": "Ex-Dividend Date",
+      "days_away": -7
+    },
     {
       "symbol": "PERSISTENT",
       "type": "earnings_date",
       "date": "2026-10-15",
       "detail": "Earnings Date",
-      "days_away": -5
+      "days_away": -6
     },
     {
       "symbol": "HCLTECH",
       "type": "dividend",
       "date": "2026-10-16",
       "detail": "\u20b912.00 per share",
-      "days_away": -4
+      "days_away": -5
     },
     {
       "symbol": "HCLTECH",
       "type": "ex-dividend_date",
       "date": "2026-10-16",
       "detail": "Ex-Dividend Date",
-      "days_away": -4
+      "days_away": -5
     },
     {
       "symbol": "DRREDDY",
       "type": "earnings_date",
       "date": "2026-10-23",
       "detail": "Earnings Date",
-      "days_away": 3
+      "days_away": 2
     },
     {
       "symbol": "ICICIGI",
       "type": "ex-dividend_date",
       "date": "2026-10-23",
       "detail": "Ex-Dividend Date",
-      "days_away": 3
+      "days_away": 2
     },
     {
       "symbol": "KOTAKBANK",
       "type": "earnings_date",
       "date": "2026-10-24",
       "detail": "Earnings Date",
-      "days_away": 4
+      "days_away": 3
     },
     {
-      "symbol": "APLAPOLLO",
+      "symbol": "ADANIPORTS",
       "type": "earnings_date",
-      "date": "2026-10-29",
+      "date": "2026-10-28",
       "detail": "Earnings Date",
-      "days_away": 9
+      "days_away": 7
     },
     {
       "symbol": "LAURUSLABS",
       "type": "earnings_date",
       "date": "2026-10-29",
       "detail": "Earnings Date",
-      "days_away": 9
+      "days_away": 8
     },
     {
       "symbol": "TRENT",
       "type": "earnings_date",
       "date": "2026-10-29",
       "detail": "Earnings Date",
-      "days_away": 9
+      "days_away": 8
+    },
+    {
+      "symbol": "MPHASIS",
+      "type": "earnings_date",
+      "date": "2026-11-05",
+      "detail": "Earnings Date",
+      "days_away": 15
     }
   ],
   "by_symbol": {
-    "APLAPOLLO": {
+    "ADANIPORTS": {
       "dividends": [
         {
-          "date": "2026-09-08",
-          "amount": 8.5
+          "date": "2026-06-12",
+          "amount": 7.5
         }
       ],
       "splits": [],
       "calendar": {
         "Earnings Date": [
-          "2026-10-29"
+          "2026-10-28"
         ],
-        "Ex-Dividend Date": "2026-09-08"
+        "Ex-Dividend Date": "2026-06-12"
       }
     },
     "DRREDDY": {
@@ -98,10 +119,6 @@
     },
     "HCLTECH": {
       "dividends": [
-        {
-          "date": "2026-04-24",
-          "amount": 24.0
-        },
         {
           "date": "2026-07-17",
           "amount": 12.0
@@ -169,6 +186,21 @@
         "Ex-Dividend Date": "2026-05-08"
       }
     },
+    "MPHASIS": {
+      "dividends": [
+        {
+          "date": "2026-07-08",
+          "amount": 62.0
+        }
+      ],
+      "splits": [],
+      "calendar": {
+        "Earnings Date": [
+          "2026-11-05"
+        ],
+        "Ex-Dividend Date": "2026-07-08"
+      }
+    },
     "PERSISTENT": {
       "dividends": [
         {
@@ -182,6 +214,29 @@
           "2026-10-15"
         ],
         "Ex-Dividend Date": "2026-07-27"
+      }
+    },
+    "TCS": {
+      "dividends": [
+        {
+          "date": "2026-05-25",
+          "amount": 31.0
+        },
+        {
+          "date": "2026-07-15",
+          "amount": 12.0
+        },
+        {
+          "date": "2026-10-14",
+          "amount": 12.0
+        }
+      ],
+      "splits": [],
+      "calendar": {
+        "Earnings Date": [
+          "2026-10-08"
+        ],
+        "Ex-Dividend Date": "2026-10-14"
       }
     },
     "TRENT": {
