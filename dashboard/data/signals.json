@@ -1,126 +1,137 @@
 {
-  "timestamp": "2026-10-20T16:05:21",
+  "timestamp": "2026-10-21T16:22:11",
   "top_picks": [
     {
       "symbol": "TCS",
       "close": 2460.89990234375,
       "roc_20": 17.52884368623191,
-      "adx": 28.2256258753016,
-      "rsi": 73.65237066398444,
-      "composite_score": 0.6954545454545454,
+      "adx": 27.958186364913413,
+      "rsi": 73.63358077108425,
+      "composite_score": 0.6979166666666666,
       "entry_signal": false,
       "segment": "largecap",
-      "date": "2026-10-20"
+      "date": "2026-10-21"
     },
     {
       "symbol": "KOTAKBANK",
       "close": 442.29998779296875,
       "roc_20": 7.224239464962112,
-      "adx": 41.62461428833391,
-      "rsi": 63.06689295709134,
-      "composite_score": 0.6409090909090909,
+      "adx": 41.65193976589853,
+      "rsi": 63.05196773830344,
+      "composite_score": 0.6395833333333333,
       "entry_signal": false,
       "segment": "largecap",
-      "date": "2026-10-20"
+      "date": "2026-10-21"
     },
     {
       "symbol": "ICICIGI",
       "close": 1650.0,
       "roc_20": 13.160964791659602,
-      "adx": 35.385158424073104,
-      "rsi": 56.814392628244995,
-      "composite_score": 0.6272727272727272,
+      "adx": 35.081629913949875,
+      "rsi": 56.76325681409288,
+      "composite_score": 0.6270833333333332,
       "entry_signal": false,
       "segment": "midcap",
-      "date": "2026-10-20"
+      "date": "2026-10-21"
     },
     {
       "symbol": "MPHASIS",
       "close": 2500.0,
       "roc_20": 8.676756482770177,
-      "adx": 23.020000298997193,
-      "rsi": 67.2610786727171,
-      "composite_score": 0.5909090909090908,
+      "adx": 23.498602308048984,
+      "rsi": 67.336279155447,
+      "composite_score": 0.6020833333333334,
       "entry_signal": false,
       "segment": "midcap",
-      "date": "2026-10-20"
-    },
-    {
-      "symbol": "HCLTECH",
-      "close": 1379.9000244140625,
-      "roc_20": 11.437116693237481,
-      "adx": 22.786692586251835,
-      "rsi": 70.20717321007567,
-      "composite_score": 0.5590909090909091,
-      "entry_signal": false,
-      "segment": "largecap",
-      "date": "2026-10-20"
+      "date": "2026-10-21"
     },
     {
       "symbol": "LAURUSLABS",
       "close": 2069.0,
       "roc_20": 5.885363357215967,
-      "adx": 24.144814775346255,
-      "rsi": 61.44034549028108,
-      "composite_score": 0.559090909090909,
+      "adx": 24.771935267095262,
+      "rsi": 61.46025811727415,
+      "composite_score": 0.58125,
       "entry_signal": false,
       "segment": "midcap",
-      "date": "2026-10-20"
+      "date": "2026-10-21"
     },
     {
       "symbol": "TRENT",
       "close": 2891.60009765625,
       "roc_20": 2.393771163464953,
-      "adx": 27.394219270638732,
-      "rsi": 54.43006872085935,
-      "composite_score": 0.5454545454545454,
+      "adx": 27.054547393673936,
+      "rsi": 54.44454972285116,
+      "composite_score": 0.5604166666666668,
       "entry_signal": false,
       "segment": "largecap",
-      "date": "2026-10-20"
+      "date": "2026-10-21"
+    },
+    {
+      "symbol": "HCLTECH",
+      "close": 1379.9000244140625,
+      "roc_20": 11.437116693237481,
+      "adx": 22.51703026422964,
+      "rsi": 70.19854895905019,
+      "composite_score": 0.5604166666666667,
+      "entry_signal": false,
+      "segment": "largecap",
+      "date": "2026-10-21"
     },
     {
       "symbol": "PERSISTENT",
       "close": 5690.0,
       "roc_20": 5.059084194977848,
-      "adx": 21.427710697702675,
-      "rsi": 54.37776483499816,
-      "composite_score": 0.49090909090909085,
+      "adx": 22.341554167358918,
+      "rsi": 54.428107810364914,
+      "composite_score": 0.5104166666666666,
       "entry_signal": false,
       "segment": "midcap",
-      "date": "2026-10-20"
-    },
-    {
-      "symbol": "ADANIPORTS",
-      "close": 1766.0,
-      "roc_20": -3.1798245614035103,
-      "adx": 21.9609408168865,
-      "rsi": 51.97779586969925,
-      "composite_score": 0.45454545454545453,
-      "entry_signal": false,
-      "segment": "largecap",
-      "date": "2026-10-20"
+      "date": "2026-10-21"
     },
     {
       "symbol": "DRREDDY",
       "close": 1242.5,
       "roc_20": 4.8523206751054815,
-      "adx": 21.87783338761639,
-      "rsi": 60.31877605510957,
-      "composite_score": 0.42272727272727273,
+      "adx": 23.40812255396171,
+      "rsi": 60.38013744547448,
+      "composite_score": 0.48124999999999996,
       "entry_signal": false,
       "segment": "largecap",
-      "date": "2026-10-20"
+      "date": "2026-10-21"
     },
     {
-      "symbol": "ANGELONE",
-      "close": 302.8999938964844,
-      "roc_20": 1.2704739937897669,
-      "adx": 20.592771991249425,
-      "rsi": 54.182868328965554,
-      "composite_score": 0.41363636363636364,
+      "symbol": "PETRONET",
+      "close": 293.6499938964844,
+      "roc_20": 0.35884749523802384,
+      "adx": 22.50033097670229,
+      "rsi": 55.213597912401184,
+      "composite_score": 0.43124999999999997,
       "entry_signal": false,
-      "segment": "smallcap",
-      "date": "2026-10-20"
+      "segment": "midcap",
+      "date": "2026-10-21"
+    },
+    {
+      "symbol": "ADANIPORTS",
+      "close": 1766.0,
+      "roc_20": -3.1798245614035103,
+      "adx": 21.163578820996594,
+      "rsi": 52.05153089451029,
+      "composite_score": 0.4145833333333333,
+      "entry_signal": false,
+      "segment": "largecap",
+      "date": "2026-10-21"
+    },
+    {
+      "symbol": "COFORGE",
+      "close": 1925.0,
+      "roc_20": 4.562737642585546,
+      "adx": 20.235074750583543,
+      "rsi": 59.8990296201281,
+      "composite_score": 0.39375000000000004,
+      "entry_signal": false,
+      "segment": "midcap",
+      "date": "2026-10-21"
     }
   ],
   "segments": {
@@ -129,540 +140,540 @@
         "symbol": "ADANIENT",
         "close": 2657.5,
         "roc_20": -12.00331125827815,
-        "adx": 33.35480803004053,
-        "rsi": 37.59817154307027,
+        "adx": 31.684710499614766,
+        "rsi": 37.6878201708092,
         "composite_score": 0.0,
         "entry_signal": false,
         "segment": "largecap",
-        "date": "2026-10-20"
+        "date": "2026-10-21"
       },
       {
         "symbol": "ADANIPORTS",
         "close": 1766.0,
         "roc_20": -3.1798245614035103,
-        "adx": 21.9609408168865,
-        "rsi": 51.97779586969925,
+        "adx": 21.163578820996594,
+        "rsi": 52.05153089451029,
         "composite_score": 0.0,
         "entry_signal": false,
         "segment": "largecap",
-        "date": "2026-10-20"
+        "date": "2026-10-21"
       },
       {
         "symbol": "APOLLOHOSP",
         "close": 7700.0,
         "roc_20": -13.91357817653307,
-        "adx": 35.42873973846427,
-        "rsi": 33.081724279274,
+        "adx": 35.00245974895501,
+        "rsi": 33.0987676934876,
         "composite_score": 0.0,
         "entry_signal": false,
         "segment": "largecap",
-        "date": "2026-10-20"
+        "date": "2026-10-21"
       },
       {
         "symbol": "ASIANPAINT",
         "close": 2330.699951171875,
         "roc_20": -4.919842338921521,
-        "adx": 40.478711081704766,
-        "rsi": 37.6625666625437,
+        "adx": 39.668558891500766,
+        "rsi": 37.692750447574454,
         "composite_score": 0.0,
         "entry_signal": false,
         "segment": "largecap",
-        "date": "2026-10-20"
+        "date": "2026-10-21"
       },
       {
         "symbol": "AXISBANK",
         "close": 1236.0,
         "roc_20": -1.670644391408116,
-        "adx": 18.188038155047177,
-        "rsi": 46.8478805236063,
+        "adx": 18.60545611074918,
+        "rsi": 46.88856035143385,
         "composite_score": 0.0,
         "entry_signal": false,
         "segment": "largecap",
-        "date": "2026-10-20"
+        "date": "2026-10-21"
       },
       {
         "symbol": "BAJAJ-AUTO",
         "close": 10287.0,
         "roc_20": -9.873839144909757,
-        "adx": 44.52704027860472,
-        "rsi": 40.09195209939878,
+        "adx": 44.9411958930498,
+        "rsi": 39.9955899685977,
         "composite_score": 0.0,
         "entry_signal": false,
         "segment": "largecap",
-        "date": "2026-10-20"
+        "date": "2026-10-21"
       },
       {
         "symbol": "BAJAJFINSV",
         "close": 1700.0,
         "roc_20": -8.232118758434549,
-        "adx": 49.20891009569733,
-        "rsi": 32.96259750241916,
+        "adx": 48.4505897159332,
+        "rsi": 32.92524105773511,
         "composite_score": 0.0,
         "entry_signal": false,
         "segment": "largecap",
-        "date": "2026-10-20"
+        "date": "2026-10-21"
       },
       {
         "symbol": "BAJFINANCE",
         "close": 957.3499755859375,
         "roc_20": -7.9736681100446845,
-        "adx": 18.644015267391,
-        "rsi": 41.38896794736827,
+        "adx": 17.61658796261965,
+        "rsi": 41.43764766025327,
         "composite_score": 0.0,
         "entry_signal": false,
         "segment": "largecap",
-        "date": "2026-10-20"
+        "date": "2026-10-21"
       },
       {
         "symbol": "BEL",
         "close": 377.20001220703125,
         "roc_20": -4.093561171024607,
-        "adx": 27.171626533085323,
-        "rsi": 41.096978451921714,
+        "adx": 26.528626928081405,
+        "rsi": 41.109515161656155,
         "composite_score": 0.0,
         "entry_signal": false,
         "segment": "largecap",
-        "date": "2026-10-20"
+        "date": "2026-10-21"
       },
       {
         "symbol": "BHARTIARTL",
         "close": 1875.199951171875,
         "roc_20": -0.9560078798631633,
-        "adx": 20.908538286807588,
-        "rsi": 56.77059605784951,
+        "adx": 20.58137950033646,
+        "rsi": 56.80339698196308,
         "composite_score": 0.0,
         "entry_signal": false,
         "segment": "largecap",
-        "date": "2026-10-20"
+        "date": "2026-10-21"
       },
       {
         "symbol": "BSE",
         "close": 3336.0,
         "roc_20": 2.1307892400532324,
-        "adx": 14.553808862837903,
-        "rsi": 52.14757282208305,
+        "adx": 14.15146547598265,
+        "rsi": 52.18570923309338,
         "composite_score": 0.0,
         "entry_signal": false,
         "segment": "largecap",
-        "date": "2026-10-20"
+        "date": "2026-10-21"
       },
       {
         "symbol": "CIPLA",
         "close": 1324.0999755859375,
         "roc_20": -5.048406196777522,
-        "adx": 20.476309900315794,
-        "rsi": 39.96074884087575,
+        "adx": 20.305612378356038,
+        "rsi": 40.03223205910372,
         "composite_score": 0.0,
         "entry_signal": false,
         "segment": "largecap",
-        "date": "2026-10-20"
+        "date": "2026-10-21"
       },
       {
         "symbol": "COALINDIA",
         "close": 411.70001220703125,
         "roc_20": 0.4391359691021224,
-        "adx": 15.733949223207743,
-        "rsi": 46.6283533609746,
+        "adx": 15.635217792270739,
+        "rsi": 46.64016747556241,
         "composite_score": 0.0,
         "entry_signal": false,
         "segment": "largecap",
-        "date": "2026-10-20"
+        "date": "2026-10-21"
       },
       {
         "symbol": "DRREDDY",
         "close": 1242.5,
         "roc_20": 4.8523206751054815,
-        "adx": 21.87783338761639,
-        "rsi": 60.31877605510957,
+        "adx": 23.40812255396171,
+        "rsi": 60.38013744547448,
         "composite_score": 0.0,
         "entry_signal": false,
         "segment": "largecap",
-        "date": "2026-10-20"
+        "date": "2026-10-21"
       },
       {
         "symbol": "EICHERMOT",
         "close": 7349.0,
         "roc_20": -2.221926556679088,
-        "adx": 42.84517773719691,
-        "rsi": 52.46916006239079,
+        "adx": 42.74747272691832,
+        "rsi": 52.429033940220286,
         "composite_score": 0.0,
         "entry_signal": false,
         "segment": "largecap",
-        "date": "2026-10-20"
+        "date": "2026-10-21"
       },
       {
         "symbol": "ETERNAL",
         "close": 320.20001220703125,
         "roc_20": -2.034570528469959,
-        "adx": 16.283711745949162,
-        "rsi": 47.0868592673724,
+        "adx": 15.872071879988898,
+        "rsi": 47.05845575885202,
         "composite_score": 0.0,
         "entry_signal": false,
         "segment": "largecap",
-        "date": "2026-10-20"
+        "date": "2026-10-21"
       },
       {
         "symbol": "GRASIM",
         "close": 2879.0,
         "roc_20": -10.289167275205113,
-        "adx": 43.78152901355678,
-        "rsi": 34.47652064392467,
+        "adx": 43.924225912862326,
+        "rsi": 34.518649613214706,
         "composite_score": 0.0,
         "entry_signal": false,
         "segment": "largecap",
-        "date": "2026-10-20"
+        "date": "2026-10-21"
       },
       {
         "symbol": "HCLTECH",
         "close": 1379.9000244140625,
         "roc_20": 11.437116693237481,
-        "adx": 22.786692586251835,
-        "rsi": 70.20717321007567,
+        "adx": 22.51703026422964,
+        "rsi": 70.19854895905019,
         "composite_score": 0.0,
         "entry_signal": false,
         "segment": "largecap",
-        "date": "2026-10-20"
+        "date": "2026-10-21"
       },
       {
         "symbol": "HDFCBANK",
         "close": 712.0,
         "roc_20": -2.599179206566349,
-        "adx": 15.387699840843675,
-        "rsi": 48.08277660233841,
+        "adx": 15.151662390041354,
+        "rsi": 48.10935796877398,
         "composite_score": 0.0,
         "entry_signal": false,
         "segment": "largecap",
-        "date": "2026-10-20"
+        "date": "2026-10-21"
       },
       {
         "symbol": "HDFCLIFE",
         "close": 545.5,
         "roc_20": -0.9892026656282749,
-        "adx": 14.684029004517493,
-        "rsi": 50.678042064036525,
+        "adx": 14.418577247207024,
+        "rsi": 50.690791007694735,
         "composite_score": 0.0,
         "entry_signal": false,
         "segment": "largecap",
-        "date": "2026-10-20"
+        "date": "2026-10-21"
       },
       {
         "symbol": "HINDALCO",
         "close": 900.4500122070312,
         "roc_20": -8.722755985095665,
-        "adx": 31.42080488867042,
-        "rsi": 38.633391856927915,
+        "adx": 31.007114207162182,
+        "rsi": 38.611146595125625,
         "composite_score": 0.0,
         "entry_signal": false,
         "segment": "largecap",
-        "date": "2026-10-20"
+        "date": "2026-10-21"
       },
       {
         "symbol": "HINDUNILVR",
         "close": 1853.199951171875,
         "roc_20": -4.078677475575832,
-        "adx": 36.27172848369203,
-        "rsi": 41.438767540907214,
+        "adx": 36.95760764299569,
+        "rsi": 41.423338714663316,
         "composite_score": 0.0,
         "entry_signal": false,
         "segment": "largecap",
-        "date": "2026-10-20"
+        "date": "2026-10-21"
       },
       {
         "symbol": "ICICIBANK",
         "close": 1381.0,
         "roc_20": 3.1443703650958943,
-        "adx": 23.363242746306124,
-        "rsi": 54.81647592766827,
+        "adx": 22.967753162057615,
+        "rsi": 54.83461049615537,
         "composite_score": 0.0,
         "entry_signal": false,
         "segment": "largecap",
-        "date": "2026-10-20"
+        "date": "2026-10-21"
       },
       {
         "symbol": "INDIGO",
         "close": 4700.0,
         "roc_20": -4.471544715447151,
-        "adx": 23.228244437902514,
-        "rsi": 37.83192155808875,
+        "adx": 22.071539123560616,
+        "rsi": 37.88251479319834,
         "composite_score": 0.0,
         "entry_signal": false,
         "segment": "largecap",
-        "date": "2026-10-20"
+        "date": "2026-10-21"
       },
       {
         "symbol": "INFY",
         "close": 1130.699951171875,
         "roc_20": 7.542317378393237,
-        "adx": 24.64725762080098,
-        "rsi": 62.67941556920198,
+        "adx": 24.49942810542384,
+        "rsi": 62.691416898385505,
         "composite_score": 0.0,
         "entry_signal": false,
         "segment": "largecap",
-        "date": "2026-10-20"
+        "date": "2026-10-21"
       },
       {
         "symbol": "ITC",
         "close": 260.79998779296875,
         "roc_20": -0.5718643041584648,
-        "adx": 21.643766829458347,
-        "rsi": 46.65499750479409,
+        "adx": 22.693202568357286,
+        "rsi": 46.64900351794272,
         "composite_score": 0.0,
         "entry_signal": false,
         "segment": "largecap",
-        "date": "2026-10-20"
+        "date": "2026-10-21"
       },
       {
         "symbol": "JIOFIN",
         "close": 214.0,
         "roc_20": -6.91200114482402,
-        "adx": 30.413397484726335,
-        "rsi": 37.54996360065593,
+        "adx": 29.70794870646734,
+        "rsi": 37.5710305671944,
         "composite_score": 0.0,
         "entry_signal": false,
         "segment": "largecap",
-        "date": "2026-10-20"
+        "date": "2026-10-21"
       },
       {
         "symbol": "JSWSTEEL",
         "close": 1241.300048828125,
         "roc_20": -2.688925008959575,
-        "adx": 22.958064068074417,
-        "rsi": 51.248567289790074,
+        "adx": 24.236876668160846,
+        "rsi": 51.3022436541487,
         "composite_score": 0.0,
         "entry_signal": false,
         "segment": "largecap",
-        "date": "2026-10-20"
+        "date": "2026-10-21"
       },
       {
         "symbol": "KOTAKBANK",
         "close": 442.29998779296875,
         "roc_20": 7.224239464962112,
-        "adx": 41.62461428833391,
-        "rsi": 63.06689295709134,
+        "adx": 41.65193976589853,
+        "rsi": 63.05196773830344,
         "composite_score": 0.0,
         "entry_signal": false,
         "segment": "largecap",
-        "date": "2026-10-20"
+        "date": "2026-10-21"
       },
       {
         "symbol": "LT",
         "close": 3661.89990234375,
         "roc_20": -5.742602256274132,
-        "adx": 31.959166302830557,
-        "rsi": 40.62466257142091,
+        "adx": 32.05519661240034,
+        "rsi": 40.645440551014396,
         "composite_score": 0.0,
         "entry_signal": false,
         "segment": "largecap",
-        "date": "2026-10-20"
+        "date": "2026-10-21"
       },
       {
         "symbol": "M&M",
         "close": 2907.0,
         "roc_20": -4.750982961992134,
-        "adx": 51.80634709901245,
-        "rsi": 44.97045044453467,
+        "adx": 51.63279142781655,
+        "rsi": 44.90390069877213,
         "composite_score": 0.0,
         "entry_signal": false,
         "segment": "largecap",
-        "date": "2026-10-20"
+        "date": "2026-10-21"
       },
       {
         "symbol": "MARUTI",
         "close": 11475.0,
         "roc_20": -5.188796166239773,
-        "adx": 52.997212412730505,
-        "rsi": 38.48097336196305,
+        "adx": 52.11863599194193,
+        "rsi": 38.51592661836046,
         "composite_score": 0.0,
         "entry_signal": false,
         "segment": "largecap",
-        "date": "2026-10-20"
+        "date": "2026-10-21"
       },
       {
         "symbol": "MAXHEALTH",
         "close": 830.0,
         "roc_20": -20.899651064825807,
-        "adx": 41.91484370420992,
-        "rsi": 22.284419255559584,
+        "adx": 41.787087928691,
+        "rsi": 22.26974186968461,
         "composite_score": 0.0,
         "entry_signal": false,
         "segment": "largecap",
-        "date": "2026-10-20"
+        "date": "2026-10-21"
       },
       {
         "symbol": "NESTLEIND",
         "close": 1242.699951171875,
         "roc_20": -9.45060266211829,
-        "adx": 31.369264159946948,
-        "rsi": 32.993614742197934,
+        "adx": 30.59746616272484,
+        "rsi": 33.04928805858536,
         "composite_score": 0.0,
         "entry_signal": false,
         "segment": "largecap",
-        "date": "2026-10-20"
+        "date": "2026-10-21"
       },
       {
         "symbol": "NTPC",
         "close": 309.0,
         "roc_20": -4.526492869692433,
-        "adx": 35.61211291505233,
-        "rsi": 35.04943953218137,
+        "adx": 35.564167183715064,
+        "rsi": 35.06906093782868,
         "composite_score": 0.0,
         "entry_signal": false,
         "segment": "largecap",
-        "date": "2026-10-20"
+        "date": "2026-10-21"
       },
       {
         "symbol": "ONGC",
         "close": 225.0,
         "roc_20": -3.3505167308883865,
-        "adx": 22.623775871115104,
-        "rsi": 45.121480105180275,
+        "adx": 23.22674632276818,
+        "rsi": 45.1115462898661,
         "composite_score": 0.0,
         "entry_signal": false,
         "segment": "largecap",
-        "date": "2026-10-20"
+        "date": "2026-10-21"
       },
       {
         "symbol": "POWERGRID",
         "close": 250.35000610351562,
         "roc_20": -7.38068168346846,
-        "adx": 30.849182830226734,
-        "rsi": 38.527989017920476,
+        "adx": 31.238118264154192,
+        "rsi": 38.51714105057523,
         "composite_score": 0.0,
         "entry_signal": false,
         "segment": "largecap",
-        "date": "2026-10-20"
+        "date": "2026-10-21"
       },
       {
         "symbol": "RELIANCE",
         "close": 1202.0,
         "roc_20": -1.9895648995701953,
-        "adx": 33.37195813554636,
-        "rsi": 46.59573917915336,
+        "adx": 32.36229171284232,
+        "rsi": 46.63958231276009,
         "composite_score": 0.0,
         "entry_signal": false,
         "segment": "largecap",
-        "date": "2026-10-20"
+        "date": "2026-10-21"
       },
       {
         "symbol": "SBILIFE",
         "close": 1647.800048828125,
         "roc_20": -4.806467427606876,
-        "adx": 33.54301620375061,
-        "rsi": 37.473464932148474,
+        "adx": 35.812266436520225,
+        "rsi": 37.33759593092113,
         "composite_score": 0.0,
         "entry_signal": false,
         "segment": "largecap",
-        "date": "2026-10-20"
+        "date": "2026-10-21"
       },
       {
         "symbol": "SBIN",
         "close": 973.7000122070312,
         "roc_20": -2.258582586257185,
-        "adx": 38.45581392517679,
-        "rsi": 49.559030123430524,
+        "adx": 37.897998199744926,
+        "rsi": 49.616644131021516,
         "composite_score": 0.0,
         "entry_signal": false,
         "segment": "largecap",
-        "date": "2026-10-20"
+        "date": "2026-10-21"
       },
       {
         "symbol": "SHRIRAMFIN",
         "close": 926.5,
         "roc_20": -8.267326732673263,
-        "adx": 37.54703330756454,
-        "rsi": 38.79928767922517,
+        "adx": 37.07470344553966,
+        "rsi": 38.860237238983075,
         "composite_score": 0.0,
         "entry_signal": false,
         "segment": "largecap",
-        "date": "2026-10-20"
+        "date": "2026-10-21"
       },
       {
         "symbol": "SUNPHARMA",
         "close": 1743.0,
         "roc_20": -5.132533953192453,
-        "adx": 36.863590526689734,
-        "rsi": 34.20923135861926,
+        "adx": 36.96014021545052,
+        "rsi": 34.17193067956275,
         "composite_score": 0.0,
         "entry_signal": false,
         "segment": "largecap",
-        "date": "2026-10-20"
+        "date": "2026-10-21"
       },
       {
         "symbol": "TATACONSUM",
         "close": 966.5,
         "roc_20": -2.9618473895582365,
-        "adx": 34.749479261512064,
-        "rsi": 43.614384051043295,
+        "adx": 36.58304187007938,
+        "rsi": 43.55646904720473,
         "composite_score": 0.0,
         "entry_signal": false,
         "segment": "largecap",
-        "date": "2026-10-20"
+        "date": "2026-10-21"
       },
       {
         "symbol": "TATASTEEL",
         "close": 174.0399932861328,
         "roc_20": -6.1981246179443,
-        "adx": 18.040016615516834,
-        "rsi": 39.17772222996972,
+        "adx": 18.174093538083365,
+        "rsi": 39.21562676639583,
         "composite_score": 0.0,
         "entry_signal": false,
         "segment": "largecap",
-        "date": "2026-10-20"
+        "date": "2026-10-21"
       },
       {
         "symbol": "TCS",
         "close": 2460.89990234375,
         "roc_20": 17.52884368623191,
-        "adx": 28.2256258753016,
-        "rsi": 73.65237066398444,
+        "adx": 27.958186364913413,
+        "rsi": 73.63358077108425,
         "composite_score": 0.0,
         "entry_signal": false,
         "segment": "largecap",
-        "date": "2026-10-20"
+        "date": "2026-10-21"
       },
       {
         "symbol": "TECHM",
         "close": 1779.0999755859375,
         "roc_20": 15.743933631106222,
-        "adx": 19.235626920436392,
-        "rsi": 73.82193760363904,
+        "adx": 19.025038334431432,
+        "rsi": 73.83122536540256,
         "composite_score": 0.0,
         "entry_signal": false,
         "segment": "largecap",
-        "date": "2026-10-20"
+        "date": "2026-10-21"
       },
       {
         "symbol": "TITAN",
         "close": 4424.2001953125,
         "roc_20": -7.800350207095963,
-        "adx": 42.294793521753654,
-        "rsi": 33.66180485496986,
+        "adx": 41.69506537494582,
+        "rsi": 33.67009616209285,
         "composite_score": 0.0,
         "entry_signal": false,
         "segment": "largecap",
-        "date": "2026-10-20"
+        "date": "2026-10-21"
       },
       {
         "symbol": "TRENT",
         "close": 2891.60009765625,
         "roc_20": 2.393771163464953,
-        "adx": 27.394219270638732,
-        "rsi": 54.43006872085935,
+        "adx": 27.054547393673936,
+        "rsi": 54.44454972285116,
         "composite_score": 0.0,
         "entry_signal": false,
         "segment": "largecap",
-        "date": "2026-10-20"
+        "date": "2026-10-21"
       },
       {
         "symbol": "ULTRACEMCO",
         "close": 10650.0,
         "roc_20": -3.3048846922099195,
-        "adx": 25.22490482469877,
-        "rsi": 43.013730471181034,
+        "adx": 24.444709788579377,
+        "rsi": 43.00860604927053,
         "composite_score": 0.0,
         "entry_signal": false,
         "segment": "largecap",
-        "date": "2026-10-20"
+        "date": "2026-10-21"
       }
     ],
     "midcap": [
@@ -670,958 +681,958 @@
         "symbol": "360ONE",
         "close": 1055.0,
         "roc_20": -1.6866998413688772,
-        "adx": 22.628077204475293,
-        "rsi": 43.93388415230836,
+        "adx": 22.671631099159942,
+        "rsi": 43.96287451956678,
         "composite_score": 0.0,
         "entry_signal": false,
         "segment": "midcap",
-        "date": "2026-10-20"
+        "date": "2026-10-21"
       },
       {
         "symbol": "ABCAPITAL",
         "close": 373.04998779296875,
         "roc_20": -9.023290111321991,
-        "adx": 18.181859742242487,
-        "rsi": 41.00238460326801,
+        "adx": 17.56921404430476,
+        "rsi": 41.058719373107905,
         "composite_score": 0.0,
         "entry_signal": false,
         "segment": "midcap",
-        "date": "2026-10-20"
+        "date": "2026-10-21"
       },
       {
         "symbol": "ALKEM",
         "close": 5004.0,
         "roc_20": -8.460623799506084,
-        "adx": 14.97334287515308,
-        "rsi": 36.16947822724194,
+        "adx": 14.869863648639976,
+        "rsi": 36.155016073311174,
         "composite_score": 0.0,
         "entry_signal": false,
         "segment": "midcap",
-        "date": "2026-10-20"
+        "date": "2026-10-21"
       },
       {
         "symbol": "APLAPOLLO",
         "close": 2144.60009765625,
         "roc_20": -5.528390581964715,
-        "adx": 23.583328352390577,
-        "rsi": 49.839270564837875,
+        "adx": 23.4260038708102,
+        "rsi": 49.82881302945971,
         "composite_score": 0.0,
         "entry_signal": false,
         "segment": "midcap",
-        "date": "2026-10-20"
+        "date": "2026-10-21"
       },
       {
         "symbol": "ASHOKLEY",
         "close": 147.72000122070312,
         "roc_20": -9.374232379936732,
-        "adx": 37.56932563963888,
-        "rsi": 39.050505165982536,
+        "adx": 37.22937025106687,
+        "rsi": 39.07823627239794,
         "composite_score": 0.0,
         "entry_signal": false,
         "segment": "midcap",
-        "date": "2026-10-20"
+        "date": "2026-10-21"
       },
       {
         "symbol": "ASTRAL",
         "close": 1428.0,
         "roc_20": 0.021016238592630465,
-        "adx": 18.073123298493453,
-        "rsi": 51.27777991324241,
+        "adx": 18.290031482351214,
+        "rsi": 51.33221868548088,
         "composite_score": 0.0,
         "entry_signal": false,
         "segment": "midcap",
-        "date": "2026-10-20"
+        "date": "2026-10-21"
       },
       {
         "symbol": "AUBANK",
         "close": 971.7000122070312,
         "roc_20": -8.20895195381116,
-        "adx": 21.330834196815157,
-        "rsi": 39.123476681284366,
+        "adx": 21.548113357720506,
+        "rsi": 39.12689882912615,
         "composite_score": 0.0,
         "entry_signal": false,
         "segment": "midcap",
-        "date": "2026-10-20"
+        "date": "2026-10-21"
       },
       {
         "symbol": "AUROPHARMA",
         "close": 1621.4000244140625,
         "roc_20": -6.493654878081745,
-        "adx": 17.515832410425972,
-        "rsi": 40.372581859769895,
+        "adx": 17.545230781905378,
+        "rsi": 40.38936874181349,
         "composite_score": 0.0,
         "entry_signal": false,
         "segment": "midcap",
-        "date": "2026-10-20"
+        "date": "2026-10-21"
       },
       {
         "symbol": "BANKINDIA",
         "close": 136.77999877929688,
         "roc_20": -2.3000008719308074,
-        "adx": 18.96910841893856,
-        "rsi": 52.91032594056837,
+        "adx": 18.587081893824035,
+        "rsi": 52.95361490061083,
         "composite_score": 0.0,
         "entry_signal": false,
         "segment": "midcap",
-        "date": "2026-10-20"
+        "date": "2026-10-21"
       },
       {
         "symbol": "BDL",
         "close": 1088.0,
         "roc_20": -9.045306436091671,
-        "adx": 30.294658789591328,
-        "rsi": 38.94180665393763,
+        "adx": 30.29155527299011,
+        "rsi": 38.959668366898455,
         "composite_score": 0.0,
         "entry_signal": false,
         "segment": "midcap",
-        "date": "2026-10-20"
+        "date": "2026-10-21"
       },
       {
         "symbol": "BHARATFORG",
         "close": 1798.5999755859375,
         "roc_20": -8.332908722002019,
-        "adx": 30.56393667615953,
-        "rsi": 35.28045010814212,
+        "adx": 30.005566556759465,
+        "rsi": 35.2919986645764,
         "composite_score": 0.0,
         "entry_signal": false,
         "segment": "midcap",
-        "date": "2026-10-20"
+        "date": "2026-10-21"
       },
       {
         "symbol": "BHEL",
         "close": 427.3500061035156,
         "roc_20": -2.852918383063663,
-        "adx": 11.144220354644025,
-        "rsi": 48.26989815382917,
+        "adx": 12.097306095299784,
+        "rsi": 48.30089817380879,
         "composite_score": 0.0,
         "entry_signal": false,
         "segment": "midcap",
-        "date": "2026-10-20"
+        "date": "2026-10-21"
       },
       {
         "symbol": "BIOCON",
         "close": 340.0,
         "roc_20": -11.688311688311693,
-        "adx": 44.41494745494448,
-        "rsi": 23.514616480771977,
+        "adx": 44.266383907004546,
+        "rsi": 23.52735502324863,
         "composite_score": 0.0,
         "entry_signal": false,
         "segment": "midcap",
-        "date": "2026-10-20"
+        "date": "2026-10-21"
       },
       {
         "symbol": "BLUESTARCO",
         "close": 1571.199951171875,
         "roc_20": 2.572130897494884,
-        "adx": 14.967040832955544,
-        "rsi": 53.17449908808051,
+        "adx": 14.713181037452898,
+        "rsi": 53.21895169504555,
         "composite_score": 0.0,
         "entry_signal": false,
         "segment": "midcap",
-        "date": "2026-10-20"
+        "date": "2026-10-21"
       },
       {
         "symbol": "COCHINSHIP",
         "close": 1226.5,
         "roc_20": -12.267525035765381,
-        "adx": 37.83295476243641,
-        "rsi": 34.094085027505855,
+        "adx": 37.79872068935419,
+        "rsi": 34.020954589301894,
         "composite_score": 0.0,
         "entry_signal": false,
         "segment": "midcap",
-        "date": "2026-10-20"
+        "date": "2026-10-21"
       },
       {
         "symbol": "COFORGE",
         "close": 1925.0,
         "roc_20": 4.562737642585546,
-        "adx": 19.88443618896776,
-        "rsi": 59.84016386974392,
+        "adx": 20.235074750583543,
+        "rsi": 59.8990296201281,
         "composite_score": 0.0,
         "entry_signal": false,
         "segment": "midcap",
-        "date": "2026-10-20"
+        "date": "2026-10-21"
       },
       {
         "symbol": "COLPAL",
         "close": 1741.0999755859375,
         "roc_20": -9.213685928841242,
-        "adx": 16.561108078817497,
-        "rsi": 41.26568450163799,
+        "adx": 16.751060829121343,
+        "rsi": 41.28907618696855,
         "composite_score": 0.0,
         "entry_signal": false,
         "segment": "midcap",
-        "date": "2026-10-20"
+        "date": "2026-10-21"
       },
       {
         "symbol": "CONCOR",
         "close": 441.6499938964844,
         "roc_20": -12.292720762001919,
-        "adx": 38.21627775770006,
-        "rsi": 36.83822689528748,
+        "adx": 37.820928674400605,
+        "rsi": 36.84337520925426,
         "composite_score": 0.0,
         "entry_signal": false,
         "segment": "midcap",
-        "date": "2026-10-20"
+        "date": "2026-10-21"
       },
       {
         "symbol": "DABUR",
         "close": 378.5,
         "roc_20": -4.237824161922832,
-        "adx": 20.04166246130398,
-        "rsi": 45.80579053305503,
+        "adx": 19.884484725346287,
+        "rsi": 45.83069763661821,
         "composite_score": 0.0,
         "entry_signal": false,
         "segment": "midcap",
-        "date": "2026-10-20"
+        "date": "2026-10-21"
       },
       {
         "symbol": "DIXON",
         "close": 12100.0,
         "roc_20": -6.887264332435549,
-        "adx": 31.09501405236129,
-        "rsi": 30.290943203748355,
+        "adx": 30.908049499322804,
+        "rsi": 30.29817824180448,
         "composite_score": 0.0,
         "entry_signal": false,
         "segment": "midcap",
-        "date": "2026-10-20"
+        "date": "2026-10-21"
       },
       {
         "symbol": "FEDERALBNK",
         "close": 348.8500061035156,
         "roc_20": 4.838469152070801,
-        "adx": 22.630761659990874,
-        "rsi": 64.39080186810669,
+        "adx": 22.460245742817364,
+        "rsi": 64.38255496641094,
         "composite_score": 0.0,
         "entry_signal": false,
         "segment": "midcap",
-        "date": "2026-10-20"
+        "date": "2026-10-21"
       },
       {
         "symbol": "FORTIS",
         "close": 737.7999877929688,
         "roc_20": -16.726863680251835,
-        "adx": 36.764869660509774,
-        "rsi": 27.233997217111735,
+        "adx": 36.53110204345459,
+        "rsi": 27.245995174668153,
         "composite_score": 0.0,
         "entry_signal": false,
         "segment": "midcap",
-        "date": "2026-10-20"
+        "date": "2026-10-21"
       },
       {
         "symbol": "GLENMARK",
         "close": 2210.199951171875,
         "roc_20": -9.691916345372109,
-        "adx": 32.102621083893084,
-        "rsi": 37.68530503828691,
+        "adx": 31.952787643502916,
+        "rsi": 37.67709362891769,
         "composite_score": 0.0,
         "entry_signal": false,
         "segment": "midcap",
-        "date": "2026-10-20"
+        "date": "2026-10-21"
       },
       {
         "symbol": "GMRAIRPORT",
         "close": 90.0999984741211,
         "roc_20": -9.264858303016798,
-        "adx": 26.30450846551229,
-        "rsi": 40.73825114025673,
+        "adx": 25.144967430256997,
+        "rsi": 40.79735430380417,
         "composite_score": 0.0,
         "entry_signal": false,
         "segment": "midcap",
-        "date": "2026-10-20"
+        "date": "2026-10-21"
       },
       {
         "symbol": "GODFRYPHLP",
         "close": 1807.5,
         "roc_20": -10.431119920713583,
-        "adx": 29.108789454869168,
-        "rsi": 38.861238582874954,
+        "adx": 28.625471890545594,
+        "rsi": 38.8867071457084,
         "composite_score": 0.0,
         "entry_signal": false,
         "segment": "midcap",
-        "date": "2026-10-20"
+        "date": "2026-10-21"
       },
       {
         "symbol": "GODREJPROP",
         "close": 1589.0,
         "roc_20": -6.0374890343524275,
-        "adx": 43.1587963330454,
-        "rsi": 37.445924171145904,
+        "adx": 41.91004968978843,
+        "rsi": 37.49560200983527,
         "composite_score": 0.0,
         "entry_signal": false,
         "segment": "midcap",
-        "date": "2026-10-20"
+        "date": "2026-10-21"
       },
       {
         "symbol": "HAVELLS",
         "close": 1102.699951171875,
         "roc_20": -2.6227545568585753,
-        "adx": 31.798262023549405,
-        "rsi": 50.497023680084475,
+        "adx": 31.443424848487634,
+        "rsi": 50.49001665640373,
         "composite_score": 0.0,
         "entry_signal": false,
         "segment": "midcap",
-        "date": "2026-10-20"
+        "date": "2026-10-21"
       },
       {
         "symbol": "HEROMOTOCO",
         "close": 5230.0,
         "roc_20": -1.0500425692933524,
-        "adx": 28.71568434345107,
-        "rsi": 52.504620798947165,
+        "adx": 28.60626578050952,
+        "rsi": 52.3911174450259,
         "composite_score": 0.0,
         "entry_signal": false,
         "segment": "midcap",
-        "date": "2026-10-20"
+        "date": "2026-10-21"
       },
       {
         "symbol": "HINDPETRO",
         "close": 348.5,
         "roc_20": -2.924791086350975,
-        "adx": 29.53064897687059,
-        "rsi": 51.59304150379311,
+        "adx": 28.118621756186403,
+        "rsi": 51.67243249648398,
         "composite_score": 0.0,
         "entry_signal": false,
         "segment": "midcap",
-        "date": "2026-10-20"
+        "date": "2026-10-21"
       },
       {
         "symbol": "ICICIGI",
         "close": 1650.0,
         "roc_20": 13.160964791659602,
-        "adx": 35.385158424073104,
-        "rsi": 56.814392628244995,
+        "adx": 35.081629913949875,
+        "rsi": 56.76325681409288,
         "composite_score": 0.0,
         "entry_signal": false,
         "segment": "midcap",
-        "date": "2026-10-20"
+        "date": "2026-10-21"
       },
       {
         "symbol": "ICICIPRULI",
         "close": 438.0,
         "roc_20": -10.97560975609756,
-        "adx": 26.497269365837408,
-        "rsi": 33.88189726425051,
+        "adx": 26.57334084149412,
+        "rsi": 33.8627092924806,
         "composite_score": 0.0,
         "entry_signal": false,
         "segment": "midcap",
-        "date": "2026-10-20"
+        "date": "2026-10-21"
       },
       {
         "symbol": "IDFCFIRSTB",
         "close": 76.33000183105469,
         "roc_20": -11.161541599469915,
-        "adx": 22.068644951238998,
-        "rsi": 31.943376268502476,
+        "adx": 22.005391524007337,
+        "rsi": 31.96433401974862,
         "composite_score": 0.0,
         "entry_signal": false,
         "segment": "midcap",
-        "date": "2026-10-20"
+        "date": "2026-10-21"
       },
       {
         "symbol": "INDHOTEL",
         "close": 760.0,
         "roc_20": 3.718867280791538,
-        "adx": 15.611149089814374,
-        "rsi": 60.99716444604918,
+        "adx": 15.544210286136169,
+        "rsi": 61.00113684167071,
         "composite_score": 0.0,
         "entry_signal": false,
         "segment": "midcap",
-        "date": "2026-10-20"
+        "date": "2026-10-21"
       },
       {
         "symbol": "INDIANB",
         "close": 856.8499755859375,
         "roc_20": 2.0302438724459693,
-        "adx": 17.584182125946608,
-        "rsi": 56.687603438396366,
+        "adx": 17.57352055165414,
+        "rsi": 56.68862585174289,
         "composite_score": 0.0,
         "entry_signal": false,
         "segment": "midcap",
-        "date": "2026-10-20"
+        "date": "2026-10-21"
       },
       {
         "symbol": "INDUSINDBK",
         "close": 863.2000122070312,
         "roc_20": -10.669561925734683,
-        "adx": 41.55647746684769,
-        "rsi": 36.68963314491305,
+        "adx": 37.30010971629871,
+        "rsi": 36.836328433147514,
         "composite_score": 0.0,
         "entry_signal": false,
         "segment": "midcap",
-        "date": "2026-10-20"
+        "date": "2026-10-21"
       },
       {
         "symbol": "INDUSTOWER",
         "close": 382.3999938964844,
         "roc_20": 1.7291833215059782,
-        "adx": 10.992344859610741,
-        "rsi": 53.02981403308411,
+        "adx": 10.604228734268487,
+        "rsi": 53.07027156661662,
         "composite_score": 0.0,
         "entry_signal": false,
         "segment": "midcap",
-        "date": "2026-10-20"
+        "date": "2026-10-21"
       },
       {
         "symbol": "IREDA",
         "close": 106.54000091552734,
         "roc_20": -6.805457312863439,
-        "adx": 11.785975704730808,
-        "rsi": 41.64558599735425,
+        "adx": 11.579306271115557,
+        "rsi": 41.64804915568771,
         "composite_score": 0.0,
         "entry_signal": false,
         "segment": "midcap",
-        "date": "2026-10-20"
+        "date": "2026-10-21"
       },
       {
         "symbol": "JSWENERGY",
         "close": 482.20001220703125,
         "roc_20": -8.326993876990251,
-        "adx": 23.35231076564744,
-        "rsi": 43.29670877776607,
+        "adx": 22.69192263882177,
+        "rsi": 43.316376107737604,
         "composite_score": 0.0,
         "entry_signal": false,
         "segment": "midcap",
-        "date": "2026-10-20"
+        "date": "2026-10-21"
       },
       {
         "symbol": "JUBLFOOD",
         "close": 413.5,
         "roc_20": -17.300000000000004,
-        "adx": 28.412960456117563,
-        "rsi": 31.58258631900067,
+        "adx": 28.82822091574125,
+        "rsi": 31.60020376405909,
         "composite_score": 0.0,
         "entry_signal": false,
         "segment": "midcap",
-        "date": "2026-10-20"
+        "date": "2026-10-21"
       },
       {
         "symbol": "KALYANKJIL",
         "close": 551.2999877929688,
         "roc_20": -5.250492235941772,
-        "adx": 20.715058470758276,
-        "rsi": 42.42789367177468,
+        "adx": 20.524294107884618,
+        "rsi": 42.46945710445105,
         "composite_score": 0.0,
         "entry_signal": false,
         "segment": "midcap",
-        "date": "2026-10-20"
+        "date": "2026-10-21"
       },
       {
         "symbol": "KEI",
         "close": 4442.0,
         "roc_20": -4.473118279569888,
-        "adx": 22.13765575652776,
-        "rsi": 37.373929515943075,
+        "adx": 21.787824848631544,
+        "rsi": 37.40672608037585,
         "composite_score": 0.0,
         "entry_signal": false,
         "segment": "midcap",
-        "date": "2026-10-20"
+        "date": "2026-10-21"
       },
       {
         "symbol": "LAURUSLABS",
         "close": 2069.0,
         "roc_20": 5.885363357215967,
-        "adx": 24.144814775346255,
-        "rsi": 61.44034549028108,
+        "adx": 24.771935267095262,
+        "rsi": 61.46025811727415,
         "composite_score": 0.0,
         "entry_signal": false,
         "segment": "midcap",
-        "date": "2026-10-20"
+        "date": "2026-10-21"
       },
       {
         "symbol": "LICHSGFIN",
         "close": 511.5,
         "roc_20": -6.686130216493025,
-        "adx": 21.126683348868706,
-        "rsi": 40.800379195966244,
+        "adx": 21.011184484537612,
+        "rsi": 40.81585165246252,
         "composite_score": 0.0,
         "entry_signal": false,
         "segment": "midcap",
-        "date": "2026-10-20"
+        "date": "2026-10-21"
       },
       {
         "symbol": "LICI",
         "close": 393.3500061035156,
         "roc_20": -3.5197463021484188,
-        "adx": 15.579135283816722,
-        "rsi": 46.258346228517446,
+        "adx": 15.139346752903153,
+        "rsi": 46.27543672447151,
         "composite_score": 0.0,
         "entry_signal": false,
         "segment": "midcap",
-        "date": "2026-10-20"
+        "date": "2026-10-21"
       },
       {
         "symbol": "LODHA",
         "close": 1030.0,
         "roc_20": -10.02008876251389,
-        "adx": 26.010144932321545,
-        "rsi": 33.789941626113304,
+        "adx": 25.830635803609912,
+        "rsi": 33.81136385642722,
         "composite_score": 0.0,
         "entry_signal": false,
         "segment": "midcap",
-        "date": "2026-10-20"
+        "date": "2026-10-21"
       },
       {
         "symbol": "LTF",
         "close": 253.0,
         "roc_20": -19.11764390238667,
-        "adx": 37.8048629095527,
-        "rsi": 30.748814931653754,
+        "adx": 37.641986046324234,
+        "rsi": 30.753527315141582,
         "composite_score": 0.0,
         "entry_signal": false,
         "segment": "midcap",
-        "date": "2026-10-20"
+        "date": "2026-10-21"
       },
       {
         "symbol": "LUPIN",
         "close": 1939.199951171875,
         "roc_20": -6.903506904854773,
-        "adx": 44.78231729206704,
-        "rsi": 32.397071992521674,
+        "adx": 43.86691422726454,
+        "rsi": 32.411046820024495,
         "composite_score": 0.0,
         "entry_signal": false,
         "segment": "midcap",
-        "date": "2026-10-20"
+        "date": "2026-10-21"
       },
       {
         "symbol": "MANKIND",
         "close": 2253.199951171875,
         "roc_20": -2.0645890819359414,
-        "adx": 22.966428281782377,
-        "rsi": 35.99757508286514,
+        "adx": 23.66283696780319,
+        "rsi": 35.97933532524368,
         "composite_score": 0.0,
         "entry_signal": false,
         "segment": "midcap",
-        "date": "2026-10-20"
+        "date": "2026-10-21"
       },
       {
         "symbol": "MARICO",
         "close": 778.0,
         "roc_20": -3.2217966945504495,
-        "adx": 31.40654136514714,
-        "rsi": 38.14628259816859,
+        "adx": 31.592630253155196,
+        "rsi": 38.18986308033158,
         "composite_score": 0.0,
         "entry_signal": false,
         "segment": "midcap",
-        "date": "2026-10-20"
+        "date": "2026-10-21"
       },
       {
         "symbol": "MCX",
         "close": 3184.5,
         "roc_20": -2.315950920245402,
-        "adx": 14.746657804606857,
-        "rsi": 46.093419908366414,
+        "adx": 15.453418963112288,
+        "rsi": 46.126177471475756,
         "composite_score": 0.0,
         "entry_signal": false,
         "segment": "midcap",
-        "date": "2026-10-20"
+        "date": "2026-10-21"
       },
       {
         "symbol": "MFSL",
         "close": 1281.0,
         "roc_20": -17.83194355355997,
-        "adx": 39.07189175406502,
-        "rsi": 32.87204737889772,
+        "adx": 39.06332851234373,
+        "rsi": 32.894379489070914,
         "composite_score": 0.0,
         "entry_signal": false,
         "segment": "midcap",
-        "date": "2026-10-20"
+        "date": "2026-10-21"
       },
       {
         "symbol": "MOTILALOFS",
         "close": 1021.0,
         "roc_20": 1.08910891089109,
-        "adx": 15.543442689871261,
-        "rsi": 49.18747656477433,
+        "adx": 15.085441051487928,
+        "rsi": 49.19294033704575,
         "composite_score": 0.0,
         "entry_signal": false,
         "segment": "midcap",
-        "date": "2026-10-20"
+        "date": "2026-10-21"
       },
       {
         "symbol": "MPHASIS",
         "close": 2500.0,
         "roc_20": 8.676756482770177,
-        "adx": 23.020000298997193,
-        "rsi": 67.2610786727171,
+        "adx": 23.498602308048984,
+        "rsi": 67.336279155447,
         "composite_score": 0.0,
         "entry_signal": false,
         "segment": "midcap",
-        "date": "2026-10-20"
+        "date": "2026-10-21"
       },
       {
         "symbol": "NATIONALUM",
         "close": 318.0,
         "roc_20": -9.272467902995718,
-        "adx": 23.72512190764051,
-        "rsi": 36.70294883164281,
+        "adx": 23.488555236724945,
+        "rsi": 36.670593823267495,
         "composite_score": 0.0,
         "entry_signal": false,
         "segment": "midcap",
-        "date": "2026-10-20"
+        "date": "2026-10-21"
       },
       {
         "symbol": "NAUKRI",
         "close": 1220.0,
         "roc_20": -2.4936023329167445,
-        "adx": 19.3283023409051,
-        "rsi": 45.800234295630965,
+        "adx": 19.81259236760224,
+        "rsi": 45.83393163815415,
         "composite_score": 0.0,
         "entry_signal": false,
         "segment": "midcap",
-        "date": "2026-10-20"
+        "date": "2026-10-21"
       },
       {
         "symbol": "NHPC",
         "close": 70.69999694824219,
         "roc_20": -8.122157567080668,
-        "adx": 29.35517638354138,
-        "rsi": 33.03124733495983,
+        "adx": 30.39412704706744,
+        "rsi": 33.03241666129652,
         "composite_score": 0.0,
         "entry_signal": false,
         "segment": "midcap",
-        "date": "2026-10-20"
+        "date": "2026-10-21"
       },
       {
         "symbol": "NMDC",
         "close": 70.5,
         "roc_20": -9.719065001836281,
-        "adx": 45.534393008327086,
-        "rsi": 31.863618178732622,
+        "adx": 45.403472235408294,
+        "rsi": 31.881795908344714,
         "composite_score": 0.0,
         "entry_signal": false,
         "segment": "midcap",
-        "date": "2026-10-20"
+        "date": "2026-10-21"
       },
       {
         "symbol": "NYKAA",
         "close": 336.6499938964844,
         "roc_20": 1.3548095988833442,
-        "adx": 15.552573642090328,
-        "rsi": 50.55317618672799,
+        "adx": 15.88145942957926,
+        "rsi": 50.568082689563816,
         "composite_score": 0.0,
         "entry_signal": false,
         "segment": "midcap",
-        "date": "2026-10-20"
+        "date": "2026-10-21"
       },
       {
         "symbol": "OBEROIRLTY",
         "close": 1676.4000244140625,
         "roc_20": -6.08403224571078,
-        "adx": 23.38238033072565,
-        "rsi": 36.0086095720732,
+        "adx": 23.392674819505554,
+        "rsi": 36.05375028585907,
         "composite_score": 0.0,
         "entry_signal": false,
         "segment": "midcap",
-        "date": "2026-10-20"
+        "date": "2026-10-21"
       },
       {
         "symbol": "OFSS",
         "close": 10214.0,
         "roc_20": -14.13920645595158,
-        "adx": 25.95561890818396,
-        "rsi": 37.15552965756561,
+        "adx": 27.420672634565335,
+        "rsi": 37.15699739618665,
         "composite_score": 0.0,
         "entry_signal": false,
         "segment": "midcap",
-        "date": "2026-10-20"
+        "date": "2026-10-21"
       },
       {
         "symbol": "OIL",
         "close": 449.0,
         "roc_20": -5.6127835866884634,
-        "adx": 22.63191097970132,
-        "rsi": 42.24780733704345,
+        "adx": 22.385962352677705,
+        "rsi": 42.16230737676779,
         "composite_score": 0.0,
         "entry_signal": false,
         "segment": "midcap",
-        "date": "2026-10-20"
+        "date": "2026-10-21"
       },
       {
         "symbol": "PAGEIND",
         "close": 35770.0,
         "roc_20": -1.7307692307692357,
-        "adx": 16.99710695990604,
-        "rsi": 41.9918865609928,
+        "adx": 17.97320728521129,
+        "rsi": 41.94036005495954,
         "composite_score": 0.0,
         "entry_signal": false,
         "segment": "midcap",
-        "date": "2026-10-20"
+        "date": "2026-10-21"
       },
       {
         "symbol": "PATANJALI",
         "close": 364.79998779296875,
         "roc_20": -0.5994583670384857,
-        "adx": 17.903847878863793,
-        "rsi": 50.05938062410389,
+        "adx": 17.751581659769222,
+        "rsi": 50.04705825224706,
         "composite_score": 0.0,
         "entry_signal": false,
         "segment": "midcap",
-        "date": "2026-10-20"
+        "date": "2026-10-21"
       },
       {
         "symbol": "PAYTM",
         "close": 1685.800048828125,
         "roc_20": -8.870748333435719,
-        "adx": 25.373761482036418,
-        "rsi": 49.62355438246373,
+        "adx": 25.870576094468095,
+        "rsi": 49.63816803056659,
         "composite_score": 0.0,
         "entry_signal": false,
         "segment": "midcap",
-        "date": "2026-10-20"
+        "date": "2026-10-21"
       },
       {
         "symbol": "PERSISTENT",
         "close": 5690.0,
         "roc_20": 5.059084194977848,
-        "adx": 21.427710697702675,
-        "rsi": 54.37776483499816,
+        "adx": 22.341554167358918,
+        "rsi": 54.428107810364914,
         "composite_score": 0.0,
         "entry_signal": false,
         "segment": "midcap",
-        "date": "2026-10-20"
+        "date": "2026-10-21"
       },
       {
         "symbol": "PETRONET",
         "close": 293.6499938964844,
         "roc_20": 0.35884749523802384,
-        "adx": 18.873386061212468,
-        "rsi": 55.048719751296886,
+        "adx": 22.50033097670229,
+        "rsi": 55.213597912401184,
         "composite_score": 0.0,
         "entry_signal": false,
         "segment": "midcap",
-        "date": "2026-10-20"
+        "date": "2026-10-21"
       },
       {
         "symbol": "PHOENIXLTD",
         "close": 1884.0,
         "roc_20": 0.32482962386886083,
-        "adx": 13.318442343323579,
-        "rsi": 48.1964302333,
+        "adx": 13.074357062293624,
+        "rsi": 48.22588375615185,
         "composite_score": 0.0,
         "entry_signal": false,
         "segment": "midcap",
-        "date": "2026-10-20"
+        "date": "2026-10-21"
       },
       {
         "symbol": "PIIND",
         "close": 2163.5,
         "roc_20": -8.589658806572409,
-        "adx": 30.631319259113265,
-        "rsi": 38.48674145068578,
+        "adx": 30.60716526521683,
+        "rsi": 38.42028644048105,
         "composite_score": 0.0,
         "entry_signal": false,
         "segment": "midcap",
-        "date": "2026-10-20"
+        "date": "2026-10-21"
       },
       {
         "symbol": "POLICYBZR",
         "close": 1035.0,
         "roc_20": -40.619621342512914,
-        "adx": 49.8602785908172,
-        "rsi": 30.08308369564466,
+        "adx": 50.33219568343943,
+        "rsi": 30.095480967080945,
         "composite_score": 0.0,
         "entry_signal": false,
         "segment": "midcap",
-        "date": "2026-10-20"
+        "date": "2026-10-21"
       },
       {
         "symbol": "PREMIERENE",
         "close": 899.0,
         "roc_20": -0.3325942350332567,
-        "adx": 27.600053716942003,
-        "rsi": 43.62321479529618,
+        "adx": 27.342187501567906,
+        "rsi": 43.61244180990137,
         "composite_score": 0.0,
         "entry_signal": false,
         "segment": "midcap",
-        "date": "2026-10-20"
+        "date": "2026-10-21"
       },
       {
         "symbol": "PRESTIGE",
         "close": 1475.0,
         "roc_20": 2.7802958046718507,
-        "adx": 16.331957504528493,
-        "rsi": 48.962610698218135,
+        "adx": 15.879206306982251,
+        "rsi": 49.03118602225689,
         "composite_score": 0.0,
         "entry_signal": false,
         "segment": "midcap",
-        "date": "2026-10-20"
+        "date": "2026-10-21"
       },
       {
         "symbol": "RADICO",
         "close": 4435.5,
         "roc_20": -2.2026702053797975,
-        "adx": 18.757072688268728,
-        "rsi": 48.046003106782585,
+        "adx": 19.34261900400592,
+        "rsi": 48.09827120480404,
         "composite_score": 0.0,
         "entry_signal": false,
         "segment": "midcap",
-        "date": "2026-10-20"
+        "date": "2026-10-21"
       },
       {
         "symbol": "RECLTD",
         "close": 302.3500061035156,
         "roc_20": -3.0929467616937045,
-        "adx": 35.51630929262558,
-        "rsi": 45.189682564934536,
+        "adx": 35.16702818562218,
+        "rsi": 45.20872748176546,
         "composite_score": 0.0,
         "entry_signal": false,
         "segment": "midcap",
-        "date": "2026-10-20"
+        "date": "2026-10-21"
       },
       {
         "symbol": "RVNL",
         "close": 194.5,
         "roc_20": -9.23514578662944,
-        "adx": 14.744788934906609,
-        "rsi": 41.88299388355529,
+        "adx": 14.55735197894082,
+        "rsi": 41.86717267308547,
         "composite_score": 0.0,
         "entry_signal": false,
         "segment": "midcap",
-        "date": "2026-10-20"
+        "date": "2026-10-21"
       },
       {
         "symbol": "SAIL",
         "close": 168.97000122070312,
         "roc_20": -3.466697258975082,
-        "adx": 18.18387197655175,
-        "rsi": 41.827600764516006,
+        "adx": 18.164660092162173,
+        "rsi": 41.8412375616999,
         "composite_score": 0.0,
         "entry_signal": false,
         "segment": "midcap",
-        "date": "2026-10-20"
+        "date": "2026-10-21"
       },
       {
         "symbol": "SBICARD",
         "close": 567.4000244140625,
         "roc_20": -12.861859304292045,
-        "adx": 33.20573796265413,
-        "rsi": 39.28911509044636,
+        "adx": 33.27718469743588,
+        "rsi": 39.30769070400374,
         "composite_score": 0.0,
         "entry_signal": false,
         "segment": "midcap",
-        "date": "2026-10-20"
+        "date": "2026-10-21"
       },
       {
         "symbol": "SHREECEM",
         "close": 22290.0,
         "roc_20": -1.3716814159292046,
-        "adx": 30.630211050452292,
-        "rsi": 46.7732732777238,
+        "adx": 30.631895787854322,
+        "rsi": 46.75467710944376,
         "composite_score": 0.0,
         "entry_signal": false,
         "segment": "midcap",
-        "date": "2026-10-20"
+        "date": "2026-10-21"
       },
       {
         "symbol": "SRF",
         "close": 2432.0,
         "roc_20": -3.1847133757961776,
-        "adx": 27.44640791566286,
-        "rsi": 37.875935552652194,
+        "adx": 21.10024703072063,
+        "rsi": 38.222020976302325,
         "composite_score": 0.0,
         "entry_signal": false,
         "segment": "midcap",
-        "date": "2026-10-20"
+        "date": "2026-10-21"
       },
       {
         "symbol": "SUPREMEIND",
         "close": 3620.699951171875,
         "roc_20": 1.1283943187100576,
-        "adx": 17.49235863563923,
-        "rsi": 58.67416180215786,
+        "adx": 17.513353874979966,
+        "rsi": 58.71136946858759,
         "composite_score": 0.0,
         "entry_signal": false,
         "segment": "midcap",
-        "date": "2026-10-20"
+        "date": "2026-10-21"
       },
       {
         "symbol": "SUZLON",
         "close": 40.380001068115234,
         "roc_20": -6.397770886838428,
-        "adx": 40.005089992728074,
-        "rsi": 45.48042688730634,
+        "adx": 39.85369212341701,
+        "rsi": 45.51117507395572,
         "composite_score": 0.0,
         "entry_signal": false,
         "segment": "midcap",
-        "date": "2026-10-20"
+        "date": "2026-10-21"
       },
       {
         "symbol": "SWIGGY",
         "close": 229.0,
         "roc_20": -16.132572701804413,
-        "adx": 26.96934108193633,
-        "rsi": 31.786401838625395,
+        "adx": 26.76592464008803,
+        "rsi": 31.8006779601252,
         "composite_score": 0.0,
         "entry_signal": false,
         "segment": "midcap",
-        "date": "2026-10-20"
+        "date": "2026-10-21"
       },
       {
         "symbol": "TIINDIA",
         "close": 2170.0,
         "roc_20": -16.538461538461537,
-        "adx": 46.3268011116617,
-        "rsi": 27.858055079610423,
+        "adx": 45.71063073464594,
+        "rsi": 27.904911055667057,
         "composite_score": 0.0,
         "entry_signal": false,
         "segment": "midcap",
-        "date": "2026-10-20"
+        "date": "2026-10-21"
       },
       {
         "symbol": "UNITDSPR",
         "close": 1364.0,
         "roc_20": -0.5105762217359588,
-        "adx": 24.651048023469816,
-        "rsi": 44.13788013308267,
+        "adx": 25.06722319884352,
+        "rsi": 44.09889956169503,
         "composite_score": 0.0,
         "entry_signal": false,
         "segment": "midcap",
-        "date": "2026-10-20"
+        "date": "2026-10-21"
       },
       {
         "symbol": "UNOMINDA",
         "close": 1087.4000244140625,
         "roc_20": -15.311524578344038,
-        "adx": 24.428816752158053,
-        "rsi": 35.33038979300187,
+        "adx": 24.208836752283478,
+        "rsi": 35.33217326872163,
         "composite_score": 0.0,
         "entry_signal": false,
         "segment": "midcap",
-        "date": "2026-10-20"
+        "date": "2026-10-21"
       },
       {
         "symbol": "UPL",
         "close": 530.3499755859375,
         "roc_20": -8.560349036907322,
-        "adx": 26.470271194230556,
-        "rsi": 47.345807374234624,
+        "adx": 26.209985699929693,
+        "rsi": 47.35383292289951,
         "composite_score": 0.0,
         "entry_signal": false,
         "segment": "midcap",
-        "date": "2026-10-20"
+        "date": "2026-10-21"
       },
       {
         "symbol": "VOLTAS",
         "close": 1019.5999755859375,
         "roc_20": -8.2185657414384,
-        "adx": 43.759862391837565,
-        "rsi": 32.99578813432589,
+        "adx": 43.34540586125127,
+        "rsi": 32.98768437515314,
         "composite_score": 0.0,
         "entry_signal": false,
         "segment": "midcap",
-        "date": "2026-10-20"
+        "date": "2026-10-21"
       },
       {
         "symbol": "YESBANK",
         "close": 16.8799991607666,
         "roc_20": -25.704226800549336,
-        "adx": 39.639470216712034,
-        "rsi": 20.364534062604406,
+        "adx": 39.19831148714742,
+        "rsi": 20.374954799354043,
         "composite_score": 0.0,
         "entry_signal": false,
         "segment": "midcap",
-        "date": "2026-10-20"
+        "date": "2026-10-21"
       }
     ],
     "smallcap": [
@@ -1629,221 +1640,221 @@
         "symbol": "AMBER",
         "close": 6529.5,
         "roc_20": -8.357894736842109,
-        "adx": 32.5141861586943,
-        "rsi": 39.295743277552376,
+        "adx": 31.94755304288359,
+        "rsi": 39.310888310565424,
         "composite_score": 0.0,
         "entry_signal": false,
         "segment": "smallcap",
-        "date": "2026-10-20"
+        "date": "2026-10-21"
       },
       {
         "symbol": "ANGELONE",
         "close": 302.8999938964844,
         "roc_20": 1.2704739937897669,
-        "adx": 20.592771991249425,
-        "rsi": 54.182868328965554,
+        "adx": 19.88430317224307,
+        "rsi": 54.231942279185255,
         "composite_score": 0.0,
         "entry_signal": false,
         "segment": "smallcap",
-        "date": "2026-10-20"
+        "date": "2026-10-21"
       },
       {
         "symbol": "BANDHANBNK",
         "close": 163.8000030517578,
         "roc_20": -6.399998256138395,
-        "adx": 17.445018186538086,
-        "rsi": 44.11057374003052,
+        "adx": 17.897790383808996,
+        "rsi": 44.180501154741584,
         "composite_score": 0.0,
         "entry_signal": false,
         "segment": "smallcap",
-        "date": "2026-10-20"
+        "date": "2026-10-21"
       },
       {
         "symbol": "CAMS",
         "close": 687.5,
         "roc_20": -2.902335731552541,
-        "adx": 17.46888883652562,
-        "rsi": 44.7989673433875,
+        "adx": 16.850763098582373,
+        "rsi": 44.85256164955485,
         "composite_score": 0.0,
         "entry_signal": false,
         "segment": "smallcap",
-        "date": "2026-10-20"
+        "date": "2026-10-21"
       },
       {
         "symbol": "CDSL",
         "close": 1270.0,
         "roc_20": -8.633093525179858,
-        "adx": 18.777259073299746,
-        "rsi": 42.103764041901286,
+        "adx": 18.770346683175184,
+        "rsi": 42.14278045035312,
         "composite_score": 0.0,
         "entry_signal": false,
         "segment": "smallcap",
-        "date": "2026-10-20"
+        "date": "2026-10-21"
       },
       {
         "symbol": "CROMPTON",
         "close": 208.4499969482422,
         "roc_20": -8.220323428288257,
-        "adx": 42.26997298869595,
-        "rsi": 39.91818270415043,
+        "adx": 41.80854532298281,
+        "rsi": 39.94989282598373,
         "composite_score": 0.0,
         "entry_signal": false,
         "segment": "smallcap",
-        "date": "2026-10-20"
+        "date": "2026-10-21"
       },
       {
         "symbol": "DELHIVERY",
         "close": 400.0,
         "roc_20": -6.542056074766355,
-        "adx": 26.45853947443845,
-        "rsi": 38.03144594236601,
+        "adx": 26.01661858346851,
+        "rsi": 38.043119397827724,
         "composite_score": 0.0,
         "entry_signal": false,
         "segment": "smallcap",
-        "date": "2026-10-20"
+        "date": "2026-10-21"
       },
       {
         "symbol": "FORCEMOT",
         "close": 17563.0,
         "roc_20": 0.4288655077767656,
-        "adx": 16.568886599581944,
-        "rsi": 55.14519129994483,
+        "adx": 16.157131902927087,
+        "rsi": 55.14703005550614,
         "composite_score": 0.0,
         "entry_signal": false,
         "segment": "smallcap",
-        "date": "2026-10-20"
+        "date": "2026-10-21"
       },
       {
         "symbol": "IEX",
         "close": 104.80000305175781,
         "roc_20": -9.23263131581683,
-        "adx": 31.400054363755782,
-        "rsi": 35.459638621480224,
+        "adx": 30.79816827081941,
+        "rsi": 35.49478112586536,
         "composite_score": 0.0,
         "entry_signal": false,
         "segment": "smallcap",
-        "date": "2026-10-20"
+        "date": "2026-10-21"
       },
       {
         "symbol": "INOXWIND",
         "close": 64.88999938964844,
         "roc_20": -15.50781665214631,
-        "adx": 25.640187742514506,
-        "rsi": 37.30881061050826,
+        "adx": 25.37831506811449,
+        "rsi": 37.31772844786666,
         "composite_score": 0.0,
         "entry_signal": false,
         "segment": "smallcap",
-        "date": "2026-10-20"
+        "date": "2026-10-21"
       },
       {
         "symbol": "KAYNES",
         "close": 3250.0,
         "roc_20": -7.5391180654338585,
-        "adx": 20.723483773517614,
-        "rsi": 38.330109113937404,
+        "adx": 20.49234959915255,
+        "rsi": 38.3375185807257,
         "composite_score": 0.0,
         "entry_signal": false,
         "segment": "smallcap",
-        "date": "2026-10-20"
+        "date": "2026-10-21"
       },
       {
         "symbol": "KFINTECH",
         "close": 872.5499877929688,
         "roc_20": -6.177420667422718,
-        "adx": 14.633714340727327,
-        "rsi": 47.0035134382107,
+        "adx": 15.047164612011837,
+        "rsi": 47.037805727237995,
         "composite_score": 0.0,
         "entry_signal": false,
         "segment": "smallcap",
-        "date": "2026-10-20"
+        "date": "2026-10-21"
       },
       {
         "symbol": "KPITTECH",
         "close": 536.9500122070312,
         "roc_20": 0.9304534223743,
-        "adx": 29.84579897959274,
-        "rsi": 54.09255072877089,
+        "adx": 29.430029430081536,
+        "rsi": 54.108744618168025,
         "composite_score": 0.0,
         "entry_signal": false,
         "segment": "smallcap",
-        "date": "2026-10-20"
+        "date": "2026-10-21"
       },
       {
         "symbol": "MANAPPURAM",
         "close": 319.54998779296875,
         "roc_20": 0.12533100552529763,
-        "adx": 21.74128061056916,
-        "rsi": 47.52185692130245,
+        "adx": 21.8116556959472,
+        "rsi": 47.49942165774019,
         "composite_score": 0.0,
         "entry_signal": false,
         "segment": "smallcap",
-        "date": "2026-10-20"
+        "date": "2026-10-21"
       },
       {
         "symbol": "NBCC",
         "close": 73.69999694824219,
         "roc_20": -10.558257787051561,
-        "adx": 44.06954231427269,
-        "rsi": 31.085062094526762,
+        "adx": 43.133426200344005,
+        "rsi": 31.122913742410915,
         "composite_score": 0.0,
         "entry_signal": false,
         "segment": "smallcap",
-        "date": "2026-10-20"
+        "date": "2026-10-21"
       },
       {
         "symbol": "PGEL",
         "close": 508.0,
         "roc_20": -3.996980712130238,
-        "adx": 27.377929515857772,
-        "rsi": 41.335993996162564,
+        "adx": 26.707089519138922,
+        "rsi": 41.327998963192684,
         "composite_score": 0.0,
         "entry_signal": false,
         "segment": "smallcap",
-        "date": "2026-10-20"
+        "date": "2026-10-21"
       },
       {
         "symbol": "PNBHOUSING",
         "close": 1147.9000244140625,
         "roc_20": 1.3061556038311384,
-        "adx": 18.81635524115341,
-        "rsi": 49.85972588028395,
+        "adx": 19.35846998314266,
+        "rsi": 49.894019525339026,
         "composite_score": 0.0,
         "entry_signal": false,
         "segment": "smallcap",
-        "date": "2026-10-20"
+        "date": "2026-10-21"
       },
       {
         "symbol": "RBLBANK",
         "close": 375.75,
         "roc_20": -9.653761597908927,
-        "adx": 25.00857428033545,
-        "rsi": 37.66441720941436,
+        "adx": 25.47736731420428,
+        "rsi": 37.671620577780104,
         "composite_score": 0.0,
         "entry_signal": false,
         "segment": "smallcap",
-        "date": "2026-10-20"
+        "date": "2026-10-21"
       },
       {
         "symbol": "SONACOMS",
         "close": 794.0,
         "roc_20": -1.7326732673267342,
-        "adx": 14.500891014856629,
-        "rsi": 47.23005259847783,
+        "adx": 16.228448876468192,
+        "rsi": 47.25498762578698,
         "composite_score": 0.0,
         "entry_signal": false,
         "segment": "smallcap",
-        "date": "2026-10-20"
+        "date": "2026-10-21"
       },
       {
         "symbol": "TATAELXSI",
         "close": 3790.0,
         "roc_20": 16.01922602779602,
-        "adx": 36.678285892009,
-        "rsi": 70.51067325589663,
+        "adx": 36.36494409317801,
+        "rsi": 70.52593830519413,
         "composite_score": 0.0,
         "entry_signal": false,
         "segment": "smallcap",
-        "date": "2026-10-20"
+        "date": "2026-10-21"
       }
     ]
   }
