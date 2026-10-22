@@ -1,107 +1,78 @@
 {
-  "timestamp": "2026-10-21T07:55:30+00:00",
+  "timestamp": "2026-10-22T07:51:57+00:00",
   "events": [
-    {
-      "symbol": "TCS",
-      "type": "dividend",
-      "date": "2026-10-14",
-      "detail": "\u20b912.00 per share",
-      "days_away": -7
-    },
-    {
-      "symbol": "TCS",
-      "type": "ex-dividend_date",
-      "date": "2026-10-14",
-      "detail": "Ex-Dividend Date",
-      "days_away": -7
-    },
     {
       "symbol": "PERSISTENT",
       "type": "earnings_date",
       "date": "2026-10-15",
       "detail": "Earnings Date",
-      "days_away": -6
+      "days_away": -7
     },
     {
       "symbol": "HCLTECH",
       "type": "dividend",
       "date": "2026-10-16",
       "detail": "\u20b912.00 per share",
-      "days_away": -5
+      "days_away": -6
     },
     {
       "symbol": "HCLTECH",
       "type": "ex-dividend_date",
       "date": "2026-10-16",
       "detail": "Ex-Dividend Date",
-      "days_away": -5
+      "days_away": -6
     },
     {
       "symbol": "DRREDDY",
       "type": "earnings_date",
       "date": "2026-10-23",
       "detail": "Earnings Date",
-      "days_away": 2
+      "days_away": 1
     },
     {
       "symbol": "ICICIGI",
       "type": "ex-dividend_date",
       "date": "2026-10-23",
       "detail": "Ex-Dividend Date",
-      "days_away": 2
+      "days_away": 1
     },
     {
       "symbol": "KOTAKBANK",
       "type": "earnings_date",
       "date": "2026-10-24",
       "detail": "Earnings Date",
-      "days_away": 3
-    },
-    {
-      "symbol": "ADANIPORTS",
-      "type": "earnings_date",
-      "date": "2026-10-28",
-      "detail": "Earnings Date",
-      "days_away": 7
+      "days_away": 2
     },
     {
       "symbol": "LAURUSLABS",
       "type": "earnings_date",
       "date": "2026-10-29",
       "detail": "Earnings Date",
-      "days_away": 8
+      "days_away": 7
     },
     {
       "symbol": "TRENT",
       "type": "earnings_date",
       "date": "2026-10-29",
       "detail": "Earnings Date",
-      "days_away": 8
+      "days_away": 7
+    },
+    {
+      "symbol": "PETRONET",
+      "type": "earnings_date",
+      "date": "2026-11-02",
+      "detail": "Earnings Date",
+      "days_away": 11
     },
     {
       "symbol": "MPHASIS",
       "type": "earnings_date",
       "date": "2026-11-05",
       "detail": "Earnings Date",
-      "days_away": 15
+      "days_away": 14
     }
   ],
   "by_symbol": {
-    "ADANIPORTS": {
-      "dividends": [
-        {
-          "date": "2026-06-12",
-          "amount": 7.5
-        }
-      ],
-      "splits": [],
-      "calendar": {
-        "Earnings Date": [
-          "2026-10-28"
-        ],
-        "Ex-Dividend Date": "2026-06-12"
-      }
-    },
     "DRREDDY": {
       "dividends": [
         {
@@ -214,6 +185,21 @@
           "2026-10-15"
         ],
         "Ex-Dividend Date": "2026-07-27"
+      }
+    },
+    "PETRONET": {
+      "dividends": [
+        {
+          "date": "2026-06-12",
+          "amount": 3.0
+        }
+      ],
+      "splits": [],
+      "calendar": {
+        "Earnings Date": [
+          "2026-11-02"
+        ],
+        "Ex-Dividend Date": "2026-06-12"
       }
     },
     "TCS": {
