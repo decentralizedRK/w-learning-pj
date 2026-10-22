@@ -1,125 +1,105 @@
 {
-  "timestamp": "2026-10-21T16:22:12",
+  "timestamp": "2026-10-22T16:21:36",
   "portfolio_actions": [],
   "entry_signals": [
     {
-      "symbol": "TCS",
+      "symbol": "MPHASIS",
       "action": "WATCH",
-      "score": 0.698,
-      "rsi": 73.6,
-      "adx": 28.0,
-      "segment": "largecap",
-      "close": 2460.89990234375,
-      "reason": "RSI overbought, moderate trend (ADX 28), n/a"
-    },
-    {
-      "symbol": "KOTAKBANK",
-      "action": "WATCH",
-      "score": 0.64,
-      "rsi": 63.1,
-      "adx": 41.7,
-      "segment": "largecap",
-      "close": 442.29998779296875,
-      "reason": "RSI neutral, strong trend (ADX 42), n/a"
+      "score": 0.667,
+      "rsi": 72.4,
+      "adx": 25.4,
+      "segment": "midcap",
+      "close": 2575.0,
+      "reason": "RSI overbought, moderate trend (ADX 25), n/a"
     },
     {
       "symbol": "ICICIGI",
       "action": "WATCH",
       "score": 0.627,
-      "rsi": 56.8,
-      "adx": 35.1,
+      "rsi": 55.0,
+      "adx": 34.8,
       "segment": "midcap",
-      "close": 1650.0,
+      "close": 1640.0,
       "reason": "RSI neutral, strong trend (ADX 35), n/a"
     },
     {
-      "symbol": "MPHASIS",
+      "symbol": "KOTAKBANK",
       "action": "WATCH",
-      "score": 0.602,
-      "rsi": 67.3,
-      "adx": 23.5,
-      "segment": "midcap",
-      "close": 2500.0,
-      "reason": "RSI neutral, moderate trend (ADX 23), n/a"
-    },
-    {
-      "symbol": "LAURUSLABS",
-      "action": "WATCH",
-      "score": 0.581,
-      "rsi": 61.5,
-      "adx": 24.8,
-      "segment": "midcap",
-      "close": 2069.0,
-      "reason": "RSI neutral, moderate trend (ADX 25), n/a"
-    },
-    {
-      "symbol": "TRENT",
-      "action": "WATCH",
-      "score": 0.56,
-      "rsi": 54.4,
-      "adx": 27.1,
+      "score": 0.613,
+      "rsi": 58.6,
+      "adx": 40.9,
       "segment": "largecap",
-      "close": 2891.60009765625,
-      "reason": "RSI neutral, moderate trend (ADX 27), n/a"
+      "close": 437.79998779296875,
+      "reason": "RSI neutral, strong trend (ADX 41), n/a"
     },
     {
       "symbol": "HCLTECH",
       "action": "WATCH",
-      "score": 0.56,
-      "rsi": 70.2,
-      "adx": 22.5,
+      "score": 0.593,
+      "rsi": 74.3,
+      "adx": 24.7,
       "segment": "largecap",
-      "close": 1379.9000244140625,
-      "reason": "RSI overbought, moderate trend (ADX 23), n/a"
+      "close": 1424.199951171875,
+      "reason": "RSI overbought, moderate trend (ADX 25), n/a"
     },
     {
-      "symbol": "PERSISTENT",
+      "symbol": "ANANDRATHI",
       "action": "WATCH",
-      "score": 0.51,
-      "rsi": 54.4,
-      "adx": 22.3,
+      "score": 0.583,
+      "rsi": 59.6,
+      "adx": 30.7,
+      "segment": "other",
+      "close": 2200.0,
+      "reason": "RSI neutral, strong trend (ADX 31), n/a"
+    },
+    {
+      "symbol": "PETRONET",
+      "action": "WATCH",
+      "score": 0.503,
+      "rsi": 56.7,
+      "adx": 23.1,
       "segment": "midcap",
-      "close": 5690.0,
-      "reason": "RSI neutral, moderate trend (ADX 22), n/a"
+      "close": 295.0,
+      "reason": "RSI neutral, moderate trend (ADX 23), n/a"
+    },
+    {
+      "symbol": "PNB",
+      "action": "NO SIGNAL",
+      "score": 0.498,
+      "rsi": 64.0,
+      "adx": 22.7,
+      "segment": "other",
+      "close": 122.5,
+      "reason": "RSI neutral, moderate trend (ADX 23), n/a"
     },
     {
       "symbol": "DRREDDY",
       "action": "NO SIGNAL",
-      "score": 0.481,
-      "rsi": 60.4,
-      "adx": 23.4,
+      "score": 0.498,
+      "rsi": 60.9,
+      "adx": 23.6,
       "segment": "largecap",
-      "close": 1242.5,
-      "reason": "RSI neutral, moderate trend (ADX 23), n/a"
+      "close": 1244.5,
+      "reason": "RSI neutral, moderate trend (ADX 24), n/a"
     },
     {
-      "symbol": "PETRONET",
+      "symbol": "PERSISTENT",
       "action": "NO SIGNAL",
-      "score": 0.431,
-      "rsi": 55.2,
-      "adx": 22.5,
+      "score": 0.472,
+      "rsi": 60.2,
+      "adx": 21.3,
       "segment": "midcap",
-      "close": 293.6499938964844,
-      "reason": "RSI neutral, moderate trend (ADX 23), n/a"
-    },
-    {
-      "symbol": "ADANIPORTS",
-      "action": "NO SIGNAL",
-      "score": 0.415,
-      "rsi": 52.1,
-      "adx": 21.2,
-      "segment": "largecap",
-      "close": 1766.0,
+      "close": 5858.5,
       "reason": "RSI neutral, moderate trend (ADX 21), n/a"
     },
     {
       "symbol": "COFORGE",
       "action": "NO SIGNAL",
-      "score": 0.394,
-      "rsi": 59.9,
-      "adx": 20.2,
+      "score": 0.448,
+      "rsi": 62.6,
+      "adx": 20.0,
       "segment": "midcap",
-      "close": 1925.0,
+      "close": 1951.0,
       "reason": "RSI neutral, moderate trend (ADX 20), n/a"
     }
   ]
