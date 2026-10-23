@@ -1,32 +1,40 @@
 {
-  "timestamp": "2026-10-22T07:51:53+00:00",
+  "timestamp": "2026-10-23T07:50:48+00:00",
   "ticker_news": {
+    "COFORGE": [
+      {
+        "title": "Coforge Limited (COFORGE.NS) Stock Price, News, Quote & History - Yahoo! Finance Canada",
+        "publisher": "Google News",
+        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5ETjdaNnNqZXl6dENKU2RBV3VYN3NHUEkxMElqbTJLWlo1VC1GNklDTWljM25jTWtjM2xxQjBXcXo4SlhSRFZZeHBMM1FpeUFnb1ZPU0l6czZ1QQ?oc=5",
+        "age_h": 58.8
+      },
+      {
+        "title": "Trade Spotlight: How should you trade Coforge, PVR Inox, PTC Industries, Wipro, RBL Bank, and others on... - Moneycontrol.com",
+        "publisher": "Google News",
+        "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxPRzhqSG5fMlZ3R1docmNRTG9palFzdUFBcmZlQlZSLWdOekFkeklObXlHLUNjalJtdjhKTGZJakhxeWpzbjktWEN5SmpXaVFGYzhQVVZVcjVFS3Ezb0tXc1lEYjlFdHNGSW5sVlBkd21zaXBtSUR2MmtUaUFpNmQwUW02OHF6a1ZNNmw5Y0hVT0c3Um1xTFBQSXNjLUdLcElWU2paVGVIenc5alVFc1ZLT0pGX19FZmJ1QkhoX1RMd0hLTE9YV3RrN3lzUEpCbXJaczFfT3AxYzhSUVlnY3JQNGhDeTNmZlN1UDJOU1U1MW1DWVhaLXZGQ2Y0UXl3ZHQ2QXpv0gGIAkFVX3lxTE1QSm1scXJ5YXBFRzFMOUZrc3dySHo3OTVIaVFZTV9EdmhoMTVuVGFyZ09YdlBpei0ya3VfSFZ6enlsWnZnZnRyM21mZHpYbEM4S1RzU0hoZVIzbk5WeEJDZm9EbVRoZEpWVGtQZXhEWllQRmJkX2Q3NjJJOHg4cWRpLXlscXF5SFZ5S1VVZG9GNG5oQkxoME1OeDIwZXZPVmQ3bGE3Y0x6b0hzRXBOeUJmall2aW92NHFZMXlhRk9XdVp1bERJbGJFMXlrejd6Z0xyRG1iWkhaNGZ6TlpMTFVsREVrcC1rUEFtT0gyRDNnY0J3UzMyR21UcEhkcVhKUHI4NkVFSWFwaQ?oc=5",
+        "age_h": 29.1
+      }
+    ],
     "DRREDDY": [
       {
         "title": "Dr. Reddy's Laboratories Share Price - Live NSE: DRREDDY Stock Price & Chart - Upstox",
         "publisher": "Google News",
         "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE0zSVhMclV3N2dOMVJfcHNVbWN1LUhfYWFxQ3gzMjMxamNNaGhDOEt2bEQ0NGhXU2paSVEwVWpseW1ZZzNRUm5XSkRiSm9TMEhBVkRmNzdGYTVkeC04QVZMY0NUYlhGX2Z3cm1iR2ZzSQ?oc=5",
-        "age_h": 51.7
-      },
-      {
-        "title": "Nomura keeps INR 1,740 target for Dr Reddy stock - AD HOC NEWS",
-        "publisher": "Google News",
-        "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxORW9QSFdPYWRVUmRkYlpqUjUwRGlsT2VZRmRyTkdRWjh3blZrVmhfRGQtWVhEVHZZbmZpY3haelh6bXpDbU9fNDljVUFEX2Z4QVVBZmxtdlFLZ3BDaDU3ME53eDNFcTFkNlhJRkloQUV4bjRLSFlsSTBkcGx1emQyUWRFSFkzZEhFcVROWFpCMEZGeFNaOVMxMjllZVoyTXA2UlRCUnNDYzVEYkhwNllLdw?oc=5",
-        "age_h": 0.3
+        "age_h": 70.7
       }
     ],
     "HCLTECH": [
       {
-        "title": "HCL Technologies Share Price - Live NSE: HCLTECH Stock Price & Chart - Upstox",
+        "title": "HCLTECH Share Price Today - HCL Technologies on NSE/BSE - scanx.trade",
         "publisher": "Google News",
-        "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5VakFpRExUYldXMkNsOENVSHQ2NUIyNDhRZklKbjVtZGJBMzFsSXpfRGJyVzdQWkxCb0oyYnZIMTRBblBmZl9WRmlRVTZ3Qm8tR1dJS21pQkl6WGpWOWJ0dllEMVpKZEJTaE8w?oc=5",
-        "age_h": 38.3
+        "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE45V1JRSURLem9XQ2JlYlJvdV9rN3VFMjh0ZWFHNVNtSHVBSVYwcnNBQUZGVWdXZDhUcUdxcjY1cGFtNVFqRWxtTk9BVC1sWThyblRITGRJWEFYYVhv?oc=5",
+        "age_h": 28.4
       },
       {
         "title": "HCL Technologies Limited (HCLTECH.NS) stock price, news, quote and history - Yahoo Finance UK",
         "publisher": "Google News",
         "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1nMWZvR19hY040V1pCTlJMM0hpRHJXdlhzT1ltdzB5eGlBaWt5V3pVQWNNQ2FrdnRpdFc0cG9OS0hjaHlWRVQ4b0Z2VXNpS052MFlaWi1zdFVlQQ?oc=5",
-        "age_h": 67.7
+        "age_h": 72.2
       }
     ],
     "ICICIGI": [
@@ -34,15 +42,7 @@
         "title": "ICICI Lombard General Insurance Company Limited (NSE:ICICIGI) Looks Like A Good Stock, And It's Going Ex-Dividend Soon - Simply Wall Street",
         "publisher": "Google News",
         "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxONVdnd1VYY19IT2RQNXJpN2lDYnJBNURKTXhFS1F5blRKYm5nTUlWd21RTGFPUW1aOVVISk9kSE5qVXpGTXdwNElKTTJhUkRxaFJmMUs1WWlXRHZ4Qmp4NzhhT0trUzVPUWk0b09wZloyVER3cWtJRHR5cnpVM1FvcUpYTTBlSXAtcVdFM2RVLUVRemxWRmhKRVlfN25YbjdMaVBfbVNac1lxeDdNbEtaTjY2Nmx1bG1HWDRhMTZmb0FFSjBoZGYtYU9XdmVwbW5ETGFFSUxpQ01sNm85NWItR3B1RTh2WF9YNzlfbnBPSG5pUdIB9wFBVV95cUxNWnZuWWNlOTFiVmxoZVAzcDFOS05fUHNHRFFCTU1xMU8zYTVSRTZZWlRWMGcxSkpVTEhORTItLXcyZmwxNm9mQmRRaFRqdWR1b1Z5aXNPR21IUENibzlMcXVHLUV6X3pCVDZlNVJRdW9lLVRUUUZHeE5Bb1lFQW96cXFEYnctbWtrZEJ1NHRhWlk3RzRjdHQ3NjVlZTA4WkxVcE82QUdrVGRJb0VCNGUxRElqak52dWVmbHJHOFFBdXUwZmlYb2RFVWg1WEo5LTY2NzFGLTZSOWx2U3R4a1Q3TmhMc1YzNXlvUzRLX0ZhMldSSnhyWm1r?oc=5",
-        "age_h": 29.6
-      }
-    ],
-    "KOTAKBANK": [
-      {
-        "title": "HSBC raises target for Kotak Mahindra Bank stock to INR 520 - AD HOC NEWS",
-        "publisher": "Google News",
-        "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNVUpjSTI5dE5hMWcxU2xCdEVDS2N1TlJpUDVQU19vWk5OX1gteUZkandCX3dYY21xTGZVZ0xHdFdycnlYQ3RSQlpKUWhKamFhZGdEckUwclRmcFFEM2ZOYTFFRWtTcnE5RlQydGx0VHB0MzZIMXJMNjBWcHN4U090ZWNXVGhEZGFtMUtpM0VWek9rWmtiV090N3Ytc3ZRa2VzckwtdWh3VFNiWU5RbnJuZVU4eEphSEktZWo5OC0xMA?oc=5",
-        "age_h": 24.6
+        "age_h": 53.6
       }
     ],
     "PERSISTENT": [
@@ -50,88 +50,74 @@
         "title": "Persistent Systems Limited (PERSISTENT.NS) Stock Price, News, Quote & History - Yahoo! Finance Canada",
         "publisher": "Google News",
         "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5LbFYxLXZ1a0g5V3FIUWZNOU0zeF8tTl96bkJqa3dYTnVQZUlmWm1scVg1V1gwM2xpMjNKWlBYc2NTSWFOaWJvREhpcGtyMk8xdXE0NGl1Z1pLcm84WHc?oc=5",
-        "age_h": 56.4
+        "age_h": 80.4
       }
     ],
-    "TCS": [
+    "PNB": [
       {
-        "title": "Tata Consultancy Services Limited (TCS.NS) stock price, news, quote and history - Yahoo Finance Singapore",
+        "title": "Punjab National Bank (NSEI:PNB) Stock Forecast & Analyst Predictions - Simply Wall Street",
         "publisher": "Google News",
-        "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE4yZG1MMUJWTjQzeUxZdV9QMF90azdyZlhNOTctMFZTMTYyRVhVWlZKbDFRenlSZXN2aEpLWTRkVHlROVpBNmpZYWZ5V3EwZ2FQU2loLQ?oc=5",
-        "age_h": 63.0
-      },
-      {
-        "title": "Tata Consultancy Services (NSEI:TCS) Stock Forecast & Analyst Predictions - Simply Wall Street",
-        "publisher": "Google News",
-        "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNWnV6ajlIQV9tZmRhblEwR0NvUkZ5emFFbnk4SlZDdzAwRVdtX1hmcDV6ZV9YaHZGMGhPSUxNaWpsR0RXYUZSaWhZLUlaMWVTb1dyWUdFS2ZrVFFnbkJaaUNOWVM1bmhvVkQ1YXRxSnpPdnpDaHJWWkZLUGlEdlI4ekZRaU93TTVIQU5pVlV4Uzh3dw?oc=5",
-        "age_h": 72.9
-      }
-    ],
-    "TRENT": [
-      {
-        "title": "Trent stock: At INR 2,891.60, Trent stock falls 2.27 percent on NSE - ad-hoc-news.de",
-        "publisher": "Google News",
-        "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNd2dmU1lhQmRCbkVabTk3Mm5aN21ObW1YbDN1dTZRZGQwTXpFQWJiWnZ4VkZ2Z0RVWnBkYzIyOThZcU5JNzNsSmJDcnNsQTJiRWhaeFppZ0hEa0hzZkZQNzc4bk5fRzV0NnVJai0ycGpJOXptdGtQemRESjQ3SnBuUDAtVjc2elZBYWlMQnlOTUdBUVlETThRZS1XcG5ING5MUU9YSmZYcWp2Q0Q5bUlxczJ4UThvWTNxUlhhdWFBZ3lKSVF1LWxr?oc=5",
-        "age_h": 64.4
+        "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPeU1GSzFTazdtY2NRdTJ1ZGloV1lFQXlLM1RZamJSajRwTTFnaC1EZ3hrTzltbk1KY0RxWWdHbnZSeXlQcVdHYUplN1VPSUx3TnVTWk5OUUJjNEZ1WHJXeXBwRzRUSzRVSTMzZ25PUHJmNlNnYjU0MXZfbzBQdVFSLS00REthTEU?oc=5",
+        "age_h": 96.8
       }
     ]
   },
   "market_headlines": [
     {
       "source": "Economic Times",
-      "title": "Adani Green Energy shares fall 4% after Q2 results. What are Jefferies, JM Financial saying?",
-      "link": "https://economictimes.indiatimes.com/markets/stocks/news/adani-green-energy-shares-fall-4-after-q2-results-what-are-jefferies-jm-financial-saying/articleshow/135110271.cms",
-      "summary": "Adani Green Energy reported a 15% year-on-year rise in Q2FY27 net profit to Rs 673 crore, while revenue grew 39% to Rs 4,520 crore. Shares fell 4% after the results. Jefferies maintained its Buy ratin",
+      "title": "This Tata Group stock plunged 10% a day after rallying 19% post Q2 results. Do you own?",
+      "link": "https://economictimes.indiatimes.com/markets/stocks/news/this-tata-group-stock-plunged-10-a-day-after-rallying-19-post-q2-results-do-you-own/articleshow/135138992.cms",
+      "summary": "Tata Teleservices (Maharashtra) shares plunged on Friday, giving up some gains after rallying 19% in the previous session following its Q2 results. The stock fell to Rs 34.24 on the NSE. The company r",
+      "age_h": 0.4
+    },
+    {
+      "source": "Economic Times",
+      "title": "Broader markets crash! Small, midcap indices tumble up to 4%. Why analysts are sounding the alarm",
+      "link": "https://economictimes.indiatimes.com/markets/stocks/news/broader-markets-crash-small-midcap-indices-tumble-up-to-4-why-analysts-are-sounding-the-alarm/articleshow/135138924.cms",
+      "summary": "Smallcap and midcap stocks plunged up to 4% on Friday, extending a sharp weekly selloff as analysts warned that valuations remain difficult to justify. The Nifty Smallcap 250 index has fallen around 8",
+      "age_h": 0.4
+    },
+    {
+      "source": "Economic Times",
+      "title": "Cyient shares rally 9% after Q2 revenue rises 25%; board declares Rs 12/sh interim dividend",
+      "link": "https://economictimes.indiatimes.com/markets/stocks/news/cyient-shares-rally-9-after-q2-revenue-rises-25-board-declares-rs-12/sh-interim-dividend/articleshow/135137782.cms",
+      "summary": "Cyient shares surged on Friday after the company reported a 25% year-on-year rise in consolidated revenue to Rs 2,235 crore in Q2 FY27. Net profit declined 8% to Rs 132 crore. The board declared an in",
       "age_h": 1.1
     },
     {
       "source": "Economic Times",
-      "title": "Lam Research Stock: Why did LRCX shares fall despite record profits?",
-      "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/lam-research-stock-why-did-lrcx-shares-fall-despite-record-profits/slideshow/135110117.cms",
-      "summary": "Lam Research posted record revenue of $8.22 billion, driven by AI infrastructure and memory chip demand. Supply constraints, declining China revenue contribution and cautious outlook weighed on invest",
-      "age_h": 1.4
-    },
-    {
-      "source": "Economic Times",
-      "title": "IGI shares hit 10% upper circuit as Q2 profit jumps 43%, revenue rises 31% YoY",
-      "link": "https://economictimes.indiatimes.com/markets/stocks/news/igi-shares-hit-10-upper-circuit-as-q2-profit-jumps-43-revenue-rises-31-yoy/articleshow/135109799.cms",
-      "summary": "International Gemological Institute shares hit the 10% upper circuit after Q2 FY27 revenue rose 31% and profit surged 43% year on year. Growth was supported by lab-grown diamonds, stronger margins and",
-      "age_h": 1.4
-    },
-    {
-      "source": "Economic Times",
-      "title": "Indian bonds steady after RBI minutes signal more rate hikes",
-      "link": "https://economictimes.indiatimes.com/markets/bonds/indian-bonds-steady-after-rbi-minutes-signal-more-rate-hikes/articleshow/135109590.cms",
-      "summary": "Indian bond yields remain steady at approximately 7.45%, influenced by growing inflation anxieties. The Reserve Bank of India recently increased the repo rate to 5.50%, hinting that further hikes may ",
-      "age_h": 1.6
+      "title": "Nippon Silver ETF, other silver ETFs slide up to 4% as silver prices tumble. Here\u2019s why",
+      "link": "https://economictimes.indiatimes.com/markets/stocks/news/nippon-silver-etf-other-silver-etfs-slide-up-to-4-as-silver-prices-tumble-heres-why/articleshow/135137769.cms",
+      "summary": "Silver ETFs tumble up to 4% as India permits 6,500 metric tonnes of silver imports over six months, raising expectations of easing domestic supply tightness and premiums. Higher interest rates, bond y",
+      "age_h": 1.2
     },
     {
       "source": "Livemint",
-      "title": "UltraTech Cement shares down 11% in a year: InCred Equities says recovery ahead | Check target, upside, rationale",
-      "link": "https://www.livemint.com/market/stock-market-news/ultratech-cement-shares-down-11-in-a-year-incred-equities-says-recovery-ahead-check-target-upside-rationale-11792649432607.html",
-      "summary": "Brokerage firm InCred Equities continues to remain bullish on UltraTech Cement share price despite the stock has given negative returns in the short-term",
-      "age_h": 0.5
+      "title": "Reliance Jio IPO: What today's GMP signals; last few hours to apply; latest grey market premium and subscription status",
+      "link": "https://www.livemint.com/market/ipo/reliance-jio-ipo-what-todays-gmp-signals-last-few-hours-to-apply-latest-grey-market-premium-and-subscription-status-11792740992082.html",
+      "summary": "Reliance Jio Platforms\u2019  \u20b930,213 crore IPO was subscribed 7.64 times by Friday afternoon, led by strong demand from institutional investors.&amp;nbsp;",
+      "age_h": 0.2
     },
     {
       "source": "Livemint",
-      "title": "Fujiyama Power Systems share price falls 15% in a month: Is 45% upside still on the table? Check DAM Capital target",
-      "link": "https://www.livemint.com/market/stock-market-news/fujiyama-power-systems-share-price-falls-15-in-a-month-is-45-upside-still-on-the-table-check-dam-capital-target-11792651886721.html",
-      "summary": "DAM Capital initiated coverage on Fujiyama Power Systems with a Buy rating and  \u20b9540 target, implying 45% upside. It cited the company\u2019s distribution network, integrated solar products and government ",
-      "age_h": 0.8
+      "title": "IPO listings, share price today: Tonbo Imaging vs Zetwerk vs Bonfiglioli vs Sahajanand - Who won debut race on NSE, BSE?",
+      "link": "https://www.livemint.com/market/stock-market-news/ipo-listings-share-price-today-tonbo-imaging-vs-zetwerk-vs-bonfiglioli-vs-sahajanand-who-won-debut-race-on-nse-bse-11792733810920.html",
+      "summary": "IPO listings, share price today: Tonbo Imaging India emerged as the clear winner, with its shares listing at a premium of 66% over the IPO issue price.",
+      "age_h": 0.2
     },
     {
       "source": "Livemint",
-      "title": "Hero Motors shares hit 5% lower circuit; stock still up 42% from IPO price | Check key support level",
-      "link": "https://www.livemint.com/market/stock-market-news/hero-motors-shares-hit-5-lower-circuit-stock-still-up-42-from-ipo-price-check-key-support-level-11792651819533.html",
-      "summary": "Hero Motors shares fell 5% to a lower circuit on Thursday but remained about 42% above their  \u20b984 IPO price. The stock is nearing a key  \u20b9112 support level, with a break below it potentially triggerin",
-      "age_h": 0.8
+      "title": "Havells India stock drops to a new 52-week low after Q2 results. What\u2019s worrying investors?",
+      "link": "https://www.livemint.com/market/mark-to-market/havells-india-share-price-q2fy27-results-lloyd-consumer-cables-and-wires-ebitda-margin-11792739039916.html",
+      "summary": "Havells India shares fell about 6% on Friday to a new 52-week low as investors weighed margin pressures from rising competition in cables and wires, continued losses at Lloyd and higher input costs, d",
+      "age_h": 0.3
     },
     {
       "source": "Livemint",
-      "title": "HDFC Bank share price drops over 2%, down 30% YTD - Experts highlight key support, resistance levels to watch",
-      "link": "https://www.livemint.com/market/stock-market-news/hdfc-bank-share-price-drops-over-2-down-30-ytd-experts-highlight-key-support-resistance-levels-to-watch-11792651570617.html",
-      "summary": "HDFC Bank share price is down 30% year-to-date (YTD). Over the last one year, it is down 31%. On longer timeframes of 2, 3, and 5 years, the stock has dropped 19%, 9%, and 18%, respectively.",
-      "age_h": 0.8
+      "title": "International Gemological Institute shares rally 16% in 2 days: Stock just 3.5% below 52-week high \u2014 What lies ahead?",
+      "link": "https://www.livemint.com/market/stock-market-news/international-gemological-institute-shares-rally-16-in-2-days-stock-just-3-5-below-52-week-high-what-lies-ahead-11792738614673.html",
+      "summary": "IGI shares rose 6% on Friday after gaining 10% in the previous session, lifting their two-day advance to 16.5%. The rally followed strong September-quarter results: profit increased 43% year-on-year t",
+      "age_h": 0.6
     }
   ]
 }
