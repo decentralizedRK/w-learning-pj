@@ -1,4 +1,4 @@
-LAST_UPDATED = "2026-10-18"
+LAST_UPDATED = "2026-10-25"
 
 LARGECAP_FO: list[str] = [
     "ADANIENT",
@@ -85,7 +85,6 @@ MIDCAP_FO: list[str] = [
     "HEROMOTOCO",
     "HINDPETRO",
     "ICICIGI",
-    "ICICIPRULI",
     "IDFCFIRSTB",
     "INDHOTEL",
     "INDIANB",
