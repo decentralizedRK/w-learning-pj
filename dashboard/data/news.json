@@ -1,18 +1,32 @@
 {
-  "timestamp": "2026-10-23T07:50:48+00:00",
+  "timestamp": "2026-10-26T08:01:43+00:00",
   "ticker_news": {
+    "ANANDRATHI": [
+      {
+        "title": "ARSSBL Share Price Today - Anand Rathi Share & Stock Brokers on NSE/BSE - scanx.trade",
+        "publisher": "Google News",
+        "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE43RUNrWDc3anI4UGdEQVgtWVY4UXV6OGdSWFMtVmgwQml2UVBqOHNxcUp5TndNUHZiQzVkMXVCMkRBdllyWk1qbWk2TmY1QmFtcHhKNVJaSnhTNUVJTEpfZWt6UVBwZ0lDdEJUV3RVTFdURHNkRHc?oc=5",
+        "age_h": 84.9
+      }
+    ],
     "COFORGE": [
+      {
+        "title": "Coforge Ltd. Share Price Today - Coforge Ltd. Stock Price Live NSE/BSE - CNBC TV18",
+        "publisher": "Google News",
+        "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBMcUdud3lFX2l6WEZWM3p3MU5TcFZWQVFmQWl3bjNvNzlNbk9rS2tEQWxqWm0zSzdZNXNrTmtWTjB1X25Kb3pXRFJQSl80QmUyTEtZQnd2WkdBd2dwNllKUDhGNzEyUldFNmcySXFwTW1VUFAtT2FTZw?oc=5",
+        "age_h": 70.1
+      },
+      {
+        "title": "Coforge Share Price - Upstox",
+        "publisher": "Google News",
+        "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9US3I1X0pBV2VvWTdZSE90dWhvY1FES1VvMnZ4b1JITGgzSk5KQUFtalBuX1VqT0F5cGtuRFhsbjRHSHlTR2t5Z3cxQktKRE1yUFREVWhmRVJiU2lwZ1BiZTI0YnY?oc=5",
+        "age_h": 49.8
+      },
       {
         "title": "Coforge Limited (COFORGE.NS) Stock Price, News, Quote & History - Yahoo! Finance Canada",
         "publisher": "Google News",
         "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5ETjdaNnNqZXl6dENKU2RBV3VYN3NHUEkxMElqbTJLWlo1VC1GNklDTWljM25jTWtjM2xxQjBXcXo4SlhSRFZZeHBMM1FpeUFnb1ZPU0l6czZ1QQ?oc=5",
-        "age_h": 58.8
-      },
-      {
-        "title": "Trade Spotlight: How should you trade Coforge, PVR Inox, PTC Industries, Wipro, RBL Bank, and others on... - Moneycontrol.com",
-        "publisher": "Google News",
-        "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxPRzhqSG5fMlZ3R1docmNRTG9palFzdUFBcmZlQlZSLWdOekFkeklObXlHLUNjalJtdjhKTGZJakhxeWpzbjktWEN5SmpXaVFGYzhQVVZVcjVFS3Ezb0tXc1lEYjlFdHNGSW5sVlBkd21zaXBtSUR2MmtUaUFpNmQwUW02OHF6a1ZNNmw5Y0hVT0c3Um1xTFBQSXNjLUdLcElWU2paVGVIenc5alVFc1ZLT0pGX19FZmJ1QkhoX1RMd0hLTE9YV3RrN3lzUEpCbXJaczFfT3AxYzhSUVlnY3JQNGhDeTNmZlN1UDJOU1U1MW1DWVhaLXZGQ2Y0UXl3ZHQ2QXpv0gGIAkFVX3lxTE1QSm1scXJ5YXBFRzFMOUZrc3dySHo3OTVIaVFZTV9EdmhoMTVuVGFyZ09YdlBpei0ya3VfSFZ6enlsWnZnZnRyM21mZHpYbEM4S1RzU0hoZVIzbk5WeEJDZm9EbVRoZEpWVGtQZXhEWllQRmJkX2Q3NjJJOHg4cWRpLXlscXF5SFZ5S1VVZG9GNG5oQkxoME1OeDIwZXZPVmQ3bGE3Y0x6b0hzRXBOeUJmall2aW92NHFZMXlhRk9XdVp1bERJbGJFMXlrejd6Z0xyRG1iWkhaNGZ6TlpMTFVsREVrcC1rUEFtT0gyRDNnY0J3UzMyR21UcEhkcVhKUHI4NkVFSWFwaQ?oc=5",
-        "age_h": 29.1
+        "age_h": 49.9
       }
     ],
     "DRREDDY": [
@@ -20,104 +34,138 @@
         "title": "Dr. Reddy's Laboratories Share Price - Live NSE: DRREDDY Stock Price & Chart - Upstox",
         "publisher": "Google News",
         "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE0zSVhMclV3N2dOMVJfcHNVbWN1LUhfYWFxQ3gzMjMxamNNaGhDOEt2bEQ0NGhXU2paSVEwVWpseW1ZZzNRUm5XSkRiSm9TMEhBVkRmNzdGYTVkeC04QVZMY0NUYlhGX2Z3cm1iR2ZzSQ?oc=5",
-        "age_h": 70.7
+        "age_h": 73.0
+      },
+      {
+        "title": "Dr. Reddy's Laboratories Ltd. Share Price Live Today - CNBC TV18",
+        "publisher": "Google News",
+        "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxObWJaMVNGR3NwUkNsd05zY2dTWk51TEtKNUxHUnY5dFBFMzR1SVNwRXV3cFhrb2xDUmttSVVWR2NGbnFzenF6Wl9MOVVxYm0tVHVlanpDdXl4anZUMDd0dzBQX29Gekh3cmo1eGZyYkhiZGZDd3lWWjc0Z1ZRWVhGaTRzMGpiVWZ4Wmc?oc=5",
+        "age_h": 70.1
       }
     ],
     "HCLTECH": [
       {
-        "title": "HCLTECH Share Price Today - HCL Technologies on NSE/BSE - scanx.trade",
+        "title": "HCL Technologies Ltd Share Price Today,, HCLTECH Share Price NSE, BSE - Business Today",
         "publisher": "Google News",
-        "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE45V1JRSURLem9XQ2JlYlJvdV9rN3VFMjh0ZWFHNVNtSHVBSVYwcnNBQUZGVWdXZDhUcUdxcjY1cGFtNVFqRWxtTk9BVC1sWThyblRITGRJWEFYYVhv?oc=5",
-        "age_h": 28.4
+        "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxObl9IN0tnQ2dHc3VpMkQwNXQzWnh0YUFxTnpTS0NGQlRfNHR1UzhrOHZoRWZYcmNwS2lWV0N5bWJDLXR4MDF0Mkxud2Y2cGtsLWt4a1FGMHNZRnlUSVVGSkFBQWltdFVVam9tbjM5eXA5bnBXeHVaYjFHRkc5bTVRbWIycDNfNmxUM2hR?oc=5",
+        "age_h": 69.6
       },
       {
-        "title": "HCL Technologies Limited (HCLTECH.NS) stock price, news, quote and history - Yahoo Finance UK",
+        "title": "HCL Technologies (HCLTECH) Share Price Today & Chart - TechGraph",
         "publisher": "Google News",
-        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1nMWZvR19hY040V1pCTlJMM0hpRHJXdlhzT1ltdzB5eGlBaWt5V3pVQWNNQ2FrdnRpdFc0cG9OS0hjaHlWRVQ4b0Z2VXNpS052MFlaWi1zdFVlQQ?oc=5",
-        "age_h": 72.2
+        "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1WdkRCRzl5RE9jTE00SjdfaE0xLXoyai1SLXRaY3hmTmJXLXpVcE4teml1LURjYVhuVG51c0tYbWQxUDZjZmRXUm42cDJYSXZNaDJiNXR3aTRiazMwVG0zVQ?oc=5",
+        "age_h": 97.0
       }
     ],
-    "ICICIGI": [
+    "KOTAKBANK": [
       {
-        "title": "ICICI Lombard General Insurance Company Limited (NSE:ICICIGI) Looks Like A Good Stock, And It's Going Ex-Dividend Soon - Simply Wall Street",
+        "title": "Kotak Mahindra Bank Ltd. Share Price Today - Kotak Mahindra Bank Ltd. Stock Price Live NSE/BSE - CNBC TV18",
         "publisher": "Google News",
-        "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxONVdnd1VYY19IT2RQNXJpN2lDYnJBNURKTXhFS1F5blRKYm5nTUlWd21RTGFPUW1aOVVISk9kSE5qVXpGTXdwNElKTTJhUkRxaFJmMUs1WWlXRHZ4Qmp4NzhhT0trUzVPUWk0b09wZloyVER3cWtJRHR5cnpVM1FvcUpYTTBlSXAtcVdFM2RVLUVRemxWRmhKRVlfN25YbjdMaVBfbVNac1lxeDdNbEtaTjY2Nmx1bG1HWDRhMTZmb0FFSjBoZGYtYU9XdmVwbW5ETGFFSUxpQ01sNm85NWItR3B1RTh2WF9YNzlfbnBPSG5pUdIB9wFBVV95cUxNWnZuWWNlOTFiVmxoZVAzcDFOS05fUHNHRFFCTU1xMU8zYTVSRTZZWlRWMGcxSkpVTEhORTItLXcyZmwxNm9mQmRRaFRqdWR1b1Z5aXNPR21IUENibzlMcXVHLUV6X3pCVDZlNVJRdW9lLVRUUUZHeE5Bb1lFQW96cXFEYnctbWtrZEJ1NHRhWlk3RzRjdHQ3NjVlZTA4WkxVcE82QUdrVGRJb0VCNGUxRElqak52dWVmbHJHOFFBdXUwZmlYb2RFVWg1WEo5LTY2NzFGLTZSOWx2U3R4a1Q3TmhMc1YzNXlvUzRLX0ZhMldSSnhyWm1r?oc=5",
-        "age_h": 53.6
+        "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxON1pXOWt1UWREY2JVc3F2MmIzZVJ4ZGJ6eDJLNmpmYUpHTUNMajJjWU12YWZnZFlsNThoVGpIZ01ub1lJTkdFOGtSd0FpSmpPUUlvSVI0Qk45eFhaTE9uemduc29DaGp4OTFFZ1JrY3p6YVQxMEdKSEl6eGxjc29GcTE5eENoQQ?oc=5",
+        "age_h": 70.1
+      }
+    ],
+    "MPHASIS": [
+      {
+        "title": "Mphasis Share Price - Upstox",
+        "publisher": "Google News",
+        "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBpZGZVcXNVTGVwalotU1hDVWpUTkR1UHN4S2RXLXFiQXJxcEstVk8wWmVmUW45bUotc01SYmJ0bGRwZmdPeldxQTdlMDNHdE1TdVZaQVBxbXpVb21qRVBIYm9sN3Y?oc=5",
+        "age_h": 73.0
       }
     ],
     "PERSISTENT": [
       {
-        "title": "Persistent Systems Limited (PERSISTENT.NS) Stock Price, News, Quote & History - Yahoo! Finance Canada",
+        "title": "Persistent Systems Share Price - Upstox",
         "publisher": "Google News",
-        "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5LbFYxLXZ1a0g5V3FIUWZNOU0zeF8tTl96bkJqa3dYTnVQZUlmWm1scVg1V1gwM2xpMjNKWlBYc2NTSWFOaWJvREhpcGtyMk8xdXE0NGl1Z1pLcm84WHc?oc=5",
-        "age_h": 80.4
+        "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5OQXZRQUQ2OUhWQnJnQldBZjZMNkN2TEZFazJEWmUwNDQxVlhjRkRPV1dWZkNJU1MwRWRCZTZ0NWRub01TQ05DOGJESXZjRmVxWi1BdzE2Zkxud0FtNmVtY1RSMGZOdVU1WEpoOGJn?oc=5",
+        "age_h": 73.0
+      },
+      {
+        "title": "Persistent Systems (NSEI:PERSISTENT) Stock Forecast & Analyst Predictions - Simply Wall Street",
+        "publisher": "Google News",
+        "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxON3lIS3ZPVnhqcVRMdDlKaS13UGZfQjRHQ2JyOTdMSDBYRWVNTUo2ZDFBR2lzUUMyWWh6TVlCVldJNFN4dW4tc2xQR1RpZDlpcl9pRk9tMGhLZHoxbXpfbTNvQ2YxWC05X2ctZ05DNmQ1NGdIczFQaFlhSXBiQUJMR0UyOVBVcm5DdUZsNTNvTEI5QQ?oc=5",
+        "age_h": 97.0
+      },
+      {
+        "title": "Persistent Systems Ltd. Share Price Today - Persistent Systems Ltd. Stock Price Live NSE/BSE - CNBC TV18",
+        "publisher": "Google News",
+        "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQUFJJYjYxZF9PQlNSMGtvLWdVTnp1RHVmd1pScDRtd1VQVmpPUEFpOVFGOXRuSWt4SkpUdXBXSWxqUFcyc2N2UG15UTE0ZlBDdDlOV1dmdXZEZnhTZFFJZ3BqeWYtQ3NHN1NwMHppTmxQOWREVTI1NnhSTGo3Z3ZELTk4WkhDUQ?oc=5",
+        "age_h": 70.1
+      }
+    ],
+    "PETRONET": [
+      {
+        "title": "Petronet LNG Ltd. Share Price Today - Petronet LNG Ltd. Stock Price Live NSE/BSE - CNBC TV18",
+        "publisher": "Google News",
+        "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE80VlB4dG1HbmpMVE9iR2J0RG9XVU40YTdrcTdDTjRKMWpYVW9KLVZYaHBUazhZQ3k5SGhLRVJSSUpvMDNaODl0RkNGV1NuSGFjVTh6OFNSUzFUTUI5dm9uWmlwOVBwOVJ3QUQyZ2liaUE2SmZkUV9UWFRWbWM?oc=5",
+        "age_h": 70.1
       }
     ],
     "PNB": [
       {
-        "title": "Punjab National Bank (NSEI:PNB) Stock Forecast & Analyst Predictions - Simply Wall Street",
+        "title": "PNB Share Price - Upstox",
         "publisher": "Google News",
-        "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPeU1GSzFTazdtY2NRdTJ1ZGloV1lFQXlLM1RZamJSajRwTTFnaC1EZ3hrTzltbk1KY0RxWWdHbnZSeXlQcVdHYUplN1VPSUx3TnVTWk5OUUJjNEZ1WHJXeXBwRzRUSzRVSTMzZ25PUHJmNlNnYjU0MXZfbzBQdVFSLS00REthTEU?oc=5",
-        "age_h": 96.8
+        "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9WQkJNWC1Zd2FyaTR2VlF3bDg1bzAybHBMRGJmVkE0ekJhNjNtd2JNN0ZtalBieThrSGtKTEFZRHpONFd0RGNiQzNQN3pkVkFyUm8tYnhHU04yLVcyeEMzeVNWU1AyMUdJc1Fz?oc=5",
+        "age_h": 73.0
       }
     ]
   },
   "market_headlines": [
     {
       "source": "Economic Times",
-      "title": "This Tata Group stock plunged 10% a day after rallying 19% post Q2 results. Do you own?",
-      "link": "https://economictimes.indiatimes.com/markets/stocks/news/this-tata-group-stock-plunged-10-a-day-after-rallying-19-post-q2-results-do-you-own/articleshow/135138992.cms",
-      "summary": "Tata Teleservices (Maharashtra) shares plunged on Friday, giving up some gains after rallying 19% in the previous session following its Q2 results. The stock fell to Rs 34.24 on the NSE. The company r",
-      "age_h": 0.4
-    },
-    {
-      "source": "Economic Times",
-      "title": "Broader markets crash! Small, midcap indices tumble up to 4%. Why analysts are sounding the alarm",
-      "link": "https://economictimes.indiatimes.com/markets/stocks/news/broader-markets-crash-small-midcap-indices-tumble-up-to-4-why-analysts-are-sounding-the-alarm/articleshow/135138924.cms",
-      "summary": "Smallcap and midcap stocks plunged up to 4% on Friday, extending a sharp weekly selloff as analysts warned that valuations remain difficult to justify. The Nifty Smallcap 250 index has fallen around 8",
-      "age_h": 0.4
-    },
-    {
-      "source": "Economic Times",
-      "title": "Cyient shares rally 9% after Q2 revenue rises 25%; board declares Rs 12/sh interim dividend",
-      "link": "https://economictimes.indiatimes.com/markets/stocks/news/cyient-shares-rally-9-after-q2-revenue-rises-25-board-declares-rs-12/sh-interim-dividend/articleshow/135137782.cms",
-      "summary": "Cyient shares surged on Friday after the company reported a 25% year-on-year rise in consolidated revenue to Rs 2,235 crore in Q2 FY27. Net profit declined 8% to Rs 132 crore. The board declared an in",
-      "age_h": 1.1
-    },
-    {
-      "source": "Economic Times",
-      "title": "Nippon Silver ETF, other silver ETFs slide up to 4% as silver prices tumble. Here\u2019s why",
-      "link": "https://economictimes.indiatimes.com/markets/stocks/news/nippon-silver-etf-other-silver-etfs-slide-up-to-4-as-silver-prices-tumble-heres-why/articleshow/135137769.cms",
-      "summary": "Silver ETFs tumble up to 4% as India permits 6,500 metric tonnes of silver imports over six months, raising expectations of easing domestic supply tightness and premiums. Higher interest rates, bond y",
-      "age_h": 1.2
-    },
-    {
-      "source": "Livemint",
-      "title": "Reliance Jio IPO: What today's GMP signals; last few hours to apply; latest grey market premium and subscription status",
-      "link": "https://www.livemint.com/market/ipo/reliance-jio-ipo-what-todays-gmp-signals-last-few-hours-to-apply-latest-grey-market-premium-and-subscription-status-11792740992082.html",
-      "summary": "Reliance Jio Platforms\u2019  \u20b930,213 crore IPO was subscribed 7.64 times by Friday afternoon, led by strong demand from institutional investors.&amp;nbsp;",
-      "age_h": 0.2
-    },
-    {
-      "source": "Livemint",
-      "title": "IPO listings, share price today: Tonbo Imaging vs Zetwerk vs Bonfiglioli vs Sahajanand - Who won debut race on NSE, BSE?",
-      "link": "https://www.livemint.com/market/stock-market-news/ipo-listings-share-price-today-tonbo-imaging-vs-zetwerk-vs-bonfiglioli-vs-sahajanand-who-won-debut-race-on-nse-bse-11792733810920.html",
-      "summary": "IPO listings, share price today: Tonbo Imaging India emerged as the clear winner, with its shares listing at a premium of 66% over the IPO issue price.",
-      "age_h": 0.2
-    },
-    {
-      "source": "Livemint",
-      "title": "Havells India stock drops to a new 52-week low after Q2 results. What\u2019s worrying investors?",
-      "link": "https://www.livemint.com/market/mark-to-market/havells-india-share-price-q2fy27-results-lloyd-consumer-cables-and-wires-ebitda-margin-11792739039916.html",
-      "summary": "Havells India shares fell about 6% on Friday to a new 52-week low as investors weighed margin pressures from rising competition in cables and wires, continued losses at Lloyd and higher input costs, d",
+      "title": "Global equity funds attract $28.16 billion as easing yields boost sentiment",
+      "link": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/global-equity-funds-attract-28-16-billion-as-easing-yields-boost-sentiment/articleshow/135206114.cms",
+      "summary": "Global equity funds attracted $28.16 billion in weekly inflows as easing US Treasury yields and strong corporate earnings lifted investor sentiment. Asian equities led regional allocations, while tech",
       "age_h": 0.3
     },
     {
+      "source": "Economic Times",
+      "title": "Global Market | SK Hynix weighs $12 billion special dividend ahead of Q3 Results: Reports",
+      "link": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/global-market-sk-hynix-weighs-12-billion-special-dividend-ahead-of-q3-results-reports/articleshow/135205842.cms",
+      "summary": "SK Hynix said it would announce shareholder-return measures alongside its quarterly results amid reports that it was considering a special dividend funded by gains from its Kioxia stake sale. The revi",
+      "age_h": 0.5
+    },
+    {
+      "source": "Economic Times",
+      "title": "FIIs raise stakes after two quarters of cuts; 8 stocks rally up to 135% in 3 months",
+      "link": "https://economictimes.indiatimes.com/markets/stocks/news/fiis-raise-stakes-after-two-quarters-of-cuts-8-stocks-rally-up-to-135-in-3-months/slideshow/135206025.cms",
+      "summary": "Foreign institutional investors turned net buyers in select stocks in the September 2026 quarter after two quarters of reduced exposure. Morepen Laboratories, Shanti Gold International and other stock",
+      "age_h": 0.7
+    },
+    {
+      "source": "Economic Times",
+      "title": "Swiggy shares jump 5% a day after Q2 results sparked a 17% crash. Why brokerages remain bullish despite target price cuts",
+      "link": "https://economictimes.indiatimes.com/markets/stocks/news/swiggy-shares-jump-5-a-day-after-q2-results-sparked-a-17-crash-why-brokerages-remain-bullish-despite-target-price-cuts/articleshow/135205591.cms",
+      "summary": "Swiggy shares rebounded nearly 5% after plunging 17% following its Q2FY27 results. While food delivery profitability improved, widening Instamart losses prompted Jefferies and Nomura to cut target pri",
+      "age_h": 0.8
+    },
+    {
       "source": "Livemint",
-      "title": "International Gemological Institute shares rally 16% in 2 days: Stock just 3.5% below 52-week high \u2014 What lies ahead?",
-      "link": "https://www.livemint.com/market/stock-market-news/international-gemological-institute-shares-rally-16-in-2-days-stock-just-3-5-below-52-week-high-what-lies-ahead-11792738614673.html",
-      "summary": "IGI shares rose 6% on Friday after gaining 10% in the previous session, lifting their two-day advance to 16.5%. The rally followed strong September-quarter results: profit increased 43% year-on-year t",
-      "age_h": 0.6
+      "title": "Mint Explainer: How will Sebi\u2019s relaxed margin rules help brokers?",
+      "link": "https://www.livemint.com/market/stock-market-news/sebi-margin-rules-share-sale-proceeds-same-day-trading-11792993978282.html",
+      "summary": "By eliminating additional margin collections on subsequent trades after early pay-in, Sebi's new rules aim to ease the capital burden on stockbrokers-particularly smaller firms-and streamline same-day",
+      "age_h": 0.4
+    },
+    {
+      "source": "Livemint",
+      "title": "Swiggy shares rise 6% after 4-session down episode; is this a relief rally or worst is over? Experts decode | Target, SL",
+      "link": "https://www.livemint.com/market/stock-market-news/swiggy-shares-rise-6-after-4-session-down-episode-is-this-a-relief-rally-or-worst-is-over-experts-decode-target-sl-11792998360954.html",
+      "summary": "Swiggy share price today opened at  \u20b9176 apiece and touched an intraday high of  \u20b9186.65 per share, logging 6% gain against the previous close of  \u20b9176",
+      "age_h": 0.4
+    },
+    {
+      "source": "Livemint",
+      "title": "IndusInd Bank shares jump over 2% after Q2 results. Should you buy, sell or hold? Brokerages weigh in; target price",
+      "link": "https://www.livemint.com/market/stock-market-news/indusind-bank-shares-rise-over-2-after-q2-results-should-you-buy-sell-or-hold-brokerages-weigh-in-check-target-price-11792997282785.html",
+      "summary": "IndusInd Bank shares gained after the lender reported a quarterly profit of  \u20b91,242 crore, stronger advances and lower bad loans. Margin pressure from FCNR(B) deposits tempered the outlook, leaving br",
+      "age_h": 0.5
+    },
+    {
+      "source": "Livemint",
+      "title": "Kotak Mahindra Bank shares rise 2% as top Nifty gainer | Is it right time to book profits or wait? Target, stop loss",
+      "link": "https://www.livemint.com/market/stock-market-news/kotak-mahindra-bank-shares-rise-2-as-top-nifty-gainer-is-it-right-time-to-book-profits-or-wait-target-stop-loss-11792995247655.html",
+      "summary": "Kotak Mahindra Bank shares opened at  \u20b9440.90 per share today, as compared to previous close of  \u20b9430.50 on Friday last week and touched an intraday high of  \u20b9446.30 on 26 October.",
+      "age_h": 1.2
     }
   ]
 }
