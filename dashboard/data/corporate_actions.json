@@ -1,33 +1,33 @@
 {
-  "timestamp": "2026-10-26T08:01:48+00:00",
+  "timestamp": "2026-10-27T08:15:21+00:00",
   "events": [
     {
       "symbol": "ICICIGI",
       "type": "dividend",
       "date": "2026-10-23",
       "detail": "\u20b97.00 per share",
-      "days_away": -3
+      "days_away": -4
     },
     {
       "symbol": "ICICIGI",
       "type": "ex-dividend_date",
       "date": "2026-10-23",
       "detail": "Ex-Dividend Date",
-      "days_away": -3
+      "days_away": -4
     },
     {
       "symbol": "PETRONET",
       "type": "earnings_date",
       "date": "2026-11-02",
       "detail": "Earnings Date",
-      "days_away": 7
+      "days_away": 6
     },
     {
       "symbol": "MPHASIS",
       "type": "earnings_date",
       "date": "2026-11-05",
       "detail": "Earnings Date",
-      "days_away": 10
+      "days_away": 9
     }
   ],
   "by_symbol": {
