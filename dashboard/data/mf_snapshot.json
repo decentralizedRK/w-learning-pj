@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-10-27T01:51:22+05:30",
-  "total_invested": 1140170.67,
-  "total_current": 1195894.07,
-  "total_pnl": 55723.41,
-  "total_pnl_pct": 4.89,
+  "timestamp": "2026-10-28T01:25:30+05:30",
+  "total_invested": 728204.35,
+  "total_current": 831695.44,
+  "total_pnl": 103491.09,
+  "total_pnl_pct": 14.21,
   "sip_recorded_today": false,
   "funds": [
     {
@@ -11,23 +11,11 @@
       "scheme_code": "151853",
       "units": 42115.414,
       "avg_nav": 15.6042,
-      "current_nav": 17.5096,
+      "current_nav": 17.8294,
       "invested": 657176.74,
-      "current": 737424.06,
-      "pnl": 80247.32,
-      "pnl_pct": 12.21,
-      "sip_amount": 27500
-    },
-    {
-      "name": "DSP Nifty Smallcap250 Quality 50 Index Fund - Direct - Growth",
-      "scheme_code": "152243",
-      "units": 37102.791,
-      "avg_nav": 11.1034,
-      "current_nav": 10.1915,
-      "invested": 411966.32,
-      "current": 378133.09,
-      "pnl": -33833.23,
-      "pnl_pct": -8.21,
+      "current": 750892.57,
+      "pnl": 93715.83,
+      "pnl_pct": 14.26,
       "sip_amount": 27500
     },
     {
@@ -35,11 +23,11 @@
       "scheme_code": "120503",
       "units": 315.16,
       "avg_nav": 79.42,
-      "current_nav": 103.4993,
+      "current_nav": 104.4153,
       "invested": 25030.01,
-      "current": 32618.84,
-      "pnl": 7588.83,
-      "pnl_pct": 30.32,
+      "current": 32907.53,
+      "pnl": 7877.52,
+      "pnl_pct": 31.47,
       "sip_amount": 0
     },
     {
@@ -47,11 +35,11 @@
       "scheme_code": "122639",
       "units": 536.342,
       "avg_nav": 85.7617,
-      "current_nav": 88.9695,
+      "current_nav": 89.3,
       "invested": 45997.6,
-      "current": 47718.08,
-      "pnl": 1720.48,
-      "pnl_pct": 3.74,
+      "current": 47895.34,
+      "pnl": 1897.74,
+      "pnl_pct": 4.13,
       "sip_amount": 0
     }
   ]
