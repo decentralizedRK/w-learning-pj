@@ -1,26 +1,18 @@
 {
-  "timestamp": "2026-10-27T08:15:17+00:00",
+  "timestamp": "2026-10-28T08:52:56+00:00",
   "ticker_news": {
-    "ANANDRATHI": [
-      {
-        "title": "ARSSBL Share Price Today - Anand Rathi Share & Stock Brokers on NSE/BSE - scanx.trade",
-        "publisher": "Google News",
-        "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE43RUNrWDc3anI4UGdEQVgtWVY4UXV6OGdSWFMtVmgwQml2UVBqOHNxcUp5TndNUHZiQzVkMXVCMkRBdllyWk1qbWk2TmY1QmFtcHhKNVJaSnhTNUVJTEpfZWt6UVBwZ0lDdEJUV3RVTFdURHNkRHc?oc=5",
-        "age_h": 109.1
-      }
-    ],
     "COFORGE": [
       {
-        "title": "Coforge Ltd. Share Price Today - Coforge Ltd. Stock Price Live NSE/BSE - CNBC TV18",
+        "title": "Coforge Share Price - Upstox",
         "publisher": "Google News",
-        "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBMcUdud3lFX2l6WEZWM3p3MU5TcFZWQVFmQWl3bjNvNzlNbk9rS2tEQWxqWm0zSzdZNXNrTmtWTjB1X25Kb3pXRFJQSl80QmUyTEtZQnd2WkdBd2dwNllKUDhGNzEyUldFNmcySXFwTW1VUFAtT2FTZw?oc=5",
-        "age_h": 94.3
+        "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9US3I1X0pBV2VvWTdZSE90dWhvY1FES1VvMnZ4b1JITGgzSk5KQUFtalBuX1VqT0F5cGtuRFhsbjRHSHlTR2t5Z3cxQktKRE1yUFREVWhmRVJiU2lwZ1BiZTI0YnY?oc=5",
+        "age_h": 1.6
       },
       {
         "title": "Coforge Limited (COFORGE.NS) Stock Price, News, Quote & History - Yahoo! Finance Canada",
         "publisher": "Google News",
         "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5ETjdaNnNqZXl6dENKU2RBV3VYN3NHUEkxMElqbTJLWlo1VC1GNklDTWljM25jTWtjM2xxQjBXcXo4SlhSRFZZeHBMM1FpeUFnb1ZPU0l6czZ1QQ?oc=5",
-        "age_h": 63.5
+        "age_h": 88.1
       }
     ],
     "DRREDDY": [
@@ -28,94 +20,86 @@
         "title": "Dr. Reddy's Laboratories Share Price - Live NSE: DRREDDY Stock Price & Chart - Upstox",
         "publisher": "Google News",
         "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE0zSVhMclV3N2dOMVJfcHNVbWN1LUhfYWFxQ3gzMjMxamNNaGhDOEt2bEQ0NGhXU2paSVEwVWpseW1ZZzNRUm5XSkRiSm9TMEhBVkRmNzdGYTVkeC04QVZMY0NUYlhGX2Z3cm1iR2ZzSQ?oc=5",
-        "age_h": 97.3
+        "age_h": 32.4
       },
       {
         "title": "Dr Reddy's shares jump despite 36% Q2 profit fall: Buy, sell or hold? What Nomura, Citi and others say - Moneycontrol.com",
         "publisher": "Google News",
         "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPUTVKOEZRZzJWdTliUGQ1b0hGclNCc0FscGNwVjhKS1EtZFdNME9la1NwcTlRVjYtUWx4TS0zLXN6M0JNdTRDcGRFUUNWSEcwa2lzc196dzgxZnp6ejl1dmcyb05qOWNOWXVSRGZLR0xJM1lTcEY4Vnc0dk9EZndEVVVZQlFTOGxOdndQTlVFdHdGaEVjME1zOHdOUTdJUHc1ZE9ybW1xdDY1QW4xaVNPbndBakdpMGU3NTZqdlhKekttcnFOOEt0VG4tV2gybm1HT2ZhRGpQNG5GckluekNDTDBLV0syZGFKSWJ1d2RhcWQzMTTSAfgBQVVfeXFMUFhhb0RnYWpZb3pnc0FFV2xvUnplcnR4LUczV0o2SzNVQ3BIU1VWNmxRcWFnMnRXRGg5VTZ1R3VlWXpvR1dVRFo1TjdPeGZhSUZpWUJBV21BcHpSU1p5aGNhclNGVXRNb0pDcDJTSFZUeXJZYlo0NGhyV2ZDV0Q0WWdOUGtTWXc4ZThOTGFxMnJOelBJelJIanEtSm5FOENEeEdiUi1iS2VJOWN0X3JqRFNJcklMQzREQmFSWG5UMDNNa3hLZ3RCb3Z4X2xTLWpqSUNZQkt6X09xYTRJRGpjNlRzLU5fdmNNdkNWWUFtWElPZ3BFRzV4QUY?oc=5",
-        "age_h": 27.0
+        "age_h": 51.6
       },
       {
         "title": "Dr Reddy's share price spurts 4% post Q2 earnings; analysts upgrade rating - Business Standard",
         "publisher": "Google News",
         "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOa0Z1MVZNNDFDamtRMnpaWUxTZ2ZBZDlZSW9DRmotZFBiMVZBdzNKb0dSSENjWU1VOThnS2JwbFVDaFl6TDJpZ2hCSWExZFRWQ0FlUHZYdEhoOHFvckl1Y0toelBmTU1aMUEwbF8zeko4UnhBLU1IQWkyeXY0TzhLNkxiNU5MbV9uT0R5Ul9ua3FaQVZramM1T0VudXcxQ0Radm9OMFJaU2t0UE1Gd2xHQzVMQVdVYmRKWGxyb3huYUQ4NUpWb0tJWFdNbm1obHpCRldOV3Nn0gHbAUFVX3lxTE9xUGlpeHJ1MW1SV1ZtQ0lJQkZDTVoycjBsNkVqR0ZRVG0xcFNWd2xqQ1QzUHdaeGVlZEpQZFlKaVhkSGpVbGN6WTdvUWw5T2xqcEVaMWdodzVndWhqNjhST29aX01CeFJQVjNpbEJXenpxVmVBSWtISUxzN2NwUjJRLXVncU9PZVJROVNSOTJrV1RsYWxsd2pybG5BR2ZvdWYzUmZJOWQ3RktvYldpZk0tUGRiOVdUd3JzUHpmdUJhVG9zcWlCc3RZeDdoZmZBYlhNWGszQWVibDIyaw?oc=5",
-        "age_h": 27.2
+        "age_h": 51.8
       }
     ],
     "KOTAKBANK": [
       {
-        "title": "Stocks to Watch Today: Infosys, Kotak Bank, Lupin, KEC International, Bank of India, Coforge, Bharat... - Moneycontrol.com",
+        "title": "Kotak Mahindra Bank Ltd. Share Price Today - Kotak Mahindra Bank Ltd. Stock Price Live NSE/BSE - CNBC TV18",
         "publisher": "Google News",
-        "link": "https://news.google.com/rss/articles/CBMixAJBVV95cUxOcUdENFh1VUFFYXlqZVBvYUlIQXE1aEZuOHNoZjFnN0Z4TzExOXJLbkk1Qy0zSUpja3lBM2J4Tk8xSHNlVm80cE1MandLWU81dkVvdkhZVy1jWWN5elpXT3pUVS1ZaGVFbGpjbFFnR0RLZWxNSURzOHhzblllWnkzQmVkZ0FOZjlCOGRzWTlIdWJCRVpWQzk0S2FMU19TcnRjQlM1V09vQVNEbDlqMVlmWXpYT3JiMjFQYkVCUlFIOERPX3BuUWtwRVV5bmpremItc1FMaTRuN09LM1E3Ul9sM0FoOHN2N2ZHeTU4cG9NOWZ0NEFucGxyQWxJSXNqODI3SExPYlVXdlZfZENXbVgzLWV4QkRvaEhfc0k5U1FnT0VsYzkwdTIwRzdIMUxvZlBhQXkxUUp0bEVBVl9wRHY5d1AyWi3SAcoCQVVfeXFMUGhWdUNoOU9jT2s3VlM2OFRwNEkxVXo2X2tXbjdWbzM4TXpEZHctbUlFYzlOYmVGcGtJUklKcm8wMVV2Y3d5MGtlYWVPdGZDcFpfZVZ6OU41alFnNGxabjA0UGE3eTRzUmlnY2dBZGFFYkJOS2FCb2wzSnE1cDdNLVd3ck10UVhLblIzUnpndnZxVkFDOV9YcWpQTmNkWEhZMk4wMWo1NlpZaXJCTXBpWHhNMzFrU01OcmxFbDAzMlluWGVONG9sVzRDMDNZQlZEbk9BNXhhbmVZQ1JlSnhWVm15Q2dQNXB3MGQ1MnJocF9kV0h0Q1Y3UnNNX3d3Z1ZMVWpMeUpCbjNlUEZWQ2VtY2M2aTA0a2NDVGJGRzlBRkdyeGlSMVhsZmJQN1lpQVN5eUxtR3FBaXVIR0hOWlZiTzhWanZCQ09pb2NB?oc=5",
-        "age_h": 36.4
-      }
-    ],
-    "PERSISTENT": [
-      {
-        "title": "Persistent Systems Share Price - Upstox",
-        "publisher": "Google News",
-        "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5OQXZRQUQ2OUhWQnJnQldBZjZMNkN2TEZFazJEWmUwNDQxVlhjRkRPV1dWZkNJU1MwRWRCZTZ0NWRub01TQ05DOGJESXZjRmVxWi1BdzE2Zkxud0FtNmVtY1RSMGZOdVU1WEpoOGJn?oc=5",
-        "age_h": 56.8
+        "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxON1pXOWt1UWREY2JVc3F2MmIzZVJ4ZGJ6eDJLNmpmYUpHTUNMajJjWU12YWZnZFlsNThoVGpIZ01ub1lJTkdFOGtSd0FpSmpPUUlvSVI0Qk45eFhaTE9uemduc29DaGp4OTFFZ1JrY3p6YVQxMEdKSEl6eGxjc29GcTE5eENoQQ?oc=5",
+        "age_h": 118.9
       }
     ]
   },
   "market_headlines": [
     {
       "source": "Economic Times",
-      "title": "Global Market: HSBC third-quarter profit jumps 32% to $9.6 billion",
-      "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-hsbc-third-quarter-profit-jumps-32-to-9-6-billion/articleshow/135228083.cms",
-      "summary": "HSBC has announced a remarkable 32% rise in pretax profits for the third quarter, totaling $9.6 billion. This surge is attributed to increased interest rates and a decrease in anticipated credit losse",
-      "age_h": 0.3
+      "title": "Adani Enterprises Q2 Results: Revenue spikes 75% YoY to Rs 37,216 crore,  profit at Rs 1,492 crore",
+      "link": "https://economictimes.indiatimes.com/markets/stocks/earnings/adani-enterprises-q2-results-revenue-spikes-75-yoy-to-rs-37216-crore-profit-at-rs-1492-crore/articleshow/135257734.cms",
+      "summary": "Adani Enterprises has reported a 55% drop in consolidated net profit for the second quarter of FY27, with figures reaching Rs 1,492 crore compared to Rs 3,304 crore from the previous year. Conversely,",
+      "age_h": 0.5
     },
     {
       "source": "Economic Times",
-      "title": "Diwali stock picks! Axis picks Eternal, Hindalco, 7 other stocks with upside potential of up to 20%. See full list",
-      "link": "https://economictimes.indiatimes.com/markets/stocks/news/diwali-stock-picks-axis-picks-eternal-hindalco-7-other-stocks-with-upside-potential-of-up-to-20-see-full-list/slideshow/135228028.cms",
-      "summary": "Axis Direct has identified nine stocks for Diwali Samvat 2082, with projected upside of 15% to 20%. Its picks span banking, healthcare, hospitality, automobiles, IT, metals and engineering, with earni",
+      "title": "Jio effect! Reliance beats Tata to become India's most valued conglomerate",
+      "link": "https://economictimes.indiatimes.com/markets/stocks/news/jio-effect-reliance-beats-tata-to-become-indias-most-valued-conglomerate/articleshow/135257354.cms",
+      "summary": "Jio Platforms\u2019 listing has propelled the Reliance Group to become India\u2019s most valuable conglomerate, with a combined market capitalisation of over Rs 28 lakh crore, surpassing the Tata Group. Jio deb",
+      "age_h": 0.9
+    },
+    {
+      "source": "Economic Times",
+      "title": "Q2 Results Live Updates: Adani Ent Q2 profit falls 55% YoY to Rs 1,492 crore, revenue surges 75% YoY",
+      "link": "https://economictimes.indiatimes.com/markets/stocks/live-blog/q2-results-today-live-updates-hyundai-vedanta-adani-enterprises-quarter-2-fy27-earnings-result-dividend-share-price-updates/liveblog/135257115.cms",
+      "summary": "",
+      "age_h": 1.2
+    },
+    {
+      "source": "Economic Times",
+      "title": "Global Market: UBS Q3 profit rises 8% to $2.69 billion, accelerates buyback plan",
+      "link": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/global-market-ubs-q3-profit-rises-8-to-2-69-billion-accelerates-buyback-plan/articleshow/135256901.cms",
+      "summary": "ETMutualFunds identifies Axis, SBI, Kotak and Nippon India small-cap funds using parameters such as rolling returns, consistency, downside risk, outperformance and asset size. These schemes offer stro",
+      "age_h": 1.2
+    },
+    {
+      "source": "Livemint",
+      "title": "Reliance Jio Platforms share price: After robust listing, how much more can Mukesh Ambani-led stock rally? Check targets",
+      "link": "https://www.livemint.com/market/stock-market-news/reliance-jio-platforms-share-price-after-robust-listing-how-much-more-can-mukesh-ambani-led-stock-rally-check-targets-11793171128870.html",
+      "summary": "Reliance Jio Platforms shares have risen 23% from their IPO price, making the company India\u2019s second-most valuable listed firm. Nomura, Elara and Motilal Oswal issued Buy ratings, citing market leader",
+      "age_h": 0.3
+    },
+    {
+      "source": "Livemint",
+      "title": "Can L&amp;T\u2019s product segment boost profitability as semiconductor and industrial electronics gain scale?",
+      "link": "https://www.livemint.com/market/mark-to-market/lt-products-profitability-semiconductor-industrial-electronics-scale-11793171059377.html",
+      "summary": "A positive surprise in Q2 was that L&amp;amp;T's net working capital fell to 1.7% of revenue from 10.2% in Q2FY26 and 4.9% in Q1FY27. Lower NWC boosts return on capital employed and helps reduce net f",
       "age_h": 0.6
     },
     {
-      "source": "Economic Times",
-      "title": "US Fed Decision: What to expect from Warsh's October meeting",
-      "link": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-fed-decision-what-to-expect-from-warshs-october-meeting/articleshow/135227694.cms",
-      "summary": "The US Federal Reserve is widely expected to keep interest rates unchanged at its October meeting amid persistent inflation and elevated borrowing costs. Investors will scrutinise Chairman Kevin Warsh",
-      "age_h": 0.7
-    },
-    {
-      "source": "Economic Times",
-      "title": "Mankind Pharma shares jump 8% as Q2 profit rises 38% to Rs 716 crore",
-      "link": "https://economictimes.indiatimes.com/markets/stocks/news/mankind-pharma-shares-jump-8-as-q2-profit-rises-38-to-rs-716-crore/articleshow/135227555.cms",
-      "summary": "Mankind Pharma shares jumped nearly 8% after the company reported a 38% year-on-year rise in Q2 profit to Rs 716 crore. Revenue grew 17%, supported by domestic and export growth, while EBITDA margins ",
-      "age_h": 0.8
+      "source": "Livemint",
+      "title": "Jio Platforms share price: What  \u20b9100 movement in new Reliance Group stock means for RIL shares | Experts explain",
+      "link": "https://www.livemint.com/market/stock-market-news/jio-platforms-share-price-what-rs-100-movement-in-new-reliance-group-stock-means-for-ril-shares-experts-explain-11793168654042.html",
+      "summary": "Experts believe Jio Platforms share price listing at a bumper premium will have an impact on the Reliance Industries shares in the medium to long term",
+      "age_h": 1.1
     },
     {
       "source": "Livemint",
-      "title": "Milky Mist Dairy Food shares already surged 113% from IPO price in 2 months but Nuvama sees more returns; target price",
-      "link": "https://www.livemint.com/market/stock-market-news/milky-mist-dairy-food-shares-already-surged-113-from-ipo-price-in-2-months-but-nuvama-sees-more-returns-target-price-11793085025775.html",
-      "summary": "Milky Mist Dairy Food shares rose 5% to  \u20b9298.75, up 113% from their IPO price. Nuvama initiated coverage with a Buy rating and  \u20b9330 target, citing growth in value-added dairy, expansion beyond South",
-      "age_h": 0.1
-    },
-    {
-      "source": "Livemint",
-      "title": "Cold Blasts to Pose Early Test for European and Asia Gas Markets",
-      "link": "https://www.livemint.com/market/cold-blasts-to-pose-early-test-for-european-and-asia-gas-markets-11793088447405.html",
-      "summary": "Europe and East Asia are set to be hit by cold snaps next week, in an early test of energy markets rattled by high prices and competition for liquefied natural gas cargoes.",
-      "age_h": 0.1
-    },
-    {
-      "source": "Livemint",
-      "title": "Jio Financial Services share price decoded: Reliance stock performance amid Jio Platforms IPO buzz; target, outlook",
-      "link": "https://www.livemint.com/market/stock-market-news/jio-financial-services-share-price-decoded-reliance-stock-performance-amid-jio-platforms-ipo-buzz-target-outlook-11793079481962.html",
-      "summary": "Reliance's Jio Platforms IPO: According to market experts, the Jio Platforms IPO impact on the Jio Financial Services stock is indirect.",
-      "age_h": 0.2
-    },
-    {
-      "source": "Livemint",
-      "title": "Dalmia Bharat bears the brunt of weak demand, cost inflation in Q2",
-      "link": "https://www.livemint.com/market/mark-to-market/dalmia-bharat-share-price-q2-results-earnings-downgrade-cement-demand-margins-11793084708455.html",
-      "summary": "Dalmia Bharat\u2019s weak volumes and rising costs dragged down Q2 profitability, triggering earnings cuts. Higher fuel costs and the ramp-up of acquired assets could further pressure margins, while capaci",
-      "age_h": 0.3
+      "title": "Multibagger defence stock Raymond retraces after jumping 7% amid weak trends on D-Street | Check target, upside",
+      "link": "https://www.livemint.com/market/stock-market-news/multibagger-defence-stock-raymond-retraces-after-jumping-7-amid-weak-trends-on-d-street-check-target-upside-11793168220033.html",
+      "summary": "Raymond share price opened at  \u20b91,019 apiece on the NSE on Wednesday, against the previous close of  \u20b91,081.20 on Tuesday.",
+      "age_h": 1.2
     }
   ]
 }
