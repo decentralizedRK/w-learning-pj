@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>QuantOS — Portfolio</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<nav>
+  <div class="logo">
+    <span class="logo-text">Quant<span>OS</span></span>
+  </div>
+  <div class="nav-tabs">
+    <a href="index.html" class="nav-tab active">Portfolio</a>
+    <a href="screener.html" class="nav-tab">Screener</a>
+    <a href="signals.html" class="nav-tab">Signals</a>
+    <a href="news.html" class="nav-tab">News</a>
+    <a href="backtest.html" class="nav-tab">Backtest</a>
+  </div>
+  <div class="nav-right">
+    <span class="status-dot" id="mktDot"></span>
+    <span id="mktLabel"></span>
+    <span id="lastUpdated" style="margin-left:8px"></span>
+  </div>
+</nav>
+
+<div class="container">
+  <div class="stats-grid" id="stats">
+    <div class="card stat-card"><div class="stat-label">Total Invested</div><div class="stat-value text-white">—</div><div class="stat-sub">loading</div></div>
+    <div class="card stat-card"><div class="stat-label">Current Value</div><div class="stat-value text-white">—</div><div class="stat-sub">loading</div></div>
+    <div class="card stat-card"><div class="stat-label">Total P&L</div><div class="stat-value">—</div><div class="stat-sub">loading</div></div>
+    <div class="card stat-card"><div class="stat-label">Overall Return</div><div class="stat-value">—</div><div class="stat-sub">loading</div></div>
+  </div>
+
+  <div class="sub-tabs" id="subTabs">
+    <div class="sub-tab active" data-tab="holdings" onclick="switchSub('holdings')">Stocks <span class="badge" id="holdingsCount">—</span></div>
+    <div class="sub-tab" data-tab="positions" onclick="switchSub('positions')">F&O Positions <span class="badge" id="positionsCount">—</span></div>
+    <div class="sub-tab" data-tab="mf" onclick="switchSub('mf')">Mutual Funds <span class="badge" id="mfCount">—</span></div>
+  </div>
+
+  <div class="sub-panel active" id="panel_holdings">
+    <div class="card" style="overflow:hidden">
+      <div class="table-wrap">
+        <table id="holdingsTable">
+          <thead><tr>
+            <th onclick="sortTbl('holdingsTable',0)">Symbol</th>
+            <th onclick="sortTbl('holdingsTable',1)" class="text-right">Qty</th>
+            <th onclick="sortTbl('holdingsTable',2)" class="text-right">Avg Price</th>
+            <th onclick="sortTbl('holdingsTable',3)" class="text-right">CMP</th>
+            <th onclick="sortTbl('holdingsTable',4)" class="text-right">Day %</th>
+            <th onclick="sortTbl('holdingsTable',5)" class="text-right">Invested</th>
+            <th onclick="sortTbl('holdingsTable',6)" class="text-right">Value</th>
+            <th onclick="sortTbl('holdingsTable',7)" class="text-right">P&L</th>
+            <th onclick="sortTbl('holdingsTable',8)" class="text-right">Return</th>
+            <th onclick="sortTbl('holdingsTable',9)" class="text-right">Weight</th>
+          </tr></thead>
+          <tbody id="holdingsBody"><tr><td colspan="10" class="empty-state">Loading...</td></tr></tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="movers-grid" id="movers"></div>
+  </div>
+
+  <div class="sub-panel" id="panel_positions">
+    <div class="card" style="overflow:hidden">
+      <div class="table-wrap">
+        <table id="positionsTable">
+          <thead><tr>
+            <th onclick="sortTbl('positionsTable',0)">Symbol</th>
+            <th onclick="sortTbl('positionsTable',1)" class="text-right">Qty</th>
+            <th onclick="sortTbl('positionsTable',2)" class="text-right">Entry</th>
+            <th onclick="sortTbl('positionsTable',3)" class="text-right">LTP</th>
+            <th onclick="sortTbl('positionsTable',4)" class="text-right">P&L</th>
+            <th onclick="sortTbl('positionsTable',5)">Product</th>
+            <th onclick="sortTbl('positionsTable',6)">Exchange</th>
+          </tr></thead>
+          <tbody id="positionsBody"><tr><td colspan="7" class="empty-state">No F&O positions</td></tr></tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <div class="sub-panel" id="panel_mf">
+    <div class="card" style="overflow:hidden">
+      <div class="table-wrap" style="max-height:400px">
+        <table id="mfTable">
+          <thead><tr>
+            <th onclick="sortTbl('mfTable',0)">Fund</th>
+            <th onclick="sortTbl('mfTable',1)" class="text-right">Units</th>
+            <th onclick="sortTbl('mfTable',2)" class="text-right">Avg NAV</th>
+            <th onclick="sortTbl('mfTable',3)" class="text-right">Current NAV</th>
+            <th onclick="sortTbl('mfTable',4)" class="text-right">Invested</th>
+            <th onclick="sortTbl('mfTable',5)" class="text-right">Value</th>
+            <th onclick="sortTbl('mfTable',6)" class="text-right">P&L</th>
+            <th onclick="sortTbl('mfTable',7)" class="text-right">Return</th>
+            <th onclick="sortTbl('mfTable',8)" class="text-right">SIP</th>
+          </tr></thead>
+          <tbody id="mfBody"><tr><td colspan="9" class="empty-state">Loading...</td></tr></tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer>
+  <div>QuantOS — Unified Trading & Investment Platform</div>
+</footer>
+
+<script>
+const D = 'data';
+function fmt(n, d=0) {
+  if (n==null||isNaN(n)) return '—';
+  return n.toLocaleString('en-IN',{minimumFractionDigits:d,maximumFractionDigits:d});
+}
+function pnlCls(v) { return v>0?'positive':v<0?'negative':''; }
+function pnlSign(v) { return v>0?'+':''; }
+async function fetchJ(f) {
+  try { const r=await fetch(`${D}/${f}?t=${Date.now()}`); return r.ok?await r.json():null; }
+  catch { return null; }
+}
+
+function countUp(el,target,dec=0,dur=700) {
+  const t0=performance.now();
+  function tick(now) {
+    const p=Math.min((now-t0)/dur,1);
+    const e=1-Math.pow(1-p,3);
+    el.textContent=fmt(target*e,dec);
+    if(p<1) requestAnimationFrame(tick);
+    else el.textContent=fmt(target,dec);
+  }
+  requestAnimationFrame(tick);
+}
+
+function sym(s) {
+  return `<a href="https://www.tradingview.com/chart/?symbol=NSE%3A${s}" target="_blank" rel="noopener" class="ticker-chip">${s} ↗</a>`;
+}
+
+function retBadge(v) {
+  const cls=v>0?'tag-up':v<0?'tag-down':'tag-neutral';
+  return `<span class="badge ${cls}">${pnlSign(v)}${fmt(v,1)}%</span>`;
+}
+
+function renderStats(p,mf) {
+  const el=document.getElementById('stats');
+  const inv=(p?.total_invested||0)+(mf?.total_invested||0);
+  const cur=(p?.total_current||0)+(mf?.total_current||0);
+  const pnl=cur-inv;
+  const pct=inv>0?(pnl/inv*100):0;
+  const n=(p?.holdings||[]).length;
+  const nf=(mf?.funds||[]).length;
+  const c=pnlCls(pnl);
+
+  el.innerHTML=`
+    <div class="card stat-card"><div class="stat-label">Total Invested</div><div class="stat-value text-white" id="sv0">—</div><div class="stat-sub">${n} stocks, ${nf} funds</div></div>
+    <div class="card stat-card"><div class="stat-label">Current Value</div><div class="stat-value text-white" id="sv1">—</div><div class="stat-sub">${p?.timestamp||mf?.timestamp||'—'}</div></div>
+    <div class="card stat-card"><div class="stat-label">Total P&L</div><div class="stat-value ${c}" id="sv2">—</div><div class="stat-sub ${c}">${pnlSign(pnl)}₹${fmt(Math.abs(pnl))}</div></div>
+    <div class="card stat-card"><div class="stat-label">Overall Return</div><div class="stat-value ${c}" id="sv3">—</div><div class="stat-sub ${c}">since inception</div></div>
+  `;
+  countUp(document.getElementById('sv0'),inv);
+  countUp(document.getElementById('sv1'),cur);
+  countUp(document.getElementById('sv2'),pnl);
+  countUp(document.getElementById('sv3'),pct,1);
+}
+
+function renderHoldings(data) {
+  const tb=document.getElementById('holdingsBody');
+  const ct=document.getElementById('holdingsCount');
+  const h=data?.holdings||[];
+  ct.textContent=h.length;
+  if(!h.length) { tb.innerHTML='<tr><td colspan="10" class="empty-state">No holdings. Run portfolio snapshot.</td></tr>'; return; }
+  tb.innerHTML=h.map(r=>{
+    const cmpCls=pnlCls(r.pnl_pct);
+    return `<tr>
+      <td>${sym(r.symbol)}</td>
+      <td class="text-right" style="color:var(--text-muted)">${r.qty}</td>
+      <td class="text-right text-dim">${fmt(r.avg_price,2)}</td>
+      <td class="text-right font-medium ${cmpCls}">${fmt(r.ltp,2)}</td>
+      <td class="text-right ${pnlCls(r.day_change_pct)}">${pnlSign(r.day_change_pct)}${fmt(r.day_change_pct,1)}%</td>
+      <td class="text-right text-dim">${fmt(r.invested)}</td>
+      <td class="text-right font-medium text-white">${fmt(r.current)}</td>
+      <td class="text-right ${pnlCls(r.pnl)}">${pnlSign(r.pnl)}${fmt(r.pnl)}</td>
+      <td class="text-right">${retBadge(r.pnl_pct)}</td>
+      <td class="text-right text-dim" style="font-size:0.75rem">${fmt(r.weight_pct,1)}%</td>
+    </tr>`;
+  }).join('');
+}
+
+function renderMovers(data) {
+  const el=document.getElementById('movers');
+  const run=(data?.runners||[]).slice(0,5);
+  const drag=(data?.draggers||[]).slice(0,5);
+  if(!run.length&&!drag.length) { el.innerHTML=''; return; }
+
+  function items(list,isUp) {
+    return list.map(m=>{
+      const w=Math.min(Math.abs(m.pnl_pct)*3,100);
+      const col=isUp?'var(--up-light)':'var(--down-light)';
+      const cls=isUp?'tag-up':'tag-down';
+      return `<div class="mover-item">
+        <span>${sym(m.symbol)}</span>
+        <div style="flex:1;margin:0 12px">
+          <div class="pct-bar-bg"><div class="pct-bar" style="width:${w}%;background:${col}"></div></div>
+        </div>
+        <span class="badge ${cls}" style="min-width:60px;text-align:center">${pnlSign(m.pnl_pct)}${fmt(m.pnl_pct,1)}%</span>
+      </div>`;
+    }).join('');
+  }
+
+  el.innerHTML=`
+    <div class="card" style="padding:16px">
+      <div class="mover-header positive">🚀 Top Runners</div>
+      ${items(run,true)}
+    </div>
+    <div class="card" style="padding:16px">
+      <div class="mover-header negative">🔻 Top Draggers</div>
+      ${items(drag,false)}
+    </div>
+  `;
+}
+
+function renderPositions(data) {
+  const tb=document.getElementById('positionsBody');
+  const ct=document.getElementById('positionsCount');
+  const pos=data?.positions||[];
+  ct.textContent=pos.length;
+  if(!pos.length) { tb.innerHTML='<tr><td colspan="7" class="empty-state">No open F&O positions</td></tr>'; return; }
+  tb.innerHTML=pos.map(p=>`<tr>
+    <td>${sym(p.symbol)}</td>
+    <td class="text-right">${p.qty}</td>
+    <td class="text-right text-dim">${fmt(p.entry_price,2)}</td>
+    <td class="text-right font-medium">${fmt(p.ltp,2)}</td>
+    <td class="text-right ${pnlCls(p.pnl)}">${pnlSign(p.pnl)}${fmt(p.pnl)}</td>
+    <td>${p.product}</td>
+    <td>${p.exchange}</td>
+  </tr>`).join('');
+}
+
+function renderMF(data) {
+  const tb=document.getElementById('mfBody');
+  const ct=document.getElementById('mfCount');
+  const funds=data?.funds||[];
+  ct.textContent=funds.length;
+  if(!funds.length) { tb.innerHTML='<tr><td colspan="9" class="empty-state">No mutual fund data. Run MF update.</td></tr>'; return; }
+  tb.innerHTML=funds.map(f=>`<tr>
+    <td style="max-width:200px"><strong>${f.name.length>45?f.name.slice(0,43)+'…':f.name}</strong></td>
+    <td class="text-right text-muted">${fmt(f.units,1)}</td>
+    <td class="text-right text-dim">${fmt(f.avg_nav,2)}</td>
+    <td class="text-right font-medium ${pnlCls(f.pnl_pct)}">${fmt(f.current_nav,2)}</td>
+    <td class="text-right text-dim">${fmt(f.invested)}</td>
+    <td class="text-right font-medium text-white">${fmt(f.current)}</td>
+    <td class="text-right ${pnlCls(f.pnl)}">${pnlSign(f.pnl)}${fmt(f.pnl)}</td>
+    <td class="text-right">${retBadge(f.pnl_pct)}</td>
+    <td class="text-right">${f.sip_amount>0?'₹'+fmt(f.sip_amount):'—'}</td>
+  </tr>`).join('');
+}
+
+function updateMkt() {
+  const dot=document.getElementById('mktDot');
+  const lbl=document.getElementById('mktLabel');
+  const now=new Date();
+  const ist=new Date(now.toLocaleString('en-US',{timeZone:'Asia/Kolkata'}));
+  const mins=ist.getHours()*60+ist.getMinutes();
+  const day=ist.getDay();
+  const open=day>=1&&day<=5&&mins>=555&&mins<=930;
+  dot.className='status-dot '+(open?'open':'closed');
+  lbl.textContent=open?'NSE Open':'NSE Closed';
+}
+
+function switchSub(t) {
+  document.querySelectorAll('.sub-tab').forEach(s=>s.classList.toggle('active',s.dataset.tab===t));
+  document.querySelectorAll('.sub-panel').forEach(p=>p.classList.toggle('active',p.id==='panel_'+t));
+}
+
+function sortTbl(id,col) {
+  const tbl=document.getElementById(id);
+  const tb=tbl.querySelector('tbody');
+  const rows=Array.from(tb.querySelectorAll('tr'));
+  if(rows.length<=1) return;
+  const dir=tbl.dataset.sc===String(col)&&tbl.dataset.sd==='asc'?'desc':'asc';
+  tbl.dataset.sc=col; tbl.dataset.sd=dir;
+  rows.sort((a,b)=>{
+    let av=a.cells[col]?.textContent.trim().replace(/[,%+₹↗—]/g,'')||'';
+    let bv=b.cells[col]?.textContent.trim().replace(/[,%+₹↗—]/g,'')||'';
+    const an=parseFloat(av.replace(/,/g,'')),bn=parseFloat(bv.replace(/,/g,''));
+    if(!isNaN(an)&&!isNaN(bn)) return dir==='asc'?an-bn:bn-an;
+    return dir==='asc'?av.localeCompare(bv):bv.localeCompare(av);
+  });
+  rows.forEach(r=>tb.appendChild(r));
+  tbl.querySelectorAll('th').forEach((h,i)=>{
+    h.classList.remove('sort-asc','sort-desc');
+    if(i===col) h.classList.add(dir==='asc'?'sort-asc':'sort-desc');
+  });
+}
+
+async function loadAll() {
+  const [p,mf]=await Promise.all([fetchJ('portfolio.json'),fetchJ('mf_snapshot.json')]);
+  const lu=document.getElementById('lastUpdated');
+  if(p?.timestamp) lu.textContent=p.timestamp;
+  renderStats(p,mf);
+  renderHoldings(p);
+  renderMovers(p);
+  renderPositions(p);
+  renderMF(mf);
+  updateMkt();
+}
+
+loadAll();
+setInterval(loadAll,60000);
+setInterval(updateMkt,30000);
+</script>
+</body>
+</html>
