@@ -1,56 +1,20 @@
 {
-  "timestamp": "2026-10-30T08:52:53+00:00",
+  "timestamp": "2026-11-02T09:50:02+00:00",
   "events": [
-    {
-      "symbol": "ICICIGI",
-      "type": "dividend",
-      "date": "2026-10-23",
-      "detail": "\u20b97.00 per share",
-      "days_away": -7
-    },
-    {
-      "symbol": "ICICIGI",
-      "type": "ex-dividend_date",
-      "date": "2026-10-23",
-      "detail": "Ex-Dividend Date",
-      "days_away": -7
-    },
-    {
-      "symbol": "PETRONET",
-      "type": "earnings_date",
-      "date": "2026-11-02",
-      "detail": "Earnings Date",
-      "days_away": 3
-    },
     {
       "symbol": "MPHASIS",
       "type": "earnings_date",
       "date": "2026-11-05",
       "detail": "Earnings Date",
-      "days_away": 6
+      "days_away": 3
     }
   ],
   "by_symbol": {
-    "ANANDRATHI": {
-      "dividends": [
-        {
-          "date": "2026-05-15",
-          "amount": 3.5
-        },
-        {
-          "date": "2026-10-15",
-          "amount": 4.0
-        }
-      ],
-      "splits": [
-        {
-          "date": "2026-06-03",
-          "ratio": "2.0"
-        }
-      ],
+    "ATHERENERG": {
+      "dividends": [],
+      "splits": [],
       "calendar": {
-        "Earnings Date": [],
-        "Ex-Dividend Date": "2026-10-15"
+        "Earnings Date": []
       }
     },
     "COFORGE": {
@@ -66,21 +30,6 @@
           "2027-01-21"
         ],
         "Ex-Dividend Date": "2026-08-03"
-      }
-    },
-    "DRREDDY": {
-      "dividends": [
-        {
-          "date": "2026-07-10",
-          "amount": 8.0
-        }
-      ],
-      "splits": [],
-      "calendar": {
-        "Earnings Date": [
-          "2027-01-21"
-        ],
-        "Ex-Dividend Date": "2026-07-10"
       }
     },
     "HCLTECH": {
@@ -102,23 +51,19 @@
         "Ex-Dividend Date": "2026-10-16"
       }
     },
-    "ICICIGI": {
+    "INDHOTEL": {
       "dividends": [
         {
-          "date": "2026-05-29",
-          "amount": 7.0
-        },
-        {
-          "date": "2026-10-23",
-          "amount": 7.0
+          "date": "2026-06-23",
+          "amount": 3.25
         }
       ],
       "splits": [],
       "calendar": {
         "Earnings Date": [
-          "2027-01-12"
+          "2027-01-14"
         ],
-        "Ex-Dividend Date": "2026-10-23"
+        "Ex-Dividend Date": "2026-06-23"
       }
     },
     "KOTAKBANK": {
@@ -156,49 +101,76 @@
         "Ex-Dividend Date": "2026-07-08"
       }
     },
-    "PERSISTENT": {
+    "TCS": {
+      "dividends": [
+        {
+          "date": "2026-05-25",
+          "amount": 31.0
+        },
+        {
+          "date": "2026-07-15",
+          "amount": 12.0
+        },
+        {
+          "date": "2026-10-14",
+          "amount": 12.0
+        }
+      ],
+      "splits": [],
+      "calendar": {
+        "Earnings Date": [
+          "2026-10-08"
+        ],
+        "Ex-Dividend Date": "2026-10-14"
+      }
+    },
+    "TECHM": {
+      "dividends": [
+        {
+          "date": "2026-07-03",
+          "amount": 36.0
+        },
+        {
+          "date": "2026-10-23",
+          "amount": 15.0
+        }
+      ],
+      "splits": [],
+      "calendar": {
+        "Earnings Date": [
+          "2027-01-14"
+        ],
+        "Ex-Dividend Date": "2026-10-23"
+      }
+    },
+    "UNIONBANK": {
+      "dividends": [
+        {
+          "date": "2026-07-03",
+          "amount": 5.0
+        }
+      ],
+      "splits": [],
+      "calendar": {
+        "Earnings Date": [
+          "2027-01-14"
+        ],
+        "Ex-Dividend Date": "2026-07-03"
+      }
+    },
+    "WIPRO": {
       "dividends": [
         {
           "date": "2026-07-27",
-          "amount": 18.0
+          "amount": 2.0
         }
       ],
       "splits": [],
       "calendar": {
         "Earnings Date": [
-          "2026-10-15"
+          "2027-01-15"
         ],
         "Ex-Dividend Date": "2026-07-27"
-      }
-    },
-    "PETRONET": {
-      "dividends": [
-        {
-          "date": "2026-06-12",
-          "amount": 3.0
-        }
-      ],
-      "splits": [],
-      "calendar": {
-        "Earnings Date": [
-          "2026-11-02"
-        ],
-        "Ex-Dividend Date": "2026-06-12"
-      }
-    },
-    "PNB": {
-      "dividends": [
-        {
-          "date": "2026-06-12",
-          "amount": 3.0
-        }
-      ],
-      "splits": [],
-      "calendar": {
-        "Earnings Date": [
-          "2026-10-16"
-        ],
-        "Ex-Dividend Date": "2026-06-12"
       }
     }
   }
