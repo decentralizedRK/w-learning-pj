@@ -1,196 +1,166 @@
 {
-  "timestamp": "2026-10-30T17:30:49",
+  "timestamp": "2026-11-02T21:09:49",
   "portfolio_actions": [],
   "entry_signals": [
     {
+      "symbol": "WIPRO",
+      "action": "WATCH",
+      "score": 0.895,
+      "rsi": 73.8,
+      "adx": 39.7,
+      "segment": "other",
+      "close": 198.30999755859375,
+      "reason": "RSI overbought, strong trend (ADX 40), n/a"
+    },
+    {
       "symbol": "TCS",
       "action": "ENTRY SIGNAL",
-      "score": 0.85,
-      "rsi": 65.8,
-      "adx": 42.0,
+      "score": 0.773,
+      "rsi": 67.6,
+      "adx": 41.8,
       "segment": "largecap",
-      "close": 2478.0,
+      "close": 2502.60009765625,
       "reason": "RSI neutral, strong trend (ADX 42), n/a"
     },
     {
-      "symbol": "WIPRO",
+      "symbol": "ATHERENERG",
       "action": "ENTRY SIGNAL",
-      "score": 0.837,
-      "rsi": 67.9,
-      "adx": 38.7,
+      "score": 0.711,
+      "rsi": 69.8,
+      "adx": 21.2,
       "segment": "other",
-      "close": 190.10000610351562,
-      "reason": "RSI neutral, strong trend (ADX 39), n/a"
+      "close": 1756.0,
+      "reason": "RSI neutral, moderate trend (ADX 21), n/a"
     },
     {
       "symbol": "TECHM",
       "action": "ENTRY SIGNAL",
-      "score": 0.726,
-      "rsi": 65.6,
-      "adx": 34.4,
+      "score": 0.708,
+      "rsi": 67.5,
+      "adx": 34.8,
       "segment": "largecap",
-      "close": 1769.5999755859375,
-      "reason": "RSI neutral, strong trend (ADX 34), n/a"
+      "close": 1790.800048828125,
+      "reason": "RSI neutral, strong trend (ADX 35), n/a"
     },
     {
       "symbol": "MPHASIS",
-      "action": "ENTRY SIGNAL",
-      "score": 0.726,
-      "rsi": 60.8,
-      "adx": 30.8,
+      "action": "WATCH",
+      "score": 0.695,
+      "rsi": 57.3,
+      "adx": 31.0,
       "segment": "midcap",
-      "close": 2561.300048828125,
+      "close": 2525.60009765625,
       "reason": "RSI neutral, strong trend (ADX 31), n/a"
     },
     {
       "symbol": "HCLTECH",
       "action": "WATCH",
-      "score": 0.682,
-      "rsi": 67.3,
-      "adx": 33.5,
+      "score": 0.648,
+      "rsi": 70.6,
+      "adx": 33.9,
       "segment": "largecap",
-      "close": 1403.9000244140625,
-      "reason": "RSI neutral, strong trend (ADX 34), n/a"
-    },
-    {
-      "symbol": "KOTAKBANK",
-      "action": "WATCH",
-      "score": 0.682,
-      "rsi": 68.1,
-      "adx": 34.7,
-      "segment": "largecap",
-      "close": 459.0,
-      "reason": "RSI neutral, strong trend (ADX 35), n/a"
+      "close": 1428.0999755859375,
+      "reason": "RSI overbought, strong trend (ADX 34), n/a"
     },
     {
       "symbol": "INDHOTEL",
       "action": "WATCH",
-      "score": 0.611,
-      "rsi": 69.4,
-      "adx": 27.4,
+      "score": 0.58,
+      "rsi": 69.8,
+      "adx": 29.2,
       "segment": "midcap",
-      "close": 810.0,
-      "reason": "RSI neutral, moderate trend (ADX 27), n/a"
+      "close": 811.6500244140625,
+      "reason": "RSI neutral, moderate trend (ADX 29), n/a"
     },
     {
-      "symbol": "ATHERENERG",
+      "symbol": "KOTAKBANK",
       "action": "WATCH",
-      "score": 0.545,
-      "rsi": 64.4,
-      "adx": 22.3,
-      "segment": "other",
-      "close": 1663.0,
-      "reason": "RSI neutral, moderate trend (ADX 22), n/a"
-    },
-    {
-      "symbol": "UNIONBANK",
-      "action": "NO SIGNAL",
-      "score": 0.487,
-      "rsi": 62.6,
-      "adx": 23.2,
-      "segment": "other",
-      "close": 186.5,
-      "reason": "RSI neutral, moderate trend (ADX 23), n/a"
-    },
-    {
-      "symbol": "COFORGE",
-      "action": "NO SIGNAL",
-      "score": 0.479,
-      "rsi": 58.9,
-      "adx": 21.0,
-      "segment": "midcap",
-      "close": 1962.0,
-      "reason": "RSI neutral, moderate trend (ADX 21), n/a"
+      "score": 0.573,
+      "rsi": 69.2,
+      "adx": 35.2,
+      "segment": "largecap",
+      "close": 461.6000061035156,
+      "reason": "RSI neutral, strong trend (ADX 35), n/a"
     },
     {
       "symbol": "BHARTIARTL",
-      "action": "NO SIGNAL",
-      "score": 0.474,
-      "rsi": 65.2,
-      "adx": 25.9,
+      "action": "WATCH",
+      "score": 0.564,
+      "rsi": 65.4,
+      "adx": 26.8,
       "segment": "largecap",
-      "close": 1972.0999755859375,
-      "reason": "RSI neutral, moderate trend (ADX 26), n/a"
-    },
-    {
-      "symbol": "DRREDDY",
-      "action": "NO SIGNAL",
-      "score": 0.445,
-      "rsi": 74.9,
-      "adx": 27.7,
-      "segment": "largecap",
-      "close": 1345.0,
-      "reason": "RSI overbought, moderate trend (ADX 28), n/a"
+      "close": 1973.699951171875,
+      "reason": "RSI neutral, moderate trend (ADX 27), n/a"
     },
     {
       "symbol": "KARURVYSYA",
       "action": "NO SIGNAL",
-      "score": 0.432,
-      "rsi": 57.5,
-      "adx": 24.7,
+      "score": 0.42,
+      "rsi": 58.4,
+      "adx": 24.3,
       "segment": "other",
-      "close": 354.5,
-      "reason": "RSI neutral, moderate trend (ADX 25), n/a"
+      "close": 356.1000061035156,
+      "reason": "RSI neutral, moderate trend (ADX 24), n/a"
     },
     {
       "symbol": "PNB",
       "action": "NO SIGNAL",
-      "score": 0.426,
-      "rsi": 63.9,
-      "adx": 24.1,
+      "score": 0.411,
+      "rsi": 60.7,
+      "adx": 25.0,
       "segment": "other",
-      "close": 123.9000015258789,
-      "reason": "RSI neutral, moderate trend (ADX 24), n/a"
+      "close": 122.8499984741211,
+      "reason": "RSI neutral, moderate trend (ADX 25), n/a"
     },
     {
-      "symbol": "ANANDRATHI",
+      "symbol": "UNIONBANK",
       "action": "NO SIGNAL",
-      "score": 0.408,
-      "rsi": 67.8,
-      "adx": 26.4,
+      "score": 0.402,
+      "rsi": 61.6,
+      "adx": 23.0,
       "segment": "other",
-      "close": 2270.0,
-      "reason": "RSI neutral, moderate trend (ADX 26), n/a"
+      "close": 186.0,
+      "reason": "RSI neutral, moderate trend (ADX 23), n/a"
     },
     {
       "symbol": "APLAPOLLO",
       "action": "NO SIGNAL",
-      "score": 0.371,
-      "rsi": 55.4,
-      "adx": 24.2,
+      "score": 0.323,
+      "rsi": 52.5,
+      "adx": 23.0,
       "segment": "midcap",
-      "close": 2195.0,
-      "reason": "RSI neutral, moderate trend (ADX 24), n/a"
+      "close": 2165.10009765625,
+      "reason": "RSI neutral, moderate trend (ADX 23), n/a"
     },
     {
-      "symbol": "PAYTM",
+      "symbol": "DIVISLAB",
       "action": "NO SIGNAL",
-      "score": 0.345,
-      "rsi": 51.7,
-      "adx": 25.4,
-      "segment": "midcap",
-      "close": 1686.5,
-      "reason": "RSI neutral, moderate trend (ADX 25), n/a"
+      "score": 0.298,
+      "rsi": 64.2,
+      "adx": 20.6,
+      "segment": "other",
+      "close": 9780.0,
+      "reason": "RSI neutral, moderate trend (ADX 21), n/a"
+    },
+    {
+      "symbol": "SONACOMS",
+      "action": "NO SIGNAL",
+      "score": 0.264,
+      "rsi": 67.7,
+      "adx": 20.1,
+      "segment": "smallcap",
+      "close": 890.5,
+      "reason": "RSI neutral, moderate trend (ADX 20), n/a"
     },
     {
       "symbol": "SYRMA",
       "action": "NO SIGNAL",
-      "score": 0.258,
-      "rsi": 55.6,
-      "adx": 22.6,
+      "score": 0.233,
+      "rsi": 51.8,
+      "adx": 21.1,
       "segment": "other",
-      "close": 1669.0,
-      "reason": "RSI neutral, moderate trend (ADX 23), n/a"
-    },
-    {
-      "symbol": "MCX",
-      "action": "NO SIGNAL",
-      "score": 0.218,
-      "rsi": 51.9,
-      "adx": 20.4,
-      "segment": "midcap",
-      "close": 3231.0,
-      "reason": "RSI neutral, moderate trend (ADX 20), n/a"
+      "close": 1625.300048828125,
+      "reason": "RSI neutral, moderate trend (ADX 21), n/a"
     }
   ]
 }
