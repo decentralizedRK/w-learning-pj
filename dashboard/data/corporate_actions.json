@@ -1,12 +1,19 @@
 {
-  "timestamp": "2026-11-02T09:50:02+00:00",
+  "timestamp": "2026-11-03T09:54:01+00:00",
   "events": [
+    {
+      "symbol": "BHARTIARTL",
+      "type": "earnings_date",
+      "date": "2026-11-05",
+      "detail": "Earnings Date",
+      "days_away": 2
+    },
     {
       "symbol": "MPHASIS",
       "type": "earnings_date",
       "date": "2026-11-05",
       "detail": "Earnings Date",
-      "days_away": 3
+      "days_away": 2
     }
   ],
   "by_symbol": {
@@ -17,19 +24,19 @@
         "Earnings Date": []
       }
     },
-    "COFORGE": {
+    "BHARTIARTL": {
       "dividends": [
         {
-          "date": "2026-08-03",
-          "amount": 4.0
+          "date": "2026-07-24",
+          "amount": 24.0
         }
       ],
       "splits": [],
       "calendar": {
         "Earnings Date": [
-          "2027-01-21"
+          "2026-11-05"
         ],
-        "Ex-Dividend Date": "2026-08-03"
+        "Ex-Dividend Date": "2026-07-24"
       }
     },
     "HCLTECH": {
@@ -64,6 +71,21 @@
           "2027-01-14"
         ],
         "Ex-Dividend Date": "2026-06-23"
+      }
+    },
+    "KARURVYSYA": {
+      "dividends": [
+        {
+          "date": "2026-07-24",
+          "amount": 2.6
+        }
+      ],
+      "splits": [],
+      "calendar": {
+        "Earnings Date": [
+          "2026-10-15"
+        ],
+        "Ex-Dividend Date": "2026-07-24"
       }
     },
     "KOTAKBANK": {
@@ -141,21 +163,6 @@
           "2027-01-14"
         ],
         "Ex-Dividend Date": "2026-10-23"
-      }
-    },
-    "UNIONBANK": {
-      "dividends": [
-        {
-          "date": "2026-07-03",
-          "amount": 5.0
-        }
-      ],
-      "splits": [],
-      "calendar": {
-        "Earnings Date": [
-          "2027-01-14"
-        ],
-        "Ex-Dividend Date": "2026-07-03"
       }
     },
     "WIPRO": {
