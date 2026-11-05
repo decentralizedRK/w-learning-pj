@@ -1,19 +1,26 @@
 {
-  "timestamp": "2026-11-03T09:54:01+00:00",
+  "timestamp": "2026-11-05T09:44:55+00:00",
   "events": [
+    {
+      "symbol": "TRENT",
+      "type": "earnings_date",
+      "date": "2026-10-29",
+      "detail": "Earnings Date",
+      "days_away": -7
+    },
     {
       "symbol": "BHARTIARTL",
       "type": "earnings_date",
       "date": "2026-11-05",
       "detail": "Earnings Date",
-      "days_away": 2
+      "days_away": 0
     },
     {
-      "symbol": "MPHASIS",
-      "type": "earnings_date",
-      "date": "2026-11-05",
-      "detail": "Earnings Date",
-      "days_away": 2
+      "symbol": "LAURUSLABS",
+      "type": "ex-dividend_date",
+      "date": "2026-11-06",
+      "detail": "Ex-Dividend Date",
+      "days_away": 1
     }
   ],
   "by_symbol": {
@@ -73,21 +80,6 @@
         "Ex-Dividend Date": "2026-06-23"
       }
     },
-    "KARURVYSYA": {
-      "dividends": [
-        {
-          "date": "2026-07-24",
-          "amount": 2.6
-        }
-      ],
-      "splits": [],
-      "calendar": {
-        "Earnings Date": [
-          "2026-10-15"
-        ],
-        "Ex-Dividend Date": "2026-07-24"
-      }
-    },
     "KOTAKBANK": {
       "dividends": [
         {
@@ -108,19 +100,14 @@
         "Ex-Dividend Date": "2026-07-17"
       }
     },
-    "MPHASIS": {
-      "dividends": [
-        {
-          "date": "2026-07-08",
-          "amount": 62.0
-        }
-      ],
+    "LAURUSLABS": {
+      "dividends": [],
       "splits": [],
       "calendar": {
         "Earnings Date": [
-          "2026-11-05"
+          "2027-01-22"
         ],
-        "Ex-Dividend Date": "2026-07-08"
+        "Ex-Dividend Date": "2026-11-06"
       }
     },
     "TCS": {
@@ -163,6 +150,26 @@
           "2027-01-14"
         ],
         "Ex-Dividend Date": "2026-10-23"
+      }
+    },
+    "TRENT": {
+      "dividends": [
+        {
+          "date": "2026-06-12",
+          "amount": 4.0
+        }
+      ],
+      "splits": [
+        {
+          "date": "2026-06-04",
+          "ratio": "1.5"
+        }
+      ],
+      "calendar": {
+        "Earnings Date": [
+          "2026-10-29"
+        ],
+        "Ex-Dividend Date": "2026-06-12"
       }
     },
     "WIPRO": {

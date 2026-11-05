@@ -1,28 +1,20 @@
 {
-  "timestamp": "2026-11-03T09:53:56+00:00",
+  "timestamp": "2026-11-05T09:44:51+00:00",
   "ticker_news": {
     "ATHERENERG": [
       {
         "title": "ATHER ENERGY LIMITED Share Price - Live NSE: ATHERENERG Stock Price & Chart - Upstox",
         "publisher": "Google News",
         "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBBbmFLRldTRHpDM1JfX1ViYy15cGtDRHlKUnJCWmMyV2JRaU96UHIxYmh1Ui1DbmZaRVdsQWY3UHppNnZQNTl3em9zZk9aT0VSd0U1SHV6bTBIN1hMMlFlMUNIZlQxYTcyV2xB?oc=5",
-        "age_h": 98.9
+        "age_h": 57.2
       }
     ],
     "BHARTIARTL": [
       {
-        "title": "Bharti Airtel Share Price - Live NSE: BHARTIARTL Stock Price & Chart - Upstox",
+        "title": "BHARTIARTL Share Price Today - Bharti Airtel on NSE/BSE - scanx.trade",
         "publisher": "Google News",
-        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5yVGN2YlBzbU5xc0FJSkctUlVUMzAzSHdiOENtSzV1TlJyZHhSVGZIVVVyUEw0MVpwMm1HVDRxOGM3akMyaGhNaUZUZ09TQ0N4b2Vjd3lLaW1DaEg4QXRJbU5BQjZJcjN3MGlBSQ?oc=5",
-        "age_h": 31.1
-      }
-    ],
-    "KOTAKBANK": [
-      {
-        "title": "Kotak Bank Stock Touches Lifetime Peak on Better Outlook - Kalkine India",
-        "publisher": "Google News",
-        "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQaGYwODFFeHRVbTR6aGplZFBTVmNaYnVtYmR3LTAtUi1lbnNBVGNZYzZGX2ZtNGVkc0pONnZvQnI5bExxTXRIY1BaUzZTWVZScmUxWno4NktDRzNabEZYRmk5dDJWWmVxV3o1aU5KZVhYdzVVX19RTDR3a1FWWlk2Y1R5MGlEN2NOLVFzZjc0WWp1ZUVIWUM1YUZDcF9PR1VxOHVpNlEwR1dxU3lLb29KSXlsZlhBZEI1dHRuR1R3akN6V3ZJajFF?oc=5",
-        "age_h": 98.9
+        "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1NenFfV0tfelcwTUZ5SVFva2hGZUdqekowbmVqMXpIQnFRVkgwakU4MlpTUHNSVzU0Z2dXQzRpNW1zVl9pVndxWFVSRzhKTnhPWnVqa09hbUk?oc=5",
+        "age_h": 3.1
       }
     ],
     "TCS": [
@@ -30,100 +22,94 @@
         "title": "TCS Share Price - Upstox",
         "publisher": "Google News",
         "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE4xa3lkaFFielNzaEh0c3oxTzdzMzV1MDk5TzFMYnoweVkwWG02cVBRTHZSUmM2Q1JpYVpsN2l2VmZwMFpwUzI5cm5WOUFHSGE1c2ZsRjRTWWl3MmlNOGdQUmdkSlZLUUxqRUctcGVsdDA?oc=5",
-        "age_h": 55.0
+        "age_h": 10.9
       },
       {
-        "title": "Tata Consultancy Services Limited (TCS.NS) stock price, news, quote and history - Yahoo Finance Singapore",
+        "title": "Tata Consultancy Services (TCS) Share Price Today (NSE), Market News - TechGraph",
         "publisher": "Google News",
-        "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE4yZG1MMUJWTjQzeUxZdV9QMF90azdyZlhNOTctMFZTMTYyRVhVWlZKbDFRenlSZXN2aEpLWTRkVHlROVpBNmpZYWZ5V3EwZ2FQU2loLQ?oc=5",
-        "age_h": 96.0
+        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBFeGQ5c2VqX1BwUHJXcVRhS2ZmQm1aRHBwQU1QUU1hSjYwcmdneTA1UEh6dXRLZ21QWC1qSTF1SVpzSDdWYlNIakM4MzRXY3hNaVdhTkRYMTZVUkU?oc=5",
+        "age_h": 73.7
       }
     ],
     "TECHM": [
       {
-        "title": "NSE shares get 'Buy' ahead of Q2 results today; here's price targets - Business Today",
+        "title": "ideaForge Technology shares: Drone stock jumps 5%; delivers 48% YTD returns | Should you buy after Q2 Results 2026? - Livemint",
         "publisher": "Google News",
-        "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOb3NjcTNBcHkxNnRaaHFKcV9tc2pQOFRMbXlWSjhzUFpNSEdkWEo3TWplbHVQcU1FYW1WalFxSDR3UE1HYThmVjZlaENwOWhVY3NKQXRfck5sMncybHVWRVREeUJOb2IxWnNpREUycDJFVERIMTNCWElpUGVySXRudDhfVkFSNUFRdThocUNlNDBwZnhRYlBGRnVMbDdmNnJKUE1oV3lsN19OR3c5cWJ3TkZDaFZGYTB3UGJ6a0FjTF9uNnlYOWpzOE9VNNIB0AFBVV95cUxPcnhGdUFmTkZMRkhhdDVfU28zMEtUVjRJVEkwdDRBdnU2a2RkMElBR3l6OWszd1FpdDYydVhZcmZDU2RsRXZETUZ4LWl4cFhLMlBZdDVXVkc1UVVZR2hQc2pnWE81VS1hVzRVdG1WUThzVmVEQnRYQ09rYk1yYzMyd2ltYlZjNmpXLUNIbnZsLWlpZW1oZk1kOC15cEhVQ1pBQmhhMkRpRDJrWEg5ODAwVnpXcmFoNHl2OTEtVjlVaUhpZWNPSHdKUDBXSW9SbWhD?oc=5",
-        "age_h": 2.2
+        "link": "https://news.google.com/rss/articles/CBMiigJBVV95cUxONmF1RXlEMHZjS21vRkxfdUJRem05bHlsc2lRYjdsLVAzSWRYRTFRMy1KWl8xbFlNZF81cVZwbExJbnhQTUpobVZGWTdZc1R6a0xXUklOTFNNVmJIcWduaG1WNVUtbHFHZE9heWc0NnN1NHdCcGpvWXRYYThNMnJ0Y2tCYlFKRTdUcDRpakNWMElGWk90Mnp5M0RmRThvQjloV0dpS01qQVJud2FRaVdLaVQ3LWY0LTYwMUlpLWc5TUNDakJOc0h3ZjRjUmFOcE1FRWJmeEo5X3Q2Z1Bra1VhbTlsMUxhTFRFaUV1aTAydVBqYldQUk9tQ1JkTl9BV2o3ZVpackNuQzBydw?oc=5",
+        "age_h": 28.2
       },
       {
         "title": "Indian markets surge over 1.6% as Reliance rally lifts sentiment amid mixed Asian trends - The New Indian Express",
         "publisher": "Google News",
         "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPUXIzakprc2FCNnRyQWN5MzYzTUZxa0ZaUUdHZExmLVRYNElfRVY2VFhDekJyNExTV0k0cnNnQVZqb2ZSN0ppQnpiNGlrWEMxNU4yb25aRzZLU3ZESTRvd0hGakVOSVZlRlF2QjlOcEJXc2N4bEVSX2MzamtOak1UVXFaYTVEYXVLZ2FVWVA1NnAySE01ZVJJZ1FwMFpHeDJDclFNdjV2RkFxMnFiVHJ1RkFOX3VXazRaNnJiN0RyaW4yV2lSdXhWT1hRV0plcVZuQXU4Tm5hQdIB5AFBVV95cUxOMUN0Vmo2OTdWOVNPQ1Q2a0o2ZkFVUE9wZVRYTndxRjRLT3ptSG8tbEV0RFJWSGNyTXhKS1EtMkI1T3BBZW51WENieEVBYUttSkRoZGVVUjZVbjZWZWVpYnY0OXZqbGw2TkxmQzFtOHVnWFNYb2toM3UyRUlaX2RhRGpvMmg5UWpaeThoc3VXdWxCYUpNUVprRTFrSjA0RzZmUEhmcXYtY1NQOF9HcjBDWUV1Sk9EWVpzTGN3dXdTelpaOFBJaGFqdzdkenpld01aZ1V2dWNnZU1DME9hamcyZG1rSVc?oc=5",
-        "age_h": 21.5
+        "age_h": 69.3
       }
     ],
-    "WIPRO": [
+    "TRENT": [
       {
-        "title": "Wipro Limited (WIPRO.NS) Stock Price, News, Quote & History - Yahoo! Finance Canada",
+        "title": "Trent (NSEI:TRENT) Stock Forecast & Analyst Predictions - Simply Wall St",
         "publisher": "Google News",
-        "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9MeVdWQ21kRnZNeUZmZFFNaTUwYVppS3V1SE1hWG5hdGhrR2FXTlVnNnltaHhRRzlKZUgxamN5UzdjNHZ0OTUxRVduZThYTnN3N1JrbDlxUQ?oc=5",
-        "age_h": 85.2
-      },
-      {
-        "title": "Wipro (NSEI:WIPRO) Stock Forecast & Analyst Predictions - Simply Wall St",
-        "publisher": "Google News",
-        "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBScG9tZFdwX1oxZmJ6bDNYWW02M0ZOV1lYVHVsMFFUVi02Tm4zSlBrelB0OFB0SExfQ3l0cUZpakkzSlp5V0I1MWl2OFBBbXI0dGJ2dmJHYTBMT1hfRmlGTFV6ZlIyR3FMeGQ3NEYyUU10OG5hVlRRY3B3?oc=5",
-        "age_h": 98.9
+        "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5WLTVEVEpDZFFUb0RRbUpkZGY0ZFZTeUxUQ18zNktXcGJPeWMzUFlXN0dMTUVka2Jtcm8zVmxXN0xUUG5oY2lzZXQyUVpRQ3lZMU1xT2tBZDJoSDdYRVFvcHRHWkVvWmZyWTdRS1ItdjJ2aDg2SGVz?oc=5",
+        "age_h": 73.7
       }
     ]
   },
   "market_headlines": [
     {
       "source": "Economic Times",
-      "title": "German bond yields rise as oil climbs ahead of US Midterm elections",
-      "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/german-bond-yields-rise-as-oil-climbs-ahead-of-us-midterm-elections/articleshow/135490769.cms",
-      "summary": "German government bond yields rose as rebounding oil prices and caution ahead of the US midterm elections weighed on sentiment. The 10-year Bund yield climbed further from a two-month low, while inves",
+      "title": "EPL Q2 Results: Profit rises 4% YoY to Rs 111 crore",
+      "link": "https://economictimes.indiatimes.com/markets/stocks/earnings/epl-q2-results-profit-rises-4-yoy-to-rs-111-crore/articleshow/135565623.cms",
+      "summary": "EPL reported a notable 4.52% increase in net profit, reaching Rs 110.9 crore for the September quarter of FY27. With revenues from operations climbing to Rs 1,567.4 crore, a 30% year-on-year growth, t",
+      "age_h": 1.2
+    },
+    {
+      "source": "Economic Times",
+      "title": "India bonds climb in step with Treasuries as oil sinks",
+      "link": "https://economictimes.indiatimes.com/markets/bonds/india-bonds-climb-in-step-with-treasuries-as-oil-sinks/articleshow/135564784.cms",
+      "summary": "Indian government bonds increased for the fourth consecutive session following a Democratic win in the US midterm elections. This victory led to a decline in crude oil prices, easing inflation concern",
+      "age_h": 1.7
+    },
+    {
+      "source": "Economic Times",
+      "title": "Sitaram Denims India files IPO papers with Sebi",
+      "link": "https://economictimes.indiatimes.com/markets/ipos/fpos/sitaram-denims-india-files-ipo-papers-with-sebi/articleshow/135563144.cms",
+      "summary": "Sitaram Denims India Ltd plans to launch an initial public offering with two components. The IPO includes a fresh issue of equity shares and an offer for sale by promoters. Proceeds from the fresh iss",
+      "age_h": 2.7
+    },
+    {
+      "source": "Economic Times",
+      "title": "Qualcomm Earnings: 5 key takeaways from Q4 results",
+      "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/qualcomm-earnings-5-key-takeaways-from-q4-results/slideshow/135560535.cms",
+      "summary": "Qualcomm's revenue declined 8% amid weak smartphone chip demand, while automotive sales surged. Rising costs pressure margins, as AI data centres offer diversification and future growth opportunities.",
+      "age_h": 4.2
+    },
+    {
+      "source": "Livemint",
+      "title": "Small-cap stock under  \u20b950 for Diwali Muhurat Trading Samvat 2083: Indiabulls shares rise 85% in 2026! 20% more gains?",
+      "link": "https://www.livemint.com/market/stock-market-news/smallcap-stock-under-rs-50-for-diwali-muhurat-trading-samvat-2083-indiabulls-shares-rise-85-in-2026-20-more-gains-11793869233254.html",
+      "summary": "Small-cap stock under  \u20b950 for Diwali Muhurat Trading Samvat 2083: Experts have recommended Indiabulls shares with a price target of  \u20b938&amp;nbsp;",
+      "age_h": 0.2
+    },
+    {
+      "source": "Livemint",
+      "title": "Oil cools, FPIs return: Is Dalal Street ready to run?",
+      "link": "https://www.livemint.com/market/stock-market-news/oil-cools-fpis-return-is-dalal-street-ready-to-run-11793858558879.html",
+      "summary": "Falling crude prices and hopes of easing tensions in West Asia are improving the outlook for Indian equities, but a resilient AI investment cycle could limit foreign fund inflows.",
       "age_h": 0.5
     },
     {
-      "source": "Economic Times",
-      "title": "BLS E-Services Q2 Results: Net profit rises 12% YoY pc to Rs 20.5 cr",
-      "link": "https://economictimes.indiatimes.com/markets/stocks/earnings/bls-e-services-q2-results-net-profit-rises-12-yoy-pc-to-rs-20-5-cr/articleshow/135490084.cms",
-      "summary": "BLS E-Services reported a 12.4 percent year-on-year increase in profit after tax for Q2 FY27. The total income for the quarter reached Rs 428.1 crore, up 55.1 percent year-on-year. Additionally, the c",
-      "age_h": 0.9
-    },
-    {
-      "source": "Economic Times",
-      "title": "SBI Q2 Results: Standalone profit rises 14% YoY to Rs 23,038 crore, NII jumps 15%",
-      "link": "https://economictimes.indiatimes.com/markets/stocks/earnings/sbi-q2-results-standalone-profit-rises-14-yoy-to-rs-23038-crore-nii-jumps-15/articleshow/135489000.cms",
-      "summary": "SBI Q2 Results: Net interest income in the reporting period increased 15% YoY to Rs 49,143 crore.",
-      "age_h": 1.4
-    },
-    {
-      "source": "Economic Times",
-      "title": "Bayer raises 2026 profit outlook on strong pharmaceuticals performance",
-      "link": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/bayer-raises-2026-profit-outlook-on-strong-pharmaceuticals-performance/articleshow/135488937.cms",
-      "summary": "Bayer raised its 2026 profit outlook after its pharmaceuticals division delivered stronger-than-expected third-quarter sales. The German group also lowered its debt forecast, signalling improving grow",
-      "age_h": 1.6
-    },
-    {
       "source": "Livemint",
-      "title": "BHEL share price target: Already up 50% in 1 year, should you still buy the Maharatna PSU stock? Expert views",
-      "link": "https://www.livemint.com/market/bhel-share-price-target-already-up-50-in-1-year-should-you-still-buy-the-maharatna-psu-stock-expert-views-11793692830871.html",
-      "summary": "BHEL shares have surged over the past year but recently weakened. Strong Q2 results, a large order book and planned  \u20b9500 crore manufacturing investment underpin optimism. Geojit sees further upside, ",
-      "age_h": 0.4
-    },
-    {
-      "source": "Livemint",
-      "title": "Tempsens Instruments shares surge 17%; stock rallies whopping 89% from IPO price in just over 2 months | Key triggers",
-      "link": "https://www.livemint.com/market/stock-market-news/tempsens-instruments-shares-surge-17-stock-rallies-whopping-89-from-ipo-price-in-just-over-2-months-key-triggers-11793693494023.html",
-      "summary": "Tempsens Instruments shares surged 17% on Tuesday, extending gains to about 89% above their  \u20b9300 IPO price. First-half FY27 revenue rose 33.7% year-on-year, but higher employee costs and expansion in",
+      "title": "Lenskart investors give thumbs up to growth over margin strategy",
+      "link": "https://www.livemint.com/market/mark-to-market/lenskart-investors-give-thumbs-up-to-growth-over-margin-strategy-11793865227400.html",
+      "summary": "Strong store productivity and manufacturing integration offer a path to higher profitability, but a weaker rupee continues to erode gains. With the stock up 61% in 2026, valuations remain key to the i",
       "age_h": 0.6
     },
     {
       "source": "Livemint",
-      "title": "Small-cap stock jumps 8% after Q2 Results 2026 | Will the rally continue? Target, stop-loss",
-      "link": "https://www.livemint.com/market/stock-market-news/smallcap-stock-mold-tek-packaging-jumps-8-after-q2-results-2026-will-the-rally-continue-target-stoploss-11793692179343.html",
-      "summary": "Mold-Tek Packaging opened at  \u20b9299.90 per share on NSE today, as compared to previous close of  \u20b9292.50 on Monday and touched an intraday high of  \u20b9320 on 3 November.",
-      "age_h": 0.9
-    },
-    {
-      "source": "Livemint",
-      "title": "Lodha Developers' return of launch momentum excites investors",
-      "link": "https://www.livemint.com/market/mark-to-market/lodha-developers-share-price-q2-results-fy27-sales-launches-11793690713747.html",
-      "summary": "Lodha is lining up launches worth  \u20b919,070 crore in H2FY27, a sharp step-up from H1, as Bengaluru and NCR expand its growth drivers. Execution and demand will be key.",
-      "age_h": 1.2
+      "title": "Samvat 2083 stock Muhurat Trading 2026 Stocks to Buy: HFCL, Varun Beverages, Greaves Cotton - List by Centrum for Diwali",
+      "link": "https://www.livemint.com/market/stock-market-news/samvat-2083-stock-muhurat-trading-2026-stocks-to-buy-hfcl-varun-beverages-greaves-cotton-list-by-centrum-for-diwali-11793864066141.html",
+      "summary": "Centrum Finverse Research has named HFCL, Greaves Cotton, Manorama Industries, Inventurus Knowledge Solutions and Varun Beverages as its Diwali stock picks for Samvat 2083. The brokerage sees 20% to 3",
+      "age_h": 1.0
     }
   ]
 }
