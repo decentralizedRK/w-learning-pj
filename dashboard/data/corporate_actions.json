@@ -1,18 +1,18 @@
 {
-  "timestamp": "2026-11-05T09:44:55+00:00",
+  "timestamp": "2026-11-06T09:42:16+00:00",
   "events": [
-    {
-      "symbol": "TRENT",
-      "type": "earnings_date",
-      "date": "2026-10-29",
-      "detail": "Earnings Date",
-      "days_away": -7
-    },
     {
       "symbol": "BHARTIARTL",
       "type": "earnings_date",
       "date": "2026-11-05",
       "detail": "Earnings Date",
+      "days_away": -1
+    },
+    {
+      "symbol": "LAURUSLABS",
+      "type": "dividend",
+      "date": "2026-11-06",
+      "detail": "\u20b91.00 per share",
       "days_away": 0
     },
     {
@@ -20,7 +20,7 @@
       "type": "ex-dividend_date",
       "date": "2026-11-06",
       "detail": "Ex-Dividend Date",
-      "days_away": 1
+      "days_away": 0
     }
   ],
   "by_symbol": {
@@ -46,6 +46,21 @@
         "Ex-Dividend Date": "2026-07-24"
       }
     },
+    "GAIL": {
+      "dividends": [
+        {
+          "date": "2026-09-02",
+          "amount": 0.5
+        }
+      ],
+      "splits": [],
+      "calendar": {
+        "Earnings Date": [
+          "2027-01-28"
+        ],
+        "Ex-Dividend Date": "2026-09-02"
+      }
+    },
     "HCLTECH": {
       "dividends": [
         {
@@ -63,21 +78,6 @@
           "2027-01-11"
         ],
         "Ex-Dividend Date": "2026-10-16"
-      }
-    },
-    "INDHOTEL": {
-      "dividends": [
-        {
-          "date": "2026-06-23",
-          "amount": 3.25
-        }
-      ],
-      "splits": [],
-      "calendar": {
-        "Earnings Date": [
-          "2027-01-14"
-        ],
-        "Ex-Dividend Date": "2026-06-23"
       }
     },
     "KOTAKBANK": {
@@ -101,13 +101,33 @@
       }
     },
     "LAURUSLABS": {
-      "dividends": [],
+      "dividends": [
+        {
+          "date": "2026-11-06",
+          "amount": 1.0
+        }
+      ],
       "splits": [],
       "calendar": {
         "Earnings Date": [
           "2027-01-22"
         ],
         "Ex-Dividend Date": "2026-11-06"
+      }
+    },
+    "NHPC": {
+      "dividends": [
+        {
+          "date": "2026-08-12",
+          "amount": 0.21
+        }
+      ],
+      "splits": [],
+      "calendar": {
+        "Earnings Date": [
+          "2027-02-04"
+        ],
+        "Ex-Dividend Date": "2026-08-12"
       }
     },
     "TCS": {
@@ -150,26 +170,6 @@
           "2027-01-14"
         ],
         "Ex-Dividend Date": "2026-10-23"
-      }
-    },
-    "TRENT": {
-      "dividends": [
-        {
-          "date": "2026-06-12",
-          "amount": 4.0
-        }
-      ],
-      "splits": [
-        {
-          "date": "2026-06-04",
-          "ratio": "1.5"
-        }
-      ],
-      "calendar": {
-        "Earnings Date": [
-          "2026-10-29"
-        ],
-        "Ex-Dividend Date": "2026-06-12"
       }
     },
     "WIPRO": {
