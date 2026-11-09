@@ -1,28 +1,6 @@
 {
-  "timestamp": "2026-11-06T09:42:16+00:00",
-  "events": [
-    {
-      "symbol": "BHARTIARTL",
-      "type": "earnings_date",
-      "date": "2026-11-05",
-      "detail": "Earnings Date",
-      "days_away": -1
-    },
-    {
-      "symbol": "LAURUSLABS",
-      "type": "dividend",
-      "date": "2026-11-06",
-      "detail": "\u20b91.00 per share",
-      "days_away": 0
-    },
-    {
-      "symbol": "LAURUSLABS",
-      "type": "ex-dividend_date",
-      "date": "2026-11-06",
-      "detail": "Ex-Dividend Date",
-      "days_away": 0
-    }
-  ],
+  "timestamp": "2026-11-09T10:08:07+00:00",
+  "events": [],
   "by_symbol": {
     "ATHERENERG": {
       "dividends": [],
@@ -41,24 +19,24 @@
       "splits": [],
       "calendar": {
         "Earnings Date": [
-          "2026-11-05"
+          "2027-02-03"
         ],
         "Ex-Dividend Date": "2026-07-24"
       }
     },
-    "GAIL": {
+    "DRREDDY": {
       "dividends": [
         {
-          "date": "2026-09-02",
-          "amount": 0.5
+          "date": "2026-07-10",
+          "amount": 8.0
         }
       ],
       "splits": [],
       "calendar": {
         "Earnings Date": [
-          "2027-01-28"
+          "2027-01-21"
         ],
-        "Ex-Dividend Date": "2026-09-02"
+        "Ex-Dividend Date": "2026-07-10"
       }
     },
     "HCLTECH": {
@@ -80,39 +58,19 @@
         "Ex-Dividend Date": "2026-10-16"
       }
     },
-    "KOTAKBANK": {
+    "ICICIBANK": {
       "dividends": [
         {
-          "date": "2026-07-17",
-          "amount": 0.65
-        }
-      ],
-      "splits": [
-        {
-          "date": "2026-01-14",
-          "ratio": "5.0"
-        }
-      ],
-      "calendar": {
-        "Earnings Date": [
-          "2027-01-23"
-        ],
-        "Ex-Dividend Date": "2026-07-17"
-      }
-    },
-    "LAURUSLABS": {
-      "dividends": [
-        {
-          "date": "2026-11-06",
-          "amount": 1.0
+          "date": "2026-08-03",
+          "amount": 12.0
         }
       ],
       "splits": [],
       "calendar": {
         "Earnings Date": [
-          "2027-01-22"
+          "2027-01-14"
         ],
-        "Ex-Dividend Date": "2026-11-06"
+        "Ex-Dividend Date": "2026-08-03"
       }
     },
     "NHPC": {
@@ -128,6 +86,21 @@
           "2027-02-04"
         ],
         "Ex-Dividend Date": "2026-08-12"
+      }
+    },
+    "SONACOMS": {
+      "dividends": [
+        {
+          "date": "2026-06-25",
+          "amount": 1.8
+        }
+      ],
+      "splits": [],
+      "calendar": {
+        "Earnings Date": [
+          "2027-01-21"
+        ],
+        "Ex-Dividend Date": "2026-06-25"
       }
     },
     "TCS": {
