@@ -1,155 +1,163 @@
 {
-  "timestamp": "2026-11-09T10:08:03+00:00",
+  "timestamp": "2026-11-10T10:15:17+00:00",
   "ticker_news": {
-    "BHARTIARTL": [
-      {
-        "title": "Bharti Airtel (BHARTIARTL) Share Price Today (NSE), Market News - TechGraph",
-        "publisher": "Google News",
-        "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFB1dnhmenh5QjNTa0thRU5sVkRBemZ4SGIwcTZxSUtSSUdicWh4V2hMU1oyRHJIWGNPazAwRmJhOHN4Sl9WV080c3UycENkbWdPM3ktNmRMZWpQelJ1MmRiZlFUdlY?oc=5",
-        "age_h": 74.1
-      },
-      {
-        "title": "Earnings To Watch: Bharti Airtel Ltd (NSE:BHARTIARTL) Q2 2027 -- GF Value Sees 21% Upside - Yahoo Finance",
-        "publisher": "Google News",
-        "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQS2lpSEZVSnY5eU9PZzhKamRoZWZ1d1BvSDlJdVA3UFFfTkx5WGVJcmhDZ1JUdHhWc1U3c29tTWI4QnMyNzFFVVdBdUhQMm43UmVQOU5qN0xncTYtcXV2VmdfM1NpM0pyV0pUZklhT21fV1dnNDZMZWwyNW5SMS1ncXpUYWtXZ3dEald0MXhZc3oxYnVSRlI1M0hoakdhZw?oc=5",
-        "age_h": 117.9
-      }
-    ],
     "DRREDDY": [
-      {
-        "title": "Dr. Reddy\u2019s Laboratories (DRREDDY) Share Price Today (NSE), Market News - TechGraph",
-        "publisher": "Google News",
-        "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBYOG5ZVFpPUXhwbkQ5cVFlblZ1bko2VElVaGt4bFQ2dXRhZGZvb0FZT1dzYjJuMmpMZHZpSGFnV0ZtWDZDbkQxUmp3bUpyRTVrMVloV2c1Y1JrRkdhUTBBNQ?oc=5",
-        "age_h": 51.0
-      },
       {
         "title": "DRREDDY Share Price Today - Dr Reddys Laboratories on NSE/BSE - scanx.trade",
         "publisher": "Google News",
         "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE03S3NFMG8zNnRMb1VRMlUzLVRLQXJvN2NWLTNiaGdfV1dpRDhFVmQ4THlNdGNiZkZPTFEzQWtDbENQNU03bnlrUlRjLVFXWk1VWC15aXRXMlZ0cU05d1dvdk9kMW4?oc=5",
-        "age_h": 75.2
+        "age_h": 99.4
       }
     ],
-    "ICICIBANK": [
+    "GLENMARK": [
       {
-        "title": "ICICI Bank Share Price - Live NSE: ICICIBANK Stock Price & Chart - Upstox",
+        "title": "Glenmark Pharmaceuticals Limited (GLENMARK.NS) stock price, news, quote and history - Yahoo Finance Singapore",
         "publisher": "Google News",
-        "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE41ZWlLb1o0emplRlRyWWY3MnhuaG1TMzVobHB2ZVk4NGc5aTFkb3FrX2Q4ZjZaanV6V2oySlFPTlZZa05qUnNicW9pNktGdnlxU1BvalA3VjJVUlBqaUtSSmdaMA?oc=5",
-        "age_h": 37.4
+        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBkQ2p1cEJYU1pLZnB6UHhjY2xTT3g2eWkzUVlwVzFBNHZxdXVGUVV4YzR0WVMzN3kyb2M5WjktXy13OWFMSW5GVjZMWjVpUzVjd25WdUlMQzZjWmc?oc=5",
+        "age_h": 62.2
       },
       {
-        "title": "ICICI Bank, Divi's among 14 NSE 500 stocks hit new highs in Muhurat session - Business Standard",
+        "title": "Pharma shares shine: Sai, Gland, Divi's, Laurus, Glenmark surge up to 9% - Business Standard",
         "publisher": "Google News",
-        "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPMGJYQVRJYUh2d1FwSDhaVjllSTBncWs4WWZHWW9vbG1XeFJ4QUU3QmtocDFMQnB1dFIzbHlVdjZpQzllNFJBTG1HaU9jWXhjMXRTbWUzUmdYVTRzeG5oQzVsSWZTa1BpS3JaektYdG9iVHd4d3NXVWU3TUhvVXBYNXR5cy15TDlUcEp2cmVObDI4RnpRQ0JNb05DckRVSVRXYVpUVVdMSE1ZN0lNc3BUR3BtcUFTSlZibC1RRTFmTVRCZnVRcGhibk1nb1gwRXBCUk85UXRXdzXSAd4BQVVfeXFMTzR3dXJlY0FGSEcwa2FGazlOV0cwSzFaWjNVYTQtWXBqWnB5UVctSzFEQm9uMXVZWUxyTzRZd0dGLUVBaFFVaFB0eUlUdWdVdWxyMnU4RHlVaWFqa1VGTGZ6TjRPVEFHeDZudmRydzlFYm5GWkRaNEZkc2pBS1FsWTcydEoxVWEweWRZSWpnOWxwSDZSVWVnR19mYmFSR2I1dk56MnZWZHplbXdCdVpCNVVsQVgxYy11aU1zTXRON19QMi12OUdrSTYzN2NHYklUS0VISWc3TElGRC1FcWpn?oc=5",
-        "age_h": 24.5
+        "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPT0YzSVZPeEtId1FPOFNFcUY4d25BWmVzUGF0bEVoRElSUHBPT1o5d242R3JXVjlSOE5Yb2c4MWdxbWR6Y3psMHVGU0RQWm13YXZxaUliVWpiTE1peHgzeUN2dWNGTktZYjF0ZnFUYmJJamNyU1Y1anNhOGczX0pJaXVqTmFJMW82eUxjRDBBUWwteWtpMk1ramZFNTZnSS1MQVIzTGI1aDI1dDdiMWdZaG1yLVBjbjd4bUZWSmxoeUJaXzB1MGxZTkhBQUJMUdIB0wFBVV95cUxNaUJfRUNrRXJTSUZFWVotSy1RMlFFa1VKN1VackxndGotVkc3ZHhKZHo5UVJjLVg5THBmZVN6WmNnLTdodHNTb1dCT0hWQ2hQa2hZb2hTS1BHUVZHc2pGNzhrOHlpa3I1NTBsT0RmaVlrSW5kNy1LQjVoTkdiUmNlOG8xQV9LZHNtTWZkV19FQmJjYTNnNTNGMFFSbWJmekVlbmsxSGc2TFdJcjUwWFR4Z2UyVEJ1UUNhVkludHlkTTFmbTRuOUx4Qm1fQUtNMDhzVW9r?oc=5",
+        "age_h": 27.4
       },
       {
-        "title": "ICICIBANK Share Price Today - ICICI Bank on NSE/BSE - scanx.trade",
+        "title": "Analyst Estimates: Here's What Brokers Think Of Glenmark Pharmaceuticals Limited (NSE:GLENMARK) After Its Second-Quarter Report - Simply Wall St",
         "publisher": "Google News",
-        "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFAtenFscnpQOFlPM21KMjdXWFAwdlhfdjNib3Vkamx3X3VqdXhNN1NIckRUZEt2RVdwSGlVQld4RVZDcFNEMGhlM2ZxNjZqUERvVG1sTQ?oc=5",
-        "age_h": 76.0
+        "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxNNWJld1ZlSHdDY2FTQVltWkxhNzl6a3NOMnBzTDE4V0xuSVZOREhSSmxJdjB6a2Q0Q3JTaFY5b3JTMVBIY0Fob1NEUDZjSHhqcGxfZ0Fhd09HaHJTTTUyd3R4WTVRcWo2RzMwNDY5S0ZhTHlxeWFJcm5fa2FCRXc5SHdpX21URTBTZ085Ykc5aVEyVGNOUUg0TTBHcTBMN2FpaHAwdUVzZ2ZCcWNUSUxqbWVpeHI4X3ktNE9CNXV1SEtJdVlVNS10Z252aV96VHd2a3lwSHpjM0ZidElLQTZxVXlRcTQyaHV1d0JUc2VhUEpaeG5TOG1LSmpn0gH_AUFVX3lxTFA4OWMwMVZ3aldVRmhXNUY1V3hLUFBPOTVwaGdrR0NNM29oMFdJUmgwbVp3SHBYZUpPa0QzSEU2X3BlcXA4RUlDWV9pSHFvSi1LYWNZX1JZbjdLNkozNUIwOVhnbWFTQWgwQm5uOVFvQjNkZTNSZXRpSFJqbm9leWEwa0tfU0JMRllCOGFta1RoZGlKOXVRY1hONDNUV2taX2Q1M1NxbDFjZnl2ODJKclJ1RW9nbzE0RWk3Q2xnem5FRkl1LU1ZckRVc1VnUGlTMTBSMFRyTWpvWVJMU0FMQzNjdUZOZk5pNGtCOFA1MWVHdlNJbllpZThOTTFRTGhPMA?oc=5",
+        "age_h": 55.9
       }
     ],
-    "SONACOMS": [
+    "HCLTECH": [
       {
-        "title": "Sona BLW Precision Forgings Share Price - Live NSE: SONACOMS Stock Price & Chart - Upstox",
+        "title": "HCL Technologies Share Price - Live NSE: HCLTECH Stock Price & Chart - Upstox",
         "publisher": "Google News",
-        "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBWMUROV1NvMmV6eTB2VXQ4aUp4UzByM1hDZDBqWW9QM0VFeTlQMjBrV2Q3Nm5aN0F1b3RveTd3OEtrRl8wMGgtSHdpQ3JhSjl0aFJlcUNHbzFkQ3A2d2U5VkoyV181V3JiVDF2UXNLc3drUQ?oc=5",
-        "age_h": 75.2
+        "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5VakFpRExUYldXMkNsOENVSHQ2NUIyNDhRZklKbjVtZGJBMzFsSXpfRGJyVzdQWkxCb0oyYnZIMTRBblBmZl9WRmlRVTZ3Qm8tR1dJS21pQkl6WGpWOWJ0dllEMVpKZEJTaE8w?oc=5",
+        "age_h": 15.7
+      }
+    ],
+    "HINDPETRO": [
+      {
+        "title": "Hindustan Petroleum Corp Share Price - Live NSE: HINDPETRO Stock Price & Chart - Upstox",
+        "publisher": "Google News",
+        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBycFVJWlFyNk9sdVl0eENRNmg3aE5KRG9fMW0xWnp1YUplc3hScndnSC0zWUJXdjR5SUlqbkdnOFRmU1RkbE1UYnhLNnFrWnpwX2FUUWtyV3Q2Qk0zcDZ0VnhWVmNoYmhJbHBxZGU2X3U?oc=5",
+        "age_h": 100.1
+      },
+      {
+        "title": "HINDPETRO Share Price Today - Hindustan Petroleum on NSE/BSE - scanx.trade",
+        "publisher": "Google News",
+        "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9tQXJHUHUwMUp2NXgzMXI0dlJ2Y2JoWVNKME52bFhBYjA2cWJONk85OFZoMDZkSUFRUk1QOUV4eTFGR3FnckJjMm5Rd1d6R1JTX25xdTdYOVRBMC1SaTN4Rw?oc=5",
+        "age_h": 54.7
+      }
+    ],
+    "NHPC": [
+      {
+        "title": "NHPC (NSEI:NHPC) Stock Forecast & Analyst Predictions - Simply Wall St",
+        "publisher": "Google News",
+        "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1Oa3Eta2dyNUxrWnA0ZVJUWk1MbVBSajU4LXFpNkx4SkNYV3lLMmZHcHl5RzRsSG43RXhvellSSjN1WnBPMjhtRzRfMVVkNnJqb2laVjdLVzRNREIyaGxjYUZJckh1VHg0amJ6YjRfSFVBMUwzMVRlOQ?oc=5",
+        "age_h": 98.3
       }
     ],
     "TCS": [
       {
-        "title": "TCS Share Price - Upstox",
+        "title": "Tata Consultancy Services (NSEI:TCS) - Stock Analysis - Simply Wall St",
         "publisher": "Google News",
-        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE4xa3lkaFFielNzaEh0c3oxTzdzMzV1MDk5TzFMYnoweVkwWG02cVBRTHZSUmM2Q1JpYVpsN2l2VmZwMFpwUzI5cm5WOUFHSGE1c2ZsRjRTWWl3MmlNOGdQUmdkSlZLUUxqRUctcGVsdDA?oc=5",
-        "age_h": 54.9
+        "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNdURVTVFFYVdOREE4V3lFMlFNRUQ2SF95TDNpekozUFo1NnZ2SE1WYkZEV1B2cHhNQW9LM2lPeXhydDRzYjdpbVFlQ0dCOEpXVjJkOVBmWkRfcUY4Y1NURVRlYnVUT0hSZ0dfemxKRUpBdGRpUVlmVGJ0SjRKc2ZDZ1JjUldQTVBL?oc=5",
+        "age_h": 98.3
+      },
+      {
+        "title": "Muhurat Trading 2026: Check key dates, time, and full schedule for Diwali special stock market session - Upstox",
+        "publisher": "Google News",
+        "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPMVpJRl8zU2JZTXE4NUtXMWp1eXBGdmZVcFBtNDUzV3NsdnpGS28yTld4LXhYYmtmTWlhMlFUcE5COEtsamd2ZzJrTngxbE5MaUg4UVFoRkxlaFpKWTRFVHMzTzJPSWsyeE0ycUY0aVVfRXdHdnhrSGkxM3pVQlBOSzd3WEFlUUVsWk1YakVSMEJVRzZKaEdPazJkYlJ3MXh5anBuMGpsSmZpX3IyOWtpNFI1SFlQQnNjOU5BZlFjeExKQTVqWDY1RlpkeVM1X09TaG1ldHFRUXJmc25Cc2Y4U0NOSWNqZlpDZjV1MlFPLVZGdjBhQXdnQzJR?oc=5",
+        "age_h": 102.6
       }
     ],
     "TECHM": [
       {
-        "title": "BHEL, Adani Power, Cummins India: Top stocks to trade \u2014 Check key levels, targets & stop loss - Business Today",
-        "publisher": "Google News",
-        "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNUk9mUUtrV2JoLWh3WjRHcWZERWV3UWxhS1cwbDRpdEJlNjAtQi1KOFJGVGV1RF9yOERmNTBpOUp5bWlPWVJydjVVVngyWjdPcy1wUWZadEs2QU1PQWVnM2UwZWoza2NMUm1kdzVXdEVwV2hkUU42SEVVazZjclNXeUdkVldkekdlOXNvYUZ2bXJqNWNXLTFSc0dZalJVbFBXS3lHdlpzb3IwLTM2dEE3UjZSNW14ZzRsSmhvckR5QTU1MTloUlNTczB0dXFyUzlDZHQyc0t6Tm5kb1FZWU1ReUJnT3cxUmlC0gHuAUFVX3lxTE5iblh0eU4tdnROUW1sNVZoMWJkM3d5S04yRmVVb1ZZeVdDU0lPN0xMaGJaS0w4a1k3ZHY3bHVTQ01MemV3VTBKMXcwVGk0YlZpZjFXQ28zbTlTSUw4Y3RXZUJ0YWR4VFdKcWlyOHlxTTlQNWl2MEhIN0oybUV6c2QxblAzcWxHMk9JWUtSbXpEMGxTaExjdzdjRWxQVklkd1ZnNllDR3ZwS3FxOEs4c0NFYU5UcjQ3dDNGTHZ3ZklVeFNHbzVscXkzQmZLS09lN3NMU1JWb2kxMTJDUTRmeU5XUndYc2o3bGVGcDRzd2c?oc=5",
-        "age_h": 7.8
-      },
-      {
         "title": "Muhurat Trading 2026 Diwali stocks to buy for upto 109% upside: BSE, Adani Power, HFCL, TechM - SAMCO's 10 shares | List - Livemint",
         "publisher": "Google News",
         "link": "https://news.google.com/rss/articles/CBMijAJBVV95cUxOTlozYjJTQU1Ray02M19EMFpnRXg4c0JRZnNXSnhRbXVfTnBLdnpEQkptT1NrWHZhU3IxZGV2WnY0cl95MnFDXzRUQWQxUjFlVElxTEVKUjF5MnpNUFhRd01BRmdYbWFjYm83MzgwUk5OTzdSbEdVRS00T3U1SGc2SkhtS0tZRkFjaFozMEh0Y281eks2ek40RENiLXo1YzI4V2JKbDlfWHdoQnI4ZWdvUUlRNGx3ZWxnS0dfbG5PYTJCUWtxMjdXZUZpa2szeDdUX1loYlpGc2UtMEsxZVN3UnRiUjk4RW9jVnhPWTFWS2FXazZKSnZiM1p5QzgweTV0UlUtbzh2WHI5R2ZJ0gGSAkFVX3lxTE9taGNpcmpBdzlsLWdienctMWxYN3dYNklrZ2dqQzAyVTFSb2QzeHQ5T2VyZzBfT2IxbXYwMjJ0ZF9UZjM1TUNlNjNyREwwRVJNRUNTMXFKb0xtTDVhSzZBMUM1M0VfOUQ1anJ5TUVjZHZUbHphNkpaN1hwemtJUENERk1ZSERvOXJhanZaY0xqdEFpM25KNkFoMWt6LVNTRWJZdTRYaENraHgyQVQ5MkdqWjZlYkhPYXJublNLQVlRa2ZoREc1Wk5DbkNsUXVMbkVmaE04UmVhZVpYSWkxNDVTclliVDJXZnczRTA1OXhhYzllQks3UWhZc2xoajhlUC1XZk1lbmQwWUNJWHRsUF8yckE?oc=5",
-        "age_h": 53.6
+        "age_h": 77.8
       }
     ],
     "WIPRO": [
       {
-        "title": "Wipro (WIPRO) Share Price Today (NSE), Market News - TechGraph",
-        "publisher": "Google News",
-        "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE15Rm9GUlpjRGZycGxpMmY0WncyOGl3aUxFeUV3bTNpbTdwc0NsRUVoekxpd2lPeklNWnZNVGlzYmt0bzU4eXpZX0VzOXFJc0FMQzVNdnRGcU1VUy12aUE?oc=5",
-        "age_h": 12.2
-      },
-      {
         "title": "Wipro Share Price - Upstox",
         "publisher": "Google News",
         "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5KdElZR3B2X3pjUm1GemQyR3d5VktiaGR0OUVqYkgtMEtmS25BbGhDMS01MTg5d2hCQ3pLLVZjR3hLMlVPTXRuVkdhMDBtenZUUGFlb2VjbC1uQkFa?oc=5",
-        "age_h": 42.3
+        "age_h": 62.7
+      },
+      {
+        "title": "Wipro (WIPRO) Share Price Today (NSE), Market News - TechGraph",
+        "publisher": "Google News",
+        "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE15Rm9GUlpjRGZycGxpMmY0WncyOGl3aUxFeUV3bTNpbTdwc0NsRUVoekxpd2lPeklNWnZNVGlzYmt0bzU4eXpZX0VzOXFJc0FMQzVNdnRGcU1VUy12aUE?oc=5",
+        "age_h": 36.3
+      },
+      {
+        "title": "Wipro (NSEI:WIPRO) Stock Forecast & Analyst Predictions - Simply Wall St",
+        "publisher": "Google News",
+        "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBScG9tZFdwX1oxZmJ6bDNYWW02M0ZOV1lYVHVsMFFUVi02Tm4zSlBrelB0OFB0SExfQ3l0cUZpakkzSlp5V0I1MWl2OFBBbXI0dGJ2dmJHYTBMT1hfRmlGTFV6ZlIyR3FMeGQ3NEYyUU10OG5hVlRRY3B3?oc=5",
+        "age_h": 98.3
       }
     ]
   },
   "market_headlines": [
     {
       "source": "Economic Times",
-      "title": "MakeMyTrip's India arm gets Sebi nod to float IPO",
-      "link": "https://economictimes.indiatimes.com/markets/ipos/fpos/makemytrips-india-arm-gets-sebi-nod-to-float-ipo/articleshow/135675673.cms",
-      "summary": "MakeMyTrip's India subsidiary, MMT India, has received approval from Sebi for an initial public offering. This approval follows a confidential filing of draft papers made in July. The IPO will involve",
-      "age_h": 1.9
+      "title": "Why Rocket Lab shares fell despite record revenue and booming Neutron demand",
+      "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/why-rocket-lab-shares-fell-despite-record-revenue-and-booming-neutron-demand/slideshow/135702575.cms",
+      "summary": "Rocket Lab shares fell over 6% in after-hours trading after the company reported a wider-than-expected Q3 loss despite record revenue and a growing order backlog. Investors also weighed Neutron's dela",
+      "age_h": 4.0
     },
     {
       "source": "Economic Times",
-      "title": "Indian bonds drift with oil; inflation data in focus",
-      "link": "https://economictimes.indiatimes.com/markets/bonds/indian-bonds-drift-with-oil-inflation-data-in-focus/articleshow/135674915.cms",
-      "summary": "Indian government bonds exhibited limited movement today as oil prices showed signs of stabilization. Investors are remaining cautious, especially with inflation data from both the United States and I",
-      "age_h": 2.6
+      "title": "Why The Trade Desk stock surged 15% despite revenue decline",
+      "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/why-the-trade-desk-stock-surged-15-despite-revenue-decline/slideshow/135701057.cms",
+      "summary": "The Trade Desk shares surged 15.5% following stronger-than-expected Q3 earnings and revenue, as AI innovations, Netflix integration, strong customer retention and optimistic Q4 guidance boosted invest",
+      "age_h": 4.7
     },
     {
       "source": "Economic Times",
-      "title": "Explained: Why Nvidia shares dropped 4% in overnight trade and what analysts warn can trigger a bloodbath?",
-      "link": "https://economictimes.indiatimes.com/markets/stocks/news/explained-why-nvidia-shares-dropped-4-in-overnight-trade-and-what-analysts-warn-can-trigger-a-bloodbath/articleshow/135674705.cms",
-      "summary": "Nvidia shares dropped over 4% after CEO Jensen Huang acknowledged an affair with Alice Huang. Jensen Huang's relationship with Alice, a Chinese national, raised security concerns following intelligenc",
-      "age_h": 2.6
+      "title": "Anthropic plans IPO live stream with Amodei, JPMorgan CEO Dimon",
+      "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/anthropic-plans-ipo-live-stream-with-amodei-jpmorgan-ceo-dimon/articleshow/135699137.cms",
+      "summary": "Anthropic PBC is preparing for a live-streamed event featuring CEO Dario Amodei and JPMorgan Chase CEO Jamie Dimon. This event is aimed at marketing their upcoming initial public offering, which might",
+      "age_h": 5.8
     },
     {
       "source": "Economic Times",
-      "title": "Nvidia stock in focus: 3 key risks after Jensen Huang probe",
-      "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/nvidia-stock-in-focus-3-key-risks-after-jensen-huang-probe/slideshow/135674350.cms",
-      "summary": "Nvidia CEO Jensen Huang faces scrutiny after the company launched an independent probe into allegations that he was targeted by a foreign intelligence operation. The controversy has raised concerns ov",
-      "age_h": 3.4
+      "title": "Anthropic retracts details of $69 billion IPO filing sent to bankers. Why analysts are raising worries over valuations",
+      "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/anthropic-sends-out-then-retracts-details-of-ipo-filing-emails-show/articleshow/135696816.cms",
+      "summary": "Anthropic initially shared its IPO filing details but later retracted the information due to inaccuracies. The company aimed to sell approximately 867 million shares priced between $70 and $80 each. A",
+      "age_h": 7.9
     },
     {
       "source": "Livemint",
-      "title": "\u20b917 share declares  \u20b940 dividend; hits 5% upper circuit ahead of record date | Do you own as ex-date to fall soon",
-      "link": "https://www.livemint.com/market/stock-market-news/rs-17-share-declares-rs-40-dividend-hits-5-upper-circuit-ahead-of-record-date-do-you-own-as-ex-date-to-fall-soon-11794217379790.html",
-      "summary": "Taparia Tools shares hit the 5% upper circuit at  \u20b917.89 ahead of the November 12 dividend record date. The company announced an interim dividend of  \u20b940 per share.&amp;nbsp;",
-      "age_h": 0.4
+      "title": "When is next stock market holiday? Check date for Nov weekday; NSE-BSE closed for Prakash Gurpurab Sri Guru Nanak Dev Ji",
+      "link": "https://www.livemint.com/market/stock-market-news/when-is-next-stock-market-holiday-check-date-for-nov-weekday-nse-bse-closed-for-prakash-gurpurab-sri-guru-nanak-dev-ji-11794299235957.html",
+      "summary": "Indian stock markets will close on 24 November 2026, for Guru Nanak Jayanti, with regular trading resuming 25 November. The NSE and BSE will suspend trading across equity, derivatives, securities lend",
+      "age_h": 0.7
     },
     {
       "source": "Livemint",
-      "title": "IREDA shares jump 7% despite 20% fall in one year on high trading volume | Check target, stop loss, stock performance",
-      "link": "https://www.livemint.com/market/stock-market-news/ireda-shares-jump-7-despite-20-fall-in-one-year-on-high-trading-volume-check-target-stop-loss-stock-performance-11794214570839.html",
-      "summary": "IREDA shares opened at  \u20b9111.62 apiece on the NSE, against their previous close of  \u20b9111.46, and climbed to an intraday high of  \u20b9119.58, marking a gain of around 7.3% from the previous closing price.",
-      "age_h": 0.6
+      "title": "MRF dividend 2026: India's most expensive  \u20b91.25 lakh stock but  \u20b93 in Q2; down 21% in 1 year - Record, payment date",
+      "link": "https://www.livemint.com/market/stock-market-news/mrf-dividend-2026-indias-most-expensive-rs-1-25-lakh-stock-but-rs-3-in-q2-down-21-in-1-year-record-payment-date-11794299431157.html",
+      "summary": "MRF declared an interim dividend of  \u20b93 per share for FY27, with November 17, 2026, set as the record date and payment due on or after December 1. The announcement came as quarterly net profit fell 28",
+      "age_h": 0.8
     },
     {
       "source": "Livemint",
-      "title": "Welspun Corp, JSW Steel, SAIL, NMDC to Tata Steel: Which metal stock to buy in Samvat 2083? Experts' views, targets, SL",
-      "link": "https://www.livemint.com/market/stock-market-news/welspun-corp-jsw-steel-sail-nmdc-to-tata-steel-which-metal-stock-to-buy-in-samvat-2083-experts-views-targets-sl-11794209957357.html",
-      "summary": "Samvat 2083 stock picks: Experts believe selecting the right metal stock depends on your investment goal: capital appreciation &amp;amp; volume growth, dividend yields, or structural outperformance",
+      "title": "NSE new BKC Mumbai building design: First look! See pics, video of new landmark architecture of National Stock Exchange",
+      "link": "https://www.livemint.com/market/stock-market-news/nse-new-bkc-mumbai-building-design-first-look-see-pics-video-of-new-landmark-architecture-of-national-stock-exchange-11794297657678.html",
+      "summary": "The bhoomi pujan ceremony was attended by NSE Chairperson Srinivas Injeti, Managing Director and CEO Ashishkumar Chauhan, along with members of the exchange's board and senior leadership team.",
       "age_h": 1.1
     },
     {
       "source": "Livemint",
-      "title": "Is stock market closed tomorrow in India? Holiday in NSE, BSE or trading of shares allowed? Check exchange calendar",
-      "link": "https://www.livemint.com/market/stock-market-news/is-stock-market-closed-tomorrow-in-india-holiday-in-nse-bse-or-trading-of-shares-allowed-check-exchange-calendar-11794214735706.html",
-      "summary": "NSE and BSE will be closed on November 10 for the Diwali-Balipratipada holiday, following a special Muhurat trading session on November 8.&amp;nbsp;",
-      "age_h": 1.1
+      "title": "Tata Steel\u2019s domestic business shines in Q2; Netherlands uncertainty poses risk",
+      "link": "https://www.livemint.com/market/mark-to-market/tata-steel-domestic-business-q2-netherlands-uncertainty-risk-11794295394886.html",
+      "summary": "The overseas businesses were subdued as lower sales volumes offset the benefit of 33% and 16% y-o-y growth in realizations in the UK and the Netherlands, respectively.",
+      "age_h": 1.7
     }
   ]
 }

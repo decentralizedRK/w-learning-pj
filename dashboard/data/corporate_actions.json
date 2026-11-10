@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-09T10:08:07+00:00",
+  "timestamp": "2026-11-10T10:15:22+00:00",
   "events": [],
   "by_symbol": {
     "ATHERENERG": {
@@ -7,21 +7,6 @@
       "splits": [],
       "calendar": {
         "Earnings Date": []
-      }
-    },
-    "BHARTIARTL": {
-      "dividends": [
-        {
-          "date": "2026-07-24",
-          "amount": 24.0
-        }
-      ],
-      "splits": [],
-      "calendar": {
-        "Earnings Date": [
-          "2027-02-03"
-        ],
-        "Ex-Dividend Date": "2026-07-24"
       }
     },
     "DRREDDY": {
@@ -37,6 +22,21 @@
           "2027-01-21"
         ],
         "Ex-Dividend Date": "2026-07-10"
+      }
+    },
+    "GLENMARK": {
+      "dividends": [
+        {
+          "date": "2026-08-31",
+          "amount": 2.5
+        }
+      ],
+      "splits": [],
+      "calendar": {
+        "Earnings Date": [
+          "2027-01-29"
+        ],
+        "Ex-Dividend Date": "2026-08-31"
       }
     },
     "HCLTECH": {
@@ -58,19 +58,19 @@
         "Ex-Dividend Date": "2026-10-16"
       }
     },
-    "ICICIBANK": {
+    "HINDPETRO": {
       "dividends": [
         {
-          "date": "2026-08-03",
-          "amount": 12.0
+          "date": "2026-08-14",
+          "amount": 19.25
         }
       ],
       "splits": [],
       "calendar": {
         "Earnings Date": [
-          "2027-01-14"
+          "2027-01-20"
         ],
-        "Ex-Dividend Date": "2026-08-03"
+        "Ex-Dividend Date": "2026-08-14"
       }
     },
     "NHPC": {
@@ -86,21 +86,6 @@
           "2027-02-04"
         ],
         "Ex-Dividend Date": "2026-08-12"
-      }
-    },
-    "SONACOMS": {
-      "dividends": [
-        {
-          "date": "2026-06-25",
-          "amount": 1.8
-        }
-      ],
-      "splits": [],
-      "calendar": {
-        "Earnings Date": [
-          "2027-01-21"
-        ],
-        "Ex-Dividend Date": "2026-06-25"
       }
     },
     "TCS": {
@@ -143,6 +128,16 @@
           "2027-01-14"
         ],
         "Ex-Dividend Date": "2026-10-23"
+      }
+    },
+    "TVSMOTOR": {
+      "dividends": [],
+      "splits": [],
+      "calendar": {
+        "Earnings Date": [
+          "2027-01-28"
+        ],
+        "Ex-Dividend Date": "2026-03-30"
       }
     },
     "WIPRO": {
