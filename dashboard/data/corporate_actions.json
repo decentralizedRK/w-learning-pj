@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-10T10:15:22+00:00",
+  "timestamp": "2026-11-11T09:44:46+00:00",
   "events": [],
   "by_symbol": {
     "ATHERENERG": {
@@ -9,19 +9,19 @@
         "Earnings Date": []
       }
     },
-    "DRREDDY": {
+    "BHARTIARTL": {
       "dividends": [
         {
-          "date": "2026-07-10",
-          "amount": 8.0
+          "date": "2026-07-24",
+          "amount": 24.0
         }
       ],
       "splits": [],
       "calendar": {
         "Earnings Date": [
-          "2027-01-21"
+          "2027-02-03"
         ],
-        "Ex-Dividend Date": "2026-07-10"
+        "Ex-Dividend Date": "2026-07-24"
       }
     },
     "GLENMARK": {
@@ -73,19 +73,19 @@
         "Ex-Dividend Date": "2026-08-14"
       }
     },
-    "NHPC": {
+    "SONACOMS": {
       "dividends": [
         {
-          "date": "2026-08-12",
-          "amount": 0.21
+          "date": "2026-06-25",
+          "amount": 1.8
         }
       ],
       "splits": [],
       "calendar": {
         "Earnings Date": [
-          "2027-02-04"
+          "2027-01-21"
         ],
-        "Ex-Dividend Date": "2026-08-12"
+        "Ex-Dividend Date": "2026-06-25"
       }
     },
     "TCS": {
