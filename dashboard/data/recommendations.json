@@ -1,206 +1,206 @@
 {
-  "timestamp": "2026-11-11T19:03:23",
+  "timestamp": "2026-11-12T19:22:19",
   "portfolio_actions": [],
   "entry_signals": [
     {
+      "symbol": "INDHOTEL",
+      "action": "WATCH",
+      "score": 0.863,
+      "rsi": 73.3,
+      "adx": 44.9,
+      "segment": "midcap",
+      "close": 873.0,
+      "reason": "RSI overbought, strong trend (ADX 45), n/a"
+    },
+    {
       "symbol": "WIPRO",
       "action": "ENTRY SIGNAL",
-      "score": 0.82,
-      "rsi": 69.1,
-      "adx": 41.0,
+      "score": 0.786,
+      "rsi": 67.2,
+      "adx": 41.7,
       "segment": "other",
-      "close": 199.0,
-      "reason": "RSI neutral, strong trend (ADX 41), n/a"
-    },
-    {
-      "symbol": "TECHM",
-      "action": "ENTRY SIGNAL",
-      "score": 0.799,
-      "rsi": 64.9,
-      "adx": 37.0,
-      "segment": "largecap",
-      "close": 1805.0,
-      "reason": "RSI neutral, strong trend (ADX 37), n/a"
-    },
-    {
-      "symbol": "GLENMARK",
-      "action": "WATCH",
-      "score": 0.764,
-      "rsi": 74.5,
-      "adx": 32.4,
-      "segment": "midcap",
-      "close": 2671.10009765625,
-      "reason": "RSI overbought, strong trend (ADX 32), n/a"
-    },
-    {
-      "symbol": "ATHERENERG",
-      "action": "WATCH",
-      "score": 0.75,
-      "rsi": 70.8,
-      "adx": 29.6,
-      "segment": "other",
-      "close": 1859.800048828125,
-      "reason": "RSI overbought, moderate trend (ADX 30), n/a"
-    },
-    {
-      "symbol": "HCLTECH",
-      "action": "ENTRY SIGNAL",
-      "score": 0.749,
-      "rsi": 58.3,
-      "adx": 32.7,
-      "segment": "largecap",
-      "close": 1407.0,
-      "reason": "RSI neutral, strong trend (ADX 33), n/a"
-    },
-    {
-      "symbol": "HINDPETRO",
-      "action": "ENTRY SIGNAL",
-      "score": 0.723,
-      "rsi": 69.6,
-      "adx": 26.5,
-      "segment": "midcap",
-      "close": 385.75,
-      "reason": "RSI neutral, moderate trend (ADX 27), n/a"
-    },
-    {
-      "symbol": "TVSMOTOR",
-      "action": "WATCH",
-      "score": 0.68,
-      "rsi": 72.6,
-      "adx": 26.8,
-      "segment": "other",
-      "close": 4505.89990234375,
-      "reason": "RSI overbought, moderate trend (ADX 27), n/a"
-    },
-    {
-      "symbol": "TCS",
-      "action": "WATCH",
-      "score": 0.674,
-      "rsi": 60.1,
-      "adx": 37.3,
-      "segment": "largecap",
-      "close": 2475.39990234375,
-      "reason": "RSI neutral, strong trend (ADX 37), n/a"
+      "close": 197.99000549316406,
+      "reason": "RSI neutral, strong trend (ADX 42), n/a"
     },
     {
       "symbol": "BHARTIARTL",
       "action": "WATCH",
-      "score": 0.661,
-      "rsi": 68.5,
-      "adx": 40.8,
+      "score": 0.774,
+      "rsi": 71.5,
+      "adx": 44.2,
       "segment": "largecap",
-      "close": 2072.10009765625,
-      "reason": "RSI neutral, strong trend (ADX 41), n/a"
+      "close": 2109.0,
+      "reason": "RSI overbought, strong trend (ADX 44), n/a"
     },
     {
-      "symbol": "SONACOMS",
-      "action": "WATCH",
-      "score": 0.626,
-      "rsi": 68.3,
-      "adx": 25.6,
-      "segment": "smallcap",
-      "close": 924.0,
-      "reason": "RSI neutral, moderate trend (ADX 26), n/a"
-    },
-    {
-      "symbol": "TATACONSUM",
-      "action": "WATCH",
-      "score": 0.616,
-      "rsi": 70.5,
-      "adx": 34.8,
+      "symbol": "TECHM",
+      "action": "ENTRY SIGNAL",
+      "score": 0.774,
+      "rsi": 61.4,
+      "adx": 36.1,
       "segment": "largecap",
-      "close": 1083.9000244140625,
-      "reason": "RSI overbought, strong trend (ADX 35), n/a"
+      "close": 1788.5,
+      "reason": "RSI neutral, strong trend (ADX 36), n/a"
     },
     {
-      "symbol": "BSE",
+      "symbol": "ATHERENERG",
       "action": "WATCH",
-      "score": 0.607,
-      "rsi": 71.0,
-      "adx": 26.3,
-      "segment": "largecap",
-      "close": 3816.60009765625,
-      "reason": "RSI overbought, moderate trend (ADX 26), n/a"
-    },
-    {
-      "symbol": "RELIANCE",
-      "action": "WATCH",
-      "score": 0.603,
-      "rsi": 68.9,
-      "adx": 32.1,
-      "segment": "largecap",
-      "close": 1324.4000244140625,
-      "reason": "RSI neutral, strong trend (ADX 32), n/a"
-    },
-    {
-      "symbol": "GAIL",
-      "action": "WATCH",
-      "score": 0.593,
-      "rsi": 73.3,
-      "adx": 31.6,
+      "score": 0.764,
+      "rsi": 71.3,
+      "adx": 31.1,
       "segment": "other",
-      "close": 188.0,
-      "reason": "RSI overbought, strong trend (ADX 32), n/a"
+      "close": 1868.199951171875,
+      "reason": "RSI overbought, strong trend (ADX 31), n/a"
     },
     {
-      "symbol": "PNB",
+      "symbol": "HINDPETRO",
       "action": "WATCH",
-      "score": 0.581,
-      "rsi": 73.1,
-      "adx": 27.3,
-      "segment": "other",
-      "close": 132.1699981689453,
-      "reason": "RSI overbought, moderate trend (ADX 27), n/a"
-    },
-    {
-      "symbol": "JSWSTEEL",
-      "action": "WATCH",
-      "score": 0.579,
-      "rsi": 65.5,
-      "adx": 25.4,
-      "segment": "largecap",
-      "close": 1347.0,
-      "reason": "RSI neutral, moderate trend (ADX 25), n/a"
-    },
-    {
-      "symbol": "JINDALSTEL",
-      "action": "WATCH",
-      "score": 0.563,
-      "rsi": 63.3,
-      "adx": 29.4,
-      "segment": "other",
-      "close": 1146.0,
-      "reason": "RSI neutral, moderate trend (ADX 29), n/a"
-    },
-    {
-      "symbol": "MANKIND",
-      "action": "WATCH",
-      "score": 0.537,
-      "rsi": 68.9,
-      "adx": 27.5,
+      "score": 0.76,
+      "rsi": 74.3,
+      "adx": 28.0,
       "segment": "midcap",
-      "close": 2668.300048828125,
-      "reason": "RSI neutral, moderate trend (ADX 27), n/a"
+      "close": 400.1499938964844,
+      "reason": "RSI overbought, moderate trend (ADX 28), n/a"
+    },
+    {
+      "symbol": "LAURUSLABS",
+      "action": "WATCH",
+      "score": 0.701,
+      "rsi": 72.1,
+      "adx": 28.7,
+      "segment": "midcap",
+      "close": 2429.0,
+      "reason": "RSI overbought, moderate trend (ADX 29), n/a"
+    },
+    {
+      "symbol": "TCS",
+      "action": "WATCH",
+      "score": 0.673,
+      "rsi": 59.6,
+      "adx": 36.5,
+      "segment": "largecap",
+      "close": 2472.10009765625,
+      "reason": "RSI neutral, strong trend (ADX 36), n/a"
+    },
+    {
+      "symbol": "GLENMARK",
+      "action": "WATCH",
+      "score": 0.672,
+      "rsi": 74.8,
+      "adx": 33.9,
+      "segment": "midcap",
+      "close": 2677.199951171875,
+      "reason": "RSI overbought, strong trend (ADX 34), n/a"
     },
     {
       "symbol": "HDFCAMC",
       "action": "WATCH",
-      "score": 0.536,
-      "rsi": 69.6,
-      "adx": 24.0,
+      "score": 0.663,
+      "rsi": 74.2,
+      "adx": 25.5,
       "segment": "other",
-      "close": 2619.60009765625,
-      "reason": "RSI neutral, moderate trend (ADX 24), n/a"
+      "close": 2715.0,
+      "reason": "RSI overbought, moderate trend (ADX 26), n/a"
     },
     {
-      "symbol": "INDIGO",
+      "symbol": "BSE",
       "action": "WATCH",
-      "score": 0.531,
-      "rsi": 72.9,
-      "adx": 35.0,
+      "score": 0.656,
+      "rsi": 73.9,
+      "adx": 28.6,
       "segment": "largecap",
-      "close": 5430.0,
-      "reason": "RSI overbought, strong trend (ADX 35), n/a"
+      "close": 3906.0,
+      "reason": "RSI overbought, moderate trend (ADX 29), n/a"
+    },
+    {
+      "symbol": "UNIONBANK",
+      "action": "WATCH",
+      "score": 0.654,
+      "rsi": 74.5,
+      "adx": 24.8,
+      "segment": "other",
+      "close": 202.19000244140625,
+      "reason": "RSI overbought, moderate trend (ADX 25), n/a"
+    },
+    {
+      "symbol": "TVSMOTOR",
+      "action": "WATCH",
+      "score": 0.631,
+      "rsi": 74.7,
+      "adx": 27.9,
+      "segment": "other",
+      "close": 4560.0,
+      "reason": "RSI overbought, moderate trend (ADX 28), n/a"
+    },
+    {
+      "symbol": "RELIANCE",
+      "action": "WATCH",
+      "score": 0.605,
+      "rsi": 70.4,
+      "adx": 32.4,
+      "segment": "largecap",
+      "close": 1335.4000244140625,
+      "reason": "RSI overbought, strong trend (ADX 32), n/a"
+    },
+    {
+      "symbol": "GAIL",
+      "action": "WATCH",
+      "score": 0.576,
+      "rsi": 74.9,
+      "adx": 32.7,
+      "segment": "other",
+      "close": 189.89999389648438,
+      "reason": "RSI overbought, strong trend (ADX 33), n/a"
+    },
+    {
+      "symbol": "HCLTECH",
+      "action": "WATCH",
+      "score": 0.573,
+      "rsi": 55.5,
+      "adx": 31.4,
+      "segment": "largecap",
+      "close": 1395.0,
+      "reason": "RSI neutral, strong trend (ADX 31), n/a"
+    },
+    {
+      "symbol": "TATACONSUM",
+      "action": "WATCH",
+      "score": 0.558,
+      "rsi": 72.1,
+      "adx": 35.8,
+      "segment": "largecap",
+      "close": 1093.0,
+      "reason": "RSI overbought, strong trend (ADX 36), n/a"
+    },
+    {
+      "symbol": "SONACOMS",
+      "action": "WATCH",
+      "score": 0.547,
+      "rsi": 68.5,
+      "adx": 26.9,
+      "segment": "smallcap",
+      "close": 925.0,
+      "reason": "RSI neutral, moderate trend (ADX 27), n/a"
+    },
+    {
+      "symbol": "JSWSTEEL",
+      "action": "WATCH",
+      "score": 0.545,
+      "rsi": 66.4,
+      "adx": 26.2,
+      "segment": "largecap",
+      "close": 1353.300048828125,
+      "reason": "RSI neutral, moderate trend (ADX 26), n/a"
+    },
+    {
+      "symbol": "DLF",
+      "action": "WATCH",
+      "score": 0.536,
+      "rsi": 69.4,
+      "adx": 26.7,
+      "segment": "other",
+      "close": 742.6500244140625,
+      "reason": "RSI neutral, moderate trend (ADX 27), n/a"
     }
   ]
 }
