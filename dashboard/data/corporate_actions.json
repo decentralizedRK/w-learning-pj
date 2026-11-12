@@ -1,6 +1,14 @@
 {
-  "timestamp": "2026-11-11T09:44:46+00:00",
-  "events": [],
+  "timestamp": "2026-11-12T10:06:09+00:00",
+  "events": [
+    {
+      "symbol": "HCLTECH",
+      "type": "earnings_date",
+      "date": "2027-01-11",
+      "detail": "Earnings Date",
+      "days_away": 60
+    }
+  ],
   "by_symbol": {
     "ATHERENERG": {
       "dividends": [],
