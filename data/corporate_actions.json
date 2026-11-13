@@ -1,0 +1,180 @@
+{
+  "timestamp": "2026-11-13T09:52:41+00:00",
+  "events": [
+    {
+      "symbol": "LAURUSLABS",
+      "type": "dividend",
+      "date": "2026-11-06",
+      "detail": "\u20b91.00 per share",
+      "days_away": -7
+    },
+    {
+      "symbol": "LAURUSLABS",
+      "type": "ex-dividend_date",
+      "date": "2026-11-06",
+      "detail": "Ex-Dividend Date",
+      "days_away": -7
+    }
+  ],
+  "by_symbol": {
+    "ATHERENERG": {
+      "dividends": [],
+      "splits": [],
+      "calendar": {
+        "Earnings Date": []
+      }
+    },
+    "BHARTIARTL": {
+      "dividends": [
+        {
+          "date": "2026-07-24",
+          "amount": 24.0
+        }
+      ],
+      "splits": [],
+      "calendar": {
+        "Earnings Date": [
+          "2027-02-03"
+        ],
+        "Ex-Dividend Date": "2026-07-24"
+      }
+    },
+    "GLENMARK": {
+      "dividends": [
+        {
+          "date": "2026-08-31",
+          "amount": 2.5
+        }
+      ],
+      "splits": [],
+      "calendar": {
+        "Earnings Date": [
+          "2027-01-29"
+        ],
+        "Ex-Dividend Date": "2026-08-31"
+      }
+    },
+    "HDFCAMC": {
+      "dividends": [
+        {
+          "date": "2026-06-05",
+          "amount": 54.0
+        }
+      ],
+      "splits": [
+        {
+          "date": "2025-11-26",
+          "ratio": "2.0"
+        }
+      ],
+      "calendar": {
+        "Earnings Date": [
+          "2027-01-14"
+        ],
+        "Ex-Dividend Date": "2026-06-05"
+      }
+    },
+    "HINDPETRO": {
+      "dividends": [
+        {
+          "date": "2026-08-14",
+          "amount": 19.25
+        }
+      ],
+      "splits": [],
+      "calendar": {
+        "Earnings Date": [
+          "2027-01-20"
+        ],
+        "Ex-Dividend Date": "2026-08-14"
+      }
+    },
+    "INDHOTEL": {
+      "dividends": [
+        {
+          "date": "2026-06-23",
+          "amount": 3.25
+        }
+      ],
+      "splits": [],
+      "calendar": {
+        "Earnings Date": [
+          "2027-01-14"
+        ],
+        "Ex-Dividend Date": "2026-06-23"
+      }
+    },
+    "LAURUSLABS": {
+      "dividends": [
+        {
+          "date": "2026-11-06",
+          "amount": 1.0
+        }
+      ],
+      "splits": [],
+      "calendar": {
+        "Earnings Date": [
+          "2027-01-22"
+        ],
+        "Ex-Dividend Date": "2026-11-06"
+      }
+    },
+    "TCS": {
+      "dividends": [
+        {
+          "date": "2026-05-25",
+          "amount": 31.0
+        },
+        {
+          "date": "2026-07-15",
+          "amount": 12.0
+        },
+        {
+          "date": "2026-10-14",
+          "amount": 12.0
+        }
+      ],
+      "splits": [],
+      "calendar": {
+        "Earnings Date": [
+          "2026-10-08"
+        ],
+        "Ex-Dividend Date": "2026-10-14"
+      }
+    },
+    "TECHM": {
+      "dividends": [
+        {
+          "date": "2026-07-03",
+          "amount": 36.0
+        },
+        {
+          "date": "2026-10-23",
+          "amount": 15.0
+        }
+      ],
+      "splits": [],
+      "calendar": {
+        "Earnings Date": [
+          "2027-01-14"
+        ],
+        "Ex-Dividend Date": "2026-10-23"
+      }
+    },
+    "WIPRO": {
+      "dividends": [
+        {
+          "date": "2026-07-27",
+          "amount": 2.0
+        }
+      ],
+      "splits": [],
+      "calendar": {
+        "Earnings Date": [
+          "2027-01-15"
+        ],
+        "Ex-Dividend Date": "2026-07-27"
+      }
+    }
+  }
+}
