@@ -1,12 +1,19 @@
 {
-  "timestamp": "2026-11-12T10:06:09+00:00",
+  "timestamp": "2026-11-13T09:52:41+00:00",
   "events": [
     {
-      "symbol": "HCLTECH",
-      "type": "earnings_date",
-      "date": "2027-01-11",
-      "detail": "Earnings Date",
-      "days_away": 60
+      "symbol": "LAURUSLABS",
+      "type": "dividend",
+      "date": "2026-11-06",
+      "detail": "\u20b91.00 per share",
+      "days_away": -7
+    },
+    {
+      "symbol": "LAURUSLABS",
+      "type": "ex-dividend_date",
+      "date": "2026-11-06",
+      "detail": "Ex-Dividend Date",
+      "days_away": -7
     }
   ],
   "by_symbol": {
@@ -47,23 +54,24 @@
         "Ex-Dividend Date": "2026-08-31"
       }
     },
-    "HCLTECH": {
+    "HDFCAMC": {
       "dividends": [
         {
-          "date": "2026-07-17",
-          "amount": 12.0
-        },
-        {
-          "date": "2026-10-16",
-          "amount": 12.0
+          "date": "2026-06-05",
+          "amount": 54.0
         }
       ],
-      "splits": [],
+      "splits": [
+        {
+          "date": "2025-11-26",
+          "ratio": "2.0"
+        }
+      ],
       "calendar": {
         "Earnings Date": [
-          "2027-01-11"
+          "2027-01-14"
         ],
-        "Ex-Dividend Date": "2026-10-16"
+        "Ex-Dividend Date": "2026-06-05"
       }
     },
     "HINDPETRO": {
@@ -81,19 +89,34 @@
         "Ex-Dividend Date": "2026-08-14"
       }
     },
-    "SONACOMS": {
+    "INDHOTEL": {
       "dividends": [
         {
-          "date": "2026-06-25",
-          "amount": 1.8
+          "date": "2026-06-23",
+          "amount": 3.25
         }
       ],
       "splits": [],
       "calendar": {
         "Earnings Date": [
-          "2027-01-21"
+          "2027-01-14"
         ],
-        "Ex-Dividend Date": "2026-06-25"
+        "Ex-Dividend Date": "2026-06-23"
+      }
+    },
+    "LAURUSLABS": {
+      "dividends": [
+        {
+          "date": "2026-11-06",
+          "amount": 1.0
+        }
+      ],
+      "splits": [],
+      "calendar": {
+        "Earnings Date": [
+          "2027-01-22"
+        ],
+        "Ex-Dividend Date": "2026-11-06"
       }
     },
     "TCS": {
@@ -136,16 +159,6 @@
           "2027-01-14"
         ],
         "Ex-Dividend Date": "2026-10-23"
-      }
-    },
-    "TVSMOTOR": {
-      "dividends": [],
-      "splits": [],
-      "calendar": {
-        "Earnings Date": [
-          "2027-01-28"
-        ],
-        "Ex-Dividend Date": "2026-03-30"
       }
     },
     "WIPRO": {
