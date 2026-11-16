@@ -1,19 +1,33 @@
 {
-  "timestamp": "2026-11-13T09:52:41+00:00",
+  "timestamp": "2026-11-16T10:03:29+00:00",
   "events": [
     {
-      "symbol": "LAURUSLABS",
-      "type": "dividend",
-      "date": "2026-11-06",
-      "detail": "\u20b91.00 per share",
-      "days_away": -7
+      "symbol": "HDFCAMC",
+      "type": "earnings_date",
+      "date": "2027-01-14",
+      "detail": "Earnings Date",
+      "days_away": 59
     },
     {
-      "symbol": "LAURUSLABS",
-      "type": "ex-dividend_date",
-      "date": "2026-11-06",
-      "detail": "Ex-Dividend Date",
-      "days_away": -7
+      "symbol": "INDHOTEL",
+      "type": "earnings_date",
+      "date": "2027-01-14",
+      "detail": "Earnings Date",
+      "days_away": 59
+    },
+    {
+      "symbol": "TECHM",
+      "type": "earnings_date",
+      "date": "2027-01-14",
+      "detail": "Earnings Date",
+      "days_away": 59
+    },
+    {
+      "symbol": "WIPRO",
+      "type": "earnings_date",
+      "date": "2027-01-15",
+      "detail": "Earnings Date",
+      "days_away": 60
     }
   ],
   "by_symbol": {
@@ -119,27 +133,19 @@
         "Ex-Dividend Date": "2026-11-06"
       }
     },
-    "TCS": {
+    "M&M": {
       "dividends": [
         {
-          "date": "2026-05-25",
-          "amount": 31.0
-        },
-        {
-          "date": "2026-07-15",
-          "amount": 12.0
-        },
-        {
-          "date": "2026-10-14",
-          "amount": 12.0
+          "date": "2026-07-03",
+          "amount": 33.0
         }
       ],
       "splits": [],
       "calendar": {
         "Earnings Date": [
-          "2026-10-08"
+          "2026-11-05"
         ],
-        "Ex-Dividend Date": "2026-10-14"
+        "Ex-Dividend Date": "2026-07-03"
       }
     },
     "TECHM": {
