@@ -1,41 +1,64 @@
 {
-  "timestamp": "2026-11-16T10:03:29+00:00",
+  "timestamp": "2026-11-17T10:59:18+00:00",
   "events": [
+    {
+      "symbol": "ASHOKLEY",
+      "type": "earnings_date",
+      "date": "2026-11-16",
+      "detail": "Earnings Date",
+      "days_away": -1
+    },
+    {
+      "symbol": "ASHOKLEY",
+      "type": "ex-dividend_date",
+      "date": "2026-11-20",
+      "detail": "Ex-Dividend Date",
+      "days_away": 3
+    },
     {
       "symbol": "HDFCAMC",
       "type": "earnings_date",
       "date": "2027-01-14",
       "detail": "Earnings Date",
-      "days_away": 59
+      "days_away": 58
     },
     {
-      "symbol": "INDHOTEL",
-      "type": "earnings_date",
-      "date": "2027-01-14",
-      "detail": "Earnings Date",
-      "days_away": 59
-    },
-    {
-      "symbol": "TECHM",
-      "type": "earnings_date",
-      "date": "2027-01-14",
-      "detail": "Earnings Date",
-      "days_away": 59
-    },
-    {
-      "symbol": "WIPRO",
+      "symbol": "RELIANCE",
       "type": "earnings_date",
       "date": "2027-01-15",
       "detail": "Earnings Date",
-      "days_away": 60
+      "days_away": 59
     }
   ],
   "by_symbol": {
-    "ATHERENERG": {
-      "dividends": [],
+    "ASHOKLEY": {
+      "dividends": [
+        {
+          "date": "2026-06-03",
+          "amount": 2.5
+        }
+      ],
       "splits": [],
       "calendar": {
-        "Earnings Date": []
+        "Earnings Date": [
+          "2026-11-16"
+        ],
+        "Ex-Dividend Date": "2026-11-20"
+      }
+    },
+    "BAJFINANCE": {
+      "dividends": [
+        {
+          "date": "2026-06-30",
+          "amount": 6.0
+        }
+      ],
+      "splits": [],
+      "calendar": {
+        "Earnings Date": [
+          "2026-10-19"
+        ],
+        "Ex-Dividend Date": "2026-06-30"
       }
     },
     "BHARTIARTL": {
@@ -88,34 +111,14 @@
         "Ex-Dividend Date": "2026-06-05"
       }
     },
-    "HINDPETRO": {
-      "dividends": [
-        {
-          "date": "2026-08-14",
-          "amount": 19.25
-        }
-      ],
+    "INDIGO": {
+      "dividends": [],
       "splits": [],
       "calendar": {
         "Earnings Date": [
-          "2027-01-20"
+          "2027-01-21"
         ],
-        "Ex-Dividend Date": "2026-08-14"
-      }
-    },
-    "INDHOTEL": {
-      "dividends": [
-        {
-          "date": "2026-06-23",
-          "amount": 3.25
-        }
-      ],
-      "splits": [],
-      "calendar": {
-        "Earnings Date": [
-          "2027-01-14"
-        ],
-        "Ex-Dividend Date": "2026-06-23"
+        "Ex-Dividend Date": "2025-08-13"
       }
     },
     "LAURUSLABS": {
@@ -133,6 +136,21 @@
         "Ex-Dividend Date": "2026-11-06"
       }
     },
+    "LT": {
+      "dividends": [
+        {
+          "date": "2026-05-22",
+          "amount": 38.0
+        }
+      ],
+      "splits": [],
+      "calendar": {
+        "Earnings Date": [
+          "2027-01-28"
+        ],
+        "Ex-Dividend Date": "2026-05-22"
+      }
+    },
     "M&M": {
       "dividends": [
         {
@@ -148,30 +166,11 @@
         "Ex-Dividend Date": "2026-07-03"
       }
     },
-    "TECHM": {
+    "RELIANCE": {
       "dividends": [
         {
-          "date": "2026-07-03",
-          "amount": 36.0
-        },
-        {
-          "date": "2026-10-23",
-          "amount": 15.0
-        }
-      ],
-      "splits": [],
-      "calendar": {
-        "Earnings Date": [
-          "2027-01-14"
-        ],
-        "Ex-Dividend Date": "2026-10-23"
-      }
-    },
-    "WIPRO": {
-      "dividends": [
-        {
-          "date": "2026-07-27",
-          "amount": 2.0
+          "date": "2026-06-05",
+          "amount": 6.0
         }
       ],
       "splits": [],
@@ -179,7 +178,7 @@
         "Earnings Date": [
           "2027-01-15"
         ],
-        "Ex-Dividend Date": "2026-07-27"
+        "Ex-Dividend Date": "2026-06-05"
       }
     }
   }

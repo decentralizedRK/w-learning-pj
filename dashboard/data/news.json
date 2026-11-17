@@ -1,26 +1,12 @@
 {
-  "timestamp": "2026-11-16T10:03:23+00:00",
+  "timestamp": "2026-11-17T10:59:14+00:00",
   "ticker_news": {
-    "ATHERENERG": [
-      {
-        "title": "ATHER ENERGY LIMITED Share Price - Live NSE: ATHERENERG Stock Price & Chart - Upstox",
-        "publisher": "Google News",
-        "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBBbmFLRldTRHpDM1JfX1ViYy15cGtDRHlKUnJCWmMyV2JRaU96UHIxYmh1Ui1DbmZaRVdsQWY3UHppNnZQNTl3em9zZk9aT0VSd0U1SHV6bTBIN1hMMlFlMUNIZlQxYTcyV2xB?oc=5",
-        "age_h": 74.1
-      }
-    ],
     "BHARTIARTL": [
-      {
-        "title": "BHARTIARTL Share Price Today - Bharti Airtel on NSE/BSE - scanx.trade",
-        "publisher": "Google News",
-        "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1NenFfV0tfelcwTUZ5SVFva2hGZUdqekowbmVqMXpIQnFRVkgwakU4MlpTUHNSVzU0Z2dXQzRpNW1zVl9pVndxWFVSRzhKTnhPWnVqa09hbUk?oc=5",
-        "age_h": 50.5
-      },
       {
         "title": "Bharti Airtel Share Price - Live NSE: BHARTIARTL Stock Price & Chart - Upstox",
         "publisher": "Google News",
         "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5yVGN2YlBzbU5xc0FJSkctUlVUMzAzSHdiOENtSzV1TlJyZHhSVGZIVVVyUEw0MVpwMm1HVDRxOGM3akMyaGhNaUZUZ09TQ0N4b2Vjd3lLaW1DaEg4QXRJbU5BQjZJcjN3MGlBSQ?oc=5",
-        "age_h": 74.1
+        "age_h": 99.0
       }
     ],
     "GLENMARK": [
@@ -28,7 +14,7 @@
         "title": "Glenmark Life Science Share Price - Live NSE: ALIVUS Stock Price & Chart - Upstox",
         "publisher": "Google News",
         "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBzTEtJaHZ2eXZEMUNTcVFYRy1pcEcxZDc1NXNSTGwteklacmJYdVplS0ZTZVdEOUtCVEFYTXNZN1BMMGNCU1dMOWlsWk5QMEdMNERCT1ducS1rd3JDRFVvTEZRTkc1Wl96X3lDSjVkZ28?oc=5",
-        "age_h": 74.1
+        "age_h": 99.0
       }
     ],
     "HDFCAMC": [
@@ -36,116 +22,116 @@
         "title": "HDFC Asset Management (NSEI:HDFCAMC) Stock Forecast & Analyst Predictions - Simply Wall St",
         "publisher": "Google News",
         "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNUmI4enF6SlJpR2tNZEJxR0JaOHRPd0lBSHVGQ001LXg5ZmRTZndiNXQ3V0NsSjZoRWlXM1RDMVM4emhqU0hOUDlIV0xJM1JDRGdONjRPZlJKaUk1Q2tXRF9TMnFRU0NMVjZEYTFKUkFkbWhxTWF5SXRnSXRiNWYtSEl1VndQN3FjMWdFRDIzblNpNDg5QU82UGFyQXRfcEQ0WmZSYg?oc=5",
-        "age_h": 74.1
+        "age_h": 99.0
       }
     ],
-    "INDHOTEL": [
+    "INDIGO": [
       {
-        "title": "INDHOTEL.NS (INDHOTEL) Share Price Today (NSE), Market News - TechGraph",
+        "title": "Interglobe Aviation Share Price - Live NSE: INDIGO Stock Price & Chart - Upstox",
         "publisher": "Google News",
-        "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9hNlNfdGo2aEk5MnlwaDlqMGVFeDVfWkE0dmJ6bVh1eGpzYnBoX19rdkcyZHNnM1dxTHgwcGwzY2RkRnVhNmJOMU9OR0hnbzhqMjBmdU9UY0dyS0prSm8ySlZB?oc=5",
-        "age_h": 74.1
-      },
-      {
-        "title": "Indian Hotels (NSEI:INDHOTEL) Stock Forecast & Analyst Predictions - Simply Wall St",
-        "publisher": "Google News",
-        "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNam5ONU5fQU1kU1JIRFhRWERWR0VsTzc2bm1CeHAzdjBSbzJmcDRNVkZBdktGQ3FHYzcxMmpiWWRRaWhRcjNGc21WQjJnX1p3SFh0ZDlrNTRXUDE0dVdTSFUyOFF2NDRsU1NKRk9PNV9PS2p4VDFIc2NWZ3dzN1dkUERZZzQzYm91N3QtVTdickMxcnAz?oc=5",
-        "age_h": 98.1
+        "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBjamxKNHRzV3pMT2NjN2IxVlE3SmI1Rk56SEczNl92RXJ2Z1JQSVZuVzMwdW93MjJUU1JSbHVsUG1oeVBOMFUzOEdRdVQyYU9YV2Q5UFVVYjhIUTlVWGJVUFR6MmNZR3dnLUNRb0JXNA?oc=5",
+        "age_h": 75.5
       }
     ],
     "LAURUSLABS": [
       {
-        "title": "Laurus Labs shares fall 3.5% as promoters sell shares worth Rs 500 crore - Moneycontrol.com",
+        "title": "Laurus Labs Share Price - Live NSE: LAURUSLABS Stock Price & Chart - Upstox",
+        "publisher": "Google News",
+        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFAwUkgyOV9sYnJhNVFYV2RkNkd2TmRHamNNMmV6NF83ajlvdU5QMmViUjI2d3RIbW5QZ01MQ2JMcF96ZnNNVEJhcms2ZHRFWWFPTDd4MnM3WUVFU29SX0lmMUNBTHZ4b0xLMWc?oc=5",
+        "age_h": 99.0
+      },
+      {
+        "title": "Laurus Labs shares crash 9% as promoters sell shares worth Rs 500 crore - Moneycontrol.com",
         "publisher": "Google News",
         "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPN2syV29uaU01TnphRFZPbGgxdlJJZk5fSFFLYlJZMWtzZG51NkVfc3J6ZVJWXzRxOEp2MUFXT2tsaUJBUG40bVA3YWV4Z3I0MWpQa29BenlpSXJ6RVg3Z0Z2aWluUm1WeXF1ekVDZm8tRTFhME9JTWloSnJpNEd3ZzU2X3Nvd2d6ajQ2UjNSX1E3TG1VSm5ya0F1cS1HS1RCOVRZcC05ZngxNGltRlRuNVo5U1FKdk5jeVBON0NhS2F4TmFTRl9rVzBxLWVzTnlYc1HSAdcBQVVfeXFMTmZRSjdxTzQtMDg0TGY1VmN6MGc4WmZJYVFPY1drdFpRUldmbi1pSFdOZ3ZNbnFOQ1RrVFFSTDh3TFJoZUR3R1Q0SjZITXFTT3g2bmpGdkNhM1NqbGo1eFhyVW5TWHFGd0VhRVNVSTlZWXUzc21ZMll2ampLSUkyVV90QUR3eGVrdjZnWklMeU41eWRud3BMaV9CNmR1OWNDLWs3c0VncFoxMmJoZl9sMEk2VkNGaHJzdEdJRmtFWU81QzJVVUw0VjhWVlMxbURXR3J0NHg3Zjg?oc=5",
-        "age_h": 3.3
+        "age_h": 28.3
       }
     ],
     "M&M": [
       {
-        "title": "Indian chip startup Bharat Semi lands $24M seed round as it eyes global AI sensor market - TechCrunch",
+        "title": "Mohd Shami and M. Siddharth traded to Rajasthan Royals, Sam Curran traded to Lucknow Super Giants - IPL",
         "publisher": "Google News",
-        "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxORlp0dzgwTTFLWm5FZ25md2xZM1hldHoxRmhaVHJncWNmYUd2WVJRZGZlQVlycUlRMENUblNDSHpudlV2ZlRvTFhMaUFCb1hVUndRRHMtMmRaSnFiV1Yxb19kQ3ppVTQ0X29hZG1FVlBmVW8yWWJ6aVh6R0xESlJMWElCQ2kzN19rX29feWFJeV9EQzc3dmdYQmRoWUg3d1lTc2xaRUV5Y2FBa3lZNWpFNVMzdEZrNGRVQk0yX3h3NA?oc=5",
-        "age_h": 10.6
+        "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPM01tbHBQdTZwUmxUc3ZJcXh2TDZLZzdPZ3N5UTZjY0JBNDI0Y1d6U3F2TUxESGRLemxjbEp6SVBzZEpQcnowTVRxZWpmSFdqLVFzcHkwT08yYWFyQnlQelRDUm0yNVFueHRKcWtYYk9CdU84LWlPdnpkcDZpLVJ0N1BWU2tUWE5RUzFHOWxYWTZPRUNOcXdmNG0xQmZ6X0ltaUl0Sk5wLVlfa2VvQlQtUWs5eVZyUjVwQ19LTkNLV3BQejZqTGhacE45dw?oc=5",
+        "age_h": 1.0
       },
       {
-        "title": "Box Office Global: Johnny Depp's 'Ebenezer' Richer Abroad with $42M Bow - Deadline",
+        "title": "Rio Tinto agrees to pay US$250m to begin repairing \u2018devastation\u2019 left by Panguna mine - The Guardian",
         "publisher": "Google News",
-        "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxORF9XTi1kQ0d0SkdCQmNHQV9KeHRZbnl0NFVNM2UxOGZoZzN3NkdLLUoxdDM3UEMxUHVVUW9kc3JjYmt4SnEyTHM1VDVHQjlwQWc0ZUM2SjgyOHMzYThDN0Zna21kU1VURlpKbEVKYjl3UFhVdGNJYTQ1Sm1tc2xodVU2Vmc5WnY5bndQazc4U282dnRFU0hSaWdKSHg?oc=5",
-        "age_h": 16.1
+        "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPeGdESnVUc3lEN3hqempVYUlGS1prTVd6U0lkQVkza1FyWGJmSGdjcENaV055emtXbmRMY0dWMTdVSnpkNlNZUVZKUE9aMHNid3JZSjEyajlFWUJIN0N4Nk9rQU9hTnhhM0R4OFBxSkVKbzlWSW9YX01LN2txRGRieE1xMkZreW5fcmhhdFBkOUxPelFnNlZuejVjUzk4d1lB?oc=5",
+        "age_h": 8.5
       },
       {
-        "title": "Council plans \u00a39.5m revamp of town shopping centre - BBC",
+        "title": "Freshworks alums raise $53M to take on Salesforce, HubSpot with AI-native CRM - TechCrunch",
         "publisher": "Google News",
-        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5Dc3dCc0FVeE9PcjFJQXRld2VfeWxFSWQzNjZCOU9HTE1BdmY1V0VDQ1YtbWZjcGpfaGhoSE4wcW9TVzlaSlBfVkZMNHV6MUJtRlg3SjJmMGo5c28?oc=5",
-        "age_h": 21.4
+        "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQdHNUX1ItSjhuR0cxcTBlYnBHOENrTnI2dEhkX01HVGFYSDhYVHFfT0l6WVJmeTJjQXFyaXNUeFlmajFNekRuV2l4cllnWWJ3eG01LTZXWHdIdU5EMkQ5OXJ3Rzd6ZS1aenhYMDZsaHg4WXdYRWtNTy02MVlxQTRsb2VTM1c5ZmRhTXp1NVppWGJSSXUtaWp2SnlSX0t0c1YtZ0dvZTdSeERRdGNiLWNj?oc=5",
+        "age_h": 22.5
       }
     ],
-    "TECHM": [
+    "RELIANCE": [
       {
-        "title": "The Bet Tech Mahindra Holders Made - Simply Wall St",
+        "title": "Reliance Industries Share Price - Live NSE: RELIANCE Stock Price & Chart - Upstox",
         "publisher": "Google News",
-        "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQSlp5QlBYRFlxQ0xZV3Q5bU04VUkwTDdQVTgzbnYzVXc2VzBWWVJ1N2c0amstU2lfbnF1c2JmUTdFUnZGeHliTHBlTVd2UU1faGItSmxKVUNndXhZczhpTjItRzVsdG1iYjdVNnlzM2pPWTJXUDBNdXNHQXVCbGNBUV9xQmZSYnc1ZmE3cFFxcHhrSnY3OXpvVEp3RUlsakxWX2V5UWhRckotMWtoa01nUtIBtgFBVV95cUxQM0RmLXRJamxYNEZuLUdTelhHbnZCaDdOTkRJOS1iRk0wR0lGc2tWU0d0NUJzRzJwMTNubmh2akNFMkdSanRGbGROaV9BekpQQ1VxZzNFbVZfeGhHeURNRGt3NG0wdkY3Q3pIbU9FNGVWTS1EUlZlYnNTQ0xCVHRGTEg4N0xzTW1SX2EzZXN6X19BdldEUW5OVktucHNMYWpOZ0ZxMzMyWmlQSXAxaTBIT3FQck04QQ?oc=5",
-        "age_h": 111.6
+        "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFB6bHBYSldaWTEwM0pneWlBUVNlVjM0Njl2NFVCNGR3NTlneGlzM3VRa3Zha1RQWXJDRkxjUjR6V0hPTGsyN2FKTmFtak50X0pjUjNtQmhvMmRCTHJnNXdhYzI4c0lKU3hlVnB4cWRNbw?oc=5",
+        "age_h": 60.6
       }
     ]
   },
   "market_headlines": [
     {
       "source": "Economic Times",
-      "title": "UPL Share Price Live Updates: UPL Surges Above 100-Day Exponential Moving Average",
-      "link": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/upl-stock-price-live-updates-16-nov-2026/liveblog/135872604.cms",
-      "summary": "",
-      "age_h": 5.8
+      "title": "Millions launches US stocks, ETFs investment facility for Indian investors",
+      "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/millions-launches-us-stocks-etfs-investment-facility-for-indian-investors/articleshow/135920698.cms",
+      "summary": "Investment platform Millions, operated by Raise Financial Services, has launched US stocks and ETFs on its app. This new feature allows Indian investors to make fractional investments and use systemat",
+      "age_h": 0.8
     },
     {
       "source": "Economic Times",
-      "title": "Technical picks:  ABB India among 5 stocks to buy this week for healthy returns",
-      "link": "https://economictimes.indiatimes.com/markets/stocks/news/tech-picks-abb-india-among-5-stocks-to-buy-this-week-for-healthy-returns/slideshow/135872688.cms",
-      "summary": "The recent market activity indicates a bullish trend, albeit with minor profit booking influencing trading patterns. Investors are keenly observing macroeconomic factors and international cues. Select",
-      "age_h": 5.8
+      "title": "Sebi may limit leveraged stock bets to curb volatility: Report",
+      "link": "https://economictimes.indiatimes.com/markets/stocks/news/sebi-may-limit-leveraged-stock-bets-to-curb-volatility-report/articleshow/135920460.cms",
+      "summary": "India's markets regulator is exploring potential limits on leveraged stock purchases amid increasing retail participation. Concerns have arisen as margin-funded stock bets have reached record levels i",
+      "age_h": 0.9
     },
     {
       "source": "Economic Times",
-      "title": "Sun Pharma Share Price Live Updates: Current Market Performance of Sun Pharma",
-      "link": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/sun-pharma-share-price-today-live-updates-16-nov-2026/liveblog/135871948.cms",
-      "summary": "",
-      "age_h": 6.2
+      "title": "FIIs, MFs raise stakes in 5 largecap stocks for two straight quarters; shares rally up to 80%",
+      "link": "https://economictimes.indiatimes.com/markets/stocks/news/fiis-mfs-raise-stakes-in-5-largecap-stocks-for-two-straight-quarters-shares-rally-up-to-80/slideshow/135915639.cms",
+      "summary": "FIIs and mutual funds have increased their stakes in five largecap stocks for two consecutive quarters, signalling rising institutional interest. All five stocks have delivered positive returns in FY2",
+      "age_h": 3.6
     },
     {
       "source": "Economic Times",
-      "title": "Maruti Suzuki Share Price Live Updates: Maruti Suzuki's Stock Price Analysis",
-      "link": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/maruti-suzuki-share-price-today-live-16-nov-2026/liveblog/135871604.cms",
-      "summary": "",
-      "age_h": 6.5
+      "title": "South Korean shares close at over 9-month low on Nvidia caution",
+      "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/south-korean-shares-close-at-over-9-month-low-on-nvidia-caution/articleshow/135914599.cms",
+      "summary": "South Korean shares experienced a significant decline of more than 2% amid concerns affecting chipmakers. The benchmark KOSPI closed at its lowest level since February due to persistent selling pressu",
+      "age_h": 4.0
     },
     {
       "source": "Livemint",
-      "title": "Mahanadi Coalfields IPO: Dividend king in the making? What top official says about Coal India arm's post-listing payouts",
-      "link": "https://www.livemint.com/market/stock-market-news/mahanadi-coalfields-ipo-dividend-king-in-the-making-what-top-official-says-about-coal-india-arms-post-listing-payouts-11794818788482.html",
-      "summary": "Mahanadi Coalfields\u2019  \u20b98,981-crore IPO, an offer for sale by Coal India, opens November 19. Ahead of the listing, investors are watching the company\u2019s dividend prospects.",
+      "title": "TCS vs Infosys: Better IT stock to buy amid anti-AI trade buzz | Experts' views, target price, stop-loss, rationale",
+      "link": "https://www.livemint.com/market/stock-market-news/tcs-vs-infosys-better-it-stock-to-buy-amid-anti-ai-trade-buzz-experts-views-target-price-stop-loss-rationale-11794910515731.html",
+      "summary": "Experts believe smart global capital has started rotating out of overcrowded global AI plays into Indian IT services as a hedge against overheating in Western tech stocks",
       "age_h": 0.0
     },
     {
       "source": "Livemint",
-      "title": "Ola Electric vs Ather Energy: Ather shines, Ola struggles in Q2; which EV stock offers better upside?",
-      "link": "https://www.livemint.com/market/stock-market-news/ola-electric-vs-ather-energy-ather-shines-ola-struggles-in-q2-which-ev-stock-offers-better-upside-11794821623526.html",
-      "summary": "Ather Energy outperformed Ola Electric in Q2 FY27, posting a  \u20b91.26 crore profit, 63% revenue growth and a second consecutive EBITDA-positive quarter. Ola\u2019s revenue fell 39% and its EBITDA loss widene",
-      "age_h": 0.3
+      "title": "HDFC Bank vs Axis Bank: Both shares recover after Q2 sell-off; which banking stock offers higher upside? Check targets",
+      "link": "https://www.livemint.com/market/stock-market-news/hdfc-bank-vs-axis-bank-both-shares-recover-after-q2-sell-off-which-banking-stock-offers-higher-upside-check-targets-11794907748296.html",
+      "summary": "HDFC Bank and Axis Bank shares have rebounded since October, putting both lenders back in focus. Axis Bank posted stronger quarterly profit growth, while HDFC Bank delivered healthy lending growth and",
+      "age_h": 0.7
     },
     {
       "source": "Livemint",
-      "title": "Sebi weighs biometrics, geotagging for trading terminals",
-      "link": "https://www.livemint.com/market/stock-market-news/sebi-weighs-biometrics-geotagging-for-trading-terminals-11794814134007.html",
-      "summary": "Sebi, ISF discuss biometric checks to restrict terminal access to authorized users",
-      "age_h": 0.3
+      "title": "Steel prices are rising again: Is it wise to buy metal stocks? Experts pick Tata Steel, JSW and 4 others | Targets, SL",
+      "link": "https://www.livemint.com/market/stock-market-news/steel-prices-are-rising-again-is-it-wise-to-buy-metal-stocks-experts-pick-tata-steel-jsw-and-4-others-targets-sl-11794905709244.html",
+      "summary": "Indian steel stocks are drawing interest as higher domestic prices, improving margins and infrastructure demand support earnings prospects. Analysts recommend selective exposure to cos with raw-materi",
+      "age_h": 1.7
     },
     {
       "source": "Livemint",
-      "title": "Belrise Industries shares surge 13% after Q2 results, H-One merger; stock rallies 44% in a year \u2014 What technical experts",
-      "link": "https://www.livemint.com/market/stock-market-news/belrise-industries-shares-surge-13-after-q2-results-h-one-merger-stock-rallies-44-in-a-year-what-technical-experts-11794817435375.html",
-      "summary": "Belrise Industries shares jumped 13% after Q2 FY27 revenue rose 16.7% year on year to  \u20b92,746.3 crore and adjusted profit increased 25% to  \u20b9166.3 crore. Growth across vehicle segments and new automot",
-      "age_h": 1.0
+      "title": "Mahanadi Coalfields IPO single profit calculator basis latest GMP: What investors may earn on listing?",
+      "link": "https://www.livemint.com/market/ipo/mahanadi-coalfields-ipo-single-profit-calculator-basis-latest-gmp-what-investors-may-earn-on-listing-11794905163788.html",
+      "summary": "Mahanadi Coalfields\u2019  \u20b98,981-crore IPO is scheduled to open November 19 and close November 23. The offer is an entirely secondary sale of a 10% stake by Coal India. A grey market premium of  \u20b94.60 sug",
+      "age_h": 1.8
     }
   ]
 }
