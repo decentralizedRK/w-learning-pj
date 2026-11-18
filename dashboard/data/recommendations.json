@@ -1,206 +1,206 @@
 {
-  "timestamp": "2026-11-17T20:16:42",
+  "timestamp": "2026-11-18T19:46:54",
   "portfolio_actions": [],
   "entry_signals": [
     {
-      "symbol": "ATHERENERG",
+      "symbol": "UNOMINDA",
       "action": "WATCH",
-      "score": 0.879,
-      "rsi": 74.5,
-      "adx": 38.3,
-      "segment": "other",
-      "close": 1939.5999755859375,
-      "reason": "RSI overbought, strong trend (ADX 38), n/a"
+      "score": 0.844,
+      "rsi": 73.3,
+      "adx": 39.7,
+      "segment": "midcap",
+      "close": 1388.0999755859375,
+      "reason": "RSI overbought, strong trend (ADX 40), n/a"
     },
     {
       "symbol": "DIVISLAB",
       "action": "ENTRY SIGNAL",
-      "score": 0.871,
-      "rsi": 68.5,
-      "adx": 39.9,
+      "score": 0.841,
+      "rsi": 69.3,
+      "adx": 40.6,
       "segment": "other",
-      "close": 11080.0,
+      "close": 11150.0,
+      "reason": "RSI neutral, strong trend (ADX 41), n/a"
+    },
+    {
+      "symbol": "KALYANKJIL",
+      "action": "ENTRY SIGNAL",
+      "score": 0.825,
+      "rsi": 69.0,
+      "adx": 36.9,
+      "segment": "midcap",
+      "close": 682.75,
+      "reason": "RSI neutral, strong trend (ADX 37), n/a"
+    },
+    {
+      "symbol": "ATHERENERG",
+      "action": "ENTRY SIGNAL",
+      "score": 0.816,
+      "rsi": 69.9,
+      "adx": 39.8,
+      "segment": "other",
+      "close": 1908.5999755859375,
       "reason": "RSI neutral, strong trend (ADX 40), n/a"
     },
     {
-      "symbol": "BHARTIARTL",
+      "symbol": "M&M",
       "action": "WATCH",
-      "score": 0.828,
-      "rsi": 73.8,
-      "adx": 46.9,
+      "score": 0.777,
+      "rsi": 71.1,
+      "adx": 51.6,
       "segment": "largecap",
-      "close": 2153.5,
-      "reason": "RSI overbought, strong trend (ADX 47), n/a"
-    },
-    {
-      "symbol": "UNOMINDA",
-      "action": "ENTRY SIGNAL",
-      "score": 0.822,
-      "rsi": 70.0,
-      "adx": 39.1,
-      "segment": "midcap",
-      "close": 1348.0,
-      "reason": "RSI neutral, strong trend (ADX 39), n/a"
-    },
-    {
-      "symbol": "INDHOTEL",
-      "action": "WATCH",
-      "score": 0.802,
-      "rsi": 74.0,
-      "adx": 49.1,
-      "segment": "midcap",
-      "close": 886.0,
-      "reason": "RSI overbought, strong trend (ADX 49), n/a"
+      "close": 3399.0,
+      "reason": "RSI overbought, strong trend (ADX 52), n/a"
     },
     {
       "symbol": "CHOLAFIN",
       "action": "WATCH",
-      "score": 0.786,
-      "rsi": 71.1,
-      "adx": 37.7,
+      "score": 0.775,
+      "rsi": 73.6,
+      "adx": 40.3,
       "segment": "other",
-      "close": 1849.800048828125,
-      "reason": "RSI overbought, strong trend (ADX 38), n/a"
-    },
-    {
-      "symbol": "M&M",
-      "action": "ENTRY SIGNAL",
-      "score": 0.786,
-      "rsi": 68.6,
-      "adx": 49.1,
-      "segment": "largecap",
-      "close": 3339.0,
-      "reason": "RSI neutral, strong trend (ADX 49), n/a"
+      "close": 1884.699951171875,
+      "reason": "RSI overbought, strong trend (ADX 40), n/a"
     },
     {
       "symbol": "BANKBARODA",
       "action": "WATCH",
-      "score": 0.775,
-      "rsi": 71.3,
-      "adx": 32.2,
+      "score": 0.77,
+      "rsi": 73.7,
+      "adx": 34.2,
       "segment": "other",
-      "close": 270.20001220703125,
-      "reason": "RSI overbought, strong trend (ADX 32), n/a"
-    },
-    {
-      "symbol": "SBIN",
-      "action": "WATCH",
-      "score": 0.772,
-      "rsi": 74.1,
-      "adx": 46.0,
-      "segment": "largecap",
-      "close": 1090.5,
-      "reason": "RSI overbought, strong trend (ADX 46), n/a"
-    },
-    {
-      "symbol": "MARICO",
-      "action": "WATCH",
-      "score": 0.749,
-      "rsi": 72.1,
-      "adx": 38.0,
-      "segment": "midcap",
-      "close": 913.6500244140625,
-      "reason": "RSI overbought, strong trend (ADX 38), n/a"
+      "close": 274.8900146484375,
+      "reason": "RSI overbought, strong trend (ADX 34), n/a"
     },
     {
       "symbol": "INDIGO",
       "action": "WATCH",
-      "score": 0.743,
-      "rsi": 70.1,
-      "adx": 36.2,
+      "score": 0.767,
+      "rsi": 71.9,
+      "adx": 36.6,
       "segment": "largecap",
-      "close": 5544.0,
-      "reason": "RSI overbought, strong trend (ADX 36), n/a"
+      "close": 5611.0,
+      "reason": "RSI overbought, strong trend (ADX 37), n/a"
+    },
+    {
+      "symbol": "MARICO",
+      "action": "WATCH",
+      "score": 0.762,
+      "rsi": 73.8,
+      "adx": 40.0,
+      "segment": "midcap",
+      "close": 924.0,
+      "reason": "RSI overbought, strong trend (ADX 40), n/a"
+    },
+    {
+      "symbol": "GODREJPROP",
+      "action": "ENTRY SIGNAL",
+      "score": 0.757,
+      "rsi": 69.2,
+      "adx": 35.1,
+      "segment": "midcap",
+      "close": 1892.4000244140625,
+      "reason": "RSI neutral, strong trend (ADX 35), n/a"
+    },
+    {
+      "symbol": "BSE",
+      "action": "ENTRY SIGNAL",
+      "score": 0.748,
+      "rsi": 68.4,
+      "adx": 38.3,
+      "segment": "largecap",
+      "close": 3864.89990234375,
+      "reason": "RSI neutral, strong trend (ADX 38), n/a"
+    },
+    {
+      "symbol": "LT",
+      "action": "WATCH",
+      "score": 0.739,
+      "rsi": 70.8,
+      "adx": 46.8,
+      "segment": "largecap",
+      "close": 4155.5,
+      "reason": "RSI overbought, strong trend (ADX 47), n/a"
     },
     {
       "symbol": "GLENMARK",
       "action": "ENTRY SIGNAL",
-      "score": 0.738,
-      "rsi": 69.2,
-      "adx": 37.7,
-      "segment": "midcap",
-      "close": 2632.89990234375,
-      "reason": "RSI neutral, strong trend (ADX 38), n/a"
-    },
-    {
-      "symbol": "ASHOKLEY",
-      "action": "ENTRY SIGNAL",
-      "score": 0.724,
-      "rsi": 62.7,
-      "adx": 41.1,
-      "segment": "midcap",
-      "close": 167.49000549316406,
-      "reason": "RSI neutral, strong trend (ADX 41), n/a"
-    },
-    {
-      "symbol": "BAJFINANCE",
-      "action": "WATCH",
-      "score": 0.722,
-      "rsi": 70.2,
-      "adx": 34.5,
-      "segment": "largecap",
-      "close": 1110.0,
-      "reason": "RSI overbought, strong trend (ADX 34), n/a"
-    },
-    {
-      "symbol": "LT",
-      "action": "ENTRY SIGNAL",
       "score": 0.706,
-      "rsi": 69.9,
-      "adx": 45.7,
-      "segment": "largecap",
-      "close": 4140.0,
-      "reason": "RSI neutral, strong trend (ADX 46), n/a"
+      "rsi": 66.8,
+      "adx": 37.8,
+      "segment": "midcap",
+      "close": 2615.800048828125,
+      "reason": "RSI neutral, strong trend (ADX 38), n/a"
     },
     {
       "symbol": "MCX",
       "action": "WATCH",
-      "score": 0.689,
-      "rsi": 69.0,
-      "adx": 31.4,
+      "score": 0.693,
+      "rsi": 67.1,
+      "adx": 32.3,
       "segment": "midcap",
-      "close": 3729.60009765625,
-      "reason": "RSI neutral, strong trend (ADX 31), n/a"
+      "close": 3705.39990234375,
+      "reason": "RSI neutral, strong trend (ADX 32), n/a"
     },
     {
-      "symbol": "DRREDDY",
+      "symbol": "ANGELONE",
       "action": "WATCH",
-      "score": 0.67,
-      "rsi": 70.4,
-      "adx": 43.6,
-      "segment": "largecap",
-      "close": 1377.9000244140625,
-      "reason": "RSI overbought, strong trend (ADX 44), n/a"
+      "score": 0.686,
+      "rsi": 73.3,
+      "adx": 28.8,
+      "segment": "smallcap",
+      "close": 349.79998779296875,
+      "reason": "RSI overbought, moderate trend (ADX 29), n/a"
     },
     {
-      "symbol": "BSE",
+      "symbol": "360ONE",
       "action": "WATCH",
-      "score": 0.667,
-      "rsi": 70.4,
-      "adx": 36.3,
-      "segment": "largecap",
-      "close": 3887.39990234375,
-      "reason": "RSI overbought, strong trend (ADX 36), n/a"
-    },
-    {
-      "symbol": "TATACONSUM",
-      "action": "WATCH",
-      "score": 0.65,
-      "rsi": 73.1,
-      "adx": 37.1,
-      "segment": "largecap",
-      "close": 1117.5,
-      "reason": "RSI overbought, strong trend (ADX 37), n/a"
+      "score": 0.664,
+      "rsi": 70.0,
+      "adx": 38.6,
+      "segment": "midcap",
+      "close": 1202.8499755859375,
+      "reason": "RSI neutral, strong trend (ADX 39), n/a"
     },
     {
       "symbol": "BANKINDIA",
       "action": "WATCH",
-      "score": 0.641,
-      "rsi": 70.1,
-      "adx": 21.8,
+      "score": 0.664,
+      "rsi": 75.0,
+      "adx": 24.4,
       "segment": "midcap",
-      "close": 152.97000122070312,
-      "reason": "RSI overbought, moderate trend (ADX 22), n/a"
+      "close": 159.27999877929688,
+      "reason": "RSI overbought, moderate trend (ADX 24), n/a"
+    },
+    {
+      "symbol": "MOTILALOFS",
+      "action": "WATCH",
+      "score": 0.655,
+      "rsi": 75.0,
+      "adx": 27.5,
+      "segment": "midcap",
+      "close": 1240.25,
+      "reason": "RSI overbought, moderate trend (ADX 28), n/a"
+    },
+    {
+      "symbol": "TATACONSUM",
+      "action": "WATCH",
+      "score": 0.646,
+      "rsi": 71.1,
+      "adx": 38.8,
+      "segment": "largecap",
+      "close": 1112.4000244140625,
+      "reason": "RSI overbought, strong trend (ADX 39), n/a"
+    },
+    {
+      "symbol": "GMRAIRPORT",
+      "action": "WATCH",
+      "score": 0.643,
+      "rsi": 70.4,
+      "adx": 27.7,
+      "segment": "midcap",
+      "close": 104.5,
+      "reason": "RSI overbought, moderate trend (ADX 28), n/a"
     }
   ]
 }
