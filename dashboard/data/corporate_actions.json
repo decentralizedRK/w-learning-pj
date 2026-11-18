@@ -1,64 +1,35 @@
 {
-  "timestamp": "2026-11-17T10:59:18+00:00",
+  "timestamp": "2026-11-18T10:31:47+00:00",
   "events": [
     {
-      "symbol": "ASHOKLEY",
-      "type": "earnings_date",
-      "date": "2026-11-16",
-      "detail": "Earnings Date",
-      "days_away": -1
-    },
-    {
-      "symbol": "ASHOKLEY",
-      "type": "ex-dividend_date",
-      "date": "2026-11-20",
-      "detail": "Ex-Dividend Date",
-      "days_away": 3
-    },
-    {
-      "symbol": "HDFCAMC",
+      "symbol": "INDHOTEL",
       "type": "earnings_date",
       "date": "2027-01-14",
       "detail": "Earnings Date",
-      "days_away": 58
-    },
-    {
-      "symbol": "RELIANCE",
-      "type": "earnings_date",
-      "date": "2027-01-15",
-      "detail": "Earnings Date",
-      "days_away": 59
+      "days_away": 57
     }
   ],
   "by_symbol": {
-    "ASHOKLEY": {
-      "dividends": [
-        {
-          "date": "2026-06-03",
-          "amount": 2.5
-        }
-      ],
+    "ATHERENERG": {
+      "dividends": [],
       "splits": [],
       "calendar": {
-        "Earnings Date": [
-          "2026-11-16"
-        ],
-        "Ex-Dividend Date": "2026-11-20"
+        "Earnings Date": []
       }
     },
-    "BAJFINANCE": {
+    "BANKBARODA": {
       "dividends": [
         {
-          "date": "2026-06-30",
-          "amount": 6.0
+          "date": "2026-06-05",
+          "amount": 8.5
         }
       ],
       "splits": [],
       "calendar": {
         "Earnings Date": [
-          "2026-10-19"
+          "2027-01-29"
         ],
-        "Ex-Dividend Date": "2026-06-30"
+        "Ex-Dividend Date": "2026-06-05"
       }
     },
     "BHARTIARTL": {
@@ -76,11 +47,11 @@
         "Ex-Dividend Date": "2026-07-24"
       }
     },
-    "GLENMARK": {
+    "CHOLAFIN": {
       "dividends": [
         {
-          "date": "2026-08-31",
-          "amount": 2.5
+          "date": "2026-07-21",
+          "amount": 0.7
         }
       ],
       "splits": [],
@@ -88,67 +59,37 @@
         "Earnings Date": [
           "2027-01-29"
         ],
-        "Ex-Dividend Date": "2026-08-31"
+        "Ex-Dividend Date": "2026-07-21"
       }
     },
-    "HDFCAMC": {
+    "DIVISLAB": {
       "dividends": [
         {
-          "date": "2026-06-05",
-          "amount": 54.0
+          "date": "2026-07-24",
+          "amount": 30.0
         }
       ],
-      "splits": [
+      "splits": [],
+      "calendar": {
+        "Earnings Date": [
+          "2027-02-06"
+        ],
+        "Ex-Dividend Date": "2026-07-24"
+      }
+    },
+    "INDHOTEL": {
+      "dividends": [
         {
-          "date": "2025-11-26",
-          "ratio": "2.0"
+          "date": "2026-06-23",
+          "amount": 3.25
         }
       ],
+      "splits": [],
       "calendar": {
         "Earnings Date": [
           "2027-01-14"
         ],
-        "Ex-Dividend Date": "2026-06-05"
-      }
-    },
-    "INDIGO": {
-      "dividends": [],
-      "splits": [],
-      "calendar": {
-        "Earnings Date": [
-          "2027-01-21"
-        ],
-        "Ex-Dividend Date": "2025-08-13"
-      }
-    },
-    "LAURUSLABS": {
-      "dividends": [
-        {
-          "date": "2026-11-06",
-          "amount": 1.0
-        }
-      ],
-      "splits": [],
-      "calendar": {
-        "Earnings Date": [
-          "2027-01-22"
-        ],
-        "Ex-Dividend Date": "2026-11-06"
-      }
-    },
-    "LT": {
-      "dividends": [
-        {
-          "date": "2026-05-22",
-          "amount": 38.0
-        }
-      ],
-      "splits": [],
-      "calendar": {
-        "Earnings Date": [
-          "2027-01-28"
-        ],
-        "Ex-Dividend Date": "2026-05-22"
+        "Ex-Dividend Date": "2026-06-23"
       }
     },
     "M&M": {
@@ -166,19 +107,44 @@
         "Ex-Dividend Date": "2026-07-03"
       }
     },
-    "RELIANCE": {
+    "MARICO": {
       "dividends": [
         {
-          "date": "2026-06-05",
-          "amount": 6.0
+          "date": "2026-07-30",
+          "amount": 4.0
         }
       ],
       "splits": [],
       "calendar": {
         "Earnings Date": [
-          "2027-01-15"
+          "2027-01-29"
         ],
-        "Ex-Dividend Date": "2026-06-05"
+        "Ex-Dividend Date": "2026-07-30"
+      }
+    },
+    "SBIN": {
+      "dividends": [],
+      "splits": [],
+      "calendar": {
+        "Earnings Date": [
+          "2027-02-04"
+        ],
+        "Ex-Dividend Date": "2026-05-15"
+      }
+    },
+    "UNOMINDA": {
+      "dividends": [
+        {
+          "date": "2026-05-29",
+          "amount": 1.75
+        }
+      ],
+      "splits": [],
+      "calendar": {
+        "Earnings Date": [
+          "2027-02-04"
+        ],
+        "Ex-Dividend Date": "2026-05-29"
       }
     }
   }
