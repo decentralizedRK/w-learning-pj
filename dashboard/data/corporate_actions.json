@@ -1,14 +1,6 @@
 {
-  "timestamp": "2026-11-18T10:31:47+00:00",
-  "events": [
-    {
-      "symbol": "INDHOTEL",
-      "type": "earnings_date",
-      "date": "2027-01-14",
-      "detail": "Earnings Date",
-      "days_away": 57
-    }
-  ],
+  "timestamp": "2026-11-19T10:38:56+00:00",
+  "events": [],
   "by_symbol": {
     "ATHERENERG": {
       "dividends": [],
@@ -30,21 +22,6 @@
           "2027-01-29"
         ],
         "Ex-Dividend Date": "2026-06-05"
-      }
-    },
-    "BHARTIARTL": {
-      "dividends": [
-        {
-          "date": "2026-07-24",
-          "amount": 24.0
-        }
-      ],
-      "splits": [],
-      "calendar": {
-        "Earnings Date": [
-          "2027-02-03"
-        ],
-        "Ex-Dividend Date": "2026-07-24"
       }
     },
     "CHOLAFIN": {
@@ -77,19 +54,42 @@
         "Ex-Dividend Date": "2026-07-24"
       }
     },
-    "INDHOTEL": {
+    "GODREJPROP": {
       "dividends": [
         {
-          "date": "2026-06-23",
-          "amount": 3.25
+          "date": "2026-07-28",
+          "amount": 10.0
         }
       ],
       "splits": [],
       "calendar": {
         "Earnings Date": [
-          "2027-01-14"
+          "2026-10-23"
         ],
-        "Ex-Dividend Date": "2026-06-23"
+        "Ex-Dividend Date": "2026-07-28"
+      }
+    },
+    "INDIGO": {
+      "dividends": [],
+      "splits": [],
+      "calendar": {
+        "Earnings Date": [
+          "2027-01-21"
+        ],
+        "Ex-Dividend Date": "2025-08-13"
+      }
+    },
+    "KALYANKJIL": {
+      "dividends": [
+        {
+          "date": "2026-09-11",
+          "amount": 2.5
+        }
+      ],
+      "splits": [],
+      "calendar": {
+        "Earnings Date": [],
+        "Ex-Dividend Date": "2026-09-11"
       }
     },
     "M&M": {
@@ -120,16 +120,6 @@
           "2027-01-29"
         ],
         "Ex-Dividend Date": "2026-07-30"
-      }
-    },
-    "SBIN": {
-      "dividends": [],
-      "splits": [],
-      "calendar": {
-        "Earnings Date": [
-          "2027-02-04"
-        ],
-        "Ex-Dividend Date": "2026-05-15"
       }
     },
     "UNOMINDA": {

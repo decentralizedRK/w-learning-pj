@@ -1,91 +1,99 @@
 {
-  "timestamp": "2026-11-18T10:31:42+00:00",
+  "timestamp": "2026-11-19T10:38:53+00:00",
   "ticker_news": {
-    "BHARTIARTL": [
+    "BANKBARODA": [
       {
-        "title": "BHARTIARTL Share Price Today - Bharti Airtel on NSE/BSE - scanx.trade",
+        "title": "Bank of Baroda Share Price - Live NSE: BANKBARODA Stock Price & Chart - Upstox",
         "publisher": "Google News",
-        "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1NenFfV0tfelcwTUZ5SVFva2hGZUdqekowbmVqMXpIQnFRVkgwakU4MlpTUHNSVzU0Z2dXQzRpNW1zVl9pVndxWFVSRzhKTnhPWnVqa09hbUk?oc=5",
-        "age_h": 41.2
+        "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9kMkkzR1p5aVA1NFZxUnNWWnVHdWpRMlZmMkYwNEVWUU1NcnhJbnBVdWFqVDV6d2ZURkxtV0VhYlI4X1BUbjZyd19kZGYtSklkendYamc4ZDNsZkNqb0RDVFlWNA?oc=5",
+        "age_h": 15.7
+      }
+    ],
+    "KALYANKJIL": [
+      {
+        "title": "Kalyan Jewellers Share Price - Live NSE: KALYANKJIL Stock Price & Chart - Upstox",
+        "publisher": "Google News",
+        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBQa2xZSTJZNVZFNDk5SXA0SkFHZE5YSEYtRmpseFJLZHpxQnBydHdLVTNZanZLU3drTUI1QXpyV0pGelhRVlJFdHdMLUhwdDAtZmt1bk83UXcxWEF4ZkttbHUtZGRlLXNucDdPQ3Fka2g?oc=5",
+        "age_h": 21.4
       }
     ],
     "M&M": [
       {
+        "title": "Elon Musk says record $446m spending on US midterms was 'pretty foolish' - BBC",
+        "publisher": "Google News",
+        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9FM3BjWHRfbFlaeW94aHdZTVhaVUUxUUJsdFR6cHRjYVg2VVdFT1pPVVNuR2FQMnJQQlRlQUlVTWswb29vRXREMjlhOExQQ2lJR2RzNHBEbHJRbnc?oc=5",
+        "age_h": 7.7
+      },
+      {
+        "title": "Vincent van Gogh painting auctioned for record $190.4m after dispute over Nazi era sale - The Guardian",
+        "publisher": "Google News",
+        "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQd3VfR2J4b3psWUEyZUJLTk1vTndMQnI2cXJrSVh0Z3R6NXIwc2pZcHI2dUZjNTE2aGI1MUFYbHRZMXBJbURWYmtMdmpLVmdGS3dMWVNlVWxfVU9wRElxakJ2eWFpYTNEcmFPUTRPZ2c4NWRxc2YxMEF1SGRaR1U3YUd2RENXWTVfVEJiRWlCRUtqTFhIamM1dFVoMmJTX1lzdl9GcW1hUi1PUQ?oc=5",
+        "age_h": 8.0
+      },
+      {
         "title": "Mohd Shami and M. Siddharth traded to Rajasthan Royals, Sam Curran traded to Lucknow Super Giants - IPL",
         "publisher": "Google News",
         "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPM01tbHBQdTZwUmxUc3ZJcXh2TDZLZzdPZ3N5UTZjY0JBNDI0Y1d6U3F2TUxESGRLemxjbEp6SVBzZEpQcnowTVRxZWpmSFdqLVFzcHkwT08yYWFyQnlQelRDUm0yNVFueHRKcWtYYk9CdU84LWlPdnpkcDZpLVJ0N1BWU2tUWE5RUzFHOWxYWTZPRUNOcXdmNG0xQmZ6X0ltaUl0Sk5wLVlfa2VvQlQtUWs5eVZyUjVwQ19LTkNLV3BQejZqTGhacE45dw?oc=5",
-        "age_h": 24.5
-      },
-      {
-        "title": "Falcon 6X: Why Ghana is facing backlash over new $60m presidential jet - BBC",
-        "publisher": "Google News",
-        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE0yd09GeUw3LTBheFNyZERUM214REMtbWR0czdnWk9XVHEybHNtS1p0bHh0X1pJb0FuUE95WGNLc3cta29ESDV5WTJrTkR3QTJzN05Uakw0ak5YUW8?oc=5",
-        "age_h": 2.4
-      },
-      {
-        "title": "APOD: 2026 November 18 - An M-class Solar Flare - NASA Science (.gov)",
-        "publisher": "Google News",
-        "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNRTBRQjN3QmMzNGR1S2RsNEprSEdYN05uZG5NUzRoWWZyM0IxV0pDcGt0ajNUSE5YRFd2XzZac2FKYnByelY5cGMzQ0RIYUpRTnF2U0FzbDJSamFpeFFzRjA0NVVuUW5DVG5rckI4SlhqUE5wS19QZ3lyUTBua2JqSFg2Ynd5ZDdoc0g1eQ?oc=5",
-        "age_h": 5.4
+        "age_h": 48.6
       }
     ]
   },
   "market_headlines": [
     {
       "source": "Economic Times",
-      "title": "Rupee ends flat after hitting seven-month high as firmer dollar offsets inflows",
-      "link": "https://economictimes.indiatimes.com/markets/forex/forex-news/rupee-ends-flat-after-hitting-seven-month-high-as-firmer-dollar-offsets-inflows/articleshow/135959732.cms",
-      "summary": "The Indian rupee closed almost flat after peaking at a seven-month high during early trading on Wednesday. Robust foreign investments in local stocks provided a boost, but a stronger dollar capped fur",
-      "age_h": 0.1
+      "title": "Tiger-backed Razorpay set to file for India IPO as early as next week",
+      "link": "https://economictimes.indiatimes.com/markets/ipos/fpos/tiger-backed-razorpay-set-to-file-for-india-ipo-as-early-as-next-week/articleshow/135983381.cms",
+      "summary": "Tiger Global-backed Razorpay is preparing to file its IPO papers in India as early as next week, with investor roadshows expected to follow immediately. The Bengaluru-based fintech firm could launch i",
+      "age_h": 1.9
     },
     {
       "source": "Economic Times",
-      "title": "SpiceJet board approves up to Rs 5,500 crore fundraise amid operational challenges; stock hits 5% upper circuit",
-      "link": "https://economictimes.indiatimes.com/markets/stocks/news/spicejet-board-approves-up-to-rs-5500-crore-fundraise-to-support-fleet-expansion-drive-revival/articleshow/135958224.cms",
-      "summary": "SpiceJet's board of directors announced a fundraising plan to raise up to Rs 5,500 crore. The airline's shares have surged significantly, hitting the upper circuit for six consecutive sessions. Flight",
-      "age_h": 0.9
+      "title": "Goldman Sachs names 22 \u2018high-growth\u2019 stocks; Bharti Airtel, Eternal and HDFC Bank feature in the list",
+      "link": "https://economictimes.indiatimes.com/markets/stocks/news/goldman-sachs-names-22-high-growth-stocks-bharti-airtel-eternal-and-hdfc-bank-feature-in-the-list/slideshow/135981076.cms",
+      "summary": "Goldman Sachs has identified 22 Indian companies exposed to structural growth themes and initiated Buy ratings on 21. Bharti Airtel, Eternal, HDFC Bank and InterGlobe Aviation feature prominently.",
+      "age_h": 3.6
     },
     {
       "source": "Economic Times",
-      "title": "Govt weighs tax tweaks to boost stock trading, curb derivatives: Report",
-      "link": "https://economictimes.indiatimes.com/markets/stocks/news/govt-weighs-tax-tweaks-to-boost-stock-trading-curb-derivatives/articleshow/135953824.cms",
-      "summary": "The government is reviewing proposals to cut securities transaction tax on cash equities by 50% while raising levies on derivatives to curb speculative trading and encourage broader market participati",
-      "age_h": 3.1
+      "title": "Why AMD shares are rising: 7 things investors should know",
+      "link": "https://economictimes.indiatimes.com/markets/us-stocks/news/why-amd-shares-are-rising-7-things-investors-should-know/slideshow/135980657.cms",
+      "summary": "AMD shares gained 5.3% after OpenAI revealed AI-driven improvements of up to 14% in its GPU design. A GTA VI connection adds to optimism around its gaming business.",
+      "age_h": 4.2
     },
     {
       "source": "Economic Times",
-      "title": "How Ashish Kacholia, Radhakishan Damani, Madhusudan Kela and other ace investors reshuffled their portfolios in Q2",
-      "link": "https://economictimes.indiatimes.com/markets/stocks/news/how-ashish-kacholia-radhakishan-damani-madhusudan-kela-and-other-ace-investors-reshuffled-their-portfolios-in-q2/slideshow/135953760.cms",
-      "summary": "Mukul Agrawal, Akash Bhanshali and Ashish Kacholia emerge as the biggest portfolio gainers among prominent individual investors in the September quarter. Meanwhile, Radhakishan Damani records the stee",
-      "age_h": 3.4
+      "title": "Gold Rates Live Updates: Gold , silver prices fall marginally on MCX. Check future estimates",
+      "link": "https://economictimes.indiatimes.com/markets/stocks/live-blog/live-updates-gold-rate-today-19th-november-24k-22k-20k-18-carat-mcx-gold-silver-price-in-delhi-hyderabad-chennai-bengaluru-citywise/liveblog/135979606.cms",
+      "summary": "",
+      "age_h": 4.7
     },
     {
       "source": "Livemint",
-      "title": "Mahanadi Coalfields IPO: Should you bet on Coal India\u2019s cash cow despite muted growth?",
-      "link": "https://www.livemint.com/market/stock-market-news/mahanadi-coalfields-ipo-review-price-band-valuation-risks-11794989503971.html",
-      "summary": "Debt-free and generating a third of Coal India\u2019s profit, the miner comes at a discount to peers, but pricing curbs and levy risks warrant caution",
+      "title": "Mahanadi Coalfields IPO latest GMP: Listing gain or long-term wealth? 5 reasons to bid despite weak subscription; review",
+      "link": "https://www.livemint.com/market/ipo/mahanadi-coalfields-ipo-latest-gmp-listing-gain-or-long-term-wealth-5-reasons-to-bid-despite-weak-subscription-review-11795080232975.html",
+      "summary": "Mahanadi Coalfields\u2019  \u20b98,981.12 crore IPO is open from November 19 to 23, 2026. Anand Rathi recommends subscribing for the long term, citing market leadership, large reserves, low-cost operations and ",
       "age_h": 0.3
     },
     {
       "source": "Livemint",
-      "title": "Infosys share price: Lost 1/4th investor wealth in 1 year, should you still buy the IT major? Check target, stop loss",
-      "link": "https://www.livemint.com/market/stock-market-news/infosys-share-price-lost-1-4th-investor-wealth-in-1-year-should-you-still-buy-the-it-major-check-target-stop-loss-11794991373495.html",
-      "summary": "Infosys shares have fallen sharply over the past year. Monarch Networth Capital sees a potential reversal around long-term support and recommends accumulating shares, with a target of  \u20b91,400\u20131,550 an",
-      "age_h": 0.8
+      "title": "Physicswallah share price up 6%: Motilal Oswal sees 56% upside on strong growth guidance - Should you buy? Target price",
+      "link": "https://www.livemint.com/market/stock-market-news/physicswallah-share-price-up-6-motilal-oswal-sees-56-upside-on-strong-growth-guidance-should-you-buy-target-price-11795080159159.html",
+      "summary": "Physicswallah shares rose about 6.5% after the company set a target of 25% or higher revenue CAGR through FY30 and revenue of  \u20b990\u2013100 billion. MOFSL maintained its Buy rating and  \u20b9200 target price, ",
+      "age_h": 0.7
     },
     {
       "source": "Livemint",
-      "title": "V2 Retail slides 15% to 2-year low, then stages sharp rebound. What's driving the wild swings in this beaten-down stock?",
-      "link": "https://www.livemint.com/market/stock-market-news/v2-retail-slides-15-to-2-year-low-then-stages-sharp-rebound-whats-driving-the-wild-swings-in-this-beaten-down-stock-11794991059575.html",
-      "summary": "V2 Retail\u2019s September-quarter net profit rose 5.7% year on year to  \u20b918.21 crore, while revenue increased to  \u20b9905.59 crore. Expenses climbed 28.24%, and festival-normalised same-store sales growth wa",
-      "age_h": 0.9
+      "title": "Tata Tech shares jump 10% as company targets $1.3 billion revenue by FY30, bets on aerospace, industrial machinery",
+      "link": "https://www.livemint.com/market/stock-market-news/tata-tech-shares-jump-10-as-company-targets-1-3-billion-revenue-by-fy30-bets-on-aerospace-industrial-machinery-11795077108823.html",
+      "summary": "Tata Technologies shares rose 10% to a one-month high after the company set FY30 targets of $1.1\u20131.3 billion in revenue and margins above 20%. Its plans include expanding aerospace, industrial machine",
+      "age_h": 1.2
     },
     {
       "source": "Livemint",
-      "title": "Cummins faces a double whammy of cost inflation and lag effect of price hikes",
-      "link": "https://www.livemint.com/market/mark-to-market/cummins-india-margin-pressure-cost-inflation-price-hikes-data-centres-power-generation-11794991370304.html",
-      "summary": "Cost inflation and execution of older orders are squeezing Cummins India\u2019s margins, even as data-centre demand remains strong and price hikes begin to work their way through the order book.",
-      "age_h": 1.0
+      "title": "This small-cap stock plunges 42% in 1 year, but Jefferies sees 53% upside - Is a big turnaround coming? Check target",
+      "link": "https://www.livemint.com/market/stock-market-news/this-small-cap-stock-plunges-42-in-1-year-but-jefferies-sees-53-upside-is-a-big-turnaround-coming-check-target-11795076080217.html",
+      "summary": "Jefferies retained its Buy rating on CMS Info Systems and a  \u20b9315 target, implying 53% upside. Services revenue and profitability strengthened in the September quarter, while product sales are expecte",
+      "age_h": 1.3
     }
   ]
 }
