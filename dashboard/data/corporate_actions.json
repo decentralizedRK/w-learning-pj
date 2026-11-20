@@ -1,27 +1,35 @@
 {
-  "timestamp": "2026-11-19T10:38:56+00:00",
-  "events": [],
+  "timestamp": "2026-11-20T10:19:37+00:00",
+  "events": [
+    {
+      "symbol": "360ONE",
+      "type": "earnings_date",
+      "date": "2027-01-14",
+      "detail": "Earnings Date",
+      "days_away": 55
+    }
+  ],
   "by_symbol": {
-    "ATHERENERG": {
-      "dividends": [],
-      "splits": [],
-      "calendar": {
-        "Earnings Date": []
-      }
-    },
-    "BANKBARODA": {
+    "360ONE": {
       "dividends": [
         {
-          "date": "2026-06-05",
-          "amount": 8.5
+          "date": "2026-10-23",
+          "amount": 7.5
         }
       ],
       "splits": [],
       "calendar": {
         "Earnings Date": [
-          "2027-01-29"
+          "2027-01-14"
         ],
-        "Ex-Dividend Date": "2026-06-05"
+        "Ex-Dividend Date": "2026-10-23"
+      }
+    },
+    "ATHERENERG": {
+      "dividends": [],
+      "splits": [],
+      "calendar": {
+        "Earnings Date": []
       }
     },
     "CHOLAFIN": {
@@ -54,6 +62,21 @@
         "Ex-Dividend Date": "2026-07-24"
       }
     },
+    "GLENMARK": {
+      "dividends": [
+        {
+          "date": "2026-08-31",
+          "amount": 2.5
+        }
+      ],
+      "splits": [],
+      "calendar": {
+        "Earnings Date": [
+          "2027-01-29"
+        ],
+        "Ex-Dividend Date": "2026-08-31"
+      }
+    },
     "GODREJPROP": {
       "dividends": [
         {
@@ -67,16 +90,6 @@
           "2026-10-23"
         ],
         "Ex-Dividend Date": "2026-07-28"
-      }
-    },
-    "INDIGO": {
-      "dividends": [],
-      "splits": [],
-      "calendar": {
-        "Earnings Date": [
-          "2027-01-21"
-        ],
-        "Ex-Dividend Date": "2025-08-13"
       }
     },
     "KALYANKJIL": {
@@ -107,19 +120,19 @@
         "Ex-Dividend Date": "2026-07-03"
       }
     },
-    "MARICO": {
+    "TATACONSUM": {
       "dividends": [
         {
-          "date": "2026-07-30",
-          "amount": 4.0
+          "date": "2026-05-25",
+          "amount": 10.0
         }
       ],
       "splits": [],
       "calendar": {
         "Earnings Date": [
-          "2027-01-29"
+          "2027-01-27"
         ],
-        "Ex-Dividend Date": "2026-07-30"
+        "Ex-Dividend Date": "2026-05-25"
       }
     },
     "UNOMINDA": {
