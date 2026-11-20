@@ -1,0 +1,154 @@
+{
+  "timestamp": "2026-11-20T10:19:37+00:00",
+  "events": [
+    {
+      "symbol": "360ONE",
+      "type": "earnings_date",
+      "date": "2027-01-14",
+      "detail": "Earnings Date",
+      "days_away": 55
+    }
+  ],
+  "by_symbol": {
+    "360ONE": {
+      "dividends": [
+        {
+          "date": "2026-10-23",
+          "amount": 7.5
+        }
+      ],
+      "splits": [],
+      "calendar": {
+        "Earnings Date": [
+          "2027-01-14"
+        ],
+        "Ex-Dividend Date": "2026-10-23"
+      }
+    },
+    "ATHERENERG": {
+      "dividends": [],
+      "splits": [],
+      "calendar": {
+        "Earnings Date": []
+      }
+    },
+    "CHOLAFIN": {
+      "dividends": [
+        {
+          "date": "2026-07-21",
+          "amount": 0.7
+        }
+      ],
+      "splits": [],
+      "calendar": {
+        "Earnings Date": [
+          "2027-01-29"
+        ],
+        "Ex-Dividend Date": "2026-07-21"
+      }
+    },
+    "DIVISLAB": {
+      "dividends": [
+        {
+          "date": "2026-07-24",
+          "amount": 30.0
+        }
+      ],
+      "splits": [],
+      "calendar": {
+        "Earnings Date": [
+          "2027-02-06"
+        ],
+        "Ex-Dividend Date": "2026-07-24"
+      }
+    },
+    "GLENMARK": {
+      "dividends": [
+        {
+          "date": "2026-08-31",
+          "amount": 2.5
+        }
+      ],
+      "splits": [],
+      "calendar": {
+        "Earnings Date": [
+          "2027-01-29"
+        ],
+        "Ex-Dividend Date": "2026-08-31"
+      }
+    },
+    "GODREJPROP": {
+      "dividends": [
+        {
+          "date": "2026-07-28",
+          "amount": 10.0
+        }
+      ],
+      "splits": [],
+      "calendar": {
+        "Earnings Date": [
+          "2026-10-23"
+        ],
+        "Ex-Dividend Date": "2026-07-28"
+      }
+    },
+    "KALYANKJIL": {
+      "dividends": [
+        {
+          "date": "2026-09-11",
+          "amount": 2.5
+        }
+      ],
+      "splits": [],
+      "calendar": {
+        "Earnings Date": [],
+        "Ex-Dividend Date": "2026-09-11"
+      }
+    },
+    "M&M": {
+      "dividends": [
+        {
+          "date": "2026-07-03",
+          "amount": 33.0
+        }
+      ],
+      "splits": [],
+      "calendar": {
+        "Earnings Date": [
+          "2026-11-05"
+        ],
+        "Ex-Dividend Date": "2026-07-03"
+      }
+    },
+    "TATACONSUM": {
+      "dividends": [
+        {
+          "date": "2026-05-25",
+          "amount": 10.0
+        }
+      ],
+      "splits": [],
+      "calendar": {
+        "Earnings Date": [
+          "2027-01-27"
+        ],
+        "Ex-Dividend Date": "2026-05-25"
+      }
+    },
+    "UNOMINDA": {
+      "dividends": [
+        {
+          "date": "2026-05-29",
+          "amount": 1.75
+        }
+      ],
+      "splits": [],
+      "calendar": {
+        "Earnings Date": [
+          "2027-02-04"
+        ],
+        "Ex-Dividend Date": "2026-05-29"
+      }
+    }
+  }
+}
