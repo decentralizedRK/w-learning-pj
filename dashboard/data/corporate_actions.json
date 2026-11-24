@@ -1,6 +1,14 @@
 {
-  "timestamp": "2026-11-23T11:04:15+00:00",
-  "events": [],
+  "timestamp": "2026-11-24T12:49:18+00:00",
+  "events": [
+    {
+      "symbol": "DLF",
+      "type": "earnings_date",
+      "date": "2027-01-14",
+      "detail": "Earnings Date",
+      "days_away": 51
+    }
+  ],
   "by_symbol": {
     "ATHERENERG": {
       "dividends": [],
@@ -39,6 +47,36 @@
         "Ex-Dividend Date": "2026-07-24"
       }
     },
+    "DLF": {
+      "dividends": [
+        {
+          "date": "2026-07-27",
+          "amount": 8.0
+        }
+      ],
+      "splits": [],
+      "calendar": {
+        "Earnings Date": [
+          "2027-01-14"
+        ],
+        "Ex-Dividend Date": "2026-07-27"
+      }
+    },
+    "GLENMARK": {
+      "dividends": [
+        {
+          "date": "2026-08-31",
+          "amount": 2.5
+        }
+      ],
+      "splits": [],
+      "calendar": {
+        "Earnings Date": [
+          "2027-01-29"
+        ],
+        "Ex-Dividend Date": "2026-08-31"
+      }
+    },
     "GODREJPROP": {
       "dividends": [
         {
@@ -49,7 +87,7 @@
       "splits": [],
       "calendar": {
         "Earnings Date": [
-          "2026-10-23"
+          "2027-02-04"
         ],
         "Ex-Dividend Date": "2026-07-28"
       }
@@ -67,6 +105,21 @@
         "Ex-Dividend Date": "2026-09-11"
       }
     },
+    "LICHSGFIN": {
+      "dividends": [
+        {
+          "date": "2026-08-21",
+          "amount": 10.0
+        }
+      ],
+      "splits": [],
+      "calendar": {
+        "Earnings Date": [
+          "2027-01-28"
+        ],
+        "Ex-Dividend Date": "2026-08-21"
+      }
+    },
     "M&M": {
       "dividends": [
         {
@@ -77,47 +130,9 @@
       "splits": [],
       "calendar": {
         "Earnings Date": [
-          "2026-11-05"
+          "2027-02-11"
         ],
         "Ex-Dividend Date": "2026-07-03"
-      }
-    },
-    "MARICO": {
-      "dividends": [
-        {
-          "date": "2026-07-30",
-          "amount": 4.0
-        }
-      ],
-      "splits": [],
-      "calendar": {
-        "Earnings Date": [
-          "2027-01-29"
-        ],
-        "Ex-Dividend Date": "2026-07-30"
-      }
-    },
-    "MARUTI": {
-      "dividends": [
-        {
-          "date": "2026-08-07",
-          "amount": 140.0
-        }
-      ],
-      "splits": [],
-      "calendar": {
-        "Earnings Date": [
-          "2027-01-28"
-        ],
-        "Ex-Dividend Date": "2026-08-07"
-      }
-    },
-    "MOTILALOFS": {
-      "dividends": [],
-      "splits": [],
-      "calendar": {
-        "Earnings Date": [],
-        "Ex-Dividend Date": "2026-01-30"
       }
     },
     "UNOMINDA": {
