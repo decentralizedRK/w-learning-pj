@@ -1,12 +1,12 @@
 {
-  "timestamp": "2026-11-24T12:49:18+00:00",
+  "timestamp": "2026-11-25T11:35:59+00:00",
   "events": [
     {
-      "symbol": "DLF",
+      "symbol": "PNB",
       "type": "earnings_date",
-      "date": "2027-01-14",
+      "date": "2027-01-19",
       "detail": "Earnings Date",
-      "days_away": 51
+      "days_away": 55
     }
   ],
   "by_symbol": {
@@ -47,36 +47,6 @@
         "Ex-Dividend Date": "2026-07-24"
       }
     },
-    "DLF": {
-      "dividends": [
-        {
-          "date": "2026-07-27",
-          "amount": 8.0
-        }
-      ],
-      "splits": [],
-      "calendar": {
-        "Earnings Date": [
-          "2027-01-14"
-        ],
-        "Ex-Dividend Date": "2026-07-27"
-      }
-    },
-    "GLENMARK": {
-      "dividends": [
-        {
-          "date": "2026-08-31",
-          "amount": 2.5
-        }
-      ],
-      "splits": [],
-      "calendar": {
-        "Earnings Date": [
-          "2027-01-29"
-        ],
-        "Ex-Dividend Date": "2026-08-31"
-      }
-    },
     "GODREJPROP": {
       "dividends": [
         {
@@ -105,21 +75,6 @@
         "Ex-Dividend Date": "2026-09-11"
       }
     },
-    "LICHSGFIN": {
-      "dividends": [
-        {
-          "date": "2026-08-21",
-          "amount": 10.0
-        }
-      ],
-      "splits": [],
-      "calendar": {
-        "Earnings Date": [
-          "2027-01-28"
-        ],
-        "Ex-Dividend Date": "2026-08-21"
-      }
-    },
     "M&M": {
       "dividends": [
         {
@@ -135,13 +90,51 @@
         "Ex-Dividend Date": "2026-07-03"
       }
     },
-    "UNOMINDA": {
+    "MAHABANK": {
       "dividends": [
         {
-          "date": "2026-05-29",
-          "amount": 1.75
+          "date": "2026-06-05",
+          "amount": 1.2
         }
       ],
+      "splits": [],
+      "calendar": {
+        "Earnings Date": [],
+        "Ex-Dividend Date": "2026-06-05"
+      }
+    },
+    "PHOENIXLTD": {
+      "dividends": [
+        {
+          "date": "2026-09-11",
+          "amount": 2.5
+        }
+      ],
+      "splits": [],
+      "calendar": {
+        "Earnings Date": [
+          "2027-01-28"
+        ],
+        "Ex-Dividend Date": "2026-09-11"
+      }
+    },
+    "PNB": {
+      "dividends": [
+        {
+          "date": "2026-06-12",
+          "amount": 3.0
+        }
+      ],
+      "splits": [],
+      "calendar": {
+        "Earnings Date": [
+          "2027-01-19"
+        ],
+        "Ex-Dividend Date": "2026-06-12"
+      }
+    },
+    "UNOMINDA": {
+      "dividends": [],
       "splits": [],
       "calendar": {
         "Earnings Date": [
