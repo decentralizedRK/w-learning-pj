@@ -1,12 +1,12 @@
 {
-  "timestamp": "2026-11-25T11:35:59+00:00",
+  "timestamp": "2026-11-26T11:20:41+00:00",
   "events": [
     {
       "symbol": "PNB",
       "type": "earnings_date",
       "date": "2027-01-19",
       "detail": "Earnings Date",
-      "days_away": 55
+      "days_away": 54
     }
   ],
   "by_symbol": {
