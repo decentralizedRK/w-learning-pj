@@ -1,0 +1,147 @@
+{
+  "timestamp": "2026-11-27T11:14:45+00:00",
+  "events": [
+    {
+      "symbol": "PNB",
+      "type": "earnings_date",
+      "date": "2027-01-19",
+      "detail": "Earnings Date",
+      "days_away": 53
+    }
+  ],
+  "by_symbol": {
+    "ATHERENERG": {
+      "dividends": [],
+      "splits": [],
+      "calendar": {
+        "Earnings Date": []
+      }
+    },
+    "CHOLAFIN": {
+      "dividends": [
+        {
+          "date": "2026-07-21",
+          "amount": 0.7
+        }
+      ],
+      "splits": [],
+      "calendar": {
+        "Earnings Date": [
+          "2027-01-29"
+        ],
+        "Ex-Dividend Date": "2026-07-21"
+      }
+    },
+    "DIVISLAB": {
+      "dividends": [
+        {
+          "date": "2026-07-24",
+          "amount": 30.0
+        }
+      ],
+      "splits": [],
+      "calendar": {
+        "Earnings Date": [
+          "2027-02-06"
+        ],
+        "Ex-Dividend Date": "2026-07-24"
+      }
+    },
+    "GODREJPROP": {
+      "dividends": [
+        {
+          "date": "2026-07-28",
+          "amount": 10.0
+        }
+      ],
+      "splits": [],
+      "calendar": {
+        "Earnings Date": [
+          "2027-02-04"
+        ],
+        "Ex-Dividend Date": "2026-07-28"
+      }
+    },
+    "KALYANKJIL": {
+      "dividends": [
+        {
+          "date": "2026-09-11",
+          "amount": 2.5
+        }
+      ],
+      "splits": [],
+      "calendar": {
+        "Earnings Date": [],
+        "Ex-Dividend Date": "2026-09-11"
+      }
+    },
+    "M&M": {
+      "dividends": [
+        {
+          "date": "2026-07-03",
+          "amount": 33.0
+        }
+      ],
+      "splits": [],
+      "calendar": {
+        "Earnings Date": [
+          "2027-02-11"
+        ],
+        "Ex-Dividend Date": "2026-07-03"
+      }
+    },
+    "MAHABANK": {
+      "dividends": [
+        {
+          "date": "2026-06-05",
+          "amount": 1.2
+        }
+      ],
+      "splits": [],
+      "calendar": {
+        "Earnings Date": [],
+        "Ex-Dividend Date": "2026-06-05"
+      }
+    },
+    "PHOENIXLTD": {
+      "dividends": [
+        {
+          "date": "2026-09-11",
+          "amount": 2.5
+        }
+      ],
+      "splits": [],
+      "calendar": {
+        "Earnings Date": [
+          "2027-01-28"
+        ],
+        "Ex-Dividend Date": "2026-09-11"
+      }
+    },
+    "PNB": {
+      "dividends": [
+        {
+          "date": "2026-06-12",
+          "amount": 3.0
+        }
+      ],
+      "splits": [],
+      "calendar": {
+        "Earnings Date": [
+          "2027-01-19"
+        ],
+        "Ex-Dividend Date": "2026-06-12"
+      }
+    },
+    "UNOMINDA": {
+      "dividends": [],
+      "splits": [],
+      "calendar": {
+        "Earnings Date": [
+          "2027-02-04"
+        ],
+        "Ex-Dividend Date": "2026-05-29"
+      }
+    }
+  }
+}
